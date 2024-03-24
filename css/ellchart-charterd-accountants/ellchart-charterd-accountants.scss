@@ -1,0 +1,359 @@
+.hero-eca {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/images/Pages/eca/ellchart-chartered-accountants-cover-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.eca-logo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 900px;
+    }
+}
+
+section.eca-colors {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 1000px;
+    }
+}
+
+.eca-dark-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/images/Pages/eca/ellchart-chartered-accountants-images3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        width: 900px;
+    }
+}
+
+.eca-light-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/images/Pages/eca/ellchart-chartered-accountants-images.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+
+    .text {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: var(--white);
+            font-size: 70px;
+
+            span {
+                opacity: .4;
+            }
+        }
+    }
+}
+
+.ellchart-chartered-accountants-business-cards {
+    background-image: url(../../assets/images/Pages/eca/ellchart-chartered-accountants-business-cards.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ellchart-chartered-accountants-books {
+    background-image: url(../../assets/images/Pages/eca/ellchart-chartered-accountants-books.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ellchart-chartered-accountants-posters {
+    background-image: url(../../assets/images/Pages/eca/ellchart-chartered-accountants-posters.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ellchart-chartered-accountants-bag {
+    background-image: url(../../assets/images/Pages/eca/ellchart-chartered-accountants-bag.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ellchart-chartered-accountants-water-bottle {
+    background-image: url(../../assets/images/Pages/eca/ellchart-chartered-accountants-water-bottle.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.eca-thank-you {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/images/Pages/eca/ellchart-chartered-accountants-images2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h2 {
+        font-size: 90px;
+        color: var(--white);
+    }
+}
+
+@media (max-width: 1024px) {
+
+    section.eca-logo {
+        height: 60vh;
+    
+        img {
+            width: 500px;
+        }
+    }
+
+    section.eca-colors {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        img {
+            width: 700px;
+            margin: 0 20px;
+        }
+    }
+
+    .eca-dark-image {
+        padding-bottom: 0;
+        height: 70vh;
+    
+        img {
+            width: 600px;
+        }
+
+        .text {
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+    
+            h2 {
+                color: var(--white);
+                font-size: 50px;
+    
+                span {
+                    opacity: .4;
+                }
+            }
+        }
+    }
+
+    .eca-light-image {
+        height: 80vh;
+    
+        .text {
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+    
+            h2 {
+                color: var(--white);
+                font-size: 50px;
+    
+                span {
+                    opacity: .4;
+                }
+            }
+        }
+    }
+
+    section.eca-thank-you {
+        height: 80vh;
+
+        h2 {
+            font-size: 70px;
+            color: var(--white);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.eca-logo {
+        height: 40vh;
+    
+        img {
+            width: 400px;
+        }
+    }
+
+    section.eca-colors {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        img {
+            width: 700px;
+            margin: 0 20px;
+        }
+    }
+
+    .eca-dark-image {
+        height: 70vh;
+    
+        img {
+            width: 500px;
+        }
+
+        .text {
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+    
+            h2 {
+                color: var(--white);
+                font-size: 50px;
+    
+                span {
+                    opacity: .4;
+                }
+            }
+        }
+    }
+
+    .eca-light-image {
+        height: 70vh;
+        margin-bottom: 10px;
+    
+        .text {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+    
+            h2 {
+                color: var(--white);
+                font-size: 40px;
+    
+                span {
+                    opacity: .4;
+                }
+            }
+        }
+    }
+
+    section.eca-thank-you {
+        height: 80vh;
+
+        h2 {
+            font-size: 70px;
+            color: var(--white);
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.eca-logo {
+        height: 40vh;
+    
+        img {
+            width: 350px;
+        }
+    }
+
+    section.eca-colors {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        img {
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+
+    .eca-dark-image {
+        height: 70vh;
+    
+        img {
+            width: 350px;
+        }
+
+        .text {
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+    
+            h2 {
+                color: var(--white);
+                font-size: 50px;
+    
+                span {
+                    opacity: .4;
+                }
+            }
+        }
+    }
+
+    .eca-light-image {
+        height: 70vh;
+        margin-bottom: 10px;
+    
+        .text {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+    
+            h2 {
+                color: var(--white);
+                font-size: 40px;
+    
+                span {
+                    opacity: .4;
+                }
+            }
+        }
+    }
+
+    section.eca-thank-you {
+        height: 50vh;
+
+        h2 {
+            font-size: 50px;
+            color: var(--white);
+        }
+    }
+}

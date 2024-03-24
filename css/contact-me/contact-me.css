@@ -1,0 +1,53 @@
+section.contact-me {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  gap: 50px;
+  text-align: center;
+}
+section.contact-me .lets-chat h1 {
+  font-size: 40px;
+  font-family: Simbah M;
+  color: var(--secondary);
+}
+section.contact-me .say-hello {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section.contact-me .say-hello h1 {
+  font-size: 40px;
+  color: var(--secondary);
+}
+section.contact-me .say-hello a {
+  text-decoration: none;
+  color: var(--gray);
+}
+section.contact-me .say-hello a span {
+  font-size: 25px;
+  transition: all 0.3s ease 0s;
+}
+section.contact-me .say-hello a span:hover {
+  color: var(--acent);
+}
+
+@media (max-width: 768px) {
+  section.contact-me {
+    padding: 0 50px;
+  }
+  section.contact-me .lets-chat h1 {
+    font-size: 30px;
+  }
+  section.contact-me .say-hello {
+    gap: 10px;
+  }
+  section.contact-me .say-hello h1 {
+    font-size: 30px;
+  }
+  section.contact-me .say-hello a span {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=contact-me.css.map */

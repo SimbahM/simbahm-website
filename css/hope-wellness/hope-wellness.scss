@@ -1,0 +1,163 @@
+.hero-hope {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../../assets/images/Pages/hope-wellness/hope-wellness-cover-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+
+    .golden-ratio-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+
+        h2 {
+            font-size: 50px;
+            color: var(--secondary);
+        }
+
+        p {
+            font-size: 21px;
+            color: var(--gray);
+            width: 500px;
+            text-align: center;
+        }
+    }
+
+    img {
+        width: 600px;
+        margin: 70px;
+    }
+
+    img.golden-ration-table {
+        width: 400px;
+    }
+    
+}
+
+.hope-wellness-logo-construction {
+    background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-logo-construction.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.hope-wellness-image {
+    background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hope-wellness-logo-paper {
+    background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-logo-paper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #e7e7e7;
+}
+
+.hope-wellness-bag {
+    background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-bag.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hope-wellness-note-pad {
+    background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-note-pad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hope-wellness-mugs {
+    background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-mugs.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+
+    section.logo {
+        padding: 50px 0;
+    
+        .golden-ratio-title {
+    
+            h2 {
+                font-size: 40px;
+                color: var(--secondary);
+            }
+    
+            p {
+                font-size: 17px;
+                color: var(--gray);
+                width: 400px;
+                text-align: center;
+            }
+        }
+    
+        img {
+            width: 400px;
+            margin: 70px;
+        }
+    
+        img.golden-ration-table {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.logo {
+        padding: 30px 0;
+    
+        .golden-ratio-title {
+    
+            h2 {
+                font-size: 40px;
+                color: var(--secondary);
+            }
+    
+            p {
+                font-size: 17px;
+                color: var(--gray);
+                width: 400px;
+                text-align: center;
+            }
+        }
+    
+        img {
+            width: 300px;
+            margin: 70px;
+        }
+    
+        img.golden-ration-table {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+
+    section.logo {
+        padding: 30px 0;
+    
+        .golden-ratio-title {
+            margin-bottom: 30px;
+    
+            p {
+                width: 350px;
+            }
+        }
+    }
+}

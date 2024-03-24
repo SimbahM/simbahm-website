@@ -1,0 +1,343 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
+.hero-niche {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-cover-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.niche-logo-image-graphic {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-image-graphic.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.niche-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+}
+section.niche-logo img {
+  width: 600px;
+  margin: 70px;
+}
+
+.niche-logo-construction {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-construction.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.colors {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 20px;
+}
+section.colors .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1000px;
+  gap: 20px;
+  margin: 0 auto;
+}
+section.colors .grid .charleston-green,
+section.colors .grid .feldgraun,
+section.colors .grid .yellow-green-crayola,
+section.colors .grid .maximum-green {
+  height: 300px;
+  border-radius: 10px;
+  padding: 30px;
+}
+section.colors .grid .charleston-green h2, section.colors .grid .charleston-green p,
+section.colors .grid .feldgraun h2,
+section.colors .grid .feldgraun p,
+section.colors .grid .yellow-green-crayola h2,
+section.colors .grid .yellow-green-crayola p,
+section.colors .grid .maximum-green h2,
+section.colors .grid .maximum-green p {
+  color: var(--white);
+}
+section.colors .grid .charleston-green .title, section.colors .grid .charleston-green .hex-code,
+section.colors .grid .feldgraun .title,
+section.colors .grid .feldgraun .hex-code,
+section.colors .grid .yellow-green-crayola .title,
+section.colors .grid .yellow-green-crayola .hex-code,
+section.colors .grid .maximum-green .title,
+section.colors .grid .maximum-green .hex-code {
+  color: #262B28;
+}
+section.colors .grid .charleston-green {
+  background-color: #262B28;
+}
+section.colors .grid .feldgraun {
+  background-color: #535E57;
+}
+section.colors .grid .yellow-green-crayola {
+  background-color: #B6E27D;
+}
+section.colors .grid .maximum-green {
+  background-color: #65972E;
+}
+section.colors .main-color {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+section.colors .main-color .teal-blue {
+  background-color: #2F7992;
+  height: 300px;
+  border-radius: 10px;
+  padding: 30px;
+}
+section.colors .main-color .teal-blue h2, section.colors .main-color .teal-blue p {
+  color: var(--white);
+}
+
+.niche-logo-poster {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-poster.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+section.logo-with-teal-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2F7992;
+}
+section.logo-with-teal-bg img {
+  width: 600px;
+  margin: 70px;
+}
+
+section.square-grids {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.niche-logo-shop-wall-logo {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-shop-wall-logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-business-cards {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-business-cards.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-card {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-card.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-paper-logo {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-paper-logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-card-logo {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-card-logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-water-bottle {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-water-bottle.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-pins {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-pins.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-company-wall-logo {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-company-wall-logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-wall-logo {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-wall-logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-seal-tap {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-seal-tap.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-logo-pull-up-banner {
+  background-image: url(../../assets/images/Pages/niche/niche-logo-pull-up-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche-thank-you {
+  background-image: linear-gradient(to bottom, rgba(10, 45, 106, 0.3), rgba(10, 45, 106, 0.3)), url(../../assets/images/Pages/niche/niche-logo-thank-you.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1024px) {
+  section.colors {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 100px 20px;
+  }
+  section.colors .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  section.colors .grid .charleston-green,
+  section.colors .grid .feldgraun,
+  section.colors .grid .yellow-green-crayola,
+  section.colors .grid .maximum-green {
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  section.colors .grid .charleston-green h2, section.colors .grid .charleston-green p,
+  section.colors .grid .feldgraun h2,
+  section.colors .grid .feldgraun p,
+  section.colors .grid .yellow-green-crayola h2,
+  section.colors .grid .yellow-green-crayola p,
+  section.colors .grid .maximum-green h2,
+  section.colors .grid .maximum-green p {
+    color: var(--white);
+  }
+  section.colors .grid .charleston-green .title, section.colors .grid .charleston-green .hex-code,
+  section.colors .grid .feldgraun .title,
+  section.colors .grid .feldgraun .hex-code,
+  section.colors .grid .yellow-green-crayola .title,
+  section.colors .grid .yellow-green-crayola .hex-code,
+  section.colors .grid .maximum-green .title,
+  section.colors .grid .maximum-green .hex-code {
+    color: #262B28;
+  }
+  section.colors .main-color {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  section.colors .main-color .teal-blue {
+    background-color: #2F7992;
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  section.colors .main-color .teal-blue h2, section.colors .main-color .teal-blue p {
+    color: var(--white);
+  }
+  section.square-grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+}
+@media (max-width: 768px) {
+  section.niche-logo {
+    padding: 0 0 100px 0;
+  }
+  section.niche-logo img {
+    width: 400px;
+    margin: 70px;
+  }
+  section.colors {
+    display: none;
+  }
+  section.logo-with-teal-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2F7992;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 80vh;
+  }
+  section.logo-with-teal-bg img {
+    width: 400px;
+    margin: 70px;
+  }
+  section.square-grids {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  section.niche-logo {
+    padding: 0 0 100px 0;
+  }
+  section.niche-logo img {
+    width: 300px;
+    margin: 70px;
+  }
+  section.colors {
+    display: none;
+  }
+  section.logo-with-teal-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2F7992;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 70vh;
+  }
+  section.logo-with-teal-bg img {
+    width: 300px;
+    margin: 70px;
+  }
+  section.square-grids {
+    display: none;
+  }
+}/*# sourceMappingURL=niche.css.map */

@@ -1,0 +1,125 @@
+.hero-eac {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../../assets/images/Pages/eac/eac-cover-page.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+section.container {
+    height: 100vh;
+
+    .eac-container {
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        width: 100%;
+
+        i {
+            font-size: 100px;
+            color: var(--secondary);
+            text-align: center;
+        }
+
+        img {
+            width: 600px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            color: var(--secondary);
+        }
+    }
+}
+
+.exclusive-aircon-main-logo {
+    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-main-logo.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.exclusive-aircon-app-icon {
+    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-app-icon.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.exclusive-aircon-bottle-drinks {
+    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-bottle-drinks.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.exclusive-aircon-color-palette {
+    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-color-palette.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.exclusive-aircon-mug {
+    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-mug.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.exclusive-aircon-pins2 {
+    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-pins2.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    
+    section.container {
+        height: 70vh;
+    
+        .eac-container {
+    
+            i {
+                font-size: 70px;
+            }
+    
+            img {
+                width: 400px;
+                margin-bottom: 20px;
+            }
+    
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.container {
+        height: 70vh;
+    
+        .eac-container {
+    
+            i {
+                font-size: 70px;
+            }
+    
+            img {
+                width: 350px;
+                margin-bottom: 20px;
+            }
+    
+            h1 {
+                font-size: 30px;
+            }
+        }
+    }
+}

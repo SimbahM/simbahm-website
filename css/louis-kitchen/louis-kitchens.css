@@ -1,0 +1,124 @@
+.hero-louis {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-cover-page.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-logo {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-logo.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-image2 {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-image2.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  max-width: 1000px;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.louis-kitchens-image2 img {
+  width: 500px;
+}
+
+.louis-kitchens-color-palette {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-color-palette.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-image1 {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-image1.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  max-width: 1000px;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.louis-kitchens-image1 h1 {
+  color: var(--white);
+  text-align: center;
+  font-size: 45px;
+  line-height: 1.3em;
+}
+
+.louis-kitchens-metalic-logo {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-metalic-logo.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-business-cards {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-business-cards.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-wall-logo {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-wall-logo.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-leather-logo {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-leather-logo.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-banners {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-banners.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-pvc-banner {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-pvc-banner.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-water-bottle {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-water-bottle.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-letterhead {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-letterhead.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.louis-kitchens-billboard {
+  background-image: url(../../assets/images/Pages/louis-kitchens/louis-kitchens-billboard.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=louis-kitchens.css.map */

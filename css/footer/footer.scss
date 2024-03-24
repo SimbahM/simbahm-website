@@ -1,0 +1,27 @@
+:root {
+    --primary: #1B2F3F;
+    --secondary: #2E465E;
+    --white: #EBEFF2;
+    --acent: #FFA656;
+    --gray: #54595F;
+}
+
+footer {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+
+    .footer-section {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+
+        
+        p.copyright {
+            text-align: center;
+        }
+    }
+}

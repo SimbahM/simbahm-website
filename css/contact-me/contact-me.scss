@@ -1,0 +1,73 @@
+section.contact-me {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    gap: 50px;
+    text-align: center;
+
+    .lets-chat {
+
+        h1 {
+            font-size: 40px;
+            font-family: Simbah M;
+            color: var(--secondary);
+        }
+    }
+
+    .say-hello {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h1 {
+            font-size: 40px;
+            color: var(--secondary);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--gray);
+
+            span {
+                font-size: 25px;
+                transition: all .3s ease 0s;
+
+                &:hover {
+                    color: var(--acent);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.contact-me {
+        padding: 0 50px;
+    
+        .lets-chat {
+    
+            h1 {
+                font-size: 30px;
+            }
+        }
+    
+        .say-hello {
+            gap: 10px;
+    
+            h1 {
+                font-size: 30px;
+            }
+    
+            a {
+    
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

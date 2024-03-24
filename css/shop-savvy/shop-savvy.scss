@@ -1,0 +1,192 @@
+.hero-pricelyst {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../../assets/images/Pages/shop-savvy/shop-savvy-cover-image.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+section.shop-savvy-brand {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+
+    h1 {
+        font-size: 50px;
+        color: var(--primary);
+    }
+
+    p {
+        font-size: 24px;
+        text-align: center;
+        max-width: 550px;
+    }
+
+    img {
+        width: 600px;
+    }
+
+    img.logo-mark {
+        width: 100px;
+    }
+
+    .logo-evolution {
+        width: 450px;
+    }
+}
+
+section.logo-layout {
+    background-color: #fff;
+}
+
+section.blue-bg {
+    background-color: #192872;
+}
+
+section.new-logo-layout {
+    display: flex;
+    height: 100vh;
+
+    .container {
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .layout {
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 24px;
+        color: var(--gray);
+    }
+
+    strong {
+        color: rgb(197, 197, 197);
+    }
+
+    span {
+        font-family: "Montserrat", sans-serif;
+        color: rgb(197, 197, 197);
+    }
+}
+
+.shop-savvy-bag {
+    background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-bag.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-savvy-indoor-logo {
+    background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-indoor-logo.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-savvy-large-fance-banner {
+    background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-large-fance-banner.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-savvy-sale {
+    background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-sale.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-savvy-sign {
+    background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-sign.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-savvy-wall-logo {
+    background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-wall-logo.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 700px) {
+
+    section.shop-savvy-brand {
+        height: 50vh;
+    
+        h1 {
+            font-size: 40px;
+        }
+    
+        p {
+            font-size: 17px;
+            max-width: 350px;
+        }
+    
+        img {
+            width: 300px;
+        }
+    
+        img.logo-mark {
+            width: 90px;
+        }
+    
+        .logo-evolution {
+            width: 300px;
+        }
+    }
+
+    section.new-logo-layout {
+        display: flex;
+        height: 100vh;
+    
+        .container {
+            width: 400px;
+            padding: 0 20px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 30px;
+        }
+    
+        img {
+            width: 300px;
+        }
+    
+        .layout {
+            margin-top: 50px;
+        }
+    
+        p {
+            font-size: 17px;
+            color: var(--gray);
+        }
+    
+        strong {
+            color: rgb(197, 197, 197);
+        }
+    
+        span {
+            font-family: "Montserrat", sans-serif;
+            color: rgb(197, 197, 197);
+        }
+    }
+}

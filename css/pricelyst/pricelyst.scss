@@ -1,0 +1,234 @@
+.hero-pricelyst {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../../assets/images/Pages/pricelyst/pricelyst-cover-image.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+section.pricelyst-logo {
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h1 {
+        font-size: 50px;
+        color: var(--secondary);
+        text-align: center;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    .pricelyst-main-logo {
+        width: 300px;
+        margin: 50px 0;
+    }
+
+    .logo-breakdown {
+        width: 500px;
+        margin: 50px 0;
+    }
+
+    .logo-typeface {
+        width: 500px;
+        margin: 50px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    span {
+        font-size: 18px;
+        color: var(--gray);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-size: 24px;
+        color: var(--gray);
+        max-width: 500px;
+        text-align: center;
+    }
+}
+
+.pricelyst-color-palette {
+    background-image: url(../../assets/images/Pages/pricelyst/pricelyst-color-palette.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pricelyst-letterhead {
+    background-image: url(../../assets/images/Pages/pricelyst/pricelyst-letterhead.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricelyst-lightbox-sign {
+    background-image: url(../../assets/images/Pages/pricelyst/pricelyst-lightbox-sign.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricelyst-paper-logo {
+    background-image: url(../../assets/images/Pages/pricelyst/pricelyst-paper-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricelyst-ui-design {
+    background-image: url(../../assets/images/Pages/pricelyst/pricelyst-ui-design.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricelyst-wall-sign {
+    background-image: url(../../assets/images/Pages/pricelyst/pricelyst-wall-sign.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricelyst-webite-design {
+    background-image: url(../../assets/images/Pages/pricelyst/pricelyst-webite-design.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+
+    section.pricelyst-logo {
+        padding: 150px 0;
+    
+        h1 {
+            font-size: 30px;
+            color: var(--secondary);
+            text-align: center;
+        }
+    
+        img {
+            width: 400px;
+        }
+    
+        .pricelyst-main-logo {
+            width: 300px;
+            margin: 50px 0;
+        }
+    
+        .logo-breakdown {
+            width: 400px;
+            margin: 50px 0;
+        }
+    
+        .logo-typeface {
+            width: 400px;
+            margin: 50px 0;
+        }
+    
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+    
+        p {
+            font-size: 24px;
+            color: var(--gray);
+            max-width: 500px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    section.pricelyst-logo {
+        padding: 100px 0;
+    
+        h1 {
+            font-size: 30px;
+        }
+    
+        img {
+            width: 400px;
+        }
+    
+        .pricelyst-main-logo {
+            width: 200px;
+            margin: 50px 0;
+        }
+    
+        .logo-breakdown {
+            width: 400px;
+            margin: 50px 0;
+        }
+    
+        .logo-typeface {
+            width: 300px;
+            margin: 30px 0;
+        }
+    
+        h2 {
+            font-size: 30px;
+            font-family: Simbah M;
+            text-align: center;
+        }
+    
+        p {
+            font-size: 17px;
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+
+    section.pricelyst-logo {
+        padding: 50px 0;
+    
+        h1 {
+            font-size: 25px;
+        }
+    
+        img {
+            width: 300px;
+        }
+    
+        .pricelyst-main-logo {
+            width: 150px;
+            margin: 50px 0;
+        }
+    
+        .logo-breakdown {
+            width: 300px;
+            margin: 50px 0;
+        }
+    
+        .logo-typeface {
+            width: 300px;
+            margin: 30px 0;
+        }
+    
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+    
+        p {
+            font-size: 17px;
+            width: 300px;
+        }
+    }
+}
