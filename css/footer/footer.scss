@@ -52,7 +52,7 @@ footer {
     .footer-items {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        // gap: 1?0px;
         position: absolute;
         bottom: 30px;
 
@@ -60,7 +60,16 @@ footer {
             color: var(--white);
             text-align: center;
             text-decoration: none;
-            
+            padding: 10px 20px;
+            transition: all .3s ease 0s;
+
+            &:hover {
+                opacity: .7;
+                padding: 10px 20px;
+                background-color: rgba(235, 239, 242, .2);
+                border-radius: 5px;
+                backdrop-filter: blur(8px);
+            }
         }
     }
 }

@@ -45,7 +45,6 @@ footer a:hover {
 .footer .footer-items {
   display: flex;
   flex-direction: row;
-  gap: 20px;
   position: absolute;
   bottom: 30px;
 }
@@ -53,6 +52,16 @@ footer a:hover {
   color: var(--white);
   text-align: center;
   text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease 0s;
+}
+.footer .footer-items a:hover {
+  opacity: 0.7;
+  padding: 10px 20px;
+  background-color: rgba(235, 239, 242, 0.2);
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 
 @media (max-width: 768px) {
