@@ -165,4 +165,10 @@ section.new-logo-layout span {
     font-family: "Montserrat", sans-serif;
     color: rgb(197, 197, 197);
   }
+}
+.shop-savvy-thank-you {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/shop-savvy/shop-savvy-cover-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=shop-savvy.css.map */

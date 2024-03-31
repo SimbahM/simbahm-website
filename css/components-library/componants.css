@@ -761,30 +761,4 @@ section.car-guvi-colors-container .colors p {
   section.car-guvi-colors-container {
     display: none;
   }
-}
-.thank-you {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.thank-you h2 {
-  font-size: 90px;
-  color: var(--white);
-}
-
-@media (max-width: 768px) {
-  .thank-you h2 {
-    font-size: 50px;
-  }
-}
-@media (max-width: 425px) {
-  .thank-you {
-    height: 60vh;
-  }
-  .thank-you h2 {
-    font-size: 50px;
-  }
 }/*# sourceMappingURL=componants.css.map */

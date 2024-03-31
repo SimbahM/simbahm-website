@@ -164,4 +164,10 @@ section.kinterior-logo {
   section.kinterior-logo {
     background-color: #fff;
   }
+}
+.kinterior-thank-you {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/kinterior/kinterior-cover-page.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=kinterior.css.map */

@@ -195,14 +195,14 @@ section.eca-colors img {
     align-items: center;
   }
   section.eca-colors img {
-    width: 700px;
+    width: 425px;
     margin: 0 20px;
   }
   .eca-dark-image {
     height: 70vh;
   }
   .eca-dark-image img {
-    width: 500px;
+    width: 400px;
   }
   .eca-dark-image .text {
     width: 700px;
@@ -221,7 +221,7 @@ section.eca-colors img {
     margin-bottom: 10px;
   }
   .eca-light-image .text {
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: column;
   }

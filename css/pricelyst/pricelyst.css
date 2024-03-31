@@ -197,4 +197,10 @@ section.pricelyst-logo p {
     font-size: 17px;
     width: 300px;
   }
+}
+.pricelyst-thank-you {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/pricelyst/pricelyst-cover-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=pricelyst.css.map */

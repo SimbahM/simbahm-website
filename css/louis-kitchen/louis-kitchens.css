@@ -121,4 +121,11 @@
   background-repeat: none;
   background-size: cover;
   background-position: center;
+}
+
+.louis-thank-you {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/louis-kitchens/louis-kitchens-image2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=louis-kitchens.css.map */
