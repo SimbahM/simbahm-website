@@ -64,9 +64,9 @@ footer {
             transition: all .3s ease 0s;
 
             &:hover {
-                opacity: .7;
+                color: #d4d9dc;
                 padding: 10px 20px;
-                background-color: rgba(235, 239, 242, .2);
+                background-color: rgba(235, 239, 242, 0.2);
                 border-radius: 5px;
                 backdrop-filter: blur(8px);
             }
