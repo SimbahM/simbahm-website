@@ -8,20 +8,27 @@
 
 footer {
   background-color: var(--white);
-  padding: 30px 0;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 20px;
 }
 footer a {
   color: var(--gray);
   text-decoration: none;
   transition: all 0.3s ease 0s;
+  font-size: 14px;
+  padding: 10px 15px;
 }
 footer a:hover {
   opacity: 0.8;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-radius: 5px;
+  color: var(--primary);
 }
 
 @media (max-width: 425px) {
