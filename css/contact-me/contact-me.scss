@@ -70,3 +70,10 @@ section.contact-me {
         }
     }
 }
+
+@media (max-width: 425px) {
+
+    section.contact-me {
+        height: 70vh;
+    }
+}

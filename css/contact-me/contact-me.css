@@ -49,4 +49,9 @@ section.contact-me .say-hello a span:hover {
   section.contact-me .say-hello a span {
     font-size: 20px;
   }
+}
+@media (max-width: 425px) {
+  section.contact-me {
+    height: 70vh;
+  }
 }/*# sourceMappingURL=contact-me.css.map */

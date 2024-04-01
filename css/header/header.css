@@ -2,7 +2,7 @@ header {
   display: flex;
   position: fixed;
   top: 0;
-  height: 6vh;
+  height: 60px;
   width: 100%;
   background-color: rgba(27, 47, 63, 0.7);
   -webkit-backdrop-filter: blur(8px);
