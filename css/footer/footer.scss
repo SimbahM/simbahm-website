@@ -57,15 +57,16 @@ footer {
         bottom: 30px;
 
         a {
+            font-size: 14px;
             color: var(--white);
             text-align: center;
             text-decoration: none;
-            padding: 10px 20px;
+            padding: 10px 15px;
             transition: all .3s ease 0s;
 
             &:hover {
                 color: #d4d9dc;
-                padding: 10px 20px;
+                padding: 10px 15px;
                 background-color: rgba(235, 239, 242, 0.2);
                 border-radius: 5px;
                 backdrop-filter: blur(8px);

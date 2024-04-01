@@ -49,15 +49,16 @@ footer a:hover {
   bottom: 30px;
 }
 .footer .footer-items a {
+  font-size: 14px;
   color: var(--white);
   text-align: center;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 15px;
   transition: all 0.3s ease 0s;
 }
 .footer .footer-items a:hover {
   color: #d4d9dc;
-  padding: 10px 20px;
+  padding: 10px 15px;
   background-color: rgba(235, 239, 242, 0.2);
   border-radius: 5px;
   -webkit-backdrop-filter: blur(8px);
