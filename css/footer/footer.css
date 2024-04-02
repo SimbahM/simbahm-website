@@ -20,6 +20,8 @@ footer a {
   transition: all 0.3s ease 0s;
   font-size: 14px;
   padding: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 footer a:hover {
   opacity: 0.8;
@@ -64,6 +66,8 @@ footer a:hover {
   text-decoration: none;
   padding: 10px 15px;
   transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 .footer .footer-items a:hover {
   color: #d4d9dc;
