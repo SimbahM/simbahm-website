@@ -267,7 +267,7 @@ section.home-projects {
 @media (max-width: 425px) {
 
     section.home-projects {
-        height: 80vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -386,7 +386,7 @@ section.grid-container {
         margin: 10px 0;
     
         .project {
-            height: 80vh;
+            height: 60vh;
             display: flex;
             flex-direction: column;
             justify-content: end;
@@ -697,6 +697,7 @@ section.projects-hero {
 @media (max-width: 425px) {
 
     section.projects-hero {
+        height: 60vh;
         padding-bottom: 30px;
         gap: 15px;
 
