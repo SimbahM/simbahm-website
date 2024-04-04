@@ -1,6 +1,6 @@
 .hero-eac {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../../assets/images/Pages/eac/eac-cover-page.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -34,42 +34,42 @@ section.container .eac-container h1 {
 
 .exclusive-aircon-main-logo {
   background-image: url(../../assets/images/Pages/eac/exclusive-aircon-main-logo.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .exclusive-aircon-app-icon {
   background-image: url(../../assets/images/Pages/eac/exclusive-aircon-app-icon.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .exclusive-aircon-bottle-drinks {
   background-image: url(../../assets/images/Pages/eac/exclusive-aircon-bottle-drinks.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .exclusive-aircon-color-palette {
   background-image: url(../../assets/images/Pages/eac/exclusive-aircon-color-palette.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .exclusive-aircon-mug {
   background-image: url(../../assets/images/Pages/eac/exclusive-aircon-mug.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .exclusive-aircon-pins2 {
   background-image: url(../../assets/images/Pages/eac/exclusive-aircon-pins2.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }

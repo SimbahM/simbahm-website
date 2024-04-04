@@ -6,7 +6,7 @@ section.projects {
 }
 section.projects .about-me {
   background-image: url(../../assets/images/about-me/about-me.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }

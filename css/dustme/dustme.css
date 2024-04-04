@@ -1,13 +1,13 @@
 .hero-dustme {
   background-image: url(../../assets/images/Pages/dustme/cover-page-dustme.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-main-logo {
   background-image: url(../../assets/images/Pages/dustme/dustme-main-logo.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border: 1px solid var(--secondary);
@@ -15,14 +15,14 @@
 
 .dustme-cleaning {
   background-image: url(../../assets/images/Pages/dustme/dustme-cleaning.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-color-palette {
   background-image: url(../../assets/images/Pages/dustme/dustme-color-palette.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border: 1px solid var(--secondary);
@@ -30,56 +30,56 @@
 
 .dustme-logo {
   background-image: url(../../assets/images/Pages/dustme/dustme-logo.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-bag {
   background-image: url(../../assets/images/Pages/dustme/dustme-bag.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-indoor-banner {
   background-image: url(../../assets/images/Pages/dustme/dustme-indoor-banner.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-billboard {
   background-image: url(../../assets/images/Pages/dustme/dustme-billboard.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-posters {
   background-image: url(../../assets/images/Pages/dustme/dustme-posters.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-card {
   background-image: url(../../assets/images/Pages/dustme/dustme-card.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-business-cards {
   background-image: url(../../assets/images/Pages/dustme/dustme-business-cards.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-pin {
   background-image: url(../../assets/images/Pages/dustme/dustme-pin.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
