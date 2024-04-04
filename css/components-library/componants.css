@@ -536,6 +536,9 @@ section.projects-hero h1 {
   padding: 0 20px;
   text-align: center;
 }
+section.projects-hero h1.eca-title-mobile {
+  display: none;
+}
 section.projects-hero p, section.projects-hero i {
   font-size: 25px;
   color: var(--white);
@@ -581,12 +584,18 @@ section.projects-hero p, section.projects-hero i {
   }
   section.projects-hero img {
     width: 250px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
     opacity: 0.5;
   }
   section.projects-hero h1 {
     font-size: 40px;
     text-align: center;
+  }
+  section.projects-hero h1.eca-title {
+    display: none;
+  }
+  section.projects-hero h1.eca-title-mobile {
+    display: block;
   }
   section.projects-hero p, section.projects-hero i {
     font-size: 20px;
