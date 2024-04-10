@@ -1,3 +1,10 @@
+.cv {
+  background-image: url(../../assets/images/about-me/about-me.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 section.projects {
   display: flex;
   flex-direction: column;

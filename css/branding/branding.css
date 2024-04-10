@@ -1,3 +1,10 @@
+.branding {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/branding/simbah-m-branding-cover-image.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
 section.projects {
   display: flex;
   flex-direction: column;
@@ -5,97 +12,91 @@ section.projects {
   padding: 0;
 }
 section.projects .niche {
-  background-image: url(../../assets/images/branding/niche-logo-cover-image.webp);
+  background-image: url(../../assets/images/Pages/branding/niche-logo-cover-image.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
 }
 section.projects .car-guvi {
-  background-image: url(../../assets/images/branding/car-guvi-logo-on-card.webp);
+  background-image: url(../../assets/images/Pages/branding/car-guvi-logo-on-card.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
 }
 section.projects .eca {
-  background-image: url(../../assets/images/branding/ellchart-chartered-accountants-cover-image.webp);
+  background-image: url(../../assets/images/Pages/branding/ellchart-chartered-accountants-cover-image.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
 }
 section.projects .prime-drive {
-  background-image: url(../../assets/images/branding/prime-drive-logo.webp);
+  background-image: url(../../assets/images/Pages/branding/prime-drive-logo.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
 }
 section.projects .dustme {
-  background-image: url(../../assets/images/branding/dust-me-logo.webp);
+  background-image: url(../../assets/images/Pages/branding/dust-me-logo.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
 }
 section.projects .louis {
-  background-image: url(../../assets/images/branding/louis-kitchens.webp);
+  background-image: url(../../assets/images/Pages/branding/louis-kitchens.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
 }
 section.projects .kabwe {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../../assets/images/branding/kabwe-loddge-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../../assets/images/Pages/branding/kabwe-loddge-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .eac {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../../assets/images/branding/exclusive-aircon-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/branding/exclusive-aircon-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .kinterior {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../../assets/images/branding/kinterior-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/branding/kinterior-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .pricelyst {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/branding/pricelyst-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/branding/pricelyst-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .shop-savvy {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/branding/shop-savy-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/branding/shop-savy-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .talent {
-  background-image: url(../../assets/images/branding/talent-solutions-logo.webp);
+  background-image: url(../../assets/images/Pages/branding/talent-solutions-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .hope {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/hope-wellness/hope-wellness-bag.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-section.projects .ag {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/branding/ag-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/branding/hope-wellness-bag.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .apex {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/branding/apex-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/branding/apex-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.projects .b-fit {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/branding/b-fit-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/branding/b-fit-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -29,7 +29,7 @@ footer a:hover {
   background-color: rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
-  border-radius: 5px;
+  border-radius: 2px;
   color: var(--primary);
 }
 

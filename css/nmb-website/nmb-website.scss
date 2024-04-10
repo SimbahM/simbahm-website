@@ -1,0 +1,669 @@
+.nmb-website-hero-image {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-website-cover-page.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.nmb-website {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+    gap: 30px;
+
+    img.nmb-logo {
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 70px;
+        color: var(--secondary);
+    }
+
+    span {
+        font-size: 50px;
+        font-weight: 300;
+        color: var(--gray);
+    }
+
+    img.nmb-website-design {
+        width: 950px;
+    }
+}
+
+section.user-persona {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    gap: 40px;
+
+    .main-titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        h1 {
+            font-size: 70px;
+            color: var(--secondary);
+        }
+    
+        p {
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 1.38105;
+            font-weight: 400;
+            letter-spacing: .011em;
+            color: var(--gray);
+            text-align: center;
+            width: 600px;
+        }
+    }
+
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img.user {
+            width: 200px;
+        }
+
+        hr {
+            border: 1px solid var(--gray);
+        }
+
+        h1 {
+            font-size: 70px;
+            color: var(--secondary);
+        }
+
+        p {
+            color: var(--gray);
+            font-size: 21px;
+        }
+    }
+
+    .messages {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        img.personal-attributes,
+        img.frustrations,
+        img.goals {
+            width: 600px;
+        }
+    }
+
+}
+
+section.user-journey-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 40px;
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 70px;
+            color: var(--secondary);
+        }
+    
+        p {
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 1.38105;
+            font-weight: 400;
+            letter-spacing: .011em;
+            color: var(--gray);
+            text-align: center;
+            width: 600px;
+        }
+    }
+
+    img.user-journey-map-diagram {
+        width: 900px;
+    }
+}
+
+section.information-architecture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 40px;
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 70px;
+            color: var(--secondary);
+        }
+    
+        p {
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 1.38105;
+            font-weight: 400;
+            letter-spacing: .011em;
+            color: var(--gray);
+            text-align: center;
+            width: 600px;
+        }
+    }
+
+    img.ia-diagram {
+        width: 1200px;
+    }
+
+    img.ia-diagram-mobile {
+        display: none;
+    }
+}
+
+section.mind-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 40px;
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 70px;
+            color: var(--secondary);
+        }
+    
+        p {
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 1.38105;
+            font-weight: 400;
+            letter-spacing: .011em;
+            color: var(--gray);
+            text-align: center;
+            width: 600px;
+        }
+    }
+
+    img.mind-map {
+        width: 1200px;
+    }
+}
+
+.nmb-bank-wireframe {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-bank-wireframe.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nmb-bank-wireframe2 {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-bank-wireframe2.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nmb-bank-wireframe3 {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-bank-wireframe3.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nmb-bank-wireframe4 {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-bank-wireframe3.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nmb-bank-website-screen {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-bank-website-screen.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nmb-bank-website-screen2 {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-bank-website-screen2.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nmb-bank-website-screen3 {
+    background-image: url(../../assets/images/Pages/nmb-website/nmb-bank-website-screen3.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nmb-website-thank-you {
+    background-image: linear-gradient(to bottom, rgba(10,45,106,0.3), rgba(10,45,106,0.3)), url(../../assets/images/Pages/nmb-website/nmb-bank-thank-you.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1024px) {
+
+    section.nmb-website {
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        span {
+            font-size: 30px;
+        }
+    
+        img.nmb-website-design {
+            width: 700px;
+        }
+    }
+
+    section.user-persona {
+    
+        .main-titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                font-weight: 400;
+            }
+        }
+    
+    
+        .titles {
+    
+            img.user {
+                width: 200px;
+            }
+    
+            hr {
+                border: 1px solid var(--gray);
+            }
+
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+    
+            p {
+                color: var(--gray);
+                font-size: 21px;
+            }
+        }
+    
+        .messages {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    
+            img.personal-attributes,
+            img.frustrations,
+            img.goals {
+                width: 600px;
+            }
+        }
+    
+    }
+    
+    section.user-journey-map {
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                width: 500px;
+            }
+        }
+    
+        img.user-journey-map-diagram {
+            width: 700px;
+        }
+    }
+    
+    section.information-architecture {
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                width: 500px;
+            }
+        }
+    
+        img.ia-diagram {
+            width: 700px;
+        }
+    }
+    
+    section.mind-map {
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                width: 500px;
+            }
+        }
+    
+        img.mind-map {
+            width: 700px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.nmb-website {
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        span {
+            font-size: 30px;
+        }
+    
+        img.nmb-website-design {
+            width: 400px;
+        }
+    }
+
+    section.user-persona {
+    
+        .main-titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                font-weight: 400;
+                width: 400px;
+            }
+        }
+    
+    
+        .titles {
+    
+            img.user {
+                width: 200px;
+            }
+    
+            hr {
+                border: 1px solid var(--gray);
+            }
+
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+    
+            p {
+                color: var(--gray);
+                font-size: 21px;
+            }
+        }
+    
+        .messages {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    
+            img.personal-attributes,
+            img.frustrations,
+            img.goals {
+                width: 400px;
+            }
+        }
+    
+    }
+    
+    section.user-journey-map {
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                width: 400px;
+            }
+        }
+    
+        img.user-journey-map-diagram {
+            width: 400px;
+        }
+    }
+    
+    section.information-architecture {
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+                text-align: center;
+            }
+        
+            p {
+                font-size: 21px;
+                width: 400px;
+            }
+        }
+    
+        img.ia-diagram {
+            display: none;
+        }
+
+        img.ia-diagram-mobile {
+            display: block;
+            width: 400px;
+        }
+    }
+    
+    section.mind-map {
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+                text-align: center;
+            }
+        
+            p {
+                font-size: 21px;
+                width: 400px;
+            }
+        }
+    
+        img.mind-map {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.nmb-website {
+        padding: 100px 0;
+    
+        h1 {
+            font-size: 40px;
+        }
+    
+        span {
+            font-size: 30px;
+        }
+    
+        img.nmb-website-design {
+            width: 350px;
+        }
+    }
+
+    section.user-persona {
+    
+        .main-titles {
+    
+            h1 {
+                font-size: 40px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                font-weight: 400;
+                width: 350px;
+            }
+        }
+    
+    
+        .titles {
+    
+            img.user {
+                width: 200px;
+            }
+    
+            hr {
+                border: 1px solid var(--gray);
+            }
+
+            h1 {
+                font-size: 40px;
+                color: var(--secondary);
+            }
+    
+            p {
+                color: var(--gray);
+                font-size: 21px;
+            }
+        }
+    
+        .messages {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    
+            img.personal-attributes,
+            img.frustrations,
+            img.goals {
+                width: 350px;
+            }
+        }
+    
+    }
+    
+    section.user-journey-map {
+    
+        .titles {
+    
+            h1 {
+                font-size: 40px;
+                color: var(--secondary);
+            }
+        
+            p {
+                font-size: 21px;
+                width: 350px;
+            }
+        }
+    
+        img.user-journey-map-diagram {
+            width: 350px;
+        }
+    }
+    
+    section.information-architecture {
+    
+        .titles {
+    
+            h1 {
+                font-size: 40px;
+                color: var(--secondary);
+                text-align: center;
+            }
+        
+            p {
+                font-size: 21px;
+                width: 350px;
+            }
+        }
+    
+        img.ia-diagram {
+            display: none;
+        }
+
+        img.ia-diagram-mobile {
+            display: block;
+            width: 350px;
+        }
+    }
+    
+    section.mind-map {
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--secondary);
+                text-align: center;
+            }
+        
+            p {
+                font-size: 21px;
+                width: 350px;
+            }
+        }
+    
+        img.mind-map {
+            width: 350px;
+        }
+    }
+}

@@ -1,0 +1,142 @@
+:root {
+    --primary: #1B2F3F;
+    --secondary: #2E465E;
+    --white: #EBEFF2;
+    --acent: #FFA656;
+    --gray: #54595F;
+}
+
+.work {
+    background-image: url(../../assets/images/work/simbahm-work-cover-page.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.branding {
+    background-image: url(../../assets/images/work/simbah-m-logo-desgin.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.ui-ux
+ {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(../../assets/images/work/simbah-m-ui-ux-design.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #EBEFF2;
+}
+
+section.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+
+    .project {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 50px;
+        gap: 10px;
+
+        h1 {
+            color: var(--white);
+            font-size: 50px;
+        }
+
+        p {
+            color: var(--white);
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    section.grid-container {
+    
+        .project {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            padding-bottom: 50px;
+            gap: 5px;
+    
+            h1 {
+                color: var(--white);
+                font-size: 40px;
+            }
+    
+            p {
+                color: var(--white);
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 0;
+    
+        .project {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            padding-bottom: 50px;
+            gap: 5px;
+    
+            h1 {
+                color: var(--white);
+                font-size: 40px;
+            }
+    
+            p {
+                color: var(--white);
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 0;
+    
+        .project {
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            padding-bottom: 30px;
+            gap: 5px;
+    
+            h1 {
+                color: var(--white);
+                font-size: 40px;
+            }
+    
+            p {
+                color: var(--white);
+                font-size: 20px;
+            }
+        }
+    }
+}

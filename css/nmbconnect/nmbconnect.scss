@@ -1,0 +1,270 @@
+.nmbconnect-hero-image {
+    background-image: linear-gradient(to bottom, rgba(10,45,106,0.3), rgba(10,45,106,0.3)), url(../../assets/images/Pages/nmbconnect/nmb-bank-cover-page.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.project-overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+    img {
+        width: 150px;
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 70px;
+        color: var(--secondary);
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 1.38105;
+        font-weight: 400;
+        letter-spacing: .011em;
+        color: var(--gray);
+        font-weight: 300;
+        width: 600px;
+        text-align: center;
+    }
+
+    img.nmb-logo {
+        width: 150px;
+        margin-top: 120px;
+    }
+
+    img.nmbconnect-app {
+        width: 1000px;
+        margin-top: 120px;
+    }
+}
+
+section.covers {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+
+    h1 {
+        font-size: 70px;
+
+        span {
+            font-weight: 300;
+        }
+    }
+}
+
+.sketches {
+    background-image: linear-gradient(to bottom, rgba(10,45,106,0.3), rgba(10,45,106,0.3)), url(../../assets/images/Pages/nmbconnect/nmb-bank-business-couple.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.paper-sketches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+.wireframes {
+    background-image: linear-gradient(to bottom, rgba(10,45,106,0.3), rgba(10,45,106,0.3)), url(../../assets/images/Pages/nmbconnect/nmb-bank-image.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.high-fidelity-wireframes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+.visual-design {
+    background-image: linear-gradient(to bottom, rgba(10,45,106,0.3), rgba(10,45,106,0.3)), url(../../assets/images/Pages/nmbconnect/nmb-bank-african-business-women.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.high-fidelity-mockups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+.nmbconnect-thank-you {
+    background-image: linear-gradient(to bottom, rgba(10,45,106,0.3), rgba(10,45,106,0.3)), url(../../assets/images/Pages/nmbconnect/nmb-bank-image.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1024px) {
+    
+    section.project-overview {
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        p {
+            font-size: 21px;
+        }
+    
+        img.nmbconnect-app {
+            width: 700px;
+            margin-top: 120px;
+        }
+    }
+
+    section.covers {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--white);
+    
+        h1 {
+            font-size: 50px;
+    
+            span {
+                font-weight: 300;
+            }
+        }
+    }
+
+    section.paper-sketches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 768px;
+        margin: 0 auto;
+        padding: 100px 0;
+        gap: 30px;
+    }
+
+    section.high-fidelity-wireframes {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 768px;
+        margin: 0 auto;
+        padding: 100px 0;
+        gap: 30px;
+    }
+
+    section.high-fidelity-mockups {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 768px;
+        margin: 0 auto;
+        padding: 100px 0;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    section.project-overview {
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        p {
+            font-size: 21px;
+            width: 400px;
+        }
+    
+        img.nmbconnect-app {
+            width: 400px;
+            margin-top: 120px;
+        }
+    }
+
+    section.covers {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--white);
+    
+        h1 {
+            font-size: 30px;
+    
+            span {
+                font-weight: 300;
+            }
+        }
+    }
+
+    section.paper-sketches {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 400px;
+    }
+
+    section.high-fidelity-wireframes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 400px;
+    }
+
+    section.high-fidelity-mockups {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 400px;
+    }
+}
+
+@media (max-width: 425px) {
+    
+    section.project-overview {
+        padding: 50px 0;
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        p {
+            font-size: 21px;
+            width: 300px;
+        }
+    
+        img.nmbconnect-app {
+            width: 400px;
+        }
+    }
+
+    section.paper-sketches {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        gap: 10px;
+    }
+
+    section.high-fidelity-wireframes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 300px;
+    }
+
+    section.high-fidelity-mockups {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 300px;
+    }
+}

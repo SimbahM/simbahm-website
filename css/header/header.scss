@@ -1,11 +1,17 @@
+:root {
+    --primary: #1B2F3F;
+    --secondary: #2E465E;
+    --white: #EBEFF2;
+    --acent: #FFA656;
+    --gray: #54595F;
+}
+
 header {
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 60px;
     width: 100%;
-    background-color: rgba(27, 47, 63, .7);
-    backdrop-filter: blur(8px);
     z-index: 999;
 
     nav.navigation-bar {
@@ -64,9 +70,10 @@ header {
                         letter-spacing: .1rem;
 
                         &:hover {
-                            background-color: rgba(235, 239, 242, .2);
+                            background-color: rgba(235, 239, 242, .3);
                             padding: 8px 15px;
-                            border-radius: 5px;
+                            border-radius: 2px;
+                            backdrop-filter: blur(8px);
                             opacity: .7;
                         }
                     }
@@ -109,7 +116,8 @@ header {
                         &:hover {
                             background-color: rgba(235, 239, 242, .2);
                             padding: 7px 15px;
-                            border-radius: 5px;
+                            border-radius: 2px;
+                            backdrop-filter: blur(8px);
                             opacity: .7;
                         }
                     }
@@ -130,10 +138,6 @@ header {
     header {
     
         nav.navigation-bar {
-    
-            .logo {
-                margin-left: 10px;
-            }
     
             .nav-items {
                 
@@ -212,10 +216,6 @@ header {
     
         nav.navigation-bar {
     
-            .logo {
-                margin-left: 10px;
-            }
-    
             .nav-items {
                 
     
@@ -238,7 +238,6 @@ header {
         nav.navigation-bar {
     
             .logo {
-                margin-left: 10px;
 
                 a {
 
