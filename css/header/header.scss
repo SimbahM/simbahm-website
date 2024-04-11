@@ -13,6 +13,7 @@ header {
     height: 60px;
     width: 100%;
     z-index: 999;
+    padding: 0 15px;
 
     nav.navigation-bar {
         width: 1000px;
@@ -35,7 +36,6 @@ header {
                 img {
                     width: 120px;
                     opacity: .8;
-                    margin: auto 15px;
                     transition: all .3s ease 0s;
     
                     &:hover {
@@ -89,6 +89,7 @@ header {
             display: flex;
             flex-direction: row;
             align-items: center;
+            margin-right: -13px;
 
             ul {
                 list-style: none;
@@ -140,6 +141,7 @@ header {
         nav.navigation-bar {
     
             .nav-items {
+                margin-right: -13px;
                 
     
                 ul {
@@ -250,12 +252,9 @@ header {
                         width: 30px;
                     }
                 }
-
-                
             }
     
             .nav-items {
-                
     
                 ul {
                     display: none;

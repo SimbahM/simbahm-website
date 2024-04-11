@@ -6,6 +6,52 @@
   --gray: #54595F;
 }
 
+.sub-header {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 60px;
+  padding: 0 17px;
+}
+.sub-header nav {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-bottom: 1px solid #b2b6ba;
+  align-items: center;
+}
+.sub-header nav .text-logo a {
+  text-decoration: none;
+}
+.sub-header nav .text-logo a h1 {
+  color: var(--white);
+  opacity: 0.8;
+  font-size: 24px;
+}
+.sub-header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.sub-header nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  opacity: 0.8;
+  font-size: 14px;
+}
+.sub-header nav ul li a:hover {
+  color: var(--acent);
+}
+
 .work {
   background-image: url(../../assets/images/work/simbahm-work-cover-page.webp);
   background-repeat: none;

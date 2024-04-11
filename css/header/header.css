@@ -13,6 +13,7 @@ header {
   height: 60px;
   width: 100%;
   z-index: 999;
+  padding: 0 15px;
 }
 header nav.navigation-bar {
   width: 1000px;
@@ -35,7 +36,6 @@ header nav.navigation-bar .logo a {
 header nav.navigation-bar .logo a img {
   width: 120px;
   opacity: 0.8;
-  margin: auto 15px;
   transition: all 0.3s ease 0s;
 }
 header nav.navigation-bar .logo a img:hover {
@@ -75,6 +75,7 @@ header nav.navigation-bar .social-media {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-right: -13px;
 }
 header nav.navigation-bar .social-media ul {
   list-style: none;
@@ -110,6 +111,9 @@ header nav.navigation-bar .hamburger-menu {
 }
 
 @media (max-width: 854px) {
+  header nav.navigation-bar .nav-items {
+    margin-right: -13px;
+  }
   header nav.navigation-bar .nav-items ul {
     list-style: none;
   }
