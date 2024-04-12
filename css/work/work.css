@@ -58,8 +58,86 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+.work img {
+  width: 400px;
+  margin-bottom: 50px;
+  opacity: 0.5;
+}
+.work h1 {
+  font-size: 70px;
+  color: var(--white);
+  padding: 0 20px;
+  text-align: center;
+}
+.work h1.eca-title-mobile {
+  display: none;
+}
+.work p {
+  font-size: 25px;
+  color: var(--white);
+  width: 700px;
+  text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .work {
+    height: 100vh;
+  }
+  .work h1 {
+    font-size: 50px;
+    color: var(--white);
+    padding: 0 20px;
+    text-align: center;
+  }
+  .work p {
+    font-size: 25px;
+    color: var(--white);
+    width: 700px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .work {
+    height: 100vh;
+  }
+  .work h1 {
+    font-size: 50px;
+    color: var(--white);
+    padding: 0 20px;
+    text-align: center;
+  }
+  .work p {
+    font-size: 22px;
+    color: var(--white);
+    width: 400px;
+    text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  .work {
+    height: 80vh;
+  }
+  .work h1 {
+    font-size: 50px;
+    color: var(--white);
+    padding: 0 20px;
+    text-align: center;
+  }
+  .work p {
+    font-size: 17px;
+    color: var(--white);
+    width: 350px;
+    text-align: center;
+  }
+}
 .branding {
   background-image: url(../../assets/images/work/simbah-m-logo-desgin.webp);
   background-repeat: none;
