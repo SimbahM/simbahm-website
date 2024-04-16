@@ -164,38 +164,15 @@ section.hero .hero-metadata .hero-page-text {
   color: var(--gray);
 }
 
-section.projects {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 0;
-  margin-top: 100px;
-}
-section.projects .work {
-  max-width: 1000px;
-  height: 85vh;
-  margin: 0 auto;
+section.works {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
-  padding-bottom: 50px;
-  margin-bottom: 100px;
-  width: 100%;
+  padding: 100px 10px;
 }
-section.projects .work h1.title {
-  color: var(--white);
-  font-size: 40px;
-  font-family: Simbah M;
-}
-section.projects .work p.descriptor {
-  color: var(--white);
-  font-size: 20px;
-  margin-top: 10px;
-  text-align: center;
-}
-section.projects .work .scrolldown {
-  margin-top: 20px;
+section.works .img-container {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
@@ -212,24 +189,12 @@ section.projects .work .scrolldown {
   section.hero .hero-metadata .hero-page-text {
     font-size: 20px;
   }
-  section.projects {
-    padding: 0 10px;
+  section.works {
+    padding: 50px 10px;
   }
-  section.projects .daily-ui {
-    max-width: 700px;
-    height: 80vh;
-    padding-bottom: 30px;
-  }
-  section.projects .work {
-    max-width: 700px;
-    height: 80vh;
-    padding-bottom: 30px;
-  }
-  section.projects .kabwe-lodge-interior {
-    max-width: 700px;
-  }
-  section.projects .kabwe-lodge-cloth {
-    max-width: 700px;
+  section.works .img-container {
+    width: 700px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 768px) {
@@ -246,31 +211,12 @@ section.projects .work .scrolldown {
   section.hero .hero-metadata .hero-page-text {
     font-size: 20px;
   }
-  section.projects .daily-ui {
-    max-width: 700px;
-    height: 80vh;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
+  section.works {
+    padding: 20px 10px;
   }
-  section.projects .work {
-    max-width: 700px;
-    height: 80vh;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-  }
-  section.projects .kabwe-lodge-interior {
-    max-width: 700px;
-    gap: 10px;
-  }
-  section.projects .kabwe-lodge-interior .interior2 {
-    display: none;
-  }
-  section.projects .kabwe-lodge-cloth {
-    max-width: 700px;
-    gap: 10px;
-  }
-  section.projects .kabwe-lodge-cloth .cloth1 {
-    display: none;
+  section.works .img-container {
+    width: 420px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 425px) {
@@ -287,29 +233,12 @@ section.projects .work .scrolldown {
   section.hero .hero-metadata .hero-page-text {
     font-size: 17px;
   }
-  section.projects .daily-ui {
-    max-width: 700px;
-    height: 55vh;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
+  section.works {
+    padding: 20px 10px;
   }
-  section.projects .daily-ui h1.title {
-    font-size: 30px;
-  }
-  section.projects .daily-ui p.descripter {
-    font-size: 17px;
-  }
-  section.projects .work {
-    max-width: 700px;
-    height: 55vh;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-  }
-  section.projects .work h1.title {
-    font-size: 30px;
-  }
-  section.projects .work p.descripter {
-    font-size: 17px;
+  section.works .img-container {
+    width: 350px;
+    margin: 0 auto;
   }
 }
 section.projects-hero {
@@ -492,7 +421,8 @@ section.project-header .project-header-content .project-description .tags {
     margin: 0 20px;
   }
   section.project-header .project-header-content {
-    padding: 50px 10px;
+    width: 350px;
+    padding: 50px 0px;
     gap: 20px;
   }
   section.project-header .project-header-content h1.project-title {
@@ -520,61 +450,121 @@ section.ui-projects .container .uiux-project {
   gap: 10px;
 }
 
-section.car-guvi-colors-container {
+section.colors-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   margin: 100px 10px;
+  width: 1000px;
+  margin: 0 auto;
 }
-section.car-guvi-colors-container .colors {
-  height: 90vh;
+section.colors-container .colors {
+  height: 70vh;
   display: flex;
   flex-direction: column;
   position: relative;
   padding: 30px 20px;
+  margin-bottom: 100px;
 }
-section.car-guvi-colors-container .colors h2 {
+section.colors-container .colors p.title {
   position: absolute;
   writing-mode: vertical-rl;
   left: 0;
-  font-size: 50px;
+  font-size: 40px;
+  font-weight: 300;
   color: var(--white);
   bottom: 20px;
 }
-section.car-guvi-colors-container .colors p {
+section.colors-container .colors p {
   color: var(--white);
 }
 
+@media (max-width: 1024px) {
+  section.colors-container {
+    display: grid;
+    gap: 10px;
+    margin: 50px 10px;
+    width: 700px;
+    margin: 0 auto;
+  }
+  section.colors-container .colors {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 20px;
+    margin-bottom: 50px;
+  }
+  section.colors-container .colors p.title {
+    position: absolute;
+    writing-mode: vertical-rl;
+    left: 0;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--white);
+    bottom: 20px;
+  }
+  section.colors-container .colors p {
+    color: var(--white);
+  }
+}
 @media (max-width: 768px) {
-  section.car-guvi-colors-container {
+  section.colors-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin: 10px 10px;
+    margin: 50px 10px;
+    width: 420px;
+    margin: 0 auto;
   }
-  section.car-guvi-colors-container .colors {
-    height: 60vh;
+  section.colors-container .colors {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 20px;
+    margin-bottom: 0px;
   }
-  section.car-guvi-colors-container .colors h2 {
-    font-size: 30px;
+  section.colors-container .colors p.title {
+    position: absolute;
+    writing-mode: vertical-rl;
+    left: 0;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--white);
+    bottom: 20px;
+  }
+  section.colors-container .colors p {
+    color: var(--white);
   }
 }
-@media (max-width: 600px) {
-  section.car-guvi-colors-container {
+@media (max-width: 425px) {
+  section.colors-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin: 10px 10px;
+    margin: 50px 10px;
+    width: 350px;
+    margin: 0 auto;
   }
-  section.car-guvi-colors-container .colors {
-    height: 60vh;
+  section.colors-container .colors {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 20px;
+    margin-bottom: 0px;
   }
-  section.car-guvi-colors-container .colors h2 {
-    font-size: 30px;
+  section.colors-container .colors p.title {
+    position: absolute;
+    writing-mode: vertical-rl;
+    left: 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--white);
+    bottom: 20px;
   }
-}
-@media (max-width: 375px) {
-  section.car-guvi-colors-container {
-    display: none;
+  section.colors-container .colors p {
+    color: var(--white);
   }
 }/*# sourceMappingURL=componants.css.map */

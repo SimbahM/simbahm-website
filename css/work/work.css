@@ -1,11 +1,3 @@
-:root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --acent: #FFA656;
-  --gray: #54595F;
-}
-
 .sub-header {
   position: absolute;
   top: 60px;

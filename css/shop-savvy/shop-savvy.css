@@ -5,170 +5,135 @@
   background-position: center;
 }
 
-section.shop-savvy-brand {
-  height: 100vh;
+section.new-logo-font {
+  padding: 200px 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
-  background-color: var(--white);
 }
-section.shop-savvy-brand h1 {
-  font-size: 50px;
-  color: var(--primary);
-}
-section.shop-savvy-brand p {
-  font-size: 24px;
-  text-align: center;
-  max-width: 550px;
-}
-section.shop-savvy-brand img {
+section.new-logo-font img {
   width: 600px;
+  margin-bottom: 50px;
 }
-section.shop-savvy-brand img.logo-mark {
-  width: 100px;
-}
-section.shop-savvy-brand .logo-evolution {
+section.new-logo-font p {
+  font-size: 21px;
+  color: var(--gray);
   width: 450px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-section.logo-layout {
-  background-color: #fff;
-}
-
-section.blue-bg {
-  background-color: #192872;
-}
-
-section.new-logo-layout {
-  display: flex;
-  height: 100vh;
-}
-section.new-logo-layout .container {
-  width: 600px;
-  margin: 0 auto;
+section.logo-revolution {
+  padding: 200px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   gap: 30px;
 }
-section.new-logo-layout img {
-  width: 300px;
-}
-section.new-logo-layout .layout {
-  margin-top: 50px;
-}
-section.new-logo-layout p {
-  font-size: 24px;
-  color: var(--gray);
-}
-section.new-logo-layout strong {
-  color: rgb(197, 197, 197);
-}
-section.new-logo-layout span {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(197, 197, 197);
+section.logo-revolution img.logo-revolution {
+  width: 700px;
 }
 
-.shop-savvy-bag {
-  background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-bag.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+section.shop-savvy-logo-on-blue-bg {
+  background-color: #071754;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.shop-savvy-logo-on-blue-bg img {
+  width: 700px;
 }
 
-.shop-savvy-indoor-logo {
-  background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-indoor-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.shop-savvy-large-fance-banner {
-  background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-large-fance-banner.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.shop-savvy-sale {
-  background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-sale.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.shop-savvy-sign {
-  background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-sign.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.shop-savvy-wall-logo {
-  background-image: url(../../assets/images/Pages/shop-savvy/shop-savvy-wall-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-@media (max-width: 700px) {
-  section.shop-savvy-brand {
-    height: 50vh;
+@media (max-width: 1024px) {
+  section.new-logo-font {
+    padding: 100px 0;
   }
-  section.shop-savvy-brand h1 {
-    font-size: 40px;
+  section.new-logo-font img {
+    width: 500px;
+    margin-bottom: 50px;
   }
-  section.shop-savvy-brand p {
-    font-size: 17px;
-    max-width: 350px;
+  section.new-logo-font p {
+    font-size: 21px;
+    color: var(--gray);
+    width: 450px;
+    text-align: center;
+    margin-bottom: 30px;
   }
-  section.shop-savvy-brand img {
-    width: 300px;
-  }
-  section.shop-savvy-brand img.logo-mark {
-    width: 90px;
-  }
-  section.shop-savvy-brand .logo-evolution {
-    width: 300px;
-  }
-  section.new-logo-layout {
-    display: flex;
-    height: 100vh;
-  }
-  section.new-logo-layout .container {
-    width: 400px;
-    padding: 0 20px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+  section.logo-revolution {
+    padding: 100px 0;
     gap: 30px;
   }
-  section.new-logo-layout img {
-    width: 300px;
+  section.logo-revolution img.logo-revolution {
+    width: 500px;
   }
-  section.new-logo-layout .layout {
-    margin-top: 50px;
+  section.shop-savvy-logo-on-blue-bg {
+    height: 80vh;
+    margin: 40px 0;
   }
-  section.new-logo-layout p {
-    font-size: 17px;
-    color: var(--gray);
-  }
-  section.new-logo-layout strong {
-    color: rgb(197, 197, 197);
-  }
-  section.new-logo-layout span {
-    font-family: "Montserrat", sans-serif;
-    color: rgb(197, 197, 197);
+  section.shop-savvy-logo-on-blue-bg img {
+    width: 500px;
   }
 }
-.shop-savvy-thank-you {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/shop-savvy/shop-savvy-cover-image.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 768px) {
+  section.new-logo-font {
+    padding: 100px 0;
+  }
+  section.new-logo-font img {
+    width: 400px;
+    margin-bottom: 50px;
+  }
+  section.new-logo-font p {
+    font-size: 21px;
+    color: var(--gray);
+    width: 450px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section.logo-revolution {
+    padding: 100px 0;
+    gap: 30px;
+  }
+  section.logo-revolution img.logo-revolution {
+    width: 400px;
+  }
+  section.shop-savvy-logo-on-blue-bg {
+    height: 80vh;
+    margin: 20px 0;
+  }
+  section.shop-savvy-logo-on-blue-bg img {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.new-logo-font {
+    padding: 50px 0;
+  }
+  section.new-logo-font img {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  section.new-logo-font p {
+    font-size: 21px;
+    color: var(--gray);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section.logo-revolution {
+    padding: 50px 0;
+    gap: 30px;
+  }
+  section.logo-revolution img.logo-revolution {
+    width: 300px;
+  }
+  section.shop-savvy-logo-on-blue-bg {
+    height: 50vh;
+    margin: 10px 0;
+  }
+  section.shop-savvy-logo-on-blue-bg img {
+    width: 250px;
+  }
 }/*# sourceMappingURL=shop-savvy.css.map */

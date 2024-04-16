@@ -5,188 +5,72 @@
     background-position: center;
 }
 
-section.logo {
+section.apex-logo {
+    padding: 200px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px 0;
+    gap: 300px;
 
-    .golden-ratio-title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
-
-        h2 {
-            font-size: 50px;
-            color: var(--secondary);
-        }
-
-        p {
-            font-size: 21px;
-            color: var(--gray);
-            width: 500px;
-            text-align: center;
-        }
-    }
-
-    img {
+    .logo-redraw,
+    .main-logo,
+    .typeface,
+    .color-palette {
         width: 600px;
-        margin: 70px;
-    }
-
-    img.typeface {
-        width: 400px;
     }
 }
 
-.apex-logo-sketch {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-sketch.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+@media (max-width: 1024px) {
 
-.apex-logo-shipping {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-shipping.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    section.apex-logo {
+        padding: 100px 0;
+        gap: 300px;
+    
+        .logo-redraw,
+        .main-logo,
+        .typeface {
+            width: 500px;
+        }
 
-.apex-logo-shipping {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-shipping.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.apex-logo-stock {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-stock.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.apex-logo-busness-cards {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-busness-cards.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.apex-logo-container {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-container.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.apex-logo-envelop {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-envelop.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.apex-logo-letterhead {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-letterhead.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.apex-logo-packaging {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-packaging.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.apex-logo-picture-frame {
-    background-image: url(../../assets/images/Pages/apex/apex-logo-picture-frame.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+        .color-palette {
+            width: 700px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
 
-    section.logo {
-        padding: 100px 0;
+    section.apex-logo {
+        padding: 50px 0;
+        gap: 300px;
     
-        .golden-ratio-title {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 10px;
-    
-            h2 {
-                font-size: 50px;
-                color: var(--secondary);
-            }
-    
-            p {
-                font-size: 21px;
-                color: var(--gray);
-                width: 500px;
-                text-align: center;
-            }
-        }
-    
-        img {
+        .logo-redraw,
+        .main-logo,
+        .typeface {
             width: 400px;
-            margin: 70px;
         }
-    
-        img.typeface {
-            width: 300px;
+
+        .color-palette {
+            width: 420px;
         }
     }
 }
 
 @media (max-width: 425px) {
 
-    section.logo {
-        padding: 70px 0;
+    section.apex-logo {
+        padding: 30px 0;
+        gap: 200px;
     
-        .golden-ratio-title {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 10px;
-    
-            h2 {
-                font-size: 50px;
-                color: var(--secondary);
-            }
-    
-            p {
-                font-size: 21px;
-                color: var(--gray);
-                width: 500px;
-                text-align: center;
-            }
-        }
-    
-        img {
+        .logo-redraw,
+        .main-logo,
+        .typeface {
             width: 300px;
-            margin: 70px;
         }
-    
-        img.typeface {
-            width: 200px;
+
+        .color-palette {
+            width: 350px;
         }
     }
-
-    .color {
-        margin-bottom: 0;
-    }
-}
-
-.apex-thank-you {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/Pages/apex/apex-logo-envelop.webp);background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }

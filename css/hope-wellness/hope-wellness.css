@@ -5,138 +5,157 @@
   background-position: center;
 }
 
-section.logo {
+section.logo-meaning-main-logo {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+section.logo-meaning-main-logo img {
+  width: 500px;
+}
+
+section.golden-ratio {
+  padding: 200px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 200px 0;
+  gap: 100px;
 }
-section.logo .golden-ratio-title {
+section.golden-ratio .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
 }
-section.logo .golden-ratio-title h2 {
-  font-size: 50px;
-  color: var(--secondary);
+section.golden-ratio .title h2 {
+  font-size: 40px;
+  color: var(--primary);
 }
-section.logo .golden-ratio-title p {
+section.golden-ratio .title p {
   font-size: 21px;
   color: var(--gray);
   width: 500px;
   text-align: center;
 }
-section.logo img {
+section.golden-ratio img {
   width: 600px;
-  margin: 70px;
-}
-section.logo img.golden-ration-table {
-  width: 400px;
 }
 
-.hope-wellness-logo-construction {
-  background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-logo-construction.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+section.color-palette {
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.color-palette img {
+  width: 700px;
 }
 
-.hope-wellness-image {
-  background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-image.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.hope-wellness-logo-paper {
-  background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-logo-paper.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #e7e7e7;
-}
-
-.hope-wellness-bag {
-  background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-bag.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.hope-wellness-note-pad {
-  background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-note-pad.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.hope-wellness-mugs {
-  background-image: url(../../assets/images/Pages/hope-wellness/hope-wellness-mugs.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-@media (max-width: 768px) {
-  section.logo {
-    padding: 50px 0;
+@media (max-width: 1024px) {
+  section.logo-meaning-main-logo {
+    padding: 100px 0;
+    gap: 300px;
   }
-  section.logo .golden-ratio-title h2 {
+  section.logo-meaning-main-logo img {
+    width: 400px;
+  }
+  section.golden-ratio {
+    padding: 100px 0;
+    gap: 80px;
+  }
+  section.golden-ratio .title h2 {
     font-size: 40px;
-    color: var(--secondary);
+    color: var(--primary);
   }
-  section.logo .golden-ratio-title p {
-    font-size: 17px;
+  section.golden-ratio .title p {
+    font-size: 21px;
     color: var(--gray);
     width: 400px;
     text-align: center;
   }
-  section.logo img {
-    width: 400px;
-    margin: 70px;
+  section.golden-ratio img {
+    width: 500px;
   }
-  section.logo img.golden-ration-table {
+  section.color-palette {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.color-palette img {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  section.logo-meaning-main-logo {
+    padding: 100px 0;
+    gap: 200px;
+  }
+  section.logo-meaning-main-logo img {
     width: 400px;
+  }
+  section.golden-ratio {
+    padding: 50px 0;
+    gap: 80px;
+  }
+  section.golden-ratio .title h2 {
+    font-size: 40px;
+    color: var(--primary);
+  }
+  section.golden-ratio .title p {
+    font-size: 21px;
+    color: var(--gray);
+    width: 400px;
+    text-align: center;
+  }
+  section.golden-ratio img {
+    width: 500px;
+  }
+  section.color-palette {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.color-palette img {
+    width: 420px;
   }
 }
 @media (max-width: 425px) {
-  section.logo {
-    padding: 30px 0;
+  section.logo-meaning-main-logo {
+    padding: 100px 0;
+    gap: 200px;
   }
-  section.logo .golden-ratio-title h2 {
-    font-size: 40px;
-    color: var(--secondary);
-  }
-  section.logo .golden-ratio-title p {
-    font-size: 17px;
-    color: var(--gray);
-    width: 400px;
-    text-align: center;
-  }
-  section.logo img {
-    width: 300px;
-    margin: 70px;
-  }
-  section.logo img.golden-ration-table {
-    width: 300px;
-  }
-}
-@media (max-width: 380px) {
-  section.logo {
-    padding: 30px 0;
-  }
-  section.logo .golden-ratio-title {
-    margin-bottom: 30px;
-  }
-  section.logo .golden-ratio-title p {
+  section.logo-meaning-main-logo img {
     width: 350px;
   }
-}
-.hope-wellness-thank-you {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/hope-wellness/hope-wellness-image.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  section.golden-ratio {
+    padding: 50px 0;
+    gap: 80px;
+  }
+  section.golden-ratio .title h2 {
+    font-size: 40px;
+    color: var(--primary);
+  }
+  section.golden-ratio .title p {
+    font-size: 21px;
+    color: var(--gray);
+    width: 350px;
+    text-align: center;
+  }
+  section.golden-ratio img {
+    width: 350px;
+  }
+  section.color-palette {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.color-palette img {
+    width: 350px;
+  }
 }/*# sourceMappingURL=hope-wellness.css.map */

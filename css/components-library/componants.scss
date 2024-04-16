@@ -184,41 +184,15 @@ section.hero {
     }
 }
 
-section.projects {
+section.works {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 0;
-    margin-top: 100px;
+    align-items: center;
+    padding: 100px 10px;
 
-    .work {
-        max-width: 1000px;
-        height: 85vh;
+    .img-container {
+        width: 1000px;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: end;
-        padding-bottom: 50px;
-        margin-bottom: 100px;
-        width: 100%;
-
-        h1.title {
-            color: var(--white);
-            font-size: 40px;
-            font-family: Simbah M;
-        }
-
-        p.descriptor {
-            color: var(--white);
-            font-size: 20px;
-            margin-top: 10px;
-            text-align: center;
-        }
-
-        .scrolldown {
-            margin-top: 20px;
-        }
     }
 }
 
@@ -241,27 +215,12 @@ section.projects {
         }
     }
 
-    section.projects {
-        padding: 0 10px;
+    section.works {
+        padding: 50px 10px;
     
-        .daily-ui {
-            max-width: 700px;
-            height: 80vh;
-            padding-bottom: 30px;
-        }
-    
-        .work {
-            max-width: 700px;
-            height: 80vh;
-            padding-bottom: 30px;
-        }
-
-        .kabwe-lodge-interior {
-            max-width: 700px;
-        }
-
-        .kabwe-lodge-cloth {
-            max-width: 700px;
+        .img-container {
+            width: 700px;
+            margin: 0 auto;
         }
     }
 }
@@ -285,38 +244,12 @@ section.projects {
         }
     }
 
-    section.projects {
+    section.works {
+        padding: 20px 10px;
     
-        .daily-ui {
-            max-width: 700px;
-            height: 80vh;
-            padding-bottom: 30px;
-            margin-bottom: 10px;
-        }
-    
-        .work {
-            max-width: 700px;
-            height: 80vh;
-            padding-bottom: 30px;
-            margin-bottom: 10px;
-        }
-
-        .kabwe-lodge-interior {
-            max-width: 700px;
-            gap: 10px;
-
-            .interior2 {
-                display: none;
-            }
-        }
-
-        .kabwe-lodge-cloth {
-            max-width: 700px;
-            gap: 10px;
-
-            .cloth1 {
-                display: none;
-            }
+        .img-container {
+            width: 420px;
+            margin: 0 auto;
         }
     }
 }
@@ -340,36 +273,12 @@ section.projects {
         }
     }
 
-    section.projects {
+    section.works {
+        padding: 20px 10px;
     
-        .daily-ui {
-            max-width: 700px;
-            height: 55vh;
-            padding-bottom: 30px;
-            margin-bottom: 10px;
-
-            h1.title {
-                font-size: 30px;
-            }
-    
-            p.descripter {
-                font-size: 17px;
-            }
-        }
-    
-        .work {
-            max-width: 700px;
-            height: 55vh;
-            padding-bottom: 30px;
-            margin-bottom: 10px;
-
-            h1.title {
-                font-size: 30px;
-            }
-    
-            p.descripter {
-                font-size: 17px;
-            }
+        .img-container {
+            width: 350px;
+            margin: 0 auto;
         }
     }
 }
@@ -609,7 +518,8 @@ section.project-header {
         margin: 0 20px;
     
         .project-header-content {
-            padding: 50px 10px;
+            width: 350px;
+            padding: 50px 0px;
             gap: 20px;
     
             h1.project-title {
@@ -650,24 +560,28 @@ section.ui-projects {
     }
 }
 
-section.car-guvi-colors-container {
+section.colors-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin: 100px 10px;
+    width: 1000px;
+    margin: 0 auto;
 
     .colors {
-        height: 90vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         position: relative;
         padding: 30px 20px;
+        margin-bottom: 100px;
 
-        h2 {
+        p.title {
             position: absolute;
             writing-mode: vertical-rl;
             left: 0;
-            font-size: 50px;
+            font-size: 40px;
+            font-weight: 300;
             color: var(--white);
             bottom: 20px;
         }
@@ -678,45 +592,106 @@ section.car-guvi-colors-container {
     }
 }
 
+@media (max-width: 1024px) {
+
+    section.colors-container {
+        display: grid;
+        gap: 10px;
+        margin: 50px 10px;
+        width: 700px;
+        margin: 0 auto;
+    
+        .colors {
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding: 30px 20px;
+            margin-bottom: 50px;
+    
+            p.title {
+                position: absolute;
+                writing-mode: vertical-rl;
+                left: 0;
+                font-size: 40px;
+                font-weight: 300;
+                color: var(--white);
+                bottom: 20px;
+            }
+    
+            p {
+                color: var(--white);
+            }
+        }
+    }
+}
+
 @media (max-width: 768px) {
 
-    section.car-guvi-colors-container {
+    section.colors-container {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        margin: 10px 10px;
+        margin: 50px 10px;
+        width: 420px;
+        margin: 0 auto;
     
         .colors {
-            height: 60vh;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding: 30px 20px;
+            margin-bottom: 0px;
     
-            h2 {
-                font-size: 30px;
+            p.title {
+                position: absolute;
+                writing-mode: vertical-rl;
+                left: 0;
+                font-size: 40px;
+                font-weight: 300;
+                color: var(--white);
+                bottom: 20px;
+            }
+    
+            p {
+                color: var(--white);
             }
         }
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 425px) {
 
-    section.car-guvi-colors-container {
+    section.colors-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        margin: 10px 10px;
+        margin: 50px 10px;
+        width: 350px;
+        margin: 0 auto;
     
         .colors {
-            height: 60vh;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding: 30px 20px;
+            margin-bottom: 0px;
     
-            h2 {
-                font-size: 30px;
+            p.title {
+                position: absolute;
+                writing-mode: vertical-rl;
+                left: 0;
+                font-size: 25px;
+                font-weight: 300;
+                color: var(--white);
+                bottom: 20px;
+            }
+    
+            p {
+                color: var(--white);
             }
         }
-    }
-}
-
-@media (max-width: 375px) {
-
-    section.car-guvi-colors-container {
-        display: none;
     }
 }

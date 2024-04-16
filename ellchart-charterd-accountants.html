@@ -32,63 +32,7 @@
 
         <!-- Header  -->
 
-        <header>
-            <nav class="navigation-bar">
-                <div class="logo">
-                    <a href="./index.html">
-                        <img src="./assets/icons/simbahm-logo-white.png" alt="Simbah M Logo">
-                        <img class="mobile-logo" src="./assets/icons/simbahm-logo-mark.svg" alt="Simbah M Logo Icon">
-                    </a>
-                </div>
-                <div class="nav-items">
-                    <ul class="desktop-menu">
-                        <li>
-                            <a href="./work.html">Work</a>
-                        </li>
-                        <li>
-                            <a href="./about-me.html">About</a>
-                        </li>
-                        <li>
-                            <a href="./contact-me.html">Contact</a>
-                        </li>
-                    </ul>
-
-                    <ul class="mobile-menu">
-                        <li>
-                            <a href="./work.html">Work</a>
-                        </li>
-                        <li>
-                            <a href="./about-me.html">About</a>
-                        </li>
-                        <li>
-                            <a href="./contact-me.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="social-media">
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/simbarashe-madungwe-5b454ab6/" target="_blank">
-                                <img src="./assets/icons/linkedin.svg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.behance.net/simbah_design" target="_blank">
-                                <img src="./assets/icons/behance.svg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/simbah.design/" target="_blank">
-                                <img src="./assets/icons/instagram.svg" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="hamburger-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
-        </header>
+        <special-header></special-header>
 
         <!-- Page Content  -->
 
@@ -116,16 +60,27 @@
             <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-logo.svg" alt="Ellchart Chartered Accountants logo">
         </section>
 
-        <section class="eca-colors">
-            <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-colors.webp" alt="Ellchart Chartered Accountants color palette">
+        <section class="colors-container">
+            <div class="colors red">
+                <p>#FF1616</p>
+                <p class="title">Red</p>
+            </div>
+            <div class="colors yellow">
+                <p>#F4C603</p>
+                <p class="title">Yellow</p>
+            </div>
+            <div class="colors cadet-grey">
+                <p>#8FA4A5</p>
+                <p class="title">Cadet Grey</p>
+            </div>
+            <div class="colors arsenic">
+                <p>#384242</p>
+                <p class="title">Arsenic</p>
+            </div>
         </section>
 
         <section class="eca-dark-image">
             <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-white-logo-.svg" alt="Ellchart Chartered Accountants logo">
-        </section>
-        
-        <section class="eca-logo">
-            <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-logo-construction.svg" alt="Logo Construction">
         </section>
 
         <section class="eca-light-image">
@@ -142,6 +97,18 @@
             <div class="work ellchart-chartered-accountants-books"></div>
         </section>
 
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-business-cards.webp" alt="Business Cards Mockups">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-books.webp" alt="Books Mockup">
+            </div>
+        </section>
+
         <section class="project-header">
             <div class="project-header-content">
                 <h1 class="project-title">Visual Identity</h1>
@@ -156,27 +123,35 @@
             </div>
         </section>
 
-        <section class="projects">
-            <div class="work ellchart-chartered-accountants-posters"></div>
-            <div class="work ellchart-chartered-accountants-bag"></div>
-            <div class="work ellchart-chartered-accountants-water-bottle"></div>
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-posters.webp" alt="Wall Posters Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-convas-logo.webp" alt="Covas Logo Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-bag.webp" alt="Bag Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/eca/ellchart-chartered-accountants-water-bottle.webp" alt="Water Bottle Mockup">
+            </div>
         </section>
 
         <!-- Footer  -->
 
-        <div class="footer eca-thank-you">
-            <h2>
-                Thank You.
-            </h2>
-            <div class="footer-items">
-                <a href="./about-me.html">Simbah M @ 2024</a>
-                <a href="./work.html">My Work</a>
-                <a href="./about-me.html">About Me</a>
-                <a href="./contact-me.html">Contact Me</a>
-            </div>
-        </div>
+        <special-footer></special-footer>
         
         
-        <script src="" async defer></script>
+        <script src="./src-js/headerFooterManager.js" async defer></script>
     </body>
 </html>

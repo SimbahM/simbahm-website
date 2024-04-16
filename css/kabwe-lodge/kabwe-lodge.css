@@ -1,129 +1,305 @@
 .hero-kabwe {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cover-page.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/kabwe-lodge/cover-page.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.kabwe-lodge-logo {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.kabwe-lodge-color-palette {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-color-palette.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.kabwe-lodge-interior {
+section.kabwe-logo {
+  padding: 100px 0 200px 0;
   display: flex;
-  flex-direction: row;
-  max-width: 1000px;
-  height: 80vh;
-  margin: 0 auto;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+}
+section.kabwe-logo img {
+  width: 300px;
+}
+
+section.kabwe-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0;
   gap: 20px;
+}
+section.kabwe-grid .image-logo {
+  background-image: url(../../assets/images/Pages/kabwe-lodge/indoor-lamp.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+section.kabwe-grid .image-logo .filter {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: inherit;
   width: 100%;
-}
-.kabwe-lodge-interior .interior1 {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-interior.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: inherit;
-  flex: 1;
-}
-.kabwe-lodge-interior .interior2 {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-interior2.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid var(--gray);
-  height: inherit;
-  flex: 1;
-}
-
-.kabwe-lodge-corporate-wear {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-corporate-wear.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid var(--gray);
-}
-
-.kabwe-lodge-cover-page {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cover-page.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid var(--gray);
-}
-
-.kabwe-lodge-cloth {
   display: flex;
-  flex-direction: row;
-  max-width: 1000px;
-  height: 80vh;
-  margin: 0 auto;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
-  gap: 20px;
-  width: 100%;
 }
-.kabwe-lodge-cloth .cloth1 {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cloth2.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid var(--gray);
-  height: inherit;
-  flex: 1;
+section.kabwe-grid .image-logo img {
+  width: 200px;
 }
-.kabwe-lodge-cloth .cloth2 {
+section.kabwe-grid .towel {
   background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cloth.webp);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80vh;
+}
+section.kabwe-grid .logo-symbol {
+  background-color: var(--white);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.kabwe-grid .logo-symbol img {
+  width: 300px;
+}
+
+section.logo-mark {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+section.logo-mark img {
+  width: 300px;
+}
+section.logo-mark p {
+  width: 900px;
+  font-size: 30px;
+  line-height: 1.4211;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  color: var(--gray);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section.quote {
+  background-image: url(../../assets/images/Pages/kabwe-lodge/lodge-rooms.webp);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+section.quote .filter {
   height: inherit;
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  gap: 30px;
+}
+section.quote img {
+  width: 100px;
+}
+section.quote h1 {
+  color: var(--white);
+  text-align: center;
+  font-size: 70px;
 }
 
-.kabwe-lodge-letterhead {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-letterhead.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+section.corporate-wear {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 200px 0;
+  width: 1000px;
+  margin: 0 auto;
 }
 
-.kabwe-lodge-convas-logo {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-convas-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 1024px) {
+  section.kabwe-logo {
+    padding: 50px 0 100px 0;
+  }
+  section.kabwe-logo img {
+    width: 200px;
+  }
+  section.kabwe-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px 0;
+    gap: 20px;
+  }
+  section.kabwe-grid .image-logo {
+    height: 80vh;
+  }
+  section.kabwe-grid .image-logo img {
+    width: 150px;
+  }
+  section.kabwe-grid .towel {
+    height: 80vh;
+  }
+  section.kabwe-grid .logo-symbol {
+    height: 80vh;
+  }
+  section.kabwe-grid .logo-symbol img {
+    width: 200px;
+  }
+  section.logo-mark {
+    height: 100vh;
+    gap: 60px;
+  }
+  section.logo-mark img {
+    width: 200px;
+  }
+  section.logo-mark p {
+    width: 600px;
+    font-size: 25px;
+  }
+  section.quote {
+    height: 80vh;
+  }
+  section.quote .filter {
+    gap: 30px;
+  }
+  section.quote img {
+    width: 80px;
+  }
+  section.quote h1 {
+    color: var(--white);
+    text-align: center;
+    font-size: 50px;
+  }
+  section.corporate-wear {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 200px 0;
+    width: 700px;
+    margin: 0 auto;
+  }
 }
-
-.kabwe-lodge-towels {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-towels.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 768px) {
+  section.kabwe-logo {
+    padding: 50px 0 100px 0;
+  }
+  section.kabwe-logo img {
+    width: 150px;
+  }
+  section.kabwe-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 425px;
+    margin: 0 auto;
+    padding: 50px 0;
+    gap: 20px;
+  }
+  section.kabwe-grid .image-logo {
+    height: 80vh;
+  }
+  section.kabwe-grid .image-logo img {
+    width: 150px;
+  }
+  section.kabwe-grid .towel {
+    height: 80vh;
+  }
+  section.kabwe-grid .logo-symbol {
+    height: 80vh;
+  }
+  section.kabwe-grid .logo-symbol img {
+    width: 200px;
+  }
+  section.logo-mark {
+    height: 100vh;
+    gap: 60px;
+  }
+  section.logo-mark img {
+    width: 200px;
+  }
+  section.logo-mark p {
+    width: 500px;
+    font-size: 25px;
+  }
+  section.quote {
+    height: 80vh;
+  }
+  section.quote .filter {
+    gap: 30px;
+  }
+  section.quote img {
+    width: 60px;
+  }
+  section.quote h1 {
+    color: var(--white);
+    text-align: center;
+    font-size: 50px;
+  }
+  section.corporate-wear {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 200px 0;
+    width: 700px;
+    margin: 0 auto;
+  }
 }
-
-.kabwe-lodge-quote {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-quote.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.kabwe-thank-you {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cover-page.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 425px) {
+  section.kabwe-logo {
+    padding: 50px 0 100px 0;
+  }
+  section.kabwe-logo img {
+    width: 150px;
+  }
+  section.kabwe-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px 0;
+    gap: 20px;
+  }
+  section.kabwe-grid .image-logo {
+    height: 80vh;
+  }
+  section.kabwe-grid .image-logo img {
+    width: 150px;
+  }
+  section.kabwe-grid .towel {
+    height: 80vh;
+  }
+  section.kabwe-grid .logo-symbol {
+    height: 80vh;
+  }
+  section.kabwe-grid .logo-symbol img {
+    width: 200px;
+  }
+  section.logo-mark {
+    height: 100vh;
+    gap: 60px;
+  }
+  section.logo-mark img {
+    width: 200px;
+  }
+  section.logo-mark p {
+    width: 350px;
+    font-size: 17px;
+  }
+  section.quote {
+    height: 80vh;
+  }
+  section.quote .filter {
+    gap: 30px;
+  }
+  section.quote img {
+    width: 60px;
+  }
+  section.quote h1 {
+    color: var(--white);
+    text-align: center;
+    font-size: 40px;
+  }
+  section.corporate-wear {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 50px 0;
+    width: 300px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=kabwe-lodge.css.map */

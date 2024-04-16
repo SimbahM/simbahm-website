@@ -38,133 +38,309 @@ section.kinterior-logo {
     background-color: #fff;
 }
 
-.kinterior-logo-construction {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-logo-construction.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+section.logo-construction {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 200px 0;
+
+
+    .filter {
+        background-color: #2D2423;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+
+        img {
+            width: 400px;
+        }
+    }
 }
 
-.kinterior-golden-ratio {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-golden-ratio.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid var(--gray);
+section.golden-ratio {
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 50px;
+            color: var(--primary);
+        }
+    
+        p {
+            font-size: 21px;
+            font-weight: 300;
+            width: 500px;
+            text-align: center;
+        }
+    }
+
+
+    img.graph {
+        width: 700px;
+    }
+
+    img.logo {
+        width: 1000px;
+    }
 }
 
-.kinterior-color-palette {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-color-palette.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+section.flags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
 
-.kinterior-social-media {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-social-media.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    .web {
+        background-image: url(../../assets/images/Pages/kinterior/kinterior-flags.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
 
-.kinterior-cards {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-cards.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    .logo {
+        background-color:var(--white);
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-.kinterior-card {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-card.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.kinterior-bottle {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-bottle.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.kinterior-bag {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-bag.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.kinterior-posters {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-posters.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.kinterior-flags {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-flags.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid var(--gray);
-}
-
-.kinterior-convas-logo {
-    background-image: url(../../assets/images/Pages/kinterior/kinterior-convas-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid var(--gray);
+        img {
+            width: 300px;
+        }
+    }
 }
 
 @media (max-width: 1024px) {
 
     section.kinterior-brand {
-    
-        p {
-            max-width: 500px;
-        }
-    }
-}
-
-    
-
-@media (max-width: 768px) {
-
-    section.kinterior-brand {
-        height: 80vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
     
         h1 {
-            font-size: 40px;
+            font-size: 50px;
             color: var(--primary);
         }
     
         p {
-            font-size: 17px;
+            font-size: 24px;
             text-align: center;
-            max-width: 400px;
+            max-width: 500px;
         }
     
         img {
-            width: 300px;
+            width: 600px;
         }
     
         img.logo-mark {
             width: 100px;
         }
     }
-
+    
     section.kinterior-logo {
         background-color: #fff;
     }
     
+    section.logo-construction {
+        width: 700px;
+        padding: 100px 0;
+    
+    
+        .filter {
+            height: 80vh;
+            width: 100%;
+    
+            img {
+                width: 300px;
+            }
+        }
+    }
+    
+    section.golden-ratio {
+        padding: 100px 0;
+        gap: 40px;
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--primary);
+            }
+        
+            p {
+                font-size: 21px;
+                font-weight: 300;
+                width: 500px;
+                text-align: center;
+            }
+        }
+    
+        img.graph {
+            width: 500px;
+        }
+    
+        img.logo {
+            width: 700px;
+        }
+    }
+    
+    section.flags {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 100px 0;
+        width: 700px;
+        margin: 0 auto;
+        gap: 30px;
+    
+        .web {
+            height: 80vh;
+        }
+    
+        .logo {
+            height: 80vh;
+    
+            img {
+                width: 300px;
+            }
+        }
+    }
 }
+
+@media (max-width: 768px) {
+
+    section.kinterior-brand {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
+    
+        h1 {
+            font-size: 50px;
+            color: var(--primary);
+        }
+    
+        p {
+            font-size: 24px;
+            text-align: center;
+            max-width: 500px;
+        }
+    
+        img {
+            width: 600px;
+        }
+    
+        img.logo-mark {
+            width: 100px;
+        }
+    }
+    
+    section.kinterior-logo {
+        background-color: #fff;
+        padding: 100px 0;
+
+        img {
+            width: 500px;
+        }
+    }
+    
+    section.logo-construction {
+        width: 420px;
+        padding: 50px 0;
+    
+    
+        .filter {
+            height: 80vh;
+            width: 100%;
+    
+            img {
+                width: 300px;
+            }
+        }
+    }
+    
+    section.golden-ratio {
+        padding: 50px 0;
+        gap: 40px;
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--primary);
+            }
+        
+            p {
+                font-size: 21px;
+                font-weight: 300;
+                width: 500px;
+                text-align: center;
+            }
+        }
+    
+        img.graph {
+            width: 300px;
+        }
+    
+        img.logo {
+            width: 500px;
+        }
+    }
+    
+    section.flags {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 0;
+        width: 420px;
+        margin: 0 auto;
+        gap: 30px;
+    
+        .web {
+            height: 80vh;
+        }
+    
+        .logo {
+            height: 80vh;
+    
+            img {
+                width: 200px;
+            }
+        }
+    }
+}
+
 
 @media (max-width: 425px) {
 
     section.kinterior-brand {
-        height: 80vh;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
     
         h1 {
             font-size: 40px;
@@ -185,15 +361,76 @@ section.kinterior-logo {
             width: 100px;
         }
     }
-
+    
     section.kinterior-logo {
         background-color: #fff;
+        padding: 50px 0;
+
+        img {
+            width: 300px;
+        }
     }
     
-}
-
-.kinterior-thank-you {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/Pages/kinterior/kinterior-cover-page.webp);background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    section.logo-construction {
+        width: 350px;
+        padding: 50px 0;
+    
+    
+        .filter {
+            height: 80vh;
+            width: 100%;
+    
+            img {
+                width: 300px;
+            }
+        }
+    }
+    
+    section.golden-ratio {
+        padding: 50px 0;
+        gap: 40px;
+    
+        .titles {
+    
+            h1 {
+                font-size: 30px;
+                color: var(--primary);
+            }
+        
+            p {
+                font-size: 17px;
+                font-weight: 300;
+                width: 350px;
+                text-align: center;
+            }
+        }
+    
+        img.graph {
+            width: 300px;
+        }
+    
+        img.logo {
+            width: 300px;
+        }
+    }
+    
+    section.flags {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 0;
+        width: 350px;
+        margin: 0 auto;
+        gap: 40px;
+    
+        .web {
+            height: 80vh;
+        }
+    
+        .logo {
+            height: 80vh;
+    
+            img {
+                width: 200px;
+            }
+        }
+    }
 }

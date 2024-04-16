@@ -51,55 +51,6 @@ section.pricelyst-logo p {
   text-align: center;
 }
 
-.pricelyst-color-palette {
-  background-image: url(../../assets/images/Pages/pricelyst/pricelyst-color-palette.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.pricelyst-letterhead {
-  background-image: url(../../assets/images/Pages/pricelyst/pricelyst-letterhead.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.pricelyst-lightbox-sign {
-  background-image: url(../../assets/images/Pages/pricelyst/pricelyst-lightbox-sign.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.pricelyst-paper-logo {
-  background-image: url(../../assets/images/Pages/pricelyst/pricelyst-paper-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.pricelyst-ui-design {
-  background-image: url(../../assets/images/Pages/pricelyst/pricelyst-ui-design.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.pricelyst-wall-sign {
-  background-image: url(../../assets/images/Pages/pricelyst/pricelyst-wall-sign.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.pricelyst-webite-design {
-  background-image: url(../../assets/images/Pages/pricelyst/pricelyst-webite-design.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 @media (max-width: 768px) {
   section.pricelyst-logo {
     padding: 150px 0;

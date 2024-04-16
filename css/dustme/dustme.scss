@@ -20,72 +20,167 @@
     background-position: center;
 }
 
-.dustme-color-palette {
-    background-image: url(../../assets/images/Pages/dustme/dustme-color-palette.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid var(--secondary);
+section.colors {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 10px;
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 1000px;
+        gap: 20px;
+        margin: 0 auto;
+
+        .racing-green,
+        .apple-green,
+        .sage,
+        .milk {
+            height: 300px;
+            border-radius: 10px;
+            padding: 30px;
+
+            h2, p {
+                color: var(--white);
+            }
+
+            .title, .hex-code {
+                color: #004A2E;
+            }
+        }
+
+        .racing-green {
+            background-color: #004A2E;
+        }
+
+        .apple-green {
+            background-color: #79BB02;
+        }
+
+        .sage {
+            background-color: #BEBF93;
+        }
+
+        .milk {
+            background-color: #FFFFF5;
+            border: 1px solid rgba(0,0,0,0.3);
+        }
+    }
+
+    .main-color {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        .booger-buster {
+            background-color: #D0FF69;
+            height: 300px;
+            border-radius: 10px;
+            padding: 30px;
+
+            h2, p {
+                color: #004A2E;
+            }
+        }
+    }
 }
 
-.dustme-logo {
-    background-image: url(../../assets/images/Pages/dustme/dustme-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+@media (max-width: 1024px) {
+
+    .prime-drive-main-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    
+        img {
+            width: 500px;
+        }
+    }
+
+    section.colors {
+        padding: 50px 10px;
+    
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 700px;
+            gap: 20px;
+        }
+    
+        .main-color {
+            width: 700px;
+            margin: 0 auto;
+            margin-top: 20px;
+    
+            .teal-blue {
+                background-color: #2F7992;
+                height: 300px;
+                border-radius: 10px;
+                padding: 30px;
+            }
+        }
+    }
 }
 
-.dustme-bag {
-    background-image: url(../../assets/images/Pages/dustme/dustme-bag.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+@media (max-width: 768px) {
+
+    .prime-drive-main-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    
+        img {
+            width: 400px;
+        }
+    }
+
+    section.colors {
+        padding: 20px 10px;
+    
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 420px;
+            gap: 20px;
+        }
+    
+        .main-color {
+            width: 420px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
 }
 
-.dustme-indoor-banner {
-    background-image: url(../../assets/images/Pages/dustme/dustme-indoor-banner.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+@media (max-width: 425px) {
 
-.dustme-billboard {
-    background-image: url(../../assets/images/Pages/dustme/dustme-billboard.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    .prime-drive-main-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    
+        img {
+            width: 300px;
+        }
+    }
 
-.dustme-posters {
-    background-image: url(../../assets/images/Pages/dustme/dustme-posters.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.dustme-card {
-    background-image: url(../../assets/images/Pages/dustme/dustme-card.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.dustme-business-cards {
-    background-image: url(../../assets/images/Pages/dustme/dustme-business-cards.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.dustme-pin {
-    background-image: url(../../assets/images/Pages/dustme/dustme-pin.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.dustme-thank-you {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/Pages/dustme/cover-page-dustme.webp);background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    section.colors {
+        padding: 20px 10px;
+    
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 350px;
+            gap: 20px;
+        }
+    
+        .main-color {
+            width: 350px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
 }

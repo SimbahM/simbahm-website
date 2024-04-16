@@ -1,3 +1,11 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
 .hero-prime-drive {
   background-image: url(../../assets/images/Pages/prime-drive/prime-drive-logo-cover-page.webp);
   background-repeat: no-repeat;
@@ -5,107 +13,227 @@
   background-position: center;
 }
 
-.prime-drive-logo {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.prime-drive-main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.prime-drive-main-logo img {
+  width: 600px;
 }
 
-.prime-drive-cars {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-cars.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+section.colors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+section.colors .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1000px;
+  gap: 20px;
+  margin: 0 auto;
+}
+section.colors .grid .grayish-green,
+section.colors .grid .dark-grayish-green,
+section.colors .grid .dark-grayish-cyan,
+section.colors .grid .pine-tree {
+  height: 300px;
+  border-radius: 10px;
+  padding: 30px;
+}
+section.colors .grid .grayish-green h2, section.colors .grid .grayish-green p,
+section.colors .grid .dark-grayish-green h2,
+section.colors .grid .dark-grayish-green p,
+section.colors .grid .dark-grayish-cyan h2,
+section.colors .grid .dark-grayish-cyan p,
+section.colors .grid .pine-tree h2,
+section.colors .grid .pine-tree p {
+  color: var(--white);
+}
+section.colors .grid .grayish-green {
+  background-color: #CCD1C1;
+}
+section.colors .grid .dark-grayish-green {
+  background-color: #A0AC97;
+}
+section.colors .grid .dark-grayish-cyan {
+  background-color: #62736D;
+}
+section.colors .grid .pine-tree {
+  background-color: #2A2C1F;
+}
+section.colors .main-color {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+section.colors .main-color .cadet-grey {
+  background-color: #8FA4A5;
+  height: 300px;
+  border-radius: 10px;
+  padding: 30px;
+}
+section.colors .main-color .cadet-grey h2, section.colors .main-color .cadet-grey p {
+  color: var(--white);
 }
 
-.prime-drive-color-palette {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-color-palette.webp);
+section.quote {
+  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-car.webp);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  height: 100vh;
+}
+section.quote .image-filter {
+  height: inherit;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+section.quote .image-filter img {
+  width: 100px;
+}
+section.quote .image-filter p {
+  color: var(--white);
+  font-size: 34px;
+  width: 600px;
+  text-align: center;
 }
 
-.prime-drive-quote {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-quote.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 1024px) {
+  .prime-drive-main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .prime-drive-main-logo img {
+    width: 500px;
+  }
+  section.colors {
+    padding: 50px 10px;
+  }
+  section.colors .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+    gap: 20px;
+  }
+  section.colors .main-color {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  section.colors .main-color .teal-blue {
+    background-color: #2F7992;
+    height: 300px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  section.quote {
+    height: 80vh;
+  }
+  section.quote .image-filter {
+    height: inherit;
+    gap: 30px;
+  }
+  section.quote .image-filter img {
+    width: 100px;
+  }
+  section.quote .image-filter p {
+    color: var(--white);
+    font-size: 34px;
+    width: 600px;
+    text-align: center;
+  }
 }
-
-.prime-drive-logo-cover-page {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-logo-cover-page.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 768px) {
+  .prime-drive-main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  .prime-drive-main-logo img {
+    width: 400px;
+  }
+  section.colors {
+    padding: 20px 10px;
+  }
+  section.colors .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 420px;
+    gap: 20px;
+  }
+  section.colors .main-color {
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  section.quote {
+    height: 60vh;
+  }
+  section.quote .image-filter {
+    height: inherit;
+    gap: 30px;
+  }
+  section.quote .image-filter img {
+    width: 80px;
+  }
+  section.quote .image-filter p {
+    color: var(--white);
+    font-size: 28px;
+    width: 500px;
+    text-align: center;
+  }
 }
-
-.prime-drive-wool-logo {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-wool-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-indoor-billboard {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-indoor-billboard.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-billboard {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-billboard.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-bottle-drink {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-bottle-drink.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-pin {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-pin.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-wall-logo {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-wall-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-logo-sign {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-logo-sign.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-lanyard {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-lanyard.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-indoor-poster {
-  background-image: url(../../assets/images/Pages/prime-drive/prime-drive-indoor-poster.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.prime-drive-thank-you {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/prime-drive/prime-drive-wool-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 425px) {
+  .prime-drive-main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+  .prime-drive-main-logo img {
+    width: 300px;
+  }
+  section.colors {
+    padding: 20px 10px;
+  }
+  section.colors .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 350px;
+    gap: 20px;
+  }
+  section.colors .main-color {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  section.quote {
+    height: 60vh;
+  }
+  section.quote .image-filter {
+    height: inherit;
+    gap: 30px;
+  }
+  section.quote .image-filter img {
+    width: 80px;
+  }
+  section.quote .image-filter p {
+    color: var(--white);
+    font-size: 28px;
+    width: 300px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=prime-drive.css.map */

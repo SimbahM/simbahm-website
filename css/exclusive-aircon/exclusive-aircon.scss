@@ -1,101 +1,243 @@
 .hero-eac {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../../assets/images/Pages/eac/eac-cover-page.webp);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../../assets/images/Pages/eac/eac-cover-page.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-section.container {
-    height: 100vh;
+section.large-section-content {
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    .eac-container {
-        height: inherit;
+    i {
+        text-align: center;
+        font-size: 100px;
+        color: var(--secondary);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        color: var(--secondary);
+    }
+}
+
+section.eac-old-logo {
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 600px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        color: var(--secondary);
+        margin: 30px;
+    }
+}
+
+section.eac-old-and-new-logo {
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 600px;
+    }
+}
+
+section.app-icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+
+    .icon {
+        background-image: url(../../assets/images/Pages/eac/app-icon-design.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .frame {
+        background-color: #3BB5E6;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 50px;
-        width: 100%;
-
-        i {
-            font-size: 100px;
-            color: var(--secondary);
-            text-align: center;
-        }
 
         img {
-            width: 600px;
-            margin-bottom: 20px;
+            width: 150px;
         }
+    }
 
-        h1 {
-            text-align: center;
-            font-size: 50px;
-            color: var(--secondary);
+    .web {
+        background-image: url(../../assets/images/Pages/eac/eac-logo-website-design.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .logo {
+        background-color:var(--white);
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 100px;
         }
     }
 }
 
-.exclusive-aircon-main-logo {
-    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-main-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+@media (max-width: 1024px) {
 
-.exclusive-aircon-app-icon {
-    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-app-icon.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.exclusive-aircon-bottle-drinks {
-    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-bottle-drinks.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.exclusive-aircon-color-palette {
-    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-color-palette.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.exclusive-aircon-mug {
-    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-mug.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.exclusive-aircon-pins2 {
-    background-image: url(../../assets/images/Pages/eac/exclusive-aircon-pins2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    section.large-section-content {
+        padding: 100px 0;
+    
+        i {
+            font-size: 80px;
+        }
+    
+        h1 {
+            font-size: 40px;
+        }
+    }
+    
+    section.eac-old-logo {
+        padding: 100px 0;
+    
+        img {
+            width: 500px;
+        }
+    
+        h1 {
+            font-size: 40px;
+        }
+    }
+    
+    section.eac-old-and-new-logo {
+        padding: 100px 0;
+    
+        img {
+            width: 500px;
+        }
+    }
+    
+    section.app-icon {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 0;
+        width: 700px;
+        gap: 20px;
+    
+        .icon {
+            height: 80vh;
+        }
+    
+        .frame {
+            height: 80vh;
+    
+            img {
+                width: 150px;
+            }
+        }
+    
+        .web {
+            height: 80vh;
+        }
+    
+        .logo {
+            height: 80vh;
+    
+            img {
+                width: 80px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
+
+    section.large-section-content {
+
+        padding: 100px 0;
     
-    section.container {
-        height: 70vh;
+        i {
+            font-size: 80px;
+        }
     
-        .eac-container {
+        h1 {
+            font-size: 30px;
+        }
+    }
     
-            i {
-                font-size: 70px;
-            }
+    section.eac-old-logo {
+
+        padding: 100px 0;
+    
+        img {
+            width: 400px;
+        }
+    
+        h1 {
+            font-size: 40px;
+        }
+    }
+    
+    section.eac-old-and-new-logo {
+
+        padding: 100px 0;
+    
+        img {
+            width: 400px;
+        }
+    }
+    
+    section.app-icon {
+
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px 0;
+        width: 420px;
+        gap: 30px;
+    
+        .icon {
+            height: 80vh;
+        }
+    
+        .frame {
+            height: 80vh;
     
             img {
-                width: 400px;
-                margin-bottom: 20px;
+                width: 150px;
             }
+        }
     
-            h1 {
-                font-size: 40px;
+        .web {
+            height: 80vh;
+        }
+    
+        .logo {
+            height: 80vh;
+    
+            img {
+                width: 80px;
             }
         }
     }
@@ -103,29 +245,70 @@ section.container {
 
 @media (max-width: 425px) {
 
-    section.container {
-        height: 70vh;
+    section.large-section-content {
+
+        padding: 100px 0;
     
-        .eac-container {
+        i {
+            font-size: 80px;
+        }
     
-            i {
-                font-size: 70px;
-            }
+        h1 {
+            font-size: 30px;
+        }
+    }
+    
+    section.eac-old-logo {
+
+        padding: 100px 0;
+    
+        img {
+            width: 300px;
+        }
+    
+        h1 {
+            font-size: 40px;
+        }
+    }
+    
+    section.eac-old-and-new-logo {
+
+        padding: 100px 0;
+    
+        img {
+            width: 300px;
+        }
+    }
+    
+    section.app-icon {
+
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px 0;
+        width: 350px;
+        gap: 30px;
+    
+        .icon {
+            height: 80vh;
+        }
+    
+        .frame {
+            height: 80vh;
     
             img {
-                width: 350px;
-                margin-bottom: 20px;
+                width: 150px;
             }
+        }
     
-            h1 {
-                font-size: 30px;
+        .web {
+            height: 80vh;
+        }
+    
+        .logo {
+            height: 80vh;
+    
+            img {
+                width: 80px;
             }
         }
     }
-}
-
-.eac-thank-you {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/Pages/eac/eac-cover-page.webp);background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }

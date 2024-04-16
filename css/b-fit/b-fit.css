@@ -32,83 +32,36 @@ section.logo p {
   text-align: center;
 }
 
-.b-fit-logo-meaning {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-logo-meaning.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.water-bottles {
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.b-fit-logo-construction {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-logo-construction.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+@media (max-width: 1024px) {
+  section.logo {
+    padding: 100px 0;
+  }
+  section.logo img {
+    width: 500px;
+    margin: 70px;
+  }
+  section.logo img.logo-lockup {
+    width: 300px;
+  }
+  section.logo img.logo-lockup2 {
+    width: 200px;
+  }
+  section.logo img.logo-lockup3 {
+    width: 90px;
+  }
+  section.logo p {
+    font-size: 21px;
+    color: var(--gray);
+    width: 500px;
+    text-align: center;
+  }
 }
-
-.b-fit-business-cards {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-business-cards.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.b-fit-canvas-logo {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-canvas-logo.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.b-fit-collage {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-collage.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.b-fit-colors {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-colors.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.b-fit-images {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-images.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.b-fit-images2 {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-images2.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.b-fit-wall-posters {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-wall-posters.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.b-fit-water-bottle {
-  background-image: url(../../assets/images/Pages/b-fit/b-fit-water-bottle.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #dedede;
-}
-
 @media (max-width: 768px) {
   section.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 100px 0;
   }
   section.logo img {
@@ -116,28 +69,24 @@ section.logo p {
     margin: 70px;
   }
   section.logo img.logo-lockup {
-    width: 400px;
+    width: 300px;
   }
   section.logo img.logo-lockup2 {
-    width: 300px;
+    width: 200px;
   }
   section.logo img.logo-lockup3 {
-    width: 100px;
+    width: 90px;
   }
   section.logo p {
-    font-size: 17px;
+    font-size: 21px;
     color: var(--gray);
-    width: 300px;
+    width: 420px;
     text-align: center;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   section.logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
+    padding: 50px 0;
   }
   section.logo img {
     width: 300px;
@@ -150,18 +99,12 @@ section.logo p {
     width: 200px;
   }
   section.logo img.logo-lockup3 {
-    width: 70px;
+    width: 90px;
   }
   section.logo p {
-    font-size: 17px;
+    font-size: 21px;
     color: var(--gray);
-    width: 300px;
+    width: 350px;
     text-align: center;
   }
-}
-.b-fit-thank-you {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/b-fit/b-fit-cover-image.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }/*# sourceMappingURL=b-fit.css.map */

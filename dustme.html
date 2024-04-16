@@ -31,63 +31,7 @@
 
         <!-- Header  -->
 
-        <header>
-            <nav class="navigation-bar">
-                <div class="logo">
-                    <a href="./index.html">
-                        <img src="./assets/icons/simbahm-logo-white.png" alt="Simbah M Logo">
-                        <img class="mobile-logo" src="./assets/icons/simbahm-logo-mark.svg" alt="Simbah M Logo Icon">
-                    </a>
-                </div>
-                <div class="nav-items">
-                    <ul class="desktop-menu">
-                        <li>
-                            <a href="./work.html">Work</a>
-                        </li>
-                        <li>
-                            <a href="./about-me.html">About</a>
-                        </li>
-                        <li>
-                            <a href="./contact-me.html">Contact</a>
-                        </li>
-                    </ul>
-
-                    <ul class="mobile-menu">
-                        <li>
-                            <a href="./work.html">Work</a>
-                        </li>
-                        <li>
-                            <a href="./about-me.html">About</a>
-                        </li>
-                        <li>
-                            <a href="./contact-me.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="social-media">
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/simbarashe-madungwe-5b454ab6/" target="_blank">
-                                <img src="./assets/icons/linkedin.svg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.behance.net/simbah_design" target="_blank">
-                                <img src="./assets/icons/behance.svg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/simbah.design/" target="_blank">
-                                <img src="./assets/icons/instagram.svg" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="hamburger-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
-        </header>
+        <special-header></special-header>
 
         <!-- Page Content  -->
 
@@ -114,36 +58,93 @@
             </div>
         </section>
 
-        <section class="projects">
-            <div class="work dustme-main-logo"></div>
-            <div class="work dustme-cleaning"></div>
-            <div class="work dustme-color-palette"></div>
-            <div class="work dustme-logo"></div>
-            <div class="work dustme-bag"></div>
-            <div class="work dustme-indoor-banner"></div>
-            <div class="work dustme-billboard"></div>
-            <div class="work dustme-billboard"></div>
-            <div class="work dustme-posters"></div>
-            <div class="work dustme-card"></div>
-            <div class="work dustme-business-cards"></div>
-            <div class="work dustme-pin"></div>
+        <section class="colors">
+            <div class="grid">
+                <div class="racing-green">
+                    <h2>Racing Green</h2>
+                    <p>#004A2E</p>
+                </div>
+                <div class="apple-green">
+                    <h2>Apple Green</h2>
+                    <p>#79BB02</p>
+                </div>
+                <div class="sage">
+                    <h2 class="title">Sage</h2>
+                    <p class="hex-code
+                    ">#BEBF93</p>
+                </div>
+                <div class="milk">
+                    <h2 class="title">Milk</h2>
+                    <p class="hex-code">#FFFFF5</p>
+                </div>
+            </div>
+            <div class="main-color">
+                <div class="booger-buster">
+                    <h2 class="title">Booger Buster</h2>
+                    <p class="hex-code">#D0FF69</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-cleaning.webp" alt="Cleaning Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-logo.webp" alt="Wool Logo Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-bag.webp" alt="Bag Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-indoor-banner.webp" alt="Indoor Banner Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-billboard.webp" alt="Billboard Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-posters.webp" alt="Wall Poster Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-card.webp" alt="Card Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-business-cards.webp" alt="Business Cards Mockup">
+            </div>
+        </section>
+
+        <section class="works">
+            <div class="img-container">
+                <img src="./assets/images/Pages/dustme/dustme-pin.webp" alt="Pins Mockup">
+            </div>
         </section>
 
         <!-- Footer  -->
 
-        <div class="footer dustme-thank-you">
-            <h2>
-                Thank You.
-            </h2>
-            <div class="footer-items">
-                <a href="./about-me.html">Simbah M @ 2024</a>
-                <a href="./work.html">My Work</a>
-                <a href="./about-me.html">About Me</a>
-                <a href="./contact-me.html">Contact Me</a>
-            </div>
-        </div>
+        <special-footer></special-footer>
         
         
-        <script src="" async defer></script>
+        <script src="./src-js/headerFooterManager.js" async defer></script>
     </body>
 </html>

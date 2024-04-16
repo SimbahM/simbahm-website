@@ -26,25 +26,19 @@ section.niche-logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px 0;
+    padding: 150px 0 200px 0;
 
     img {
         width: 600px;
-        margin: 70px;
     }
-}
-
-.niche-logo-construction {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-construction.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 section.colors {
     display: flex;
     flex-direction: column;
-    padding: 100px 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 
     .grid {
         display: grid;
@@ -105,150 +99,143 @@ section.colors {
     }
 }
 
-.niche-logo-poster {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-poster.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid rgb(216, 216, 216);
-}
-
-section.logo-with-teal-bg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+section.posters {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
     align-items: center;
-    height: 100vh;
-    background-color: #2F7992;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 100px 0;
 
-    img {
-        width: 600px;
-        margin: 70px;
+    .logic-poster {
+        background-image: url(../../assets/images/Pages/niche/logi-computer-mouse.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .man-poster {
+        background-image: url(../../assets/images/Pages/niche/african-american-man.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logic-poster,
+    .man-poster {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 20px;
+
+        .logo-symbol {
+
+            img {
+                width: 350px;
+                margin-bottom: 70px;
+            }
+        }
+
+        .meta-data {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+
+            .logo {
+                width: 150px;
+            }
+
+            .quorts {
+                width: 50px;
+            }
+
+            p {
+                color: var(--white);
+                font-size: 21px;
+            }
+        }
     }
 }
 
-section.square-grids {
+section.logo-on-blue-bg {
+    background-color: #2F7996;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+
+    img {
+        width: 700px;
+    }
+}
+
+section.grid-ads {
+    padding: 100px 0;
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+section.building-logo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    padding: 100px 0;
     width: 1000px;
     margin: 0 auto;
-    padding: 200px 0;
-}
+    gap: 20px;
 
-.niche-logo-shop-wall-logo {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-shop-wall-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    .building {
+        background-image: url(../../assets/images/Pages/niche/niche-logo-on-building.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex: 1;
+        height: 700px;
+    }
 
-.niche-logo-business-cards {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-business-cards.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-card {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-card.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-paper-logo {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-paper-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-card-logo {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-card-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-water-bottle {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-water-bottle.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-pins {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-pins.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-company-wall-logo {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-company-wall-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-wall-logo {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-wall-logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-seal-tap {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-seal-tap.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-logo-pull-up-banner {
-    background-image: url(../../assets/images/Pages/niche/niche-logo-pull-up-banner.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.niche-thank-you {
-    background-image: linear-gradient(to bottom, rgba(10,45,106,0.3), rgba(10,45,106,0.3)), url(../../assets/images/Pages/niche/niche-logo-thank-you.webp);background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    .logi {
+        background-image: url(../../assets/images/Pages/niche/logi-computer-mouses.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex: 1;
+        height: 700px;
+    }
 }
 
 @media (max-width: 1024px) {
 
-    section.colors {
+    section.niche-logo {
         display: flex;
         flex-direction: column;
-        padding: 0 20px 100px 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0 100px 0;
+    
+        img {
+            width: 500px;
+            margin: 70px;
+        }
+    }
+
+    section.colors {
+        padding: 50px 10px;
     
         .grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             width: 700px;
             gap: 20px;
-            margin: 0 auto;
-    
-            .charleston-green,
-            .feldgraun,
-            .yellow-green-crayola,
-            .maximum-green {
-                height: 300px;
-                border-radius: 10px;
-                padding: 30px;
-    
-                h2, p {
-                    color: var(--white);
-                }
-    
-                .title, .hex-code {
-                    color: #262B28;
-                }
-            }
         }
     
         .main-color {
@@ -261,28 +248,99 @@ section.square-grids {
                 height: 300px;
                 border-radius: 10px;
                 padding: 30px;
+            }
+        }
+    }
+
+    section.posters {
+        width: 700px;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 50px 0;
     
-                h2, p {
+        .logic-poster,
+        .man-poster {
+            height: 600px;
+            padding: 20px;
+    
+            .logo-symbol {
+    
+                img {
+                    width: 250px;
+                    margin-bottom: 70px;
+                }
+            }
+    
+            .meta-data {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 20px;
+    
+                .logo {
+                    width: 150px;
+                }
+    
+                .quorts {
+                    width: 50px;
+                }
+    
+                p {
                     color: var(--white);
+                    font-size: 17px;
+                    width: 300px;
                 }
             }
         }
     }
 
-    section.square-grids {
+    section.logo-on-blue-bg {
+        margin: 50px 0;
+    
+        img {
+            width: 500px;
+        }
+    }
+
+    section.grid-ads {
+        padding: 50px 10px;
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 700px;
+            margin: 0 auto;
+        }
+    }
+
+    section.building-logo {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        padding: 50px 10px;
         width: 700px;
         margin: 0 auto;
-        padding: 100px 0;
+        gap: 20px;
+    
+        .building {
+            height: 500px;
+        }
+    
+        .logi {
+            height: 500px;
+        }
     }
 }
 
 @media (max-width: 768px) {
 
     section.niche-logo {
-        padding: 0 0 100px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0 50px 0;
     
         img {
             width: 400px;
@@ -291,56 +349,91 @@ section.square-grids {
     }
 
     section.colors {
-        display: none;
-    }
-
-    section.logo-with-teal-bg {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #2F7992;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        height: 80vh;
+        padding: 10px 10px;
     
-        img {
-            width: 400px;
-            margin: 70px;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 420px;
+            gap: 20px;
+        }
+    
+        .main-color {
+            width: 420px;
+            margin: 0 auto;
+            margin-top: 20px;
         }
     }
 
-    section.square-grids {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-
-    section.niche-logo {
-        padding: 0 0 100px 0;
+    section.posters {
+        width: 420px;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px 0;
     
-        img {
-            width: 300px;
-            margin: 70px;
+        .logic-poster,
+        .man-poster {
+            height: 600px;
+            padding: 20px;
+    
+            .logo-symbol {
+    
+                img {
+                    width: 250px;
+                    margin-bottom: 70px;
+                }
+            }
         }
     }
 
-    section.colors {
-        display: none;
-    }
-
-    section.logo-with-teal-bg {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #2F7992;
-        margin: 0 auto;
-        margin-bottom: 10px;
+    section.logo-on-blue-bg {
         height: 70vh;
+        margin: 20px 0;
+    
+        img {
+            width: 420px;
+        }
+    }
+
+    section.grid-ads {
+        padding: 20px 10px;
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            width: 420px;
+            margin: 0 auto;
+        }
+    }
+
+    section.building-logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 10px;
+        width: 440px;
+        margin: 0 auto;
+        gap: 20px;
+    
+        .building {
+            height: 500px;
+        }
+    
+        .logi {
+            height: 500px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.niche-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0 50px 0;
     
         img {
             width: 300px;
@@ -348,7 +441,80 @@ section.square-grids {
         }
     }
 
-    section.square-grids {
-        display: none;
+    section.colors {
+        padding: 10px 10px;
+    
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 350px;
+            gap: 20px;
+        }
+    
+        .main-color {
+            width: 350px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+
+    section.posters {
+        width: 350px;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px 0;
+    
+        .logic-poster,
+        .man-poster {
+            height: 600px;
+            padding: 20px;
+    
+            .logo-symbol {
+    
+                img {
+                    width: 250px;
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+
+    section.logo-on-blue-bg {
+        height: 70vh;
+        margin: 20px 0;
+    
+        img {
+            width: 200px;
+        }
+    }
+
+    section.grid-ads {
+        padding: 20px 10px;
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            width: 350px;
+            margin: 0 auto;
+        }
+    }
+
+    section.building-logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 10px;
+        width: 350px;
+        margin: 0 auto;
+        gap: 20px;
+    
+        .building {
+            height: 500px;
+        }
+    
+        .logi {
+            height: 500px;
+        }
     }
 }
