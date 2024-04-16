@@ -8,7 +8,7 @@ section.home-projects {
     gap: 10px;
 
     h1 {
-        font-size: 70px;
+        font-size: 60px;
         color: var(--white);
         text-align: center;
     }
@@ -32,103 +32,28 @@ section.home-projects {
     }
 }
 
-@media (max-width: 1024px) {
-
-    section.home-projects {
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        padding-bottom: 50px;
-        gap: 10px;
-    
-        h1 {
-            font-size: 50px;
-            color: var(--white);
-        }
-    
-        span {
-            color: var(--acent);
-            font-size: 17px;
-            margin-bottom: 10px;
-        }
-    
-        p {
-            font-size: 21px;
-            color: var(--white);
-        }
-    
-        .scrolldown {
-            display: none;
-        }
-    }
+section.new-project {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-cover-image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-
-    section.home-projects {
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        padding-bottom: 50px;
-        gap: 10px;
-    
-        h1 {
-            font-size: 50px;
-            color: var(--white);
-        }
-    
-        span {
-            color: var(--acent);
-            font-size: 17px;
-            margin-bottom: 10px;
-        }
-    
-        p {
-            font-size: 21px;
-            color: var(--white);
-        }
-    
-        .scrolldown {
-            display: none;
-        }
-    }
+section.nmb-website {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.8)), url(../assets/images/home-page/nmb-bank-website.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 
-@media (max-width: 425px) {
-
-    section.home-projects {
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        padding-bottom: 30px;
-        gap: 3px;
-    
-        h1 {
-            font-size: 50px;
-            color: var(--white);
-        }
-    
-        span {
-            color: var(--acent);
-            font-size: 17px;
-            margin-bottom: 10px;
-        }
-    
-        p {
-            font-size: 21px;
-            color: var(--white);
-        }
-    
-        .scrolldown {
-            display: none;
-        }
-    }
+section.car-guvi {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/car-guvi-logo-on-card.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 
 section.grid-container {
@@ -159,7 +84,65 @@ section.grid-container {
     }
 }
 
+.prime-drive {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/prime-drive-logo.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.niche {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/niche-logo-cover-image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dustme {
+    background-image: url(../assets/images/home-page/dust-me-logo.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.eac {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../assets/images/home-page/exclusive-aircon-bottle-drinks.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 @media (max-width: 1024px) {
+
+    section.home-projects {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 50px;
+        gap: 10px;
+    
+        h1 {
+            font-size: 40px;
+            color: var(--white);
+        }
+    
+        span {
+            color: var(--acent);
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+    
+        p {
+            font-size: 21px;
+            color: var(--white);
+        }
+    
+        .scrolldown {
+            display: none;
+        }
+    }
 
     section.grid-container {
     
@@ -186,6 +169,36 @@ section.grid-container {
 }
 
 @media (max-width: 768px) {
+
+    section.home-projects {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 50px;
+        gap: 10px;
+    
+        h1 {
+            font-size: 40px;
+            color: var(--white);
+        }
+    
+        span {
+            color: var(--acent);
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+    
+        p {
+            font-size: 21px;
+            color: var(--white);
+        }
+    
+        .scrolldown {
+            display: none;
+        }
+    }
 
     section.grid-container {
         grid-template-columns: repeat(1, 1fr);
@@ -215,6 +228,36 @@ section.grid-container {
 
 @media (max-width: 425px) {
 
+    section.home-projects {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 30px;
+        gap: 3px;
+    
+        h1 {
+            font-size: 40px;
+            color: var(--white);
+        }
+    
+        span {
+            color: var(--acent);
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+    
+        p {
+            font-size: 21px;
+            color: var(--white);
+        }
+    
+        .scrolldown {
+            display: none;
+        }
+    }
+
     section.grid-container {
         grid-template-columns: repeat(1, 1fr);
         margin: 10px 0;
@@ -239,63 +282,4 @@ section.grid-container {
             }
         }
     }
-}
-
-section.new-project {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-cover-image.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 10px;
-}
-
-section.nmb-website {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.8)), url(../assets/images/home-page/nmb-bank-website.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 10px;
-}
-
-section.car-guvi {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/car-guvi-logo-on-card.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 10px;
-}
-
-.prime-drive {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/prime-drive-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.niche {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/niche-logo-cover-image.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.dustme {
-    background-image: url(../assets/images/home-page/dust-me-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.eac {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../assets/images/home-page/exclusive-aircon-bottle-drinks.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.louis {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../assets/images/home-page/louis-kitchens-metalic-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }

@@ -8,7 +8,7 @@ section.home-projects {
   gap: 10px;
 }
 section.home-projects h1 {
-  font-size: 70px;
+  font-size: 60px;
   color: var(--white);
   text-align: center;
 }
@@ -28,87 +28,30 @@ section.home-projects .scrolldown {
   margin-top: 20px;
 }
 
-@media (max-width: 1024px) {
-  section.home-projects {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 10px;
-  }
-  section.home-projects h1 {
-    font-size: 50px;
-    color: var(--white);
-  }
-  section.home-projects span {
-    color: var(--acent);
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-  section.home-projects p {
-    font-size: 21px;
-    color: var(--white);
-  }
-  section.home-projects .scrolldown {
-    display: none;
-  }
+section.new-project {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-cover-image.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
 }
-@media (max-width: 768px) {
-  section.home-projects {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 10px;
-  }
-  section.home-projects h1 {
-    font-size: 50px;
-    color: var(--white);
-  }
-  section.home-projects span {
-    color: var(--acent);
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-  section.home-projects p {
-    font-size: 21px;
-    color: var(--white);
-  }
-  section.home-projects .scrolldown {
-    display: none;
-  }
+
+section.nmb-website {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/nmb-bank-website.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
 }
-@media (max-width: 425px) {
-  section.home-projects {
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 30px;
-    gap: 3px;
-  }
-  section.home-projects h1 {
-    font-size: 50px;
-    color: var(--white);
-  }
-  section.home-projects span {
-    color: var(--acent);
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-  section.home-projects p {
-    font-size: 21px;
-    color: var(--white);
-  }
-  section.home-projects .scrolldown {
-    display: none;
-  }
+
+section.car-guvi {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/car-guvi-logo-on-card.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
 }
+
 section.grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -132,95 +75,6 @@ section.grid-container .project h1 {
 section.grid-container .project p {
   color: var(--white);
   font-size: 20px;
-}
-
-@media (max-width: 1024px) {
-  section.grid-container .project {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 5px;
-  }
-  section.grid-container .project h1 {
-    color: var(--white);
-    font-size: 40px;
-  }
-  section.grid-container .project p {
-    color: var(--white);
-    font-size: 20px;
-  }
-}
-@media (max-width: 768px) {
-  section.grid-container {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 10px 0;
-  }
-  section.grid-container .project {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 5px;
-  }
-  section.grid-container .project h1 {
-    color: var(--white);
-    font-size: 40px;
-  }
-  section.grid-container .project p {
-    color: var(--white);
-    font-size: 20px;
-  }
-}
-@media (max-width: 425px) {
-  section.grid-container {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 10px 0;
-  }
-  section.grid-container .project {
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 30px;
-    gap: 5px;
-  }
-  section.grid-container .project h1 {
-    color: var(--white);
-    font-size: 40px;
-  }
-  section.grid-container .project p {
-    color: var(--white);
-    font-size: 20px;
-  }
-}
-section.new-project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-cover-image.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 10px;
-}
-
-section.nmb-website {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/nmb-bank-website.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 10px;
-}
-
-section.car-guvi {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/car-guvi-logo-on-card.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 10px;
 }
 
 .prime-drive {
@@ -251,9 +105,143 @@ section.car-guvi {
   background-size: cover;
 }
 
-.louis {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/louis-kitchens-metalic-logo.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+@media (max-width: 1024px) {
+  section.home-projects {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 10px;
+  }
+  section.home-projects h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+  section.home-projects span {
+    color: var(--acent);
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  section.home-projects p {
+    font-size: 21px;
+    color: var(--white);
+  }
+  section.home-projects .scrolldown {
+    display: none;
+  }
+  section.grid-container .project {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 5px;
+  }
+  section.grid-container .project h1 {
+    color: var(--white);
+    font-size: 40px;
+  }
+  section.grid-container .project p {
+    color: var(--white);
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  section.home-projects {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 10px;
+  }
+  section.home-projects h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+  section.home-projects span {
+    color: var(--acent);
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  section.home-projects p {
+    font-size: 21px;
+    color: var(--white);
+  }
+  section.home-projects .scrolldown {
+    display: none;
+  }
+  section.grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 0;
+  }
+  section.grid-container .project {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 5px;
+  }
+  section.grid-container .project h1 {
+    color: var(--white);
+    font-size: 40px;
+  }
+  section.grid-container .project p {
+    color: var(--white);
+    font-size: 20px;
+  }
+}
+@media (max-width: 425px) {
+  section.home-projects {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 3px;
+  }
+  section.home-projects h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+  section.home-projects span {
+    color: var(--acent);
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  section.home-projects p {
+    font-size: 21px;
+    color: var(--white);
+  }
+  section.home-projects .scrolldown {
+    display: none;
+  }
+  section.grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 0;
+  }
+  section.grid-container .project {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 5px;
+  }
+  section.grid-container .project h1 {
+    color: var(--white);
+    font-size: 40px;
+  }
+  section.grid-container .project p {
+    color: var(--white);
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=index.css.map */
