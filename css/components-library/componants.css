@@ -164,13 +164,13 @@ section.hero .hero-metadata .hero-page-text {
   color: var(--gray);
 }
 
-section.works {
+section.work {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 100px 10px;
 }
-section.works .img-container {
+section.work .img-container {
   width: 1000px;
   margin: 0 auto;
 }
@@ -189,10 +189,10 @@ section.works .img-container {
   section.hero .hero-metadata .hero-page-text {
     font-size: 20px;
   }
-  section.works {
+  section.work {
     padding: 50px 10px;
   }
-  section.works .img-container {
+  section.work .img-container {
     width: 700px;
     margin: 0 auto;
   }
@@ -211,10 +211,10 @@ section.works .img-container {
   section.hero .hero-metadata .hero-page-text {
     font-size: 20px;
   }
-  section.works {
+  section.work {
     padding: 20px 10px;
   }
-  section.works .img-container {
+  section.work .img-container {
     width: 420px;
     margin: 0 auto;
   }
@@ -233,10 +233,10 @@ section.works .img-container {
   section.hero .hero-metadata .hero-page-text {
     font-size: 17px;
   }
-  section.works {
+  section.work {
     padding: 20px 10px;
   }
-  section.works .img-container {
+  section.work .img-container {
     width: 350px;
     margin: 0 auto;
   }
