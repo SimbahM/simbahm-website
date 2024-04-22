@@ -44,8 +44,8 @@ section.nmb-website {
   margin-bottom: 10px;
 }
 
-section.car-guvi {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/car-guvi-logo-on-card.webp);
+section.niche {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/niche-logo-card-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -55,9 +55,9 @@ section.car-guvi {
 section.grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  margin: 0 10px;
+  margin: 10px 10px;
   margin-bottom: 10px;
+  gap: 10px;
 }
 section.grid-container .project {
   height: 90vh;
@@ -78,14 +78,14 @@ section.grid-container .project p {
 }
 
 .prime-drive {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/prime-drive-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/prime-drive-car.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.niche {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/niche-logo-cover-image.webp);
+.car-guvi {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/car-guvi-logo-on-card.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
