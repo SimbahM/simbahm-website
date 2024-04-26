@@ -77,19 +77,6 @@ class SpecialFooter extends HTMLElement {
     }
 }
 
-class SpecialThankYouFooter extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-        <footer>
-            <a href="./about-me.html">Simbah M @ 2024</a>
-            <a href="./work.html">My Work</a>
-            <a href="./about-me.html">About Me</a>
-            <a href="./contact-me.html">Contact Me</a>
-        </footer>
-        `
-    }
-}
-
 customElements.define('special-header', SpecialHeader)
 customElements.define('special-footer', SpecialFooter)
 customElements.define('special-thank-you-footer', SpecialThankYouFooter)

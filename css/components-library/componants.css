@@ -89,6 +89,25 @@ h1, h2 {
   border-top: 3px rgb(255, 255, 255) solid;
 }
 
+.dark-button {
+  text-decoration: none;
+  background-color: var(--secondary);
+  border-top: 3px solid var(--primary);
+  color: var(--white);
+  font-size: 14px;
+  padding: 13px 55px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 1px;
+  transition: all 0.3s ease 0s;
+}
+.dark-button:hover {
+  background-color: var(--primary);
+  border-top: 3px solid var(--secondary);
+  color: var(--acent);
+}
+
 @media (max-width: 425px) {
   .button {
     font-size: 13px;
@@ -361,6 +380,11 @@ section.project-header .project-header-content h1.project-title {
   font-family: Simbah M;
   color: var(--secondary);
 }
+section.project-header .project-header-content h2.sub-project-title {
+  font-size: 30px;
+  font-family: Simbah M;
+  color: var(--secondary);
+}
 section.project-header .project-header-content h3.project-title {
   font-size: 30px;
   font-family: Simbah M;
@@ -411,6 +435,11 @@ section.project-header .project-header-content .project-description .tags {
   section.project-header .project-header-content h1.project-title {
     font-size: 50px;
   }
+  section.project-header .project-header-content h2.sub-project-title {
+    font-size: 20px;
+    font-family: Simbah M;
+    color: var(--secondary);
+  }
   section.project-header .project-header-content .project-description p {
     font-size: 17px;
     margin-bottom: 20px;
@@ -427,6 +456,11 @@ section.project-header .project-header-content .project-description .tags {
   }
   section.project-header .project-header-content h1.project-title {
     font-size: 40px;
+  }
+  section.project-header .project-header-content h2.sub-project-title {
+    font-size: 20px;
+    font-family: Simbah M;
+    color: var(--secondary);
   }
   section.project-header .project-header-content .project-description p {
     font-size: 17px;
