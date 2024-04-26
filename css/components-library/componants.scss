@@ -96,8 +96,8 @@ h1, h2 {
 
 .dark-button {
     text-decoration: none;
-    background-color: var(--secondary);
-    border-top: 3px solid #406183;
+    background-color: #314a63;
+    border-top: 3px solid var(--primary);
     color: var(--white);
     font-size: 14px;
     padding: 13px 55px;
@@ -109,7 +109,7 @@ h1, h2 {
 
     &:hover {
         background-color: var(--primary);
-        border-top: 3px solid var(--secondary);
+        border-top: 3px solid #577ca2;
         color: var(--acent);
     }
 }
