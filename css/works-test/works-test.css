@@ -1,0 +1,13 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
+div.top-bar {
+  background-color: #1B2F3F;
+  height: 50vh;
+  margin-top: 300px;
+}/*# sourceMappingURL=works-test.css.map */

@@ -183,15 +183,18 @@ section.hero .hero-metadata .hero-page-text {
   color: var(--gray);
 }
 
-section.works {
+section.hero-works-section {
+  display: flex;
+  padding: 200px 15px;
+}
+section.hero-works-section .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 100px 10px;
-}
-section.works .img-container {
   width: 1000px;
   margin: 0 auto;
+  gap: 200px;
 }
 
 @media (max-width: 1024px) {
@@ -208,12 +211,18 @@ section.works .img-container {
   section.hero .hero-metadata .hero-page-text {
     font-size: 20px;
   }
-  section.works {
-    padding: 50px 10px;
+  section.hero-works-section {
+    display: flex;
+    padding: 20px 15px;
   }
-  section.works .img-container {
-    width: 700px;
+  section.hero-works-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
     margin: 0 auto;
+    gap: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -230,13 +239,6 @@ section.works .img-container {
   section.hero .hero-metadata .hero-page-text {
     font-size: 20px;
   }
-  section.works {
-    padding: 20px 10px;
-  }
-  section.works .img-container {
-    width: 420px;
-    margin: 0 auto;
-  }
 }
 @media (max-width: 425px) {
   section.hero {
@@ -251,13 +253,6 @@ section.works .img-container {
   }
   section.hero .hero-metadata .hero-page-text {
     font-size: 17px;
-  }
-  section.works {
-    padding: 20px 10px;
-  }
-  section.works .img-container {
-    width: 350px;
-    margin: 0 auto;
   }
 }
 section.projects-hero {
@@ -331,6 +326,7 @@ section.projects-hero p, section.projects-hero i {
     gap: 15px;
   }
   section.projects-hero img {
+    display: none;
     width: 250px;
     margin-bottom: 20px;
     opacity: 0.5;
@@ -487,9 +483,9 @@ section.ui-projects .container .uiux-project {
 section.colors-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  margin: 100px 10px;
-  width: 1000px;
+  gap: 20px;
+  padding: 200px 15px 0 15px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 section.colors-container .colors {
@@ -498,7 +494,6 @@ section.colors-container .colors {
   flex-direction: column;
   position: relative;
   padding: 30px 20px;
-  margin-bottom: 100px;
 }
 section.colors-container .colors p.title {
   position: absolute;
@@ -516,9 +511,7 @@ section.colors-container .colors p {
 @media (max-width: 1024px) {
   section.colors-container {
     display: grid;
-    gap: 10px;
     margin: 50px 10px;
-    width: 700px;
     margin: 0 auto;
   }
   section.colors-container .colors {
@@ -527,7 +520,6 @@ section.colors-container .colors p {
     flex-direction: column;
     position: relative;
     padding: 30px 20px;
-    margin-bottom: 50px;
   }
   section.colors-container .colors p.title {
     position: absolute;
@@ -546,9 +538,7 @@ section.colors-container .colors p {
   section.colors-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
     margin: 50px 10px;
-    width: 420px;
     margin: 0 auto;
   }
   section.colors-container .colors {
@@ -557,7 +547,6 @@ section.colors-container .colors p {
     flex-direction: column;
     position: relative;
     padding: 30px 20px;
-    margin-bottom: 0px;
   }
   section.colors-container .colors p.title {
     position: absolute;
@@ -576,9 +565,7 @@ section.colors-container .colors p {
   section.colors-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
     margin: 50px 10px;
-    width: 350px;
     margin: 0 auto;
   }
   section.colors-container .colors {
@@ -587,7 +574,6 @@ section.colors-container .colors p {
     flex-direction: column;
     position: relative;
     padding: 30px 20px;
-    margin-bottom: 0px;
   }
   section.colors-container .colors p.title {
     position: absolute;

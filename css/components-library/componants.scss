@@ -204,15 +204,18 @@ section.hero {
     }
 }
 
-section.works {
+section.hero-works-section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 10px;
+    padding: 200px 15px;
 
-    .img-container {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 1000px;
         margin: 0 auto;
+        gap: 200px;
     }
 }
 
@@ -235,12 +238,18 @@ section.works {
         }
     }
 
-    section.works {
-        padding: 50px 10px;
+    section.hero-works-section {
+        display: flex;
+        padding: 20px 15px;
     
-        .img-container {
-            width: 700px;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 1000px;
             margin: 0 auto;
+            gap: 20px;
         }
     }
 }
@@ -263,15 +272,6 @@ section.works {
             }
         }
     }
-
-    section.works {
-        padding: 20px 10px;
-    
-        .img-container {
-            width: 420px;
-            margin: 0 auto;
-        }
-    }
 }
 
 @media (max-width: 425px) {
@@ -290,15 +290,6 @@ section.works {
             .hero-page-text {
                 font-size: 17px;
             }
-        }
-    }
-
-    section.works {
-        padding: 20px 10px;
-    
-        .img-container {
-            width: 350px;
-            margin: 0 auto;
         }
     }
 }
@@ -391,6 +382,7 @@ section.projects-hero {
         gap: 15px;
 
         img {
+            display: none;
             width: 250px;
             margin-bottom: 20px;
             opacity: .5;
@@ -601,9 +593,9 @@ section.ui-projects {
 section.colors-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin: 100px 10px;
-    width: 1000px;
+    gap: 20px;
+    padding: 200px 15px 0 15px;
+    max-width: 1000px;
     margin: 0 auto;
 
     .colors {
@@ -612,7 +604,6 @@ section.colors-container {
         flex-direction: column;
         position: relative;
         padding: 30px 20px;
-        margin-bottom: 100px;
 
         p.title {
             position: absolute;
@@ -634,9 +625,7 @@ section.colors-container {
 
     section.colors-container {
         display: grid;
-        gap: 10px;
         margin: 50px 10px;
-        width: 700px;
         margin: 0 auto;
     
         .colors {
@@ -645,7 +634,6 @@ section.colors-container {
             flex-direction: column;
             position: relative;
             padding: 30px 20px;
-            margin-bottom: 50px;
     
             p.title {
                 position: absolute;
@@ -669,9 +657,7 @@ section.colors-container {
     section.colors-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
         margin: 50px 10px;
-        width: 420px;
         margin: 0 auto;
     
         .colors {
@@ -680,7 +666,6 @@ section.colors-container {
             flex-direction: column;
             position: relative;
             padding: 30px 20px;
-            margin-bottom: 0px;
     
             p.title {
                 position: absolute;
@@ -704,9 +689,7 @@ section.colors-container {
     section.colors-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
         margin: 50px 10px;
-        width: 350px;
         margin: 0 auto;
     
         .colors {
@@ -715,7 +698,6 @@ section.colors-container {
             flex-direction: column;
             position: relative;
             padding: 30px 20px;
-            margin-bottom: 0px;
     
             p.title {
                 position: absolute;

@@ -18,7 +18,7 @@ section.main-logo {
 }
 
 section.b-fit-vest-and-water-botlle {
-    padding: 200px 0;
+    padding: 200px 0 50px 0;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -84,7 +84,9 @@ section.logo-color-varietions {
 section.logo-lockup {
     display: flex;
     flex-direction: column;
-    padding: 400px 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     align-items: center;
 
     p {
@@ -127,7 +129,7 @@ section.logo-lockup {
     }
 
     section.b-fit-vest-and-water-botlle {
-        padding: 200px 0;
+        padding: 200px 0 50px 0;
     
         img.vest {
             width: 500px;
@@ -220,7 +222,7 @@ section.logo-lockup {
     }
 
     section.b-fit-vest-and-water-botlle {
-        padding: 200px 0;
+        padding: 200px 0 50px 0;
     
         img.vest {
             width: 400px;
@@ -314,7 +316,7 @@ section.logo-lockup {
     }
 
     section.b-fit-vest-and-water-botlle {
-        padding: 100px 0;
+        padding: 100px 0 50px 0;
     
         img.vest {
             width: 350px;

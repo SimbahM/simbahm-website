@@ -24,17 +24,13 @@
 }
 
 section.colors {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 100px 0;
+  padding: 100px 20px 200px 20px;
 }
 section.colors .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 1000px;
   gap: 20px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 section.colors .grid .grayish-green,
@@ -67,7 +63,7 @@ section.colors .grid .pine-tree {
   background-color: #2A2C1F;
 }
 section.colors .main-color {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -101,10 +97,10 @@ section.quote .image-filter {
 section.quote .image-filter img {
   width: 100px;
 }
-section.quote .image-filter p {
+section.quote .image-filter h1 {
   color: var(--white);
-  font-size: 34px;
-  width: 600px;
+  font-size: 50px;
+  width: 800px;
   text-align: center;
 }
 
@@ -119,16 +115,14 @@ section.quote .image-filter p {
     width: 500px;
   }
   section.colors {
-    padding: 50px 10px;
+    padding: 100px 20px 20px 20px;
   }
   section.colors .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 700px;
     gap: 20px;
   }
   section.colors .main-color {
-    width: 700px;
     margin: 0 auto;
     margin-top: 20px;
   }
@@ -148,7 +142,7 @@ section.quote .image-filter p {
   section.quote .image-filter img {
     width: 100px;
   }
-  section.quote .image-filter p {
+  section.quote .image-filter h1 {
     color: var(--white);
     font-size: 34px;
     width: 600px;
@@ -166,16 +160,14 @@ section.quote .image-filter p {
     width: 400px;
   }
   section.colors {
-    padding: 20px 10px;
+    padding: 100px 20px 20px 20px;
   }
   section.colors .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 420px;
     gap: 20px;
   }
   section.colors .main-color {
-    width: 420px;
     margin: 0 auto;
     margin-top: 20px;
   }
@@ -189,10 +181,10 @@ section.quote .image-filter p {
   section.quote .image-filter img {
     width: 80px;
   }
-  section.quote .image-filter p {
+  section.quote .image-filter h1 {
     color: var(--white);
     font-size: 28px;
-    width: 500px;
+    width: 350px;
     text-align: center;
   }
 }
@@ -207,16 +199,14 @@ section.quote .image-filter p {
     width: 300px;
   }
   section.colors {
-    padding: 20px 10px;
+    padding: 100px 20px 20px 20px;
   }
   section.colors .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 350px;
     gap: 20px;
   }
   section.colors .main-color {
-    width: 350px;
     margin: 0 auto;
     margin-top: 20px;
   }
@@ -230,7 +220,7 @@ section.quote .image-filter p {
   section.quote .image-filter img {
     width: 80px;
   }
-  section.quote .image-filter p {
+  section.quote .image-filter h1 {
     color: var(--white);
     font-size: 28px;
     width: 300px;
