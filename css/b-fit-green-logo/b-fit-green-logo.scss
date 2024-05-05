@@ -142,6 +142,7 @@ section.logo-lockup {
     }
 
     section.logo-color-varietions {
+        margin: 0 15px 0 15px;
         display: flex;
         flex-direction: row;
         height: 100vh;
@@ -222,7 +223,7 @@ section.logo-lockup {
     }
 
     section.b-fit-vest-and-water-botlle {
-        padding: 200px 0 50px 0;
+        padding: 200px 0 150px 0;
     
         img.vest {
             width: 400px;
@@ -236,8 +237,9 @@ section.logo-lockup {
 
     section.logo-color-varietions {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 100vh;
+        margin: 0 15px 0 15px;
     
         .women-image {
             flex: 1;
@@ -246,15 +248,13 @@ section.logo-lockup {
     
         .logos {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             flex: 1;
-            height: 100%;
     
             .main-logo {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                flex: 1;
                 border: 1px solid var(--white);
     
                 img {
@@ -267,8 +267,7 @@ section.logo-lockup {
                 justify-content: center;
                 align-items: center;
                 background-color: #232323;
-                flex: 1;
-    
+
                 img {
                     width: 150px;
                 }
@@ -332,6 +331,7 @@ section.logo-lockup {
         display: flex;
         flex-direction: column;
         height: 150vh;
+        margin: 0 15px 0 15px;
     
         .women-image {
             flex: 1;
@@ -366,7 +366,7 @@ section.logo-lockup {
     } 
 
     section.logo-lockup {
-        padding: 150px 0;
+        padding: 250px 0 300px 0;
     
         p {
             font-size: 25px;

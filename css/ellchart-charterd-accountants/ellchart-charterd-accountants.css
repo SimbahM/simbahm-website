@@ -33,24 +33,38 @@
   background-position: center;
 }
 
-section.section-white-logo {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/Pages/eca/ellchart-chartered-accountants-images3.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+section.colors-container {
+  padding: 200px 15px 0 15px;
+}
+section.colors-container .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
   gap: 20px;
 }
-section.section-white-logo img {
-  width: 900px;
+section.colors-container .colors {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 20px;
+}
+section.colors-container .colors p.title {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: 0;
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--white);
+  bottom: 20px;
+}
+section.colors-container .colors p {
+  color: var(--white);
 }
 
 .eca-logo {
-  padding: 200px 0 300px 0;
+  padding: 200px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,24 +118,15 @@ section.section-eca-quote .text h2 span {
     width: 700px;
     margin: 0 20px;
   }
-  section.section-white-logo {
-    padding-bottom: 0;
+  section.colors-container {
+    padding: 20px 15px 20px 15px;
+  }
+  section.colors-container .container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  section.colors-container .colors {
     height: 70vh;
-  }
-  section.section-white-logo img {
-    width: 600px;
-  }
-  section.section-white-logo .text {
-    width: 700px;
-    display: flex;
-    flex-direction: column;
-  }
-  section.section-white-logo .text h2 {
-    color: var(--white);
-    font-size: 50px;
-  }
-  section.section-white-logo .text h2 span {
-    opacity: 0.4;
   }
   section.section-eca-quote {
     height: 80vh;
@@ -160,24 +165,15 @@ section.section-eca-quote .text h2 span {
     width: 425px;
     margin: 0 20px;
   }
-  section.section-white-logo {
+  section.colors-container {
+    padding: 20px 15px 20px 15px;
+  }
+  section.colors-container .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.colors-container .colors {
     height: 70vh;
-    margin-top: 50px;
-  }
-  section.section-white-logo img {
-    width: 400px;
-  }
-  section.section-white-logo .text {
-    width: 700px;
-    display: flex;
-    flex-direction: column;
-  }
-  section.section-white-logo .text h2 {
-    color: var(--white);
-    font-size: 50px;
-  }
-  section.section-white-logo .text h2 span {
-    opacity: 0.4;
   }
   section.section-eca-quote {
     height: 70vh;
@@ -217,24 +213,15 @@ section.section-eca-quote .text h2 span {
     width: 100%;
     padding: 0 20px;
   }
-  section.section-white-logo {
-    margin-top: 20px;
+  section.colors-container {
+    padding: 20px 15px 0px 15px;
+  }
+  section.colors-container .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.colors-container .colors {
     height: 70vh;
-  }
-  section.section-white-logo img {
-    width: 350px;
-  }
-  section.section-white-logo .text {
-    width: 700px;
-    display: flex;
-    flex-direction: column;
-  }
-  section.section-white-logo .text h2 {
-    color: var(--white);
-    font-size: 50px;
-  }
-  section.section-white-logo .text h2 span {
-    opacity: 0.4;
   }
   section.section-eca-quote {
     height: 70vh;

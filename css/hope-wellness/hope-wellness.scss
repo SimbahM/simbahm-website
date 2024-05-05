@@ -50,13 +50,13 @@ section.golden-ratio {
 }
 
 section.color-palette {
-    padding: 200px 0;
+    padding: 100px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     img {
-        width: 700px;
+        max-width: 1000px;
     }
 }
 
@@ -72,7 +72,7 @@ section.color-palette {
     }
     
     section.golden-ratio {
-        padding: 100px 0;
+        padding: 100px 0 200px 0;
         gap: 80px;
     
         .title {
@@ -96,14 +96,10 @@ section.color-palette {
     }
     
     section.color-palette {
-        padding: 100px 0;
+        padding: 0px 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        img {
-            width: 700px;
-        }
     }
 }
 
@@ -119,7 +115,7 @@ section.color-palette {
     }
     
     section.golden-ratio {
-        padding: 50px 0;
+        padding: 100px 0 200px 0;
         gap: 80px;
     
         .title {
@@ -138,19 +134,15 @@ section.color-palette {
         }
     
         img {
-            width: 500px;
+            width: 400px;
         }
     }
     
     section.color-palette {
-        padding: 50px 0;
+        padding: 0px 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        img {
-            width: 420px;
-        }
     }
 }
 
@@ -161,12 +153,12 @@ section.color-palette {
         gap: 200px;
     
         img {
-            width: 350px;
+            width: 300px;
         }
     }
     
     section.golden-ratio {
-        padding: 50px 0;
+        padding: 150px 0;
         gap: 80px;
     
         .title {
@@ -179,24 +171,20 @@ section.color-palette {
             p {
                 font-size: 21px;
                 color: var(--gray);
-                width: 350px;
+                width: 300px;
                 text-align: center;
             }
         }
     
         img {
-            width: 350px;
+            width: 300px;
         }
     }
     
     section.color-palette {
-        padding: 50px 0;
+        padding: 0px 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        img {
-            width: 350px;
-        }
     }
 }

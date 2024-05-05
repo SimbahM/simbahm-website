@@ -54,55 +54,62 @@ section.eac-old-and-new-logo {
     }
 }
 
-section.app-icon {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
-    width: 1000px;
-    margin: 0 auto;
-    gap: 30px;
+section.grid-app-icon {
+    padding: 0px 15px 0 15px;
 
-    .icon {
-        background-image: url(../../assets/images/Pages/eac/app-icon-design.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-    }
-
-    .frame {
-        background-color: #3BB5E6;
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
-
-        img {
-            width: 150px;
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 20px;
+    
+        .icon {
+            background-image: url(../../assets/images/Pages/eac/app-icon-design.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
         }
-    }
+    
+        .frame {
+            background-color: #3BB5E6;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            img {
+                width: 150px;
+            }
+        }
 
-    .web {
-        background-image: url(../../assets/images/Pages/eac/eac-logo-website-design.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 80vh;
-    }
-
-    .logo {
-        background-color:var(--white);
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            width: 100px;
+        .web {
+            background-image: url(../../assets/images/Pages/eac/eac-logo-website-design.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
+        }
+    
+        .logo {
+            background-color:var(--white);
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            img.vertical-logo {
+                width: 100px;
+            }
+    
+            img.main-logo {
+                display: none;
+            }
         }
     }
 }
@@ -140,34 +147,41 @@ section.app-icon {
             width: 500px;
         }
     }
+
+    section.grid-app-icon {
+        padding: 0 15px 0 15px;
     
-    section.app-icon {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 50px 0;
-        width: 700px;
-        gap: 20px;
-    
-        .icon {
-            height: 80vh;
-        }
-    
-        .frame {
-            height: 80vh;
-    
-            img {
-                width: 150px;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        
+            .icon {
+                height: 80vh;
             }
-        }
+        
+            .frame {
+                height: 80vh;
+        
+                img {
+                    width: 150px;
+                }
+            }
+            
+            .web {
+                height: 90vh;
+            }
+        
+            .logo {
+                height: 90vh;
+        
+                img.vertical-logo {
+                    display: none;
+                }
     
-        .web {
-            height: 80vh;
-        }
-    
-        .logo {
-            height: 80vh;
-    
-            img {
-                width: 80px;
+                img.main-logo {
+                    width: 400px;
+                    display: block;
+                }
             }
         }
     }
@@ -209,35 +223,41 @@ section.app-icon {
             width: 400px;
         }
     }
-    
-    section.app-icon {
 
-        grid-template-columns: repeat(1, 1fr);
-        padding: 30px 0;
-        width: 420px;
-        gap: 30px;
+    section.grid-app-icon {
+        padding: 0px 15px 0 15px;
     
-        .icon {
-            height: 80vh;
-        }
-    
-        .frame {
-            height: 80vh;
-    
-            img {
-                width: 150px;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        
+            .icon {
+                height: 90vh;
             }
-        }
+        
+            .frame {
+                height: 90vh;
+        
+                img {
+                    width: 150px;
+                }
+            }
+
+            .web {
+                height: 90vh;
+            }
+        
+            .logo {
+                height: 90vh;
+        
+                img.vertical-logo {
+                    display: none;
+                }
     
-        .web {
-            height: 80vh;
-        }
-    
-        .logo {
-            height: 80vh;
-    
-            img {
-                width: 80px;
+                img.main-logo {
+                    width: 400px;
+                    display: block;
+                }
             }
         }
     }
@@ -279,35 +299,41 @@ section.app-icon {
             width: 300px;
         }
     }
-    
-    section.app-icon {
 
-        grid-template-columns: repeat(1, 1fr);
-        padding: 30px 0;
-        width: 350px;
-        gap: 30px;
+    section.grid-app-icon {
+        padding: 0px 15px 0 15px;
     
-        .icon {
-            height: 80vh;
-        }
-    
-        .frame {
-            height: 80vh;
-    
-            img {
-                width: 150px;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        
+            .icon {
+                height: 60vh;
             }
-        }
+        
+            .frame {
+                height: 60vh;
+        
+                img {
+                    width: 100px;
+                }
+            }
+
+            .web {
+                height: 60vh;
+            }
+        
+            .logo {
+                height: 60vh;
+        
+                img.vertical-logo {
+                    display: none;
+                }
     
-        .web {
-            height: 80vh;
-        }
-    
-        .logo {
-            height: 80vh;
-    
-            img {
-                width: 80px;
+                img.main-logo {
+                    width: 300px;
+                    display: block;
+                }
             }
         }
     }

@@ -5,153 +5,114 @@
   background-position: center;
 }
 
-section.pricelyst-logo {
+section.pricelyst-logo-project {
   padding: 150px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 200px;
 }
-section.pricelyst-logo h1 {
-  font-size: 50px;
-  color: var(--secondary);
+section.pricelyst-logo-project .need-for-a-noew-logo,
+section.pricelyst-logo-project .breaking-down-the-old-logo,
+section.pricelyst-logo-project .selected-parts,
+section.pricelyst-logo-project .typography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+section.pricelyst-logo-project .need-for-a-noew-logo h1,
+section.pricelyst-logo-project .breaking-down-the-old-logo h1,
+section.pricelyst-logo-project .selected-parts h1,
+section.pricelyst-logo-project .typography h1 {
+  font-size: 40px;
   text-align: center;
+  color: var(--primary);
+}
+section.pricelyst-logo-project .need-for-a-noew-logo img,
+section.pricelyst-logo-project .breaking-down-the-old-logo img,
+section.pricelyst-logo-project .selected-parts img,
+section.pricelyst-logo-project .typography img {
+  width: 400px;
+}
+section.pricelyst-logo-project .need-for-a-noew-logo p,
+section.pricelyst-logo-project .breaking-down-the-old-logo p,
+section.pricelyst-logo-project .selected-parts p,
+section.pricelyst-logo-project .typography p {
+  width: 400px;
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0.011em;
+}
+
+section.pricelyst-logo {
+  padding: 100px 0 200px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 section.pricelyst-logo img {
   width: 400px;
 }
-section.pricelyst-logo .pricelyst-main-logo {
-  width: 300px;
-  margin: 50px 0;
-}
-section.pricelyst-logo .logo-breakdown {
-  width: 500px;
-  margin: 50px 0;
-}
-section.pricelyst-logo .logo-typeface {
-  width: 500px;
-  margin: 50px 0;
-}
-section.pricelyst-logo h2 {
-  font-size: 30px;
-  text-align: center;
-}
-section.pricelyst-logo span {
-  font-size: 18px;
-  color: var(--gray);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-section.pricelyst-logo p {
-  font-size: 24px;
-  color: var(--gray);
-  max-width: 500px;
-  text-align: center;
-}
 
 @media (max-width: 768px) {
   section.pricelyst-logo {
-    padding: 150px 0;
-  }
-  section.pricelyst-logo h1 {
-    font-size: 30px;
-    color: var(--secondary);
-    text-align: center;
+    padding: 100px 0 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   section.pricelyst-logo img {
-    width: 400px;
-  }
-  section.pricelyst-logo .pricelyst-main-logo {
     width: 300px;
-    margin: 50px 0;
-  }
-  section.pricelyst-logo .logo-breakdown {
-    width: 400px;
-    margin: 50px 0;
-  }
-  section.pricelyst-logo .logo-typeface {
-    width: 400px;
-    margin: 50px 0;
-  }
-  section.pricelyst-logo h2 {
-    font-size: 30px;
-    text-align: center;
-  }
-  section.pricelyst-logo p {
-    font-size: 24px;
-    color: var(--gray);
-    max-width: 500px;
-    text-align: center;
   }
 }
-@media (max-width: 500px) {
-  section.pricelyst-logo {
+@media (max-width: 425px) {
+  section.pricelyst-logo-project {
     padding: 100px 0;
+    gap: 100px;
   }
-  section.pricelyst-logo h1 {
-    font-size: 30px;
+  section.pricelyst-logo-project .need-for-a-noew-logo,
+  section.pricelyst-logo-project .breaking-down-the-old-logo,
+  section.pricelyst-logo-project .selected-parts,
+  section.pricelyst-logo-project .typography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
   }
-  section.pricelyst-logo img {
-    width: 400px;
-  }
-  section.pricelyst-logo .pricelyst-main-logo {
-    width: 200px;
-    margin: 50px 0;
-  }
-  section.pricelyst-logo .logo-breakdown {
-    width: 400px;
-    margin: 50px 0;
-  }
-  section.pricelyst-logo .logo-typeface {
-    width: 300px;
-    margin: 30px 0;
-  }
-  section.pricelyst-logo h2 {
-    font-size: 30px;
-    font-family: Simbah M;
+  section.pricelyst-logo-project .need-for-a-noew-logo h1,
+  section.pricelyst-logo-project .breaking-down-the-old-logo h1,
+  section.pricelyst-logo-project .selected-parts h1,
+  section.pricelyst-logo-project .typography h1 {
+    font-size: 40px;
     text-align: center;
+    color: var(--primary);
   }
-  section.pricelyst-logo p {
-    font-size: 17px;
-    width: 400px;
+  section.pricelyst-logo-project .need-for-a-noew-logo img,
+  section.pricelyst-logo-project .breaking-down-the-old-logo img,
+  section.pricelyst-logo-project .selected-parts img,
+  section.pricelyst-logo-project .typography img {
+    width: 300px;
   }
-}
-@media (max-width: 375px) {
+  section.pricelyst-logo-project .need-for-a-noew-logo p,
+  section.pricelyst-logo-project .breaking-down-the-old-logo p,
+  section.pricelyst-logo-project .selected-parts p,
+  section.pricelyst-logo-project .typography p {
+    width: 350px;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: 0.011em;
+  }
   section.pricelyst-logo {
-    padding: 50px 0;
-  }
-  section.pricelyst-logo h1 {
-    font-size: 25px;
+    padding: 50px 0 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   section.pricelyst-logo img {
-    width: 300px;
+    width: 250px;
   }
-  section.pricelyst-logo .pricelyst-main-logo {
-    width: 150px;
-    margin: 50px 0;
-  }
-  section.pricelyst-logo .logo-breakdown {
-    width: 300px;
-    margin: 50px 0;
-  }
-  section.pricelyst-logo .logo-typeface {
-    width: 300px;
-    margin: 30px 0;
-  }
-  section.pricelyst-logo h2 {
-    font-size: 30px;
-    text-align: center;
-  }
-  section.pricelyst-logo p {
-    font-size: 17px;
-    width: 300px;
-  }
-}
-.pricelyst-thank-you {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/pricelyst/pricelyst-cover-image.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }/*# sourceMappingURL=pricelyst.css.map */

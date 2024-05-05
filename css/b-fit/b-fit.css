@@ -60,6 +60,10 @@ section.logo p {
     text-align: center;
   }
 }
+.water-bottle {
+  border: 1px solid var(--gray);
+}
+
 @media (max-width: 768px) {
   section.logo {
     padding: 100px 0;

@@ -1,5 +1,5 @@
 .hero-kabwe {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/Pages/kabwe-lodge/cover-page.webp);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/Pages/kabwe-lodge/lodge-rooms.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,81 +17,93 @@ section.kabwe-logo {
 }
 
 section.kabwe-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 1000px;
-    margin: 0 auto;
-    padding: 100px 0;
-    gap: 20px;
+    padding: 0 15px 200px 15px;
 
-    .image-logo {
-        background-image: url(../../assets/images/Pages/kabwe-lodge/indoor-lamp.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height:80vh;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 20px;
 
-        .filter {
-            background-color: rgba(0,0,0,0.5);
-            height: inherit;
-            width: 100%;
+        .image-logo {
+            background-image: url(../../assets/images/Pages/kabwe-lodge/indoor-lamp.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:80vh;
+            flex: 1;
+    
+            .filter {
+                background-color: rgba(0,0,0,0.5);
+                height: inherit;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            img {
+                width: 200px;
+            }
+        }
+    
+        .towel {
+            background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cloth.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:80vh;
+            flex: 1;
+        }
+    
+        .logo-symbol {
+            background-color: var(--white);
+            height:80vh;
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        
-        img {
-            width: 200px;
-        }
-    }
-
-    .towel {
-        background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cloth.webp);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height:80vh;
-    }
-
-    .logo-symbol {
-        background-color: var(--white);
-        height:80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            width: 300px;
+            flex: 1;
+    
+            img {
+                width: 300px;
+            }
         }
     }
 }
 
 section.logo-mark {
     display: flex;
-    flex-direction:column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
 
-    img {
-        width: 300px;
-    }
+    .container {
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
 
-    p {
-        width: 900px;
-        font-size: 30px;
-        line-height: 1.4211;
-        font-weight: 400;
-        letter-spacing: .012em;
-        color: var(--gray);
-        margin-bottom: 20px;
-        text-align: center;
+        img {
+            width: 300px;
+            margin-bottom: 50px;
+        }
+
+        .paragraphs {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 23px;
+                line-height: 1.4211;
+                font-weight: 400;
+                letter-spacing: 0.012em;
+                color: var(--gray);
+                margin-bottom: 20px;
+            }
+        }
     }
 }
 
-section.quote {
-    background-image: url(../../assets/images/Pages/kabwe-lodge/lodge-rooms.webp);
+section.kabwe-lodge-quote {
+    background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cloth.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,103 +117,117 @@ section.quote {
         align-items: center;
         background-color: rgba(0,0,0,0.3);
         gap: 30px;
-    }
 
-    img {
-        width: 100px;
-    }
-    
-    h1 {
-        color: var(--white);
-        text-align: center;
-        font-size: 70px;
+        img.quote-image {
+            width: 100px;
+        }
+        
+        h1.title {
+            color: var(--white);
+            text-align: center;
+            font-size: 70px;
+        }
     }
 }
 
-section.corporate-wear {
+section.kabwe-golf-tshirts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 200px 0;
-    width: 1000px;
+    padding: 200px 15px 0 15px;
     margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
 
     section.kabwe-logo {
-        padding: 50px 0 100px 0;
+        padding: 100px 0 200px 0;
     
         img {
-            width: 200px;
+            width: 300px;
         }
     }
     
     section.kabwe-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 700px;
-        margin: 0 auto;
-        padding: 50px 0;
-        gap: 20px;
+        padding: 0 15px 20px 15px;
     
-        .image-logo {
-            height:80vh;
-            
-            img {
-                width: 150px;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 20px;
+    
+            .image-logo {
+                height:80vh;
+                
+                img {
+                    width: 200px;
+                }
             }
-        }
-    
-        .towel {
-            height:80vh;
-        }
-    
-        .logo-symbol {
-            height:80vh;
-    
-            img {
-                width: 200px;
+        
+            .towel {
+                height:80vh;
+            }
+        
+            .logo-symbol {
+                height:80vh;
+        
+                img {
+                    width: 300px;
+                }
             }
         }
     }
     
     section.logo-mark {
-        height: 100vh;
-        gap: 60px;
+        display: flex;
     
-        img {
-            width: 200px;
-        }
-    
-        p {
+        .container {
             width: 600px;
-            font-size: 25px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+    
+            img {
+                width: 300px;
+                margin-bottom: 50px;
+            }
+    
+            .paragraphs {
+                display: flex;
+                flex-direction: column;
+    
+                p {
+                    font-size: 23px;
+                    line-height: 1.4211;
+                    font-weight: 400;
+                    letter-spacing: 0.012em;
+                    color: var(--gray);
+                    margin-bottom: 20px;
+                }
+            }
         }
     }
     
-    section.quote {
-        height: 80vh;
+    section.kabwe-lodge-quote {
         
         .filter {
             gap: 30px;
-        }
     
-        img {
-            width: 80px;
-        }
-        
-        h1 {
-            color: var(--white);
-            text-align: center;
-            font-size: 50px;
+            img.quote-image {
+                width: 100px;
+            }
+            
+            h1.title {
+                font-size: 50px;
+            }
         }
     }
     
-    section.corporate-wear {
+    section.kabwe-golf-tshirts {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding: 200px 0;
-        width: 700px;
+        padding: 200px 15px 200px 15px;
         margin: 0 auto;
     }
 }
@@ -212,41 +238,44 @@ section.corporate-wear {
         padding: 50px 0 100px 0;
     
         img {
-            width: 150px;
+            width: 250px;
         }
     }
     
     section.kabwe-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 425px;
-        margin: 0 auto;
-        padding: 50px 0;
-        gap: 20px;
+        padding: 0 15px 20px 15px;
     
-        .image-logo {
-            height:80vh;
-            
-            img {
-                width: 150px;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 20px;
+    
+            .image-logo {
+                height:80vh;
+                
+                img {
+                    width: 150px;
+                }
             }
-        }
-    
-        .towel {
-            height:80vh;
-        }
-    
-        .logo-symbol {
-            height:80vh;
-    
-            img {
-                width: 200px;
+        
+            .towel {
+                height:80vh;
+            }
+        
+            .logo-symbol {
+                height:80vh;
+        
+                img {
+                    width: 200px;
+                }
             }
         }
     }
-    
+
     section.logo-mark {
-        height: 100vh;
+        height: 70vh;
         gap: 60px;
     
         img {
@@ -259,30 +288,20 @@ section.corporate-wear {
         }
     }
     
-    section.quote {
+    section.kabwe-lodge-quote {
         height: 80vh;
         
         .filter {
             gap: 30px;
-        }
     
-        img {
-            width: 60px;
+            img.quote-image {
+                width: 100px;
+            }
+            
+            h1.title {
+                font-size: 50px;
+            }
         }
-        
-        h1 {
-            color: var(--white);
-            text-align: center;
-            font-size: 50px;
-        }
-    }
-    
-    section.corporate-wear {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 200px 0;
-        width: 700px;
-        margin: 0 auto;
     }
 }
 
@@ -297,30 +316,30 @@ section.corporate-wear {
     }
     
     section.kabwe-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 350px;
-        margin: 0 auto;
-        padding: 20px 0;
-        gap: 20px;
+        padding: 0 15px 20px 15px;
     
-        .image-logo {
-            height:80vh;
-            
-            img {
-                width: 150px;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+    
+            .image-logo {
+                height:80vh;
+                
+                img {
+                    width: 150px;
+                }
             }
-        }
-    
-        .towel {
-            height:80vh;
-        }
-    
-        .logo-symbol {
-            height:80vh;
-    
-            img {
-                width: 200px;
+        
+            .towel {
+                height:80vh;
+            }
+        
+            .logo-symbol {
+                height:80vh;
+        
+                img {
+                    width: 200px;
+                }
             }
         }
     }
@@ -339,29 +358,27 @@ section.corporate-wear {
         }
     }
     
-    section.quote {
+    section.kabwe-lodge-quote {
         height: 80vh;
         
         .filter {
             gap: 30px;
-        }
     
-        img {
-            width: 60px;
-        }
-        
-        h1 {
-            color: var(--white);
-            text-align: center;
-            font-size: 40px;
+            img.quote-image {
+                width: 70px;
+            }
+            
+            h1.title {
+                font-size: 40px;
+            }
         }
     }
     
-    section.corporate-wear {
+    section.kabwe-golf-tshirts {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 50px 0;
-        width: 300px;
+        padding: 40px 15px 40px 15px;
         margin: 0 auto;
+        gap: 40px;
     }
 }

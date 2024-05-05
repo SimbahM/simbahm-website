@@ -1,4 +1,4 @@
-.work {
+.work-hero {
   background-image: url(../../assets/images/work/simbahm-work-cover-page.webp);
   background-repeat: none;
   background-size: cover;
@@ -12,25 +12,40 @@
   padding-bottom: 50px;
   gap: 20px;
 }
-.work img {
+.work-hero img {
   width: 400px;
   margin-bottom: 50px;
   opacity: 0.5;
 }
-.work h1 {
+.work-hero h1 {
   font-size: 70px;
   color: var(--white);
   padding: 0 20px;
   text-align: center;
 }
-.work h1.eca-title-mobile {
+.work-hero h1.eca-title-mobile {
   display: none;
 }
-.work p {
+.work-hero p {
   font-size: 25px;
   color: var(--white);
   width: 700px;
   text-align: center;
+}
+
+.branding {
+  background-image: url(../../assets/images/work/simbah-m-logo-desgin.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.ui-ux {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../assets/images/work/simbah-m-ui-ux-design.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #EBEFF2;
 }
 
 section.projects {
@@ -39,18 +54,6 @@ section.projects {
   width: 100%;
   padding: 0;
   margin-top: 100px;
-}
-section.projects .nmb-website {
-  background-image: url(../../assets/images/Pages/ui-ux-design/nmb-bank-website.webp);
-  background-repeat: none;
-  background-size: cover;
-  background-position: center;
-}
-section.projects .nmbconnect {
-  background-image: url(../../assets/images/Pages/ui-ux-design/nmbconnect.webp);
-  background-repeat: none;
-  background-size: cover;
-  background-position: center;
 }
 section.projects .work {
   max-width: 1000px;
@@ -80,159 +83,60 @@ section.projects .work .scrolldown {
 }
 
 @media (max-width: 1024px) {
-  .work {
-    height: 100vh;
+  section.projects {
+    padding: 0 10px;
   }
-  .work h1 {
-    font-size: 50px;
-    color: var(--white);
-    padding: 0 20px;
-    text-align: center;
-  }
-  .work p {
-    font-size: 25px;
-    color: var(--white);
-    width: 700px;
-    text-align: center;
-  }
-}
-@media (max-width: 768px) {
-  .work {
-    height: 100vh;
-  }
-  .work h1 {
-    font-size: 50px;
-    color: var(--white);
-    padding: 0 20px;
-    text-align: center;
-  }
-  .work p {
-    font-size: 22px;
-    color: var(--white);
-    width: 400px;
-    text-align: center;
-  }
-}
-@media (max-width: 425px) {
-  .work {
+  section.projects .work {
+    max-width: 700px;
     height: 80vh;
+    padding-bottom: 30px;
   }
-  .work h1 {
-    font-size: 50px;
-    color: var(--white);
-    padding: 0 20px;
-    text-align: center;
+  section.projects .kabwe-lodge-interior {
+    max-width: 700px;
   }
-  .work p {
-    font-size: 17px;
-    color: var(--white);
-    width: 350px;
-    text-align: center;
-  }
-}
-.branding {
-  background-image: url(../../assets/images/work/simbah-m-logo-desgin.webp);
-  background-repeat: none;
-  background-size: cover;
-  background-position: center;
-}
-
-.ui-ux {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../assets/images/work/simbah-m-ui-ux-design.webp);
-  background-repeat: none;
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #EBEFF2;
-}
-
-section.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  margin: 0 10px;
-  margin-bottom: 10px;
-}
-section.grid-container .project {
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-  padding-bottom: 50px;
-  gap: 10px;
-}
-section.grid-container .project h1 {
-  color: var(--white);
-  font-size: 50px;
-}
-section.grid-container .project p {
-  color: var(--white);
-  font-size: 20px;
-}
-
-@media (max-width: 1024px) {
-  section.grid-container .project {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 5px;
-  }
-  section.grid-container .project h1 {
-    color: var(--white);
-    font-size: 40px;
-  }
-  section.grid-container .project p {
-    color: var(--white);
-    font-size: 20px;
-    text-align: center;
+  section.projects .kabwe-lodge-cloth {
+    max-width: 700px;
   }
 }
 @media (max-width: 768px) {
-  section.grid-container {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 10px 0;
+  section.projects {
+    margin-top: 10px;
   }
-  section.grid-container .project {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 5px;
+  section.projects .work {
+    max-width: 700px;
+    height: 80vh;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
   }
-  section.grid-container .project h1 {
-    color: var(--white);
-    font-size: 40px;
+  section.projects .kabwe-lodge-interior {
+    max-width: 700px;
+    gap: 10px;
   }
-  section.grid-container .project p {
-    color: var(--white);
-    font-size: 20px;
+  section.projects .kabwe-lodge-interior .interior2 {
+    display: none;
+  }
+  section.projects .kabwe-lodge-cloth {
+    max-width: 700px;
+    gap: 10px;
+  }
+  section.projects .kabwe-lodge-cloth .cloth1 {
+    display: none;
   }
 }
 @media (max-width: 425px) {
-  section.grid-container {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 10px 0;
+  section.projects {
+    margin-top: 10px;
   }
-  section.grid-container .project {
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
+  section.projects .work {
+    max-width: 700px;
+    height: 55vh;
     padding-bottom: 30px;
-    gap: 5px;
+    margin-bottom: 10px;
   }
-  section.grid-container .project h1 {
-    color: var(--white);
-    font-size: 40px;
+  section.projects .work h1.title {
+    font-size: 30px;
   }
-  section.grid-container .project p {
-    color: var(--white);
-    font-size: 20px;
+  section.projects .work p.descripter {
+    font-size: 17px;
   }
 }/*# sourceMappingURL=work.css.map */

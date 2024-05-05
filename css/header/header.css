@@ -34,7 +34,8 @@ header nav.navigation-bar .logo a {
   align-items: center;
 }
 header nav.navigation-bar .logo a img {
-  width: 120px;
+  display: block;
+  width: 110px;
   opacity: 0.8;
   transition: all 0.3s ease 0s;
 }
@@ -51,21 +52,23 @@ header nav.navigation-bar .nav-items ul {
 header nav.navigation-bar .nav-items ul li a {
   text-decoration: none;
   color: var(--white);
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 400;
   opacity: 0.8;
   padding: 8px 15px;
-  border-radius: 5px;
+  border-radius: 0 0 2px 2px;
   transition: all 0.5s ease 0s;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-top: 3px solid rgba(255, 255, 255, 0);
 }
 header nav.navigation-bar .nav-items ul li a:hover {
   background-color: rgba(235, 239, 242, 0.3);
   padding: 8px 15px;
-  border-radius: 2px;
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  border-radius: 0 0 2px 2px;
+  border-top: 3px solid var(--white);
   opacity: 0.7;
 }
 header nav.navigation-bar .nav-items ul.mobile-menu {
@@ -93,6 +96,8 @@ header nav.navigation-bar .social-media ul li a {
   padding: 7px 15px;
   font-size: 20px;
   transition: all 0.5s ease 0s;
+  border-radius: 0 0 2px 2px;
+  border-top: 3px solid rgba(255, 255, 255, 0);
 }
 header nav.navigation-bar .social-media ul li a img {
   width: 17px;
@@ -101,7 +106,8 @@ header nav.navigation-bar .social-media ul li a img {
 header nav.navigation-bar .social-media ul li a:hover {
   background-color: rgba(235, 239, 242, 0.2);
   padding: 7px 15px;
-  border-radius: 2px;
+  border-radius: 0 0 2px 2px;
+  border-top: 2px solid var(--white);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   opacity: 0.7;
@@ -120,18 +126,20 @@ header nav.navigation-bar .hamburger-menu {
   header nav.navigation-bar .nav-items ul li a {
     text-decoration: none;
     color: var(--white);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 400;
     opacity: 0.8;
     padding: 8px 15px;
-    border-radius: 5px;
+    border-radius: 0 0 2px 2px;
+    border-top: 3px solid rgba(255, 255, 255, 0);
     transition: all 0.5s ease 0s;
   }
   header nav.navigation-bar .nav-items ul li a:hover {
-    background-color: rgba(235, 239, 242, 0.7);
+    background-color: rgba(235, 239, 242, 0.2);
+    color: var(--white);
     padding: 8px 15px;
-    border-radius: 5px;
-    color: #1B2F3F;
+    border-radius: 0 0 2px 2px;
+    border-top: 3px solid var(--white);
   }
   header nav.navigation-bar .social-media {
     display: none;

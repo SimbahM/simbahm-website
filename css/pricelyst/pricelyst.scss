@@ -5,187 +5,111 @@
     background-position: center;
 }
 
-section.pricelyst-logo {
+section.pricelyst-logo-project {
     padding: 150px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 200px;
 
-    h1 {
-        font-size: 50px;
-        color: var(--secondary);
-        text-align: center;
+    .need-for-a-noew-logo,
+    .breaking-down-the-old-logo,
+    .selected-parts,
+    .typography {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            color: var(--primary);
+        }
+
+        img {
+            width: 400px;
+        }
+
+        p {
+            width: 400px;
+            font-size: 21px;
+            text-align: center;
+            letter-spacing: .011em;
+        }
     }
+}
+
+section.pricelyst-logo {
+    padding: 100px 0 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     img {
         width: 400px;
-    }
-
-    .pricelyst-main-logo {
-        width: 300px;
-        margin: 50px 0;
-    }
-
-    .logo-breakdown {
-        width: 500px;
-        margin: 50px 0;
-    }
-
-    .logo-typeface {
-        width: 500px;
-        margin: 50px 0;
-    }
-
-    h2 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    span {
-        font-size: 18px;
-        color: var(--gray);
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-
-    p {
-        font-size: 24px;
-        color: var(--gray);
-        max-width: 500px;
-        text-align: center;
     }
 }
 
 @media (max-width: 768px) {
 
     section.pricelyst-logo {
-        padding: 150px 0;
-    
-        h1 {
-            font-size: 30px;
-            color: var(--secondary);
-            text-align: center;
-        }
+        padding: 100px 0 200px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     
         img {
-            width: 400px;
-        }
-    
-        .pricelyst-main-logo {
             width: 300px;
-            margin: 50px 0;
-        }
-    
-        .logo-breakdown {
-            width: 400px;
-            margin: 50px 0;
-        }
-    
-        .logo-typeface {
-            width: 400px;
-            margin: 50px 0;
-        }
-    
-        h2 {
-            font-size: 30px;
-            text-align: center;
-        }
-    
-        p {
-            font-size: 24px;
-            color: var(--gray);
-            max-width: 500px;
-            text-align: center;
         }
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
 
-    section.pricelyst-logo {
+    section.pricelyst-logo-project {
         padding: 100px 0;
+        gap: 100px;
     
-        h1 {
-            font-size: 30px;
-        }
+        .need-for-a-noew-logo,
+        .breaking-down-the-old-logo,
+        .selected-parts,
+        .typography {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
     
-        img {
-            width: 400px;
-        }
+            h1 {
+                font-size: 40px;
+                text-align: center;
+                color: var(--primary);
+            }
     
-        .pricelyst-main-logo {
-            width: 200px;
-            margin: 50px 0;
-        }
+            img {
+                width: 300px;
+            }
     
-        .logo-breakdown {
-            width: 400px;
-            margin: 50px 0;
-        }
-    
-        .logo-typeface {
-            width: 300px;
-            margin: 30px 0;
-        }
-    
-        h2 {
-            font-size: 30px;
-            font-family: Simbah M;
-            text-align: center;
-        }
-    
-        p {
-            font-size: 17px;
-            width: 400px;
+            p {
+                width: 350px;
+                font-size: 21px;
+                text-align: center;
+                letter-spacing: .011em;
+            }
         }
     }
-}
-
-@media (max-width: 375px) {
-
+    
     section.pricelyst-logo {
-        padding: 50px 0;
-    
-        h1 {
-            font-size: 25px;
-        }
+        padding: 50px 0 100px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     
         img {
-            width: 300px;
-        }
-    
-        .pricelyst-main-logo {
-            width: 150px;
-            margin: 50px 0;
-        }
-    
-        .logo-breakdown {
-            width: 300px;
-            margin: 50px 0;
-        }
-    
-        .logo-typeface {
-            width: 300px;
-            margin: 30px 0;
-        }
-    
-        h2 {
-            font-size: 30px;
-            text-align: center;
-        }
-    
-        p {
-            font-size: 17px;
-            width: 300px;
+            width: 250px;
         }
     }
-}
-
-.pricelyst-thank-you {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/Pages/pricelyst/pricelyst-cover-image.webp);background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }

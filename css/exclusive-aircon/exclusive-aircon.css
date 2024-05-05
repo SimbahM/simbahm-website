@@ -49,24 +49,26 @@ section.eac-old-and-new-logo img {
   width: 600px;
 }
 
-section.app-icon {
+section.grid-app-icon {
+  padding: 0px 15px 0 15px;
+}
+section.grid-app-icon .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
-  gap: 30px;
+  gap: 20px;
 }
-section.app-icon .icon {
+section.grid-app-icon .container .icon {
   background-image: url(../../assets/images/Pages/eac/app-icon-design.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
 }
-section.app-icon .frame {
+section.grid-app-icon .container .frame {
   background-color: #3BB5E6;
   height: 80vh;
   display: flex;
@@ -74,17 +76,17 @@ section.app-icon .frame {
   justify-content: center;
   align-items: center;
 }
-section.app-icon .frame img {
+section.grid-app-icon .container .frame img {
   width: 150px;
 }
-section.app-icon .web {
+section.grid-app-icon .container .web {
   background-image: url(../../assets/images/Pages/eac/eac-logo-website-design.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
 }
-section.app-icon .logo {
+section.grid-app-icon .container .logo {
   background-color: var(--white);
   height: 80vh;
   display: flex;
@@ -92,8 +94,11 @@ section.app-icon .logo {
   justify-content: center;
   align-items: center;
 }
-section.app-icon .logo img {
+section.grid-app-icon .container .logo img.vertical-logo {
   width: 100px;
+}
+section.grid-app-icon .container .logo img.main-logo {
+  display: none;
 }
 
 @media (max-width: 1024px) {
@@ -121,29 +126,34 @@ section.app-icon .logo img {
   section.eac-old-and-new-logo img {
     width: 500px;
   }
-  section.app-icon {
+  section.grid-app-icon {
+    padding: 0 15px 0 15px;
+  }
+  section.grid-app-icon .container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 50px 0;
-    width: 700px;
-    gap: 20px;
   }
-  section.app-icon .icon {
+  section.grid-app-icon .container .icon {
     height: 80vh;
   }
-  section.app-icon .frame {
+  section.grid-app-icon .container .frame {
     height: 80vh;
   }
-  section.app-icon .frame img {
+  section.grid-app-icon .container .frame img {
     width: 150px;
   }
-  section.app-icon .web {
-    height: 80vh;
+  section.grid-app-icon .container .web {
+    height: 90vh;
   }
-  section.app-icon .logo {
-    height: 80vh;
+  section.grid-app-icon .container .logo {
+    height: 90vh;
   }
-  section.app-icon .logo img {
-    width: 80px;
+  section.grid-app-icon .container .logo img.vertical-logo {
+    display: none;
+  }
+  section.grid-app-icon .container .logo img.main-logo {
+    width: 400px;
+    display: block;
   }
 }
 @media (max-width: 768px) {
@@ -171,29 +181,34 @@ section.app-icon .logo img {
   section.eac-old-and-new-logo img {
     width: 400px;
   }
-  section.app-icon {
+  section.grid-app-icon {
+    padding: 0px 15px 0 15px;
+  }
+  section.grid-app-icon .container {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 30px 0;
-    width: 420px;
-    gap: 30px;
   }
-  section.app-icon .icon {
-    height: 80vh;
+  section.grid-app-icon .container .icon {
+    height: 90vh;
   }
-  section.app-icon .frame {
-    height: 80vh;
+  section.grid-app-icon .container .frame {
+    height: 90vh;
   }
-  section.app-icon .frame img {
+  section.grid-app-icon .container .frame img {
     width: 150px;
   }
-  section.app-icon .web {
-    height: 80vh;
+  section.grid-app-icon .container .web {
+    height: 90vh;
   }
-  section.app-icon .logo {
-    height: 80vh;
+  section.grid-app-icon .container .logo {
+    height: 90vh;
   }
-  section.app-icon .logo img {
-    width: 80px;
+  section.grid-app-icon .container .logo img.vertical-logo {
+    display: none;
+  }
+  section.grid-app-icon .container .logo img.main-logo {
+    width: 400px;
+    display: block;
   }
 }
 @media (max-width: 425px) {
@@ -221,28 +236,33 @@ section.app-icon .logo img {
   section.eac-old-and-new-logo img {
     width: 300px;
   }
-  section.app-icon {
+  section.grid-app-icon {
+    padding: 0px 15px 0 15px;
+  }
+  section.grid-app-icon .container {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 30px 0;
-    width: 350px;
-    gap: 30px;
   }
-  section.app-icon .icon {
-    height: 80vh;
+  section.grid-app-icon .container .icon {
+    height: 60vh;
   }
-  section.app-icon .frame {
-    height: 80vh;
+  section.grid-app-icon .container .frame {
+    height: 60vh;
   }
-  section.app-icon .frame img {
-    width: 150px;
+  section.grid-app-icon .container .frame img {
+    width: 100px;
   }
-  section.app-icon .web {
-    height: 80vh;
+  section.grid-app-icon .container .web {
+    height: 60vh;
   }
-  section.app-icon .logo {
-    height: 80vh;
+  section.grid-app-icon .container .logo {
+    height: 60vh;
   }
-  section.app-icon .logo img {
-    width: 80px;
+  section.grid-app-icon .container .logo img.vertical-logo {
+    display: none;
+  }
+  section.grid-app-icon .container .logo img.main-logo {
+    width: 300px;
+    display: block;
   }
 }/*# sourceMappingURL=exclusive-aircon.css.map */

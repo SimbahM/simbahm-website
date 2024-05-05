@@ -6,35 +6,40 @@
 }
 
 section.apex-logo {
-    padding: 200px 0;
+    padding: 100px 15px 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 300px;
+    gap: 400px;
 
     .logo-redraw,
-    .main-logo,
-    .typeface,
+    .typeface {
+        width: 400px;
+    }
+
+    .main-logo {
+        width: 800px;
+    }
+
     .color-palette {
-        width: 600px;
+        max-width: 1000px;
     }
 }
 
 @media (max-width: 1024px) {
 
     section.apex-logo {
-        padding: 100px 0;
+        padding: 100px 15px 0 15px;
         gap: 300px;
     
         .logo-redraw,
-        .main-logo,
         .typeface {
-            width: 500px;
+            width: 300px;
         }
 
-        .color-palette {
-            width: 700px;
+        .main-logo {
+            width: 600px;
         }
     }
 }
@@ -42,17 +47,16 @@ section.apex-logo {
 @media (max-width: 768px) {
 
     section.apex-logo {
-        padding: 50px 0;
+        padding: 100px 15px 0 15px;
         gap: 300px;
     
         .logo-redraw,
-        .main-logo,
         .typeface {
-            width: 400px;
+            width: 300px;
         }
 
-        .color-palette {
-            width: 420px;
+        .main-logo {
+            width: 600px;
         }
     }
 }
@@ -60,16 +64,15 @@ section.apex-logo {
 @media (max-width: 425px) {
 
     section.apex-logo {
-        padding: 30px 0;
+        padding: 100px 15px 0 15px;
         gap: 200px;
     
         .logo-redraw,
-        .main-logo,
         .typeface {
-            width: 300px;
+            width: 200px;
         }
 
-        .color-palette {
+        .main-logo {
             width: 350px;
         }
     }

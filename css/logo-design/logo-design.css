@@ -149,7 +149,7 @@ section.projects .work .scrolldown {
     padding: 0 10px;
   }
   section.projects .work {
-    max-width: 700px;
+    max-width: 768px;
     height: 80vh;
     padding-bottom: 30px;
   }
@@ -165,7 +165,6 @@ section.projects .work .scrolldown {
     margin-top: 10px;
   }
   section.projects .work {
-    max-width: 700px;
     height: 80vh;
     padding-bottom: 30px;
     margin-bottom: 10px;
@@ -201,4 +200,4 @@ section.projects .work .scrolldown {
   section.projects .work p.descripter {
     font-size: 17px;
   }
-}/*# sourceMappingURL=branding.css.map */
+}/*# sourceMappingURL=logo-design.css.map */

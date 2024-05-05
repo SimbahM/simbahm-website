@@ -72,6 +72,10 @@ section.logo {
     }    
 }
 
+.water-bottle {
+    border: 1px solid var(--gray);
+}
+
 @media (max-width: 768px) {
 
     section.logo {

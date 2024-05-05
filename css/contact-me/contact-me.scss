@@ -11,7 +11,7 @@ section.contact-me {
     background-repeat: none;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,99 +55,6 @@ section.contact-me {
     }
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-    
-    a {
-        color: var(--white);
-        text-decoration: none;
-        transition: all .3s ease 0s;
-        font-size: 14px;
-        padding: 10px 15px;
-        text-transform: uppercase;
-        letter-spacing: .1rem;
-
-        &:hover {
-            opacity: .8;
-            padding: 10px 15px;
-            background-color: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(8px);
-            border-radius: 5px;
-        }
-    }
-}
-
-@media (max-width: 540px) {
-
-    footer {
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        height: 10vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-        a {
-            color: var(--white);
-            text-decoration: none;
-            transition: all .3s ease 0s;
-            font-size: 14px;
-            padding: 10px 15px;
-            text-transform: uppercase;
-            letter-spacing: .1rem;
-    
-            &:hover {
-                opacity: .8;
-                padding: 10px 15px;
-                background-color: rgba(255, 255, 255, 0.1);
-                backdrop-filter: blur(8px);
-                border-radius: 5px;
-            }
-        }
-    }
-}
-
-@media (max-width: 768px) {
-
-    section.contact-me {
-        padding: 0 50px;
-    
-        .lets-chat {
-    
-            h1 {
-                font-size: 30px;
-            }
-        }
-    
-        .say-hello {
-            gap: 10px;
-    
-            h1 {
-                font-size: 30px;
-            }
-    
-            a {
-    
-                span {
-                    font-size: 20px;
-                }
-            }
-        }
-    }
-}
-
 @media (max-width: 540px) {
 
     section.contact-me {
@@ -182,6 +89,6 @@ footer {
 @media (max-width: 425px) {
 
     section.contact-me {
-        height: 100vh;
+        height: 70vh;
     }
 }
