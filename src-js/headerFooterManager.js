@@ -69,10 +69,10 @@ class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer>
-            <a href="./about-me.html">Simbah M @ 2024</a>
-            <a href="./work.html">Work</a>
-            <a href="./about-me.html">About Me</a>
-            <a href="./contact-me.html">Contact Me</a>
+            <p>
+                © Simbah M 2024 <br>
+                Designed with Figma and built with CSS. 
+            </p>
         </footer>
         `
     }
