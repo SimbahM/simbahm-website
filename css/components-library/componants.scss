@@ -114,25 +114,6 @@ h1, h2 {
     }
 }
 
-@media (max-width: 425px) {
-
-    .button {
-        font-size: 13px;
-        padding: 12px 25px;
-    }
-
-    .button-light {
-        font-size: 13px;
-        padding: 12px 25px;
-    }
-
-    .dark-button {
-        font-size: 13px;
-        padding: 12px 25px;
-    }
-
-}
-
 // Scroll Icon Animation 
 
 .scrolldown {
@@ -209,7 +190,7 @@ section.hero {
     }
 }
 
-section.hero-works-section {
+section.works-images {
     display: flex;
     padding: 200px 15px;
 
@@ -435,7 +416,7 @@ section.ui-projects {
         }
     }
 
-    section.hero-works-section {
+    section.works-images {
         display: flex;
         padding: 20px 15px;
     
@@ -514,6 +495,21 @@ section.ui-projects {
 }
 
 @media (max-width: 425px) {
+
+    .button {
+        font-size: 13px;
+        padding: 12px 25px;
+    }
+
+    .button-light {
+        font-size: 13px;
+        padding: 12px 25px;
+    }
+
+    .dark-button {
+        font-size: 13px;
+        padding: 12px 25px;
+    }
 
     section.projects-hero {
         height: 70vh;

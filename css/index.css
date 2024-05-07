@@ -36,8 +36,8 @@ section.new-project {
   margin-bottom: 10px;
 }
 
-section.niche {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/niche-logo-card-logo.webp);
+section.dustme {
+  background-image: url(../assets/images/home-page/dust-me-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,17 +60,31 @@ section.grid-container .project {
   padding-bottom: 50px;
   gap: 10px;
 }
+section.grid-container .project img {
+  width: 300px;
+}
 section.grid-container .project h1 {
   color: var(--white);
   font-size: 50px;
+}
+section.grid-container .project h1.title {
+  color: var(--primary);
+  font-size: 50px;
+}
+section.grid-container .project p.description {
+  color: var(--gray);
+  font-size: 20px;
 }
 section.grid-container .project p {
   color: var(--white);
   font-size: 20px;
 }
+section.grid-container .b-fit {
+  background-color: var(--white);
+}
 
-.ui-ux {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/nmb-bank-website.webp);
+.shop-savvy {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/shop-savvy-wall-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -88,37 +102,6 @@ section.grid-container .project p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.dustme {
-  background-image: url(../assets/images/home-page/dust-me-logo.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-section.b-fit-logo-project {
-  padding: 50px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--white);
-  margin-bottom: 10px;
-}
-section.b-fit-logo-project img {
-  width: 700px;
-}
-section.b-fit-logo-project h1 {
-  font-size: 60px;
-  color: var(--primary);
-  text-align: center;
-}
-section.b-fit-logo-project p {
-  font-size: 25px;
-  color: var(--primary);
-  text-align: center;
-  font-weight: 300;
 }
 
 @media (max-width: 1024px) {
@@ -244,6 +227,17 @@ section.b-fit-logo-project p {
     color: var(--white);
     font-size: 20px;
   }
+  section.grid-container .project img {
+    width: 250px;
+  }
+  section.grid-container .project h1.title {
+    color: var(--primary);
+    font-size: 40px;
+  }
+  section.grid-container .project p.description {
+    color: var(--gray);
+    font-size: 20px;
+  }
 }
 @media (max-width: 425px) {
   section.home-projects {
@@ -303,6 +297,17 @@ section.b-fit-logo-project p {
   }
   section.grid-container .project p {
     color: var(--white);
+    font-size: 20px;
+  }
+  section.grid-container .project img {
+    width: 150px;
+  }
+  section.grid-container .project h1.title {
+    color: var(--primary);
+    font-size: 40px;
+  }
+  section.grid-container .project p.description {
+    color: var(--gray);
     font-size: 20px;
   }
 }/*# sourceMappingURL=index.css.map */

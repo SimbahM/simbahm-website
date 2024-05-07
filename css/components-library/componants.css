@@ -108,20 +108,6 @@ h1, h2 {
   color: var(--acent);
 }
 
-@media (max-width: 425px) {
-  .button {
-    font-size: 13px;
-    padding: 12px 25px;
-  }
-  .button-light {
-    font-size: 13px;
-    padding: 12px 25px;
-  }
-  .dark-button {
-    font-size: 13px;
-    padding: 12px 25px;
-  }
-}
 .scrolldown {
   position: relative;
   width: 30px;
@@ -187,11 +173,11 @@ section.hero .hero-metadata .hero-page-text {
   color: var(--gray);
 }
 
-section.hero-works-section {
+section.works-images {
   display: flex;
   padding: 200px 15px;
 }
-section.hero-works-section .container {
+section.works-images .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -355,11 +341,11 @@ section.ui-projects .container .uiux-project {
   section.project-header .project-header-content h1.project-title {
     font-size: 50px;
   }
-  section.hero-works-section {
+  section.works-images {
     display: flex;
     padding: 20px 15px;
   }
-  section.hero-works-section .container {
+  section.works-images .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -416,6 +402,18 @@ section.ui-projects .container .uiux-project {
   }
 }
 @media (max-width: 425px) {
+  .button {
+    font-size: 13px;
+    padding: 12px 25px;
+  }
+  .button-light {
+    font-size: 13px;
+    padding: 12px 25px;
+  }
+  .dark-button {
+    font-size: 13px;
+    padding: 12px 25px;
+  }
   section.projects-hero {
     height: 70vh;
     padding-bottom: 30px;

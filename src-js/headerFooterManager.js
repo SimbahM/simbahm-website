@@ -14,11 +14,9 @@ class SpecialHeader extends HTMLElement {
                 <div class="nav-items">
                     <ul class="desktop-menu">
                         <li>
-                            <a href="./logo-design.html">Logo Design</a>
+                            <a href="./work.html">Work</a>
                         </li>
                         <li>
-                            <a href="./ui-ux-design.html">UI Design</a>
-                        </li>
                         <li>
                             <a href="./about-me.html">About</a>
                         </li>
@@ -29,10 +27,7 @@ class SpecialHeader extends HTMLElement {
 
                     <ul class="mobile-menu">
                         <li>
-                            <a href="./logo-design.html">Logo</a>
-                        </li>
-                        <li>
-                            <a href="./ui-ux-design.html">UI</a>
+                            <a href="./work.html">Work</a>
                         </li>
                         <li>
                             <a href="./about-me.html">About</a>
@@ -75,8 +70,7 @@ class SpecialFooter extends HTMLElement {
         this.innerHTML = `
         <footer>
             <a href="./about-me.html">Simbah M @ 2024</a>
-            <a href="./logo-design.html">Logo Design</a>
-            <a href="./ui-ux-design.html">UI Design</a>
+            <a href="./work.html">Work</a>
             <a href="./about-me.html">About Me</a>
             <a href="./contact-me.html">Contact Me</a>
         </footer>

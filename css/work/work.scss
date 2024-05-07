@@ -1,56 +1,113 @@
-.work-hero {
-    background-image: url(../../assets/images/work/simbahm-work-cover-page.webp);
-    background-repeat: none;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 10px;
-
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 20px;
-
-    img {
-        width: 400px;
-        margin-bottom: 50px;
-        opacity: .5;
-    }
-
-    h1 {
-        font-size: 70px;
-        color: var(--white);
-        padding: 0 20px;
-        text-align: center;
-    }
-
-    h1.eca-title-mobile {
-        display: none;
-    }
-
-    p {
-        font-size: 25px;
-        color: var(--white);
-        width: 700px;
-        text-align: center;
-    }
-}
-
 .branding {
-    background-image: url(../../assets/images/work/simbah-m-logo-desgin.webp);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)), url(../../assets/images/Pages/branding/simbah-m-branding-cover-image.webp);
     background-repeat: none;
     background-size: cover;
     background-position: center;
 }
 
-.ui-ux {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(../../assets/images/work/simbah-m-ui-ux-design.webp);
+.niche {
+    background-image: url(../../assets/images/Pages/branding/niche-logo-cover-image.webp);
     background-repeat: none;
     background-size: cover;
     background-position: center;
-    border: 1px solid #EBEFF2;
+}
+
+.car-guvi {
+    background-image: url(../../assets/images/Pages/branding/car-guvi-logo-on-card.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.eca {
+    background-image: url(../../assets/images/Pages/branding/ellchart-chartered-accountants-cover-image.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.prime-drive {
+    background-image: url(../../assets/images/Pages/branding/prime-drive-logo.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.dustme {
+    background-image: url(../../assets/images/Pages/branding/dust-me-logo.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.louis {
+    background-image: url(../../assets/images/Pages/branding/louis-kitchens.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.kabwe {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.7)), url(../../assets/images/Pages/branding/kabwe-loddge-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.eac {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../../assets/images/Pages/branding/exclusive-aircon-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kinterior {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../../assets/images/Pages/branding/kinterior-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pricelyst {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)), url(../../assets/images/Pages/branding/pricelyst-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-savvy {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)), url(../../assets/images/Pages/branding/shop-savy-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.talent {
+    background-image: url(../../assets/images/Pages/branding/talent-solutions-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hope {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)), url(../../assets/images/Pages/branding/hope-wellness-bag.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.apex {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)), url(../../assets/images/Pages/branding/apex-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.b-fit {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)), url(../../assets/images/Pages/branding/b-fit-logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 section.projects {
@@ -97,7 +154,7 @@ section.projects {
         padding: 0 10px;
     
         .work {
-            max-width: 700px;
+            max-width: 768px;
             height: 80vh;
             padding-bottom: 30px;
         }
@@ -118,7 +175,6 @@ section.projects {
         margin-top: 10px;
     
         .work {
-            max-width: 700px;
             height: 80vh;
             padding-bottom: 30px;
             margin-bottom: 10px;
