@@ -11,7 +11,7 @@ section.contact-me {
     background-repeat: none;
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,6 +89,6 @@ section.contact-me {
 @media (max-width: 425px) {
 
     section.contact-me {
-        height: 70vh;
+        height: 75vh;
     }
 }

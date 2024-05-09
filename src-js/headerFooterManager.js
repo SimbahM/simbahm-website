@@ -69,10 +69,19 @@ class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer>
-            <p>
-                © Simbah M 2024 <br>
-                Designed with Figma and built with CSS. 
-            </p>
+            <div class="copyright">
+                <p>
+                    © Simbah M 2024
+                </p>
+            </div>
+            <div class="website-tag">
+                <p>
+                    Designed with <a href="https://www.figma.com/" target="_blank">Figma</a>  and built with
+                </p>
+                <a href="https://sass-lang.com/" target="_blank">
+                    <img src="./assets/icons/sass-logo.svg" alt="Sass Logo">
+                </a>
+            </div>
         </footer>
         `
     }
