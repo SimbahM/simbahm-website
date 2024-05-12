@@ -354,6 +354,49 @@ section.ui-projects {
     }
 }
 
+section.colors-container {
+    padding: 200px 15px 0 15px;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .colors {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 30px 20px;
+
+        p.title {
+            position: absolute;
+            writing-mode: vertical-rl;
+            left: 0;
+            font-size: 40px;
+            font-weight: 300;
+            color: var(--white);
+            bottom: 20px;
+        }
+
+        p {
+            color: var(--white);
+        }
+
+        p.ghost-white-color {
+            color: #1E1C1B;
+        }
+
+        p.hex-code,
+        p.platinum-title {
+            color: #203244;
+        }
+    }
+}
+
 // Media Query
 // Media Query
 // Media Query
@@ -430,6 +473,19 @@ section.ui-projects {
             gap: 20px;
         }
     }
+
+    section.colors-container {
+        padding: 20px 15px 0px 15px;
+    
+        .container {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+    
+        .colors {
+            height: 70vh;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -490,6 +546,19 @@ section.ui-projects {
                     margin-bottom: 20px;
                 }
             }
+        }
+    }
+
+    section.colors-container {
+        padding: 20px 15px 20px 15px;
+    
+        .container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    
+        .colors {
+            height: 70vh;
         }
     }
 }
@@ -588,6 +657,19 @@ section.ui-projects {
                     margin-bottom: 20px;
                 }
             }
+        }
+    }
+
+    section.colors-container {
+        padding: 20px 15px 0px 15px;
+    
+        .container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    
+        .colors {
+            height: 50vh;
         }
     }
 }

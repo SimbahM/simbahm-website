@@ -1,3 +1,64 @@
+.about-me {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/about-me-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.about-me img {
+  width: 100px;
+}
+.about-me h1 {
+  font-size: 50px;
+  color: var(--white);
+  text-align: center;
+}
+.about-me p {
+  color: var(--white);
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: 0.031em;
+  font-size: 21px;
+  width: 450px;
+  text-align: center;
+}
+
+.grandeur-meats {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-color: var(--white);
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+.grandeur-meats img {
+  width: 400px;
+}
+.grandeur-meats h1 {
+  font-size: 40px;
+  color: var(--primary);
+  text-align: center;
+}
+.grandeur-meats span {
+  color: var(--acent);
+  font-size: 21px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.grandeur-meats p {
+  font-size: 21px;
+  color: var(--gray);
+  text-align: center;
+  font-weight: 300;
+}
+
 section.home-projects {
   height: 100vh;
   display: flex;
@@ -8,18 +69,18 @@ section.home-projects {
   gap: 10px;
 }
 section.home-projects h1 {
-  font-size: 60px;
+  font-size: 40px;
   color: var(--white);
   text-align: center;
 }
 section.home-projects span {
   color: var(--acent);
-  font-size: 20px;
+  font-size: 21px;
   margin-bottom: 10px;
   text-align: center;
 }
 section.home-projects p {
-  font-size: 25px;
+  font-size: 21px;
   color: var(--white);
   text-align: center;
   font-weight: 300;
@@ -29,15 +90,15 @@ section.home-projects .scrolldown {
 }
 
 section.new-project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-cover-image.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/bag-mockup.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 10px;
 }
 
-section.dustme {
-  background-image: url(../assets/images/home-page/dust-me-logo.webp);
+section.eca {
+  background-image: url(../assets/images/home-page/ellchart-chartered-accountants-cover-image.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -65,7 +126,7 @@ section.grid-container .project img {
 }
 section.grid-container .project h1 {
   color: var(--white);
-  font-size: 50px;
+  font-size: 40px;
 }
 section.grid-container .project h1.title {
   color: var(--primary);
@@ -73,11 +134,11 @@ section.grid-container .project h1.title {
 }
 section.grid-container .project p.description {
   color: var(--gray);
-  font-size: 20px;
+  font-size: 21px;
 }
 section.grid-container .project p {
   color: var(--white);
-  font-size: 20px;
+  font-size: 21px;
 }
 section.grid-container .b-fit {
   background-color: var(--white);
@@ -92,6 +153,13 @@ footer p {
   font-weight: 400;
   color: var(--gray);
   letter-spacing: 0.011rem;
+}
+
+.dustme {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/dust-me-logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .shop-savvy {
@@ -116,6 +184,47 @@ footer p {
 }
 
 @media (max-width: 1024px) {
+  .about-me {
+    padding: 100px 0;
+    gap: 30px;
+  }
+  .about-me img {
+    width: 80px;
+  }
+  .about-me h1 {
+    font-size: 40px;
+    color: var(--white);
+    text-align: center;
+  }
+  .about-me p {
+    font-size: 17px;
+    width: 350px;
+  }
+  .grandeur-meats {
+    height: 90vh;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+  }
+  .grandeur-meats img {
+    width: 350px;
+  }
+  .grandeur-meats h1 {
+    font-size: 40px;
+    color: var(--primary);
+    text-align: center;
+  }
+  .grandeur-meats span {
+    color: var(--acent);
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .grandeur-meats p {
+    font-size: 21px;
+    color: var(--gray);
+    text-align: center;
+    font-weight: 300;
+  }
   section.home-projects {
     height: 90vh;
     display: flex;
@@ -140,25 +249,6 @@ footer p {
   }
   section.home-projects .scrolldown {
     display: none;
-  }
-  section.b-fit-logo-project {
-    padding: 50px 0;
-    background-color: var(--white);
-    margin-bottom: 10px;
-  }
-  section.b-fit-logo-project img {
-    width: 500px;
-  }
-  section.b-fit-logo-project h1 {
-    font-size: 60px;
-    color: var(--primary);
-    text-align: center;
-  }
-  section.b-fit-logo-project p {
-    font-size: 25px;
-    color: var(--primary);
-    text-align: center;
-    font-weight: 300;
   }
   section.grid-container .project {
     height: 90vh;
@@ -175,10 +265,26 @@ footer p {
   }
   section.grid-container .project p {
     color: var(--white);
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 @media (max-width: 768px) {
+  .about-me {
+    padding: 100px 0;
+    gap: 30px;
+  }
+  .about-me img {
+    width: 80px;
+  }
+  .about-me h1 {
+    font-size: 40px;
+    color: var(--white);
+    text-align: center;
+  }
+  .about-me p {
+    font-size: 17px;
+    width: 350px;
+  }
   section.home-projects {
     height: 90vh;
     display: flex;
@@ -203,19 +309,6 @@ footer p {
   }
   section.home-projects .scrolldown {
     display: none;
-  }
-  section.b-fit-logo-project {
-    padding: 50px 0;
-    margin-bottom: 10px;
-  }
-  section.b-fit-logo-project img {
-    width: 400px;
-  }
-  section.b-fit-logo-project h1 {
-    font-size: 40px;
-  }
-  section.b-fit-logo-project p {
-    font-size: 21px;
   }
   section.grid-container {
     grid-template-columns: repeat(1, 1fr);
@@ -236,7 +329,7 @@ footer p {
   }
   section.grid-container .project p {
     color: var(--white);
-    font-size: 20px;
+    font-size: 21px;
   }
   section.grid-container .project img {
     width: 250px;
@@ -247,10 +340,51 @@ footer p {
   }
   section.grid-container .project p.description {
     color: var(--gray);
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 @media (max-width: 425px) {
+  .about-me {
+    padding: 100px 0;
+    gap: 30px;
+  }
+  .about-me img {
+    width: 70px;
+  }
+  .about-me h1 {
+    font-size: 40px;
+    color: var(--white);
+    text-align: center;
+  }
+  .about-me p {
+    font-size: 17px;
+    width: 300px;
+  }
+  .grandeur-meats {
+    height: 60vh;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+  }
+  .grandeur-meats img {
+    width: 350px;
+  }
+  .grandeur-meats h1 {
+    font-size: 40px;
+    color: var(--primary);
+    text-align: center;
+  }
+  .grandeur-meats span {
+    color: var(--acent);
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .grandeur-meats p {
+    font-size: 21px;
+    color: var(--gray);
+    text-align: center;
+    font-weight: 300;
+  }
   section.home-projects {
     height: 60vh;
     display: flex;
@@ -276,19 +410,6 @@ footer p {
   section.home-projects .scrolldown {
     display: none;
   }
-  section.b-fit-logo-project {
-    padding: 50px 0;
-    margin-bottom: 10px;
-  }
-  section.b-fit-logo-project img {
-    width: 350px;
-  }
-  section.b-fit-logo-project h1 {
-    font-size: 40px;
-  }
-  section.b-fit-logo-project p {
-    font-size: 21px;
-  }
   section.grid-container {
     grid-template-columns: repeat(1, 1fr);
     margin: 10px 0;
@@ -308,7 +429,7 @@ footer p {
   }
   section.grid-container .project p {
     color: var(--white);
-    font-size: 20px;
+    font-size: 21px;
   }
   section.grid-container .project img {
     width: 150px;
@@ -319,6 +440,6 @@ footer p {
   }
   section.grid-container .project p.description {
     color: var(--gray);
-    font-size: 20px;
+    font-size: 21px;
   }
 }/*# sourceMappingURL=index.css.map */

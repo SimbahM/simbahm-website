@@ -60,36 +60,6 @@ section.logo img {
   background-position: center;
 }
 
-section.colors-container {
-  padding: 200px 15px 0 15px;
-}
-section.colors-container .container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  max-width: 1000px;
-  margin: 0 auto;
-  gap: 20px;
-}
-section.colors-container .colors {
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding: 30px 20px;
-}
-section.colors-container .colors p.title {
-  position: absolute;
-  writing-mode: vertical-rl;
-  left: 0;
-  font-size: 40px;
-  font-weight: 300;
-  color: var(--white);
-  bottom: 20px;
-}
-section.colors-container .colors p {
-  color: var(--white);
-}
-
 @media (max-width: 1024px) {
   section.logo {
     padding: 200px 0;
@@ -97,16 +67,6 @@ section.colors-container .colors p {
   section.logo img {
     width: 500px;
     margin: 70px;
-  }
-  section.colors-container {
-    padding: 20px 15px 20px 15px;
-  }
-  section.colors-container .container {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-  }
-  section.colors-container .colors {
-    height: 70vh;
   }
 }
 @media (max-width: 768px) {
@@ -117,16 +77,6 @@ section.colors-container .colors p {
     width: 400px;
     margin: 70px;
   }
-  section.colors-container {
-    padding: 20px 15px 20px 15px;
-  }
-  section.colors-container .container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  section.colors-container .colors {
-    height: 70vh;
-  }
 }
 @media (max-width: 425px) {
   section.logo {
@@ -135,15 +85,5 @@ section.colors-container .colors p {
   section.logo img {
     width: 300px;
     margin: 70px;
-  }
-  section.colors-container {
-    padding: 20px 15px 0px 15px;
-  }
-  section.colors-container .container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  section.colors-container .colors {
-    height: 70vh;
   }
 }/*# sourceMappingURL=car-guvi.css.map */

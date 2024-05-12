@@ -1,0 +1,405 @@
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 999;
+    padding: 0 15px;
+    background-color: var(--primary);
+
+    nav.navigation-bar {
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                img {
+                    display: block;
+                    width: 110px;
+                    opacity: .8;
+                    transition: all .3s ease 0s;
+    
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+
+                img.mobile-logo {
+                    display: none;
+                }
+            }
+        }
+
+        .nav-items {
+
+            ul {
+                list-style: none;
+                display: flex;
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: var(--white);
+                        font-size: 12px;
+                        font-weight: 400;
+                        opacity: .8;
+                        padding: 8px 15px;
+                        border-radius: 0 0 2px 2px;
+                        transition: all .5s ease 0s;
+                        text-transform: uppercase;
+                        letter-spacing: 0.05rem;
+                        backdrop-filter: blur(8px);
+                        border-top: 3px solid #ffffff00;
+
+                        &:hover {
+                            background-color: rgba(235, 239, 242, .3);
+                            padding: 8px 15px;
+                            border-radius: 0 0 2px 2px;
+                            border-top: 3px solid var(--white);
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+
+            ul.mobile-menu {
+                display: none;
+            }
+        }
+
+        .social-media {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: -13px;
+
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                // gap: 25px;
+
+                li{
+                    display: block;
+
+                    a {
+                        display: flex;
+                        text-decoration: none;
+                        color: var(--white);
+                        padding: 7px 15px;
+                        font-size: 20px;
+                        transition: all .5s ease 0s;
+                        border-radius: 0 0 2px 2px;
+                        border-top: 3px solid #ffffff00;
+
+                        img {
+                            width: 17px;
+                            color: #EBEFF2;
+                        }
+                        
+                        &:hover {
+                            background-color: rgba(235, 239, 242, .2);
+                            padding: 7px 15px;
+                            border-radius: 0 0 2px 2px;
+                            border-top: 2px solid var(--white);
+                            backdrop-filter: blur(8px);
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+
+        .hamburger-menu {
+            display: none;
+        }
+    }
+}
+
+// media Query 
+
+@media (max-width: 854px) {
+    
+    header {
+    
+        nav.navigation-bar {
+    
+            .nav-items {
+                margin-right: -13px;
+                
+    
+                ul {
+                    list-style: none;
+    
+                    li {
+    
+                        a {
+                            text-decoration: none;
+                            color: var(--white);
+                            font-size: 12px;
+                            font-weight: 400;
+                            opacity: .8;
+                            padding: 8px 15px;
+                            border-radius: 0 0 2px 2px;
+                            border-top: 3px solid #ffffff00;
+                            transition: all .5s ease 0s;
+    
+                            &:hover {
+                                background-color: rgba(235, 239, 242, .2);
+                                color: var(--white);
+                                padding: 8px 15px;
+                                border-radius: 0 0 2px 2px;
+                                border-top: 3px solid var(--white);
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .social-media {
+                display: none;
+                flex-direction: row;
+                align-items: center;
+    
+                ul {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    // gap: 25px;
+    
+                    li{
+                        display: block;
+    
+                        a {
+                            text-decoration: none;
+                            color: var(--white);
+                            padding: 5px 15px;
+                            font-size: 20px;
+                            transition: all .5s ease 0s;
+                            
+                            &:hover {
+                                background-color: rgba(235, 239, 242, .7);
+                                padding: 3px 15px;
+                                border-radius: 5px;
+                                color: #1B2F3F;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .hamburger-menu {
+            display: block;
+            margin-right: 50px;
+            color: var(--white);
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    
+    header {
+    
+        nav.navigation-bar {
+    
+            .nav-items {
+                
+    
+                ul {
+                    display: none;
+                }
+
+                ul.mobile-menu {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    
+    header {
+    
+        nav.navigation-bar {
+    
+            .logo {
+
+                a {
+
+                    img {
+                        display: none;
+                    }
+
+                    img.mobile-logo {
+                        display: block;
+                        width: 30px;
+                    }
+                }
+            }
+    
+            .nav-items {
+    
+                ul {
+                    display: none;
+                }
+
+                ul.mobile-menu {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+section.items-wrapper {
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+    img {
+        width: 700px;
+    }
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 70px;
+            color: var(--primary);
+            text-align: center;
+        }
+
+        p {
+            font-size: 35px;
+            color: var(--gray);
+            text-align: center;
+        }
+    }
+}
+
+.seal-brown {
+    background-image: linear-gradient(to bottom, rgba(104,30,7,1), rgba(104,30,7,0)), url(../../assets/images/Pages/grandure-meats/image-seal-brown.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.deep-carrot-orange {
+    background-image: linear-gradient(to bottom, rgba(241,107,44,1), rgba(241,107,44,0)), url(../../assets/images/Pages/grandure-meats/image-deep-carrot-orange.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.platinum {
+    background-image: linear-gradient(to bottom, rgba(229,229,229,1), rgba(229,229,229,0)), url(../../assets/images/Pages/grandure-meats/image-platinum.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.yankees-blue {
+    background-image: linear-gradient(to bottom, rgba(32,50,68,1), rgba(32,50,68,0)), url(../../assets/images/Pages/grandure-meats/image-yankees-blue.webp);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1024px) {
+
+    section.items-wrapper {
+        padding: 200px 0 50px 0;
+        gap: 50px;
+    
+        img {
+            width: 500px;
+        }
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--primary);
+                text-align: center;
+            }
+    
+            p {
+                font-size: 25px;
+                color: var(--gray);
+    
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.items-wrapper {
+        padding: 100px 0 50px 0;
+        gap: 50px;
+    
+        img {
+            width: 400px;
+        }
+    
+        .titles {
+    
+            h1 {
+                font-size: 50px;
+                color: var(--primary);
+                text-align: center;
+            }
+    
+            p {
+                font-size: 25px;
+                color: var(--gray);
+    
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.items-wrapper {
+        padding: 100px 0 50px 0;
+        gap: 50px;
+    
+        img {
+            width: 300px;
+        }
+    
+        .titles {
+    
+            h1 {
+                font-size: 40px;
+                color: var(--primary);
+                text-align: center;
+            }
+    
+            p {
+                font-size: 25px;
+                color: var(--gray);
+            }
+        }
+    }
+}

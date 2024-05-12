@@ -1,0 +1,102 @@
+.vah {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/vah/vah-solutions-cover-page.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.white-logo {
+  padding: 0 15px;
+}
+.white-logo .container {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/vah/image-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-logo .container img {
+  width: 700px;
+}
+
+.persian-blue {
+  background-image: linear-gradient(to bottom, rgb(0, 104, 163), rgba(0, 104, 163, 0)), url(../../assets/images/Pages/vah/image-persian-blue.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.granite-gray {
+  background-image: linear-gradient(to bottom, rgb(99, 99, 99), rgba(99, 99, 99, 0)), url(../../assets/images/Pages/vah/image-granite-gray-color.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ghost-white {
+  background-image: linear-gradient(to bottom, rgb(247, 250, 252), rgba(247, 250, 252, 0)), url(../../assets/images/Pages/vah/image-ghost-white-color.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ghost-white p {
+  color: #0068A3;
+}
+
+.eerie-black {
+  background-image: linear-gradient(to bottom, rgb(30, 28, 27), rgba(30, 28, 27, 0)), url(../../assets/images/Pages/vah/image-eerie-black.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.main-logo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+section.main-logo img {
+  width: 600px;
+}
+
+@media (max-width: 768px) {
+  .white-logo {
+    padding: 0 15px;
+  }
+  .white-logo .container {
+    height: 80vh;
+  }
+  .white-logo .container img {
+    width: 400px;
+  }
+  section.main-logo {
+    height: 80vh;
+  }
+  section.main-logo img {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  .white-logo {
+    padding: 0 15px;
+  }
+  .white-logo .container {
+    height: 80vh;
+  }
+  .white-logo .container img {
+    width: 300px;
+  }
+  section.main-logo {
+    height: 40vh;
+  }
+  section.main-logo img {
+    width: 300px;
+  }
+}/*# sourceMappingURL=vah-solutions.css.map */
