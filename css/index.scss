@@ -32,7 +32,7 @@
 }
 
 .grandeur-meats {
-    height: 90vh;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -226,7 +226,7 @@ footer {
     }
 
     .grandeur-meats {
-        height: 90vh;
+        padding: 100px 0;
         margin-bottom: 10px;
         padding-bottom: 50px;
     
@@ -332,7 +332,7 @@ footer {
     }
 
     section.home-projects {
-        height: 90vh;
+        padding: 100px 0;
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -424,12 +424,12 @@ footer {
     }
 
     .grandeur-meats {
-        height: 60vh;
+        padding: 100px 0;
         margin-bottom: 10px;
         padding-bottom: 50px;
     
         img {
-            width: 350px;
+            width: 300px;
         }
     
         h1 {
