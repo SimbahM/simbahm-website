@@ -5,13 +5,6 @@
   background-position: center;
 }
 
-.niche {
-  background-image: url(../../assets/images/Pages/branding/niche-logo-cover-image.webp);
-  background-repeat: none;
-  background-size: cover;
-  background-position: center;
-}
-
 .car-guvi {
   background-image: url(../../assets/images/Pages/branding/car-guvi-logo-on-card.webp);
   background-repeat: none;
@@ -21,6 +14,13 @@
 
 .eca {
   background-image: url(../../assets/images/Pages/branding/ellchart-chartered-accountants-cover-image.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.niche {
+  background-image: url(../../assets/images/Pages/branding/niche-logo-cover-image.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
@@ -117,6 +117,30 @@ section.projects {
   padding: 0;
   margin-top: 100px;
 }
+section.projects .grandeur-meats {
+  max-width: 1000px;
+  padding: 100px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+  background-color: var(--white);
+}
+section.projects .grandeur-meats h1.grandeur-meats-title {
+  color: var(--primary);
+  font-size: 40px;
+}
+section.projects .grandeur-meats p.grandeur-meats-title {
+  color: var(--gray);
+  font-size: 20px;
+}
+section.projects .grandeur-meats img {
+  width: 400px;
+}
 section.projects .work {
   max-width: 1000px;
   height: 85vh;
@@ -128,6 +152,17 @@ section.projects .work {
   padding-bottom: 50px;
   margin-bottom: 100px;
   width: 100%;
+}
+section.projects .work h1.grandeur-meats-title {
+  color: var(--primary);
+  font-size: 40px;
+}
+section.projects .work p.grandeur-meats-title {
+  color: var(--gray);
+  font-size: 20px;
+}
+section.projects .work img {
+  width: 400px;
 }
 section.projects .work h1.title {
   color: var(--white);
@@ -148,10 +183,28 @@ section.projects .work .scrolldown {
   section.projects {
     padding: 0 10px;
   }
+  section.projects .grandeur-meats {
+    max-width: 768px;
+    margin-bottom: 10px;
+  }
+  section.projects .grandeur-meats h1.grandeur-meats-title {
+    color: var(--primary);
+    font-size: 40px;
+  }
+  section.projects .grandeur-meats p.grandeur-meats-title {
+    color: var(--gray);
+    font-size: 20px;
+  }
+  section.projects .grandeur-meats img {
+    width: 400px;
+  }
   section.projects .work {
     max-width: 768px;
     height: 80vh;
     padding-bottom: 30px;
+  }
+  section.projects .work img {
+    width: 250px;
   }
   section.projects .kabwe-lodge-interior {
     max-width: 700px;
@@ -188,11 +241,28 @@ section.projects .work .scrolldown {
   section.projects {
     margin-top: 10px;
   }
+  section.projects .grandeur-meats {
+    max-width: 768px;
+    margin-bottom: 10px;
+    padding: 50px 0;
+  }
+  section.projects .grandeur-meats h1.grandeur-meats-title {
+    font-size: 30px;
+  }
+  section.projects .grandeur-meats p.grandeur-meats-title {
+    font-size: 17px;
+  }
+  section.projects .grandeur-meats img {
+    width: 300px;
+  }
   section.projects .work {
     max-width: 700px;
     height: 55vh;
     padding-bottom: 30px;
     margin-bottom: 10px;
+  }
+  section.projects .work img {
+    width: 250px;
   }
   section.projects .work h1.title {
     font-size: 30px;
