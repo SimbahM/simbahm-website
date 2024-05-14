@@ -14,11 +14,11 @@ class SpecialHeader extends HTMLElement {
                 <div class="nav-items">
                     <ul class="desktop-menu">
                         <li>
-                            <a href="./work.html">Work</a>
+                            <a href="./work">Work</a>
                         </li>
                         <li>
                         <li>
-                            <a href="./about-me.html">About</a>
+                            <a href="./about-me">About</a>
                         </li>
                         <li>
                             <a href="./contact-me.html">Contact</a>
@@ -27,13 +27,13 @@ class SpecialHeader extends HTMLElement {
 
                     <ul class="mobile-menu">
                         <li>
-                            <a href="./work.html">Work</a>
+                            <a href="./work">Work</a>
                         </li>
                         <li>
-                            <a href="./about-me.html">About</a>
+                            <a href="./about-me">About</a>
                         </li>
                         <li>
-                            <a href="./contact-me.html">Contact</a>
+                            <a href="./contact-me">Contact</a>
                         </li>
                     </ul>
                 </div>
