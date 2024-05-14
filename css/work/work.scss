@@ -117,7 +117,8 @@ section.projects {
     padding: 0;
     margin-top: 100px;
 
-    .grandeur-meats {
+    .grandeur-meats,
+    .vah {
         max-width: 1000px;
         padding: 100px 0;
         margin: 0 auto;
@@ -142,6 +143,11 @@ section.projects {
 
         img {
             width: 400px;
+        }
+
+        img.vah-water-bottle {
+            width: 200px;
+            margin-bottom: 30px;
         }
     }
 
@@ -195,7 +201,8 @@ section.projects {
     section.projects {
         padding: 0 10px;
 
-        .grandeur-meats {
+        .grandeur-meats,
+        .vah {
             max-width: 768px;
             margin-bottom: 10px;
     
@@ -270,7 +277,8 @@ section.projects {
     section.projects {
         margin-top: 10px;
 
-        .grandeur-meats {
+        .grandeur-meats,
+        .vah {
             max-width: 768px;
             margin-bottom: 10px;
             padding: 50px 0;

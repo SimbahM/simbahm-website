@@ -117,7 +117,8 @@ section.projects {
   padding: 0;
   margin-top: 100px;
 }
-section.projects .grandeur-meats {
+section.projects .grandeur-meats,
+section.projects .vah {
   max-width: 1000px;
   padding: 100px 0;
   margin: 0 auto;
@@ -130,16 +131,24 @@ section.projects .grandeur-meats {
   width: 100%;
   background-color: var(--white);
 }
-section.projects .grandeur-meats h1.grandeur-meats-title {
+section.projects .grandeur-meats h1.grandeur-meats-title,
+section.projects .vah h1.grandeur-meats-title {
   color: var(--primary);
   font-size: 40px;
 }
-section.projects .grandeur-meats p.grandeur-meats-title {
+section.projects .grandeur-meats p.grandeur-meats-title,
+section.projects .vah p.grandeur-meats-title {
   color: var(--gray);
   font-size: 20px;
 }
-section.projects .grandeur-meats img {
+section.projects .grandeur-meats img,
+section.projects .vah img {
   width: 400px;
+}
+section.projects .grandeur-meats img.vah-water-bottle,
+section.projects .vah img.vah-water-bottle {
+  width: 200px;
+  margin-bottom: 30px;
 }
 section.projects .work {
   max-width: 1000px;
@@ -183,19 +192,23 @@ section.projects .work .scrolldown {
   section.projects {
     padding: 0 10px;
   }
-  section.projects .grandeur-meats {
+  section.projects .grandeur-meats,
+  section.projects .vah {
     max-width: 768px;
     margin-bottom: 10px;
   }
-  section.projects .grandeur-meats h1.grandeur-meats-title {
+  section.projects .grandeur-meats h1.grandeur-meats-title,
+  section.projects .vah h1.grandeur-meats-title {
     color: var(--primary);
     font-size: 40px;
   }
-  section.projects .grandeur-meats p.grandeur-meats-title {
+  section.projects .grandeur-meats p.grandeur-meats-title,
+  section.projects .vah p.grandeur-meats-title {
     color: var(--gray);
     font-size: 20px;
   }
-  section.projects .grandeur-meats img {
+  section.projects .grandeur-meats img,
+  section.projects .vah img {
     width: 400px;
   }
   section.projects .work {
@@ -241,18 +254,22 @@ section.projects .work .scrolldown {
   section.projects {
     margin-top: 10px;
   }
-  section.projects .grandeur-meats {
+  section.projects .grandeur-meats,
+  section.projects .vah {
     max-width: 768px;
     margin-bottom: 10px;
     padding: 50px 0;
   }
-  section.projects .grandeur-meats h1.grandeur-meats-title {
+  section.projects .grandeur-meats h1.grandeur-meats-title,
+  section.projects .vah h1.grandeur-meats-title {
     font-size: 30px;
   }
-  section.projects .grandeur-meats p.grandeur-meats-title {
+  section.projects .grandeur-meats p.grandeur-meats-title,
+  section.projects .vah p.grandeur-meats-title {
     font-size: 17px;
   }
-  section.projects .grandeur-meats img {
+  section.projects .grandeur-meats img,
+  section.projects .vah img {
     width: 300px;
   }
   section.projects .work {

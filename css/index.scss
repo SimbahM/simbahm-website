@@ -1,14 +1,15 @@
 .about-me {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/about-me-bg.webp);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/simbahm-home-page-bg-image.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 120px 0;
+    padding: 120px 0 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-bottom: 10px;
 
     img {
         width: 100px;
@@ -17,6 +18,15 @@
     h1 {
         font-size: 50px;
         color: var(--white);
+        text-align: center;
+    }
+
+    h1.featured-projects {
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0.11rem;
+        text-transform: uppercase;
+        margin-top: 100px;
         text-align: center;
     }
 
@@ -31,7 +41,8 @@
     }
 }
 
-.grandeur-meats {
+.grandeur-meats,
+.vah {
     padding: 100px 0;
     display: flex;
     flex-direction: column;
@@ -43,6 +54,11 @@
 
     img {
         width: 400px;
+    }
+
+    img.vah-image {
+        width: 200px;
+        margin-bottom: 50px;
     }
 
     h1 {
@@ -62,7 +78,8 @@
         font-size: 21px;
         color: var(--gray);
         text-align: center;
-        font-weight: 300;
+        font-weight: 400;
+        text-align: center;
     }
 }
 
@@ -93,7 +110,8 @@ section.home-projects {
         font-size: 21px;
         color: var(--white);
         text-align: center;
-        font-weight: 300;
+        font-weight: 400;
+        text-align: center;
     }
 
     .scrolldown {
@@ -140,11 +158,13 @@ section.grid-container {
         h1 {
             color: var(--white);
             font-size: 40px;
+            text-align: center;
         }
 
         h1.title {
             color: var(--primary);
             font-size: 50px;
+            text-align: center;
         }
 
         p.description {
@@ -155,11 +175,8 @@ section.grid-container {
         p {
             color: var(--white);
             font-size: 21px;
+            text-align: center;
         }
-    }
-
-    .b-fit {
-        background-color: var(--white);
     }
 }
 
@@ -175,8 +192,8 @@ footer {
     }
 }
 
-.dustme {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../assets/images/home-page/dust-me-logo.webp);
+.niche {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../assets/images/home-page/niche-logo-card-logo.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,7 +242,8 @@ footer {
         }
     }
 
-    .grandeur-meats {
+    .grandeur-meats,
+    .vah {
         padding: 100px 0;
         margin-bottom: 10px;
         padding-bottom: 50px;
@@ -423,7 +441,8 @@ footer {
         }
     }
 
-    .grandeur-meats {
+    .grandeur-meats,
+    .vah {
         padding: 100px 0;
         margin-bottom: 10px;
         padding-bottom: 50px;
