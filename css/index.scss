@@ -223,8 +223,9 @@ footer {
 @media (max-width: 1024px) {
 
     .about-me {
-        padding: 100px 0;
+        padding: 120px 0 50px 0;
         gap: 20px;
+
     
         img {
             width: 80px;
@@ -330,7 +331,7 @@ footer {
 @media (max-width: 768px) {
 
     .about-me {
-        padding: 100px 0;
+        padding: 120px 0 50px 0;
         gap: 20px;
     
         img {
@@ -422,7 +423,7 @@ footer {
 @media (max-width: 425px) {
 
     .about-me {
-        padding: 100px 0;
+        padding: 120px 0 50px 0;
         gap: 20px;
     
         img {
@@ -433,6 +434,12 @@ footer {
             font-size: 40px;
             color: var(--white);
             text-align: center;
+        }
+
+        h1.featured-projects {
+            font-size: 30px;
+            width: 200px;
+            line-height: 1.3em;
         }
     
         p {
