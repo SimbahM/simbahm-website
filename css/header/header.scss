@@ -63,16 +63,17 @@ header {
                         color: var(--white);
                         font-size: 12px;
                         font-weight: 400;
+                        backdrop-filter: blur(8px);
                         opacity: .8;
                         padding: 8px 15px;
                         border-radius: 0 0 2px 2px;
                         transition: all .5s ease 0s;
                         text-transform: uppercase;
                         letter-spacing: 0.05rem;
-                        backdrop-filter: blur(8px);
                         border-top: 3px solid #ffffff00;
 
                         &:hover {
+                            backdrop-filter: blur(8px);
                             background-color: rgba(235, 239, 242, .3);
                             padding: 8px 15px;
                             border-radius: 0 0 2px 2px;
