@@ -21,7 +21,7 @@ class SpecialHeader extends HTMLElement {
                             <a href="./about-me">About</a>
                         </li>
                         <li>
-                            <a href="./contact-me.html">Contact</a>
+                            <a href="./contact-me">Contact</a>
                         </li>
                     </ul>
 
@@ -89,4 +89,3 @@ class SpecialFooter extends HTMLElement {
 
 customElements.define('special-header', SpecialHeader)
 customElements.define('special-footer', SpecialFooter)
-customElements.define('special-thank-you-footer', SpecialThankYouFooter)
