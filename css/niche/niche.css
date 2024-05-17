@@ -112,44 +112,43 @@ section.posters .poster-container .logic-poster {
   background-repeat: no-repeat;
   background-size: cover;
 }
-section.posters .poster-container .man-poster {
+section.posters .poster-container .main-poster {
   background-image: url(../../assets/images/Pages/niche/african-american-man.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 section.posters .poster-container .logic-poster,
-section.posters .poster-container .man-poster {
+section.posters .poster-container .main-poster {
   height: 700px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
 }
 section.posters .poster-container .logic-poster .logo-symbol img,
-section.posters .poster-container .man-poster .logo-symbol img {
+section.posters .poster-container .main-poster .logo-symbol img {
   width: 250px;
   margin-bottom: 70px;
 }
 section.posters .poster-container .logic-poster .meta-data,
-section.posters .poster-container .man-poster .meta-data {
+section.posters .poster-container .main-poster .meta-data {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 20px;
-  padding: 0 50px;
 }
 section.posters .poster-container .logic-poster .meta-data .logo,
-section.posters .poster-container .man-poster .meta-data .logo {
+section.posters .poster-container .main-poster .meta-data .logo {
   width: 150px;
 }
 section.posters .poster-container .logic-poster .meta-data .quorts,
-section.posters .poster-container .man-poster .meta-data .quorts {
+section.posters .poster-container .main-poster .meta-data .quorts {
   width: 50px;
 }
 section.posters .poster-container .logic-poster .meta-data p,
-section.posters .poster-container .man-poster .meta-data p {
+section.posters .poster-container .main-poster .meta-data p {
   color: var(--white);
   font-size: 21px;
 }
@@ -213,29 +212,29 @@ section.grid-ads .grid {
     grid-template-columns: repeat(2, 1fr);
   }
   section.posters .poster-container .logic-poster,
-  section.posters .poster-container .man-poster {
+  section.posters .poster-container .main-poster {
     height: 700px;
     padding: 20px;
   }
   section.posters .poster-container .logic-poster .logo-symbol img,
-  section.posters .poster-container .man-poster .logo-symbol img {
+  section.posters .poster-container .main-poster .logo-symbol img {
     width: 250px;
     margin-bottom: 70px;
   }
   section.posters .poster-container .logic-poster .meta-data,
-  section.posters .poster-container .man-poster .meta-data {
+  section.posters .poster-container .main-poster .meta-data {
     gap: 20px;
   }
   section.posters .poster-container .logic-poster .meta-data .logo,
-  section.posters .poster-container .man-poster .meta-data .logo {
+  section.posters .poster-container .main-poster .meta-data .logo {
     width: 150px;
   }
   section.posters .poster-container .logic-poster .meta-data .quorts,
-  section.posters .poster-container .man-poster .meta-data .quorts {
+  section.posters .poster-container .main-poster .meta-data .quorts {
     width: 50px;
   }
   section.posters .poster-container .logic-poster .meta-data p,
-  section.posters .poster-container .man-poster .meta-data p {
+  section.posters .poster-container .main-poster .meta-data p {
     color: var(--white);
     font-size: 21px;
   }
@@ -283,29 +282,29 @@ section.grid-ads .grid {
     grid-template-columns: repeat(1, 1fr);
   }
   section.posters .poster-container .logic-poster,
-  section.posters .poster-container .man-poster {
+  section.posters .poster-container .main-poster {
     height: 700px;
     padding: 20px;
   }
   section.posters .poster-container .logic-poster .logo-symbol img.logo-outline-symbol,
-  section.posters .poster-container .man-poster .logo-symbol img.logo-outline-symbol {
+  section.posters .poster-container .main-poster .logo-symbol img.logo-outline-symbol {
     width: 250px;
     margin-bottom: 70px;
   }
   section.posters .poster-container .logic-poster .meta-data,
-  section.posters .poster-container .man-poster .meta-data {
+  section.posters .poster-container .main-poster .meta-data {
     gap: 20px;
   }
   section.posters .poster-container .logic-poster .meta-data .logo,
-  section.posters .poster-container .man-poster .meta-data .logo {
+  section.posters .poster-container .main-poster .meta-data .logo {
     width: 150px;
   }
   section.posters .poster-container .logic-poster .meta-data .quorts,
-  section.posters .poster-container .man-poster .meta-data .quorts {
+  section.posters .poster-container .main-poster .meta-data .quorts {
     width: 50px;
   }
   section.posters .poster-container .logic-poster .meta-data p,
-  section.posters .poster-container .man-poster .meta-data p {
+  section.posters .poster-container .main-poster .meta-data p {
     color: var(--white);
     font-size: 21px;
   }
@@ -353,12 +352,12 @@ section.grid-ads .grid {
     padding: 20px 15px 0 15px;
   }
   section.posters .logic-poster,
-  section.posters .man-poster {
+  section.posters .main-poster {
     height: 600px;
     padding: 20px;
   }
   section.posters .logic-poster .logo-symbol img,
-  section.posters .man-poster .logo-symbol img {
+  section.posters .main-poster .logo-symbol img {
     width: 250px;
     margin-bottom: 70px;
   }

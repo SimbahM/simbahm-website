@@ -13,7 +13,7 @@
 }
 
 .eca {
-  background-image: url(../../assets/images/Pages/branding/ellchart-chartered-accountants-cover-image.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/Pages/branding/ellchart-chartered-accountants-bag.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;

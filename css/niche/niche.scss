@@ -113,7 +113,7 @@ section.posters {
             background-size: cover;
         }
     
-        .man-poster {
+        .main-poster {
             background-image: url(../../assets/images/Pages/niche/african-american-man.webp);
             background-position: center;
             background-repeat: no-repeat;
@@ -121,13 +121,13 @@ section.posters {
         }
 
         .logic-poster,
-        .man-poster {
+        .main-poster {
             height: 700px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: end;
             align-items: center;
-            padding: 20px;
+            padding: 30px;
     
             .logo-symbol {
     
@@ -142,7 +142,6 @@ section.posters {
                 flex-direction: column;
                 align-items: start;
                 gap: 20px;
-                padding: 0 50px;
     
                 .logo {
                     width: 150px;
@@ -229,7 +228,7 @@ section.grid-ads {
             grid-template-columns: repeat(2, 1fr);
     
             .logic-poster,
-            .man-poster {
+            .main-poster {
                 height: 700px;
                 padding: 20px;
         
@@ -317,7 +316,7 @@ section.grid-ads {
             grid-template-columns: repeat(1, 1fr);
     
             .logic-poster,
-            .man-poster {
+            .main-poster {
                 height: 700px;
                 padding: 20px;
         
@@ -403,7 +402,7 @@ section.grid-ads {
         padding: 20px 15px 0 15px;
     
         .logic-poster,
-        .man-poster {
+        .main-poster {
             height: 600px;
             padding: 20px;
     
