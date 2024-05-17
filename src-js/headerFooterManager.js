@@ -6,7 +6,7 @@ class SpecialHeader extends HTMLElement {
         <header>
             <nav class="navigation-bar">
                 <div class="logo">
-                    <a href="./index.html">
+                    <a href="./">
                         <img src="./assets/icons/simbahm-logo-white.png" alt="Simbah M Logo">
                         <img class="mobile-logo" src="./assets/icons/simbahm-logo-mark.svg" alt="Simbah M Logo Icon">
                     </a>
