@@ -91,14 +91,12 @@ section.grid .container .white-lingerie {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
 }
 section.grid .container .black-lingerie {
   background-image: url(../../assets/images/pages/avas/black-lingerie.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
 }
 section.grid .container .white-lingerie,
 section.grid .container .black-lingerie {
@@ -106,6 +104,7 @@ section.grid .container .black-lingerie {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 section.grid .container .white-lingerie img,
 section.grid .container .black-lingerie img {
@@ -169,14 +168,12 @@ section.grid .container .black-lingerie img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
   }
   section.grid .container .black-lingerie {
     background-image: url(../../assets/images/pages/avas/black-lingerie.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
   }
   section.grid .container .white-lingerie,
   section.grid .container .black-lingerie {
@@ -184,6 +181,7 @@ section.grid .container .black-lingerie img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
   }
   section.grid .container .white-lingerie img,
   section.grid .container .black-lingerie img {
@@ -226,12 +224,16 @@ section.grid .container .black-lingerie img {
   }
   section.grid .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+  }
+  section.grid .container .white-lingerie,
+  section.grid .container .black-lingerie {
+    height: 200vh;
   }
   section.grid .container .white-lingerie img,
   section.grid .container .black-lingerie img {
-    width: 250px;
+    width: 300px;
     opacity: 0.3;
   }
 }

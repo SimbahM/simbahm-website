@@ -94,7 +94,6 @@ section.grid {
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 80vh;
         }
 
         .black-lingerie {
@@ -102,7 +101,6 @@ section.grid {
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 80vh;
         }
 
         .white-lingerie,
@@ -111,6 +109,7 @@ section.grid {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            height: 100vh;
 
             img {
                 width: 300px;
@@ -186,7 +185,6 @@ section.grid {
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
-                height: 80vh;
             }
     
             .black-lingerie {
@@ -194,7 +192,6 @@ section.grid {
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
-                height: 80vh;
             }
     
             .white-lingerie,
@@ -203,6 +200,7 @@ section.grid {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                height: 100vh;
     
                 img {
                     width: 300px;
@@ -258,14 +256,15 @@ section.grid {
     
         .container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             gap: 20px;
     
             .white-lingerie,
             .black-lingerie {
+                height: 200vh;
     
                 img {
-                    width: 250px;
+                    width: 300px;
                     opacity: .3;
                 }
             }
