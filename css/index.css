@@ -30,10 +30,9 @@
 .about-me p {
   color: var(--white);
   line-height: 1.38105;
-  font-weight: 400;
   letter-spacing: 0.031em;
   font-size: 21px;
-  width: 450px;
+  width: 440px;
   text-align: center;
 }
 
@@ -75,11 +74,13 @@
   font-size: 21px;
   color: var(--gray);
   text-align: center;
-  font-weight: 400;
-  text-align: center;
 }
 
-section.home-projects {
+section.avas {
+  background-image: url(../assets/images/home-page/avas-cover-image.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -88,42 +89,15 @@ section.home-projects {
   padding-bottom: 50px;
   gap: 10px;
 }
-section.home-projects h1 {
+section.avas h1 {
   font-size: 40px;
+  text-align: center;
   color: var(--white);
-  text-align: center;
 }
-section.home-projects span {
-  color: var(--acent);
-  font-size: 21px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-section.home-projects p {
+section.avas p {
   font-size: 21px;
   color: var(--white);
   text-align: center;
-  font-weight: 400;
-  text-align: center;
-}
-section.home-projects .scrolldown {
-  margin-top: 20px;
-}
-
-section.new-project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/bag-mockup.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 10px;
-}
-
-section.niche {
-  background-image: url(../assets/images/home-page/niche-logo-card-logo.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 10px;
 }
 
 section.grid-container {
@@ -177,28 +151,42 @@ footer p {
 }
 
 .niche {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/niche-logo-card-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/niche-technologies-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .car-guvi {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/car-guvi-logo-on-card.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/car-guvi-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .prime-drive {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/prime-drive-wool-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/prime-drive-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .eca {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-bag.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dustme {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/dustme-logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.louis-kitchens {
+  background-image: url(../assets/images/home-page/louis-kitchens-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -249,32 +237,6 @@ footer p {
     font-size: 21px;
     color: var(--gray);
     text-align: center;
-    font-weight: 300;
-  }
-  section.home-projects {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 10px;
-  }
-  section.home-projects h1 {
-    font-size: 40px;
-    color: var(--white);
-  }
-  section.home-projects span {
-    color: var(--acent);
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-  section.home-projects p {
-    font-size: 21px;
-    color: var(--white);
-  }
-  section.home-projects .scrolldown {
-    display: none;
   }
   section.grid-container .project {
     height: 90vh;
@@ -310,31 +272,6 @@ footer p {
   .about-me p {
     font-size: 17px;
     width: 350px;
-  }
-  section.home-projects {
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 10px;
-  }
-  section.home-projects h1 {
-    font-size: 40px;
-    color: var(--white);
-  }
-  section.home-projects span {
-    color: var(--acent);
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-  section.home-projects p {
-    font-size: 21px;
-    color: var(--white);
-  }
-  section.home-projects .scrolldown {
-    display: none;
   }
   section.grid-container {
     grid-template-columns: repeat(1, 1fr);
@@ -419,32 +356,6 @@ footer p {
     font-size: 21px;
     color: var(--gray);
     text-align: center;
-    font-weight: 300;
-  }
-  section.home-projects {
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 30px;
-    gap: 3px;
-  }
-  section.home-projects h1 {
-    font-size: 40px;
-    color: var(--white);
-  }
-  section.home-projects span {
-    color: var(--acent);
-    font-size: 17px;
-    margin-bottom: 10px;
-  }
-  section.home-projects p {
-    font-size: 21px;
-    color: var(--white);
-  }
-  section.home-projects .scrolldown {
-    display: none;
   }
   section.grid-container {
     grid-template-columns: repeat(1, 1fr);

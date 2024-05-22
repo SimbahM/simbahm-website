@@ -1,0 +1,286 @@
+.avas {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/pages/avas/avas-cover-image.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+section.logo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.logo img {
+  width: 350px;
+}
+
+section.logo-concept {
+  padding: 0 15px 200px 15px;
+}
+section.logo-concept .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+section.logo-concept .container img {
+  border: 1px solid rgb(215, 215, 215);
+}
+section.logo-concept .container img.mobile {
+  display: none;
+  border: 1px solid rgb(215, 215, 215);
+}
+
+section.avas-logo-construction {
+  padding: 0 15px;
+}
+section.avas-logo-construction .container {
+  background-color: #133155;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+section.avas-logo-construction .container img {
+  width: 600px;
+}
+
+.royal-orange {
+  background-image: linear-gradient(to bottom, rgb(245, 140, 72), rgba(245, 140, 72, 0.9), rgba(245, 140, 72, 0)), url(../../assets/images/pages/avas/color-gold.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.space-cadet {
+  background-image: linear-gradient(to bottom, rgb(19, 45, 85), rgba(19, 45, 85, 0.9), rgba(19, 45, 85, 0.5)), url(../../assets/images/pages/avas/color-blue.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.snow {
+  background-image: linear-gradient(to bottom, rgb(252, 249, 249), rgba(252, 249, 249, 0.9), rgba(252, 249, 249, 0.5)), url(../../assets/images/pages/avas/color-white.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.arsenic {
+  background-image: linear-gradient(to bottom, rgb(56, 66, 66), rgba(56, 66, 66, 0.9), rgba(56, 66, 66, 0.5)), url(../../assets/images/pages/avas/colors-black.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.grid {
+  padding: 200px 15px 0 15px;
+}
+section.grid .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+section.grid .container .white-lingerie {
+  background-image: url(../../assets/images/pages/avas/white-lingerie.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+section.grid .container .black-lingerie {
+  background-image: url(../../assets/images/pages/avas/black-lingerie.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+section.grid .container .white-lingerie,
+section.grid .container .black-lingerie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.grid .container .white-lingerie img,
+section.grid .container .black-lingerie img {
+  width: 300px;
+  opacity: 0.3;
+}
+
+@media (max-width: 1024px) {
+  section.logo {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.logo img {
+    width: 350px;
+  }
+  section.logo-concept {
+    padding: 0 15px 20px 15px;
+  }
+  section.logo-concept .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  section.logo-concept .container img {
+    border: 1px solid rgb(215, 215, 215);
+  }
+  section.logo-concept .container img.mobile {
+    display: none;
+    border: 1px solid rgb(215, 215, 215);
+  }
+  section.avas-logo-construction {
+    padding: 0 15px;
+  }
+  section.avas-logo-construction .container {
+    background-color: #133155;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  section.avas-logo-construction .container img {
+    width: 600px;
+  }
+  section.grid {
+    padding: 20px 15px 0 15px;
+  }
+  section.grid .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  section.grid .container .white-lingerie {
+    background-image: url(../../assets/images/pages/avas/white-lingerie.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+  section.grid .container .black-lingerie {
+    background-image: url(../../assets/images/pages/avas/black-lingerie.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+  section.grid .container .white-lingerie,
+  section.grid .container .black-lingerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.grid .container .white-lingerie img,
+  section.grid .container .black-lingerie img {
+    width: 300px;
+    opacity: 0.3;
+  }
+}
+@media (max-width: 768px) {
+  section.logo {
+    height: 100vh;
+  }
+  section.logo img {
+    width: 250px;
+  }
+  section.logo-concept {
+    padding: 0 15px 20px 15px;
+  }
+  section.logo-concept .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  section.logo-concept .container img {
+    border: 1px solid rgb(215, 215, 215);
+  }
+  section.logo-concept .container img.mobile {
+    display: none;
+    border: 1px solid rgb(215, 215, 215);
+  }
+  section.avas-logo-construction {
+    padding: 0 15px;
+  }
+  section.avas-logo-construction .container {
+    height: 90vh;
+  }
+  section.avas-logo-construction .container img {
+    width: 500px;
+  }
+  section.grid {
+    padding: 0 15px 0 15px;
+  }
+  section.grid .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.grid .container .white-lingerie img,
+  section.grid .container .black-lingerie img {
+    width: 250px;
+    opacity: 0.3;
+  }
+}
+@media (max-width: 425px) {
+  section.logo {
+    height: 80vh;
+  }
+  section.logo img {
+    width: 200px;
+  }
+  section.logo-concept {
+    padding: 0 15px 20px 15px;
+  }
+  section.logo-concept .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  section.logo-concept .container img {
+    display: none;
+    border: 1px solid rgb(215, 215, 215);
+  }
+  section.logo-concept .container img.mobile {
+    display: block;
+    border: 1px solid rgb(215, 215, 215);
+  }
+  section.avas-logo-construction {
+    padding: 0 15px;
+  }
+  section.avas-logo-construction .container {
+    height: 90vh;
+  }
+  section.avas-logo-construction .container img {
+    width: 300px;
+  }
+  section.grid {
+    padding: 20px 15px 0 15px;
+  }
+  section.grid .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  section.grid .container .white-lingerie,
+  section.grid .container .black-lingerie {
+    height: 100vh;
+  }
+  section.grid .container .white-lingerie img,
+  section.grid .container .black-lingerie img {
+    width: 250px;
+    opacity: 0.3;
+  }
+}/*# sourceMappingURL=avas.css.map */

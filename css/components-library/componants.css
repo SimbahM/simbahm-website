@@ -338,6 +338,9 @@ section.colors-container .colors p {
 section.colors-container .colors p.ghost-white-color {
   color: #1E1C1B;
 }
+section.colors-container .colors p.snow-color {
+  color: #133155;
+}
 section.colors-container .colors p.hex-code,
 section.colors-container .colors p.platinum-title {
   color: #203244;
