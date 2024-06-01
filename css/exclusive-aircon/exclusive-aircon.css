@@ -62,7 +62,7 @@ section.grid-app-icon .container {
   gap: 20px;
 }
 section.grid-app-icon .container .icon {
-  background-image: url(../../assets/images/Pages/eac/app-icon-design.webp);
+  background-image: url(../../assets/images/pages/eac/app-icon-design.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
