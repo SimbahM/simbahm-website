@@ -1,12 +1,12 @@
 .hero-dustme {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/dustme/cover-page-dustme.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/dustme/cover-page-dustme.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .dustme-main-logo {
-  background-image: url(../../assets/images/Pages/dustme/dustme-main-logo.webp);
+  background-image: url(../../assets/images/pages/dustme/dustme-main-logo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,7 +14,7 @@
 }
 
 .dustme-cleaning {
-  background-image: url(../../assets/images/Pages/dustme/dustme-cleaning.webp);
+  background-image: url(../../assets/images/pages/dustme/dustme-cleaning.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

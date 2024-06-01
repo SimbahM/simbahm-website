@@ -1,5 +1,5 @@
 .hero-b-fit-green-logo {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(../../assets/images/Pages/b-fit-green-logo/man-lifting-weights.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(../../assets/images/pages/b-fit-green-logo/man-lifting-weights.webp);
   background-repeat: none;
   background-size: cover;
   background-position: center;
@@ -37,7 +37,7 @@ section.logo-color-varietions {
   height: 100vh;
 }
 section.logo-color-varietions .women-image {
-  background-image: url(../../assets/images/Pages/b-fit-green-logo/gym-ladies.webp);
+  background-image: url(../../assets/images/pages/b-fit-green-logo/gym-ladies.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

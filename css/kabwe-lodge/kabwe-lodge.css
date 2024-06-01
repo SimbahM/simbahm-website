@@ -1,5 +1,5 @@
 .hero-kabwe {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/Pages/kabwe-lodge/lodge-rooms.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/kabwe-lodge/lodge-rooms.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,7 +26,7 @@ section.kabwe-grid .container {
   gap: 20px;
 }
 section.kabwe-grid .container .image-logo {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/indoor-lamp.webp);
+  background-image: url(../../assets/images/pages/kabwe-lodge/indoor-lamp.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@ section.kabwe-grid .container .image-logo img {
   width: 200px;
 }
 section.kabwe-grid .container .towel {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cloth.webp);
+  background-image: url(../../assets/images/pages/kabwe-lodge/kabwe-lodge-cloth.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +91,7 @@ section.logo-mark .container .paragraphs p {
 }
 
 section.kabwe-lodge-quote {
-  background-image: url(../../assets/images/Pages/kabwe-lodge/kabwe-lodge-cloth.webp);
+  background-image: url(../../assets/images/pages/kabwe-lodge/kabwe-lodge-cloth.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
