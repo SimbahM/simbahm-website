@@ -335,7 +335,7 @@ section.colors-container .colors p.title {
 section.colors-container .colors p {
   color: var(--white);
 }
-section.colors-container .colors p.ghost-white-color {
+section.colors-container .colors p.change-color {
   color: #1E1C1B;
 }
 section.colors-container .colors p.snow-color {

@@ -154,6 +154,38 @@ section.website-under-construction .social-media a img.facebook {
   text-align: center;
 }
 
+.new-project {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/mazimura-brands-logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.large-panel {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+section.large-panel h1 {
+  font-size: 40px;
+  color: var(--white);
+}
+section.large-panel span {
+  color: var(--acent);
+  font-size: 21px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+section.large-panel p {
+  font-size: 21px;
+  color: var(--white);
+  text-align: center;
+}
+
 .grandeur-meats,
 .vah {
   padding: 100px 0;

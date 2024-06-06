@@ -1,0 +1,114 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
+.mazi {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/mazi/logo-on-rubber-mockup.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.main-logo {
+  padding: 200px 15px 300px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.main-logo img {
+  width: 800px;
+}
+
+.cool-black {
+  background-image: linear-gradient(to bottom, rgb(0, 48, 96), rgba(0, 48, 96, 0)), url(../../assets/images/pages/mazi/color-cool-black.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.azureish-white {
+  background-image: linear-gradient(to bottom, rgb(222, 233, 236), rgba(222, 233, 236, 0)), url(../../assets/images/pages/mazi/color-white.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.picton-blue {
+  background-image: linear-gradient(to bottom, rgb(52, 181, 239), rgba(52, 181, 239, 0)), url(../../assets/images/pages/mazi/color-picton-blue.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.mazi-colors {
+  padding: 200px 15px 0 15px;
+}
+section.mazi-colors .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+section.mazi-colors .colors {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 20px;
+}
+section.mazi-colors .colors p.title {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: 0;
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--white);
+  bottom: 20px;
+}
+section.mazi-colors .colors p {
+  color: var(--white);
+}
+section.mazi-colors .colors p.change-color {
+  color: #1E1C1B;
+}
+
+@media (max-width: 1024px) {
+  section.main-logo {
+    padding: 100px 15px 200px 15px;
+  }
+  section.main-logo img {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  section.main-logo {
+    padding: 100px 15px 100px 15px;
+  }
+  section.main-logo img {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.main-logo {
+    padding: 100px 15px 50px 15px;
+  }
+  section.main-logo img {
+    width: 300px;
+  }
+  section.mazi-colors {
+    padding: 200px 15px 0 15px;
+  }
+  section.mazi-colors .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  section.mazi-colors .colors {
+    height: 70vh;
+  }
+}/*# sourceMappingURL=mazi.css.map */
