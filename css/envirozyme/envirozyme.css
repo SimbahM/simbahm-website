@@ -1,0 +1,108 @@
+.envirozyme {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/evirozyme/color-harlequin-green.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.main-logo {
+  padding: 200px 15px 300px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.main-logo img {
+  width: 800px;
+}
+
+.salle-green {
+  background-image: linear-gradient(to bottom, rgb(0, 122, 45), rgba(0, 122, 45, 0)), url(../../assets/images/pages/evirozyme/color-salle-green.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.harlequin-green {
+  background-image: linear-gradient(to bottom, rgb(94, 215, 48), rgba(94, 215, 48, 0)), url(../../assets/images/pages/evirozyme/color-harlequin-green.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cultured {
+  background-image: linear-gradient(to bottom, rgb(248, 243, 241), rgba(248, 243, 241, 0)), url(../../assets/images/pages/evirozyme/color-cultured.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.envirozyme-colors {
+  padding: 200px 15px 0 15px;
+}
+section.envirozyme-colors .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+section.envirozyme-colors .colors {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 20px;
+}
+section.envirozyme-colors .colors p.title {
+  position: absolute;
+  writing-mode: vertical-rl;
+  left: 0;
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--white);
+  bottom: 20px;
+}
+section.envirozyme-colors .colors p,
+section.envirozyme-colors .colors p.sallegreen-title {
+  color: var(--white);
+}
+section.envirozyme-colors .colors p.change-color,
+section.envirozyme-colors .colors p, section.envirozyme-colors .colors .cultured {
+  color: #1E1C1B;
+}
+
+@media (max-width: 1024px) {
+  section.main-logo {
+    padding: 100px 15px 200px 15px;
+  }
+  section.main-logo img {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  section.main-logo {
+    padding: 100px 15px 100px 15px;
+  }
+  section.main-logo img {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.main-logo {
+    padding: 100px 15px 50px 15px;
+  }
+  section.main-logo img {
+    width: 300px;
+  }
+  section.envirozyme-colors {
+    padding: 200px 15px 0 15px;
+  }
+  section.envirozyme-colors .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  section.envirozyme-colors .colors {
+    height: 70vh;
+  }
+}/*# sourceMappingURL=envirozyme.css.map */

@@ -161,6 +161,13 @@ section.website-under-construction .social-media a img.facebook {
   background-size: cover;
 }
 
+.envirozyme {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/envirozyme-logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 section.large-panel {
   height: 100vh;
   display: flex;
@@ -186,7 +193,6 @@ section.large-panel p {
   text-align: center;
 }
 
-.grandeur-meats,
 .vah {
   padding: 100px 0;
   display: flex;
@@ -197,56 +203,27 @@ section.large-panel p {
   margin-bottom: 10px;
   padding-bottom: 50px;
 }
-.grandeur-meats img,
 .vah img {
   width: 400px;
 }
-.grandeur-meats img.vah-image,
 .vah img.vah-image {
   width: 200px;
   margin-bottom: 50px;
 }
-.grandeur-meats h1,
 .vah h1 {
   font-size: 40px;
   color: var(--primary);
   text-align: center;
 }
-.grandeur-meats span,
 .vah span {
   color: var(--acent);
   font-size: 21px;
   margin-bottom: 10px;
   text-align: center;
 }
-.grandeur-meats p,
 .vah p {
   font-size: 21px;
   color: var(--gray);
-  text-align: center;
-}
-
-section.avas {
-  background-image: url(../assets/images/home-page/avas-cover-image.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-  padding-bottom: 50px;
-  gap: 10px;
-}
-section.avas h1 {
-  font-size: 40px;
-  text-align: center;
-  color: var(--white);
-}
-section.avas p {
-  font-size: 21px;
-  color: var(--white);
   text-align: center;
 }
 
@@ -256,6 +233,9 @@ section.grid-container {
   margin: 10px 10px;
   margin-bottom: 10px;
   gap: 10px;
+}
+section.grid-container .grandeur-meats {
+  background-color: var(--white);
 }
 section.grid-container .project {
   height: 90vh;
@@ -278,6 +258,10 @@ section.grid-container .project h1.title {
   color: var(--primary);
   font-size: 50px;
   text-align: center;
+}
+section.grid-container .project .grandeur-meats-title,
+section.grid-container .project .grandeur-meats-p {
+  color: var(--primary);
 }
 section.grid-container .project p.description {
   color: var(--gray);
@@ -388,6 +372,9 @@ footer p {
     color: var(--gray);
     text-align: center;
   }
+  section.grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
   section.grid-container .project {
     height: 90vh;
     display: flex;
@@ -443,9 +430,6 @@ footer p {
   section.grid-container .project p {
     color: var(--white);
     font-size: 21px;
-  }
-  section.grid-container .project img {
-    width: 250px;
   }
   section.grid-container .project h1.title {
     color: var(--primary);

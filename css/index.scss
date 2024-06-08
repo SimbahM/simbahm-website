@@ -199,6 +199,13 @@ section.website-under-construction {
     background-size: cover;
 }
 
+.envirozyme {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/images/home-page/envirozyme-logo.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 section.large-panel {
     height: 100vh;
     display: flex;
@@ -227,7 +234,6 @@ section.large-panel {
     }
 }
 
-.grandeur-meats,
 .vah {
     padding: 100px 0;
     display: flex;
@@ -267,38 +273,16 @@ section.large-panel {
     }
 }
 
-section.avas {
-    background-image: url(../assets/images/home-page/avas-cover-image.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    padding-bottom: 50px;
-    gap: 10px;
-
-    h1 {
-        font-size: 40px;
-        text-align: center;
-        color: var(--white);
-    }
-
-    p {
-        font-size: 21px;
-        color: var(--white);
-        text-align: center;
-    }
-}
-
 section.grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 10px 10px;
     margin-bottom: 10px;
     gap: 10px;
+
+    .grandeur-meats {
+        background-color: var(--white);
+    }
 
     .project {
         height: 90vh;
@@ -323,6 +307,11 @@ section.grid-container {
             color: var(--primary);
             font-size: 50px;
             text-align: center;
+        }
+
+        .grandeur-meats-title,
+        .grandeur-meats-p {
+            color: var(--primary);
         }
 
         p.description {
@@ -446,6 +435,7 @@ footer {
     }
 
     section.grid-container {
+        grid-template-columns: repeat(1, 1fr);
     
         .project {
             height: 90vh;
@@ -512,10 +502,6 @@ footer {
             p {
                 color: var(--white);
                 font-size: 21px;
-            }
-
-            img {
-                width: 250px;
             }
 
             h1.title {
