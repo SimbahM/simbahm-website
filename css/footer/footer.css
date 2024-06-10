@@ -37,6 +37,7 @@ footer .website-tag p a:hover {
   text-decoration: underline;
 }
 footer .website-tag img {
-  width: 60px;
+  width: 160px;
   display: block;
+  margin-top: 20px;
 }/*# sourceMappingURL=footer.css.map */

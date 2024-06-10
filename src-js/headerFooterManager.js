@@ -71,15 +71,15 @@ class SpecialFooter extends HTMLElement {
         <footer>
             <div class="copyright">
                 <p>
-                    © Simbah M 2024
+                    © Simbah M 2024. All rights reserved.
                 </p>
             </div>
             <div class="website-tag">
                 <p>
-                    Designed with <a href="https://www.figma.com/" target="_blank">Figma</a>  and built with
+                    
                 </p>
                 <a href="https://sass-lang.com/" target="_blank">
-                    <img src="./assets/icons/sass-logo.svg" alt="Sass Logo">
+                    <img src="./assets/icons/simbahm-logo.png" alt="Sass Logo">
                 </a>
             </div>
         </footer>

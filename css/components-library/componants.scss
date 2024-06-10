@@ -96,9 +96,9 @@ h1, h2 {
 
 .dark-button {
     text-decoration: none;
-    background-color: #314a63;
-    border-top: 3px solid var(--primary);
-    color: var(--white);
+    background-color: #e1e6ea;
+    border-top: 3px solid var(--secondary);
+    color: var(--primary);
     font-size: 14px;
     padding: 13px 35px;
     margin-top: 20px;
@@ -108,9 +108,8 @@ h1, h2 {
     transition: all .3s ease 0s;
 
     &:hover {
-        background-color: var(--primary);
+        background-color: #d2dbe2;
         border-top: 3px solid #577ca2;
-        color: var(--acent);
     }
 }
 

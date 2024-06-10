@@ -1,160 +1,42 @@
-section.website-under-construction {
-    height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/website-under-maintanance.webp);
+section.new-project {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/images/home-page/home-project-main.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: end;
+    padding-bottom: 50px;
+    gap: 20px;
 
     img {
-        width: 90px;
+        width: 200px;
+        margin-bottom: 30px;
     }
 
     h1 {
+        font-size: 40px;
         color: var(--white);
-        font-size: 70px;
+    }
+
+    span {
+        color: var(--acent);
+        font-size: 21px;
+        margin-bottom: 10px;
         text-align: center;
     }
 
     p {
+        font-size: 21px;
         color: var(--white);
-        font-size: 30px;
         text-align: center;
-        width: 500px;
-    }
-
-    .social-media {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        align-items: center;
-         
-        a {
-
-            img.behance {
-                width: 40px;
-                display: block;
-            }
-
-            img.instagram {
-                width: 30px;
-                display: block;
-            }
-    
-            img.facebook {
-                width: 30px;
-                display: block;
-            }
-        }
-    }
-}
-
-@media (max-width: 1024px) {
-
-    section.website-under-construction {
-        height: 100vh;
-        gap: 20px;
-    
-        img {
-            width: 70px;
-        }
-    
-        h1 {
-            color: var(--white);
-            font-size: 50px;
-            text-align: center;
-        }
-    
-        p {
-            color: var(--white);
-            font-size: 25px;
-            text-align: center;
-            width: 400px;
-        }
-    
-        .social-media {
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            align-items: center;
-             
-            a {
-    
-                img.behance {
-                    width: 40px;
-                    display: block;
-                }
-    
-                img.instagram {
-                    width: 30px;
-                    display: block;
-                }
-        
-                img.facebook {
-                    width: 30px;
-                    display: block;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 425px) {
-
-    section.website-under-construction {
-        height: 100vh;
-        gap: 20px;
-    
-        img {
-            width: 60px;
-        }
-    
-        h1 {
-            color: var(--white);
-            font-size: 40px;
-            text-align: center;
-        }
-    
-        p {
-            width: 300px;
-        }
-    
-        .social-media {
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            align-items: center;
-             
-            a {
-    
-                img.behance {
-                    width: 40px;
-                    display: block;
-                }
-    
-                img.instagram {
-                    width: 30px;
-                    display: block;
-                }
-        
-                img.facebook {
-                    width: 30px;
-                    display: block;
-                }
-            }
-        }
     }
 }
 
 .about-me {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/simbahm-home-page-bg-image.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     padding: 120px 0 50px 0;
     display: flex;
     flex-direction: column;
@@ -169,7 +51,7 @@ section.website-under-construction {
 
     h1 {
         font-size: 50px;
-        color: var(--white);
+        color: var(--primary);
         text-align: center;
     }
 
@@ -183,7 +65,7 @@ section.website-under-construction {
     }
 
     p {
-        color: var(--white);
+        color: var(--gray);
         line-height: 1.38105;
         letter-spacing: .031em;
         font-size: 21px;
@@ -192,268 +74,180 @@ section.website-under-construction {
     }
 }
 
-.new-project {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/images/home-page/mazimura-brands-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+section.featured-projects {
+    padding: 20px 0 100px 0;
 
-.envirozyme {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/images/home-page/envirozyme-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+    .container {
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 40px;
 
-section.large-panel {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    padding-bottom: 50px;
-    gap: 20px;
-
-    h1 {
-        font-size: 40px;
-        color: var(--white);
-    }
-
-    span {
-        color: var(--acent);
-        font-size: 21px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-    p {
-        font-size: 21px;
-        color: var(--white);
-        text-align: center;
-    }
-}
-
-.vah {
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    background-color: var(--white);
-    margin-bottom: 10px;
-    padding-bottom: 50px;
-
-    img {
-        width: 400px;
-    }
-
-    img.vah-image {
-        width: 200px;
-        margin-bottom: 50px;
-    }
-
-    h1 {
-        font-size: 40px;
-        color: var(--primary);
-        text-align: center;
-    }
-
-    span {
-        color: var(--acent);
-        font-size: 21px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-    p {
-        font-size: 21px;
-        color: var(--gray);
-        text-align: center;
-    }
-}
-
-section.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 10px 10px;
-    margin-bottom: 10px;
-    gap: 10px;
-
-    .grandeur-meats {
-        background-color: var(--white);
-    }
-
-    .project {
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        padding-bottom: 50px;
-        gap: 10px;
-
-        img {
-            width: 300px;
-        }
-
-        h1 {
-            color: var(--white);
-            font-size: 40px;
-            text-align: center;
-        }
-
-        h1.title {
-            color: var(--primary);
-            font-size: 50px;
-            text-align: center;
-        }
-
-        .grandeur-meats-title,
-        .grandeur-meats-p {
-            color: var(--primary);
-        }
-
-        p.description {
-            color: var(--gray);
-            font-size: 21px;
-        }
-
-        p {
-            color: var(--white);
-            font-size: 21px;
-            text-align: center;
-        }
-    }
-}
-
-footer {
-    display: flex;
-
-    p {
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        color: var(--gray);
-        letter-spacing: .011rem;
-    }
-}
-
-.niche {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../assets/images/home-page/niche-technologies-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.car-guvi {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3)), url(../assets/images/home-page/car-guvi-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.prime-drive {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/prime-drive-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.eca {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/ellchart-chartered-accountants-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.dustme {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../assets/images/home-page/dustme-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.louis-kitchens {
-    background-image: url(../assets/images/home-page/louis-kitchens-logo.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-@media (max-width: 1024px) {
-
-    .about-me {
-        padding: 120px 0 50px 0;
-        gap: 20px;
-
-    
-        img {
-            width: 80px;
-        }
-    
-        h1 {
-            font-size: 40px;
-            color: var(--white);
-            text-align: center;
-        }
-    
-        p {
-            font-size: 17px;
-            width: 350px;
-        }
-    }
-
-    .grandeur-meats,
-    .vah {
-        padding: 100px 0;
-        margin-bottom: 10px;
-        padding-bottom: 50px;
-    
-        img {
-            width: 350px;
-        }
-    
-        h1 {
-            font-size: 40px;
-            color: var(--primary);
-            text-align: center;
-        }
-    
-        span {
-            color: var(--acent);
-            font-size: 17px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-    
-        p {
-            font-size: 21px;
-            color: var(--gray);
-            text-align: center;
-        }
-    }
-
-    section.grid-container {
-        grid-template-columns: repeat(1, 1fr);
-    
         .project {
-            height: 90vh;
+            height: 80vh;
+            border-radius: 20px;
             display: flex;
             flex-direction: column;
             justify-content: end;
             align-items: center;
             padding-bottom: 50px;
             gap: 5px;
-    
-            h1 {
-                color: var(--white);
-                font-size: 40px;
+
+            img.project-icons {
+                width: 150px;
+                margin-bottom: 80px;
             }
-    
-            p {
+
+            img.grandeur-image {
+                width: 300px;
+            }
+
+            img.vah-image {
+                width: 180px;
+            }
+
+            h1 {
+                font-size: 30px;
                 color: var(--white);
-                font-size: 21px;
+            }
+
+            .grandeur,
+            .vah {
+                color: var(--primary);
+            }
+
+            p {
+                font-size: 19px;
+                text-align: center;
+                color: var(--white);
+            }
+        }
+    }
+}
+
+.grandeur-meats,
+.vah {
+    background-color: var(--white);
+}
+
+.envirozyme {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/envirozyme-logo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.niche {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/niche-logo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.car-guvi {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/car-guvi-logo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eca {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/eca-logo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prime-drive {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/prime-drive-logo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dustme {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/images/home-page/dustme-logo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+
+    section.new-project {
+        padding-bottom: 50px;
+        gap: 10px;
+    
+        img {
+            width: 150px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    .about-me {
+        padding: 120px 0 50px 0;
+        gap: 20px;
+        margin-bottom: 10px;
+    
+        img {
+            width: 100px;
+        }
+    
+        h1 {
+            font-size: 40px;
+            color: var(--primary);
+            text-align: center;
+        }
+    
+        h1.featured-projects {
+            font-size: 40px;
+            margin-top: 100px;
+        }
+    
+        p {
+            font-size: 19px;
+            width: 440px;
+        }
+    }
+    
+    section.featured-projects {
+        padding: 20px 0 20px 0;
+    
+        .container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+    
+            .project {
+                height: 80vh;
+                border-radius: 10px;
+                padding-bottom: 50px;
+                gap: 5px;
+    
+                img.project-icons {
+                    width: 100px;
+                    margin-bottom: 80px;
+                }
+    
+                img.grandeur-image {
+                    width: 230px;
+                }
+    
+                img.vah-image {
+                    width: 130px;
+                }
+    
+                h1 {
+                    font-size: 30px;
+                    color: var(--white);
+                }
+    
+                p {
+                    font-size: 19px;
+                    text-align: center;
+                    color: var(--white);
+                }
             }
         }
     }
@@ -461,98 +255,24 @@ footer {
 
 @media (max-width: 768px) {
 
+    section.new-project {
+        height: 80vh;
+        padding-bottom: 30px;
+        gap: 10px;
+    
+        img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+    }
+    
     .about-me {
         padding: 120px 0 50px 0;
         gap: 20px;
-    
-        img {
-            width: 80px;
-        }
-    
-        h1 {
-            font-size: 40px;
-            color: var(--white);
-            text-align: center;
-        }
-    
-        p {
-            font-size: 17px;
-            width: 350px;
-        }
-    }
-
-    section.grid-container {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 10px 0;
-    
-        .project {
-            height: 90vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: center;
-            padding-bottom: 50px;
-            gap: 5px;
-    
-            h1 {
-                color: var(--white);
-                font-size: 40px;
-            }
-    
-            p {
-                color: var(--white);
-                font-size: 21px;
-            }
-
-            h1.title {
-                color: var(--primary);
-                font-size: 40px;
-            }
-    
-            p.description {
-                color: var(--gray);
-                font-size: 21px;
-            }
-        }
-    }
-}
-
-@media (max-width: 425px) {
-
-    .about-me {
-        padding: 120px 0 50px 0;
-        gap: 20px;
-    
-        img {
-            width: 70px;
-        }
-    
-        h1 {
-            font-size: 40px;
-            color: var(--white);
-            text-align: center;
-        }
-
-        h1.featured-projects {
-            font-size: 30px;
-            width: 200px;
-            line-height: 1.3em;
-        }
-    
-        p {
-            font-size: 17px; 
-            width: 300px;
-        }
-    }
-
-    .grandeur-meats,
-    .vah {
-        padding: 100px 0;
         margin-bottom: 10px;
-        padding-bottom: 50px;
     
         img {
-            width: 300px;
+            width: 100px;
         }
     
         h1 {
@@ -561,55 +281,134 @@ footer {
             text-align: center;
         }
     
-        span {
-            color: var(--acent);
-            font-size: 17px;
-            margin-bottom: 10px;
-            text-align: center;
+        h1.featured-projects {
+            font-size: 40px;
+            margin-top: 100px;
         }
     
         p {
-            font-size: 21px;
-            color: var(--gray);
-            text-align: center;
+            font-size: 19px;
+            width: 350px;
         }
     }
+    
+    section.featured-projects {
+        padding: 20px 0 20px 0;
+    
+        .container {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+    
+            .project {
+                height: 80vh;
+                border-radius: 10px;
+                padding-bottom: 30px;
+                gap: 5px;
+    
+                img.project-icons {
+                    width: 150px;
+                    margin-bottom: 80px;
+                }
+    
+                img.grandeur-image {
+                    width: 230px;
+                }
+    
+                img.vah-image {
+                    width: 130px;
+                }
+    
+                h1 {
+                    font-size: 30px;
+                    color: var(--white);
+                }
+    
+                p {
+                    font-size: 19px;
+                    text-align: center;
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}
 
-    section.grid-container {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 10px 0;
-    
-        .project {
-            height: 60vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: center;
-            padding-bottom: 30px;
-            gap: 5px;
-    
-            h1 {
-                color: var(--white);
-                font-size: 40px;
-            }
-    
-            p {
-                color: var(--white);
-                font-size: 21px;
-            }
+@media (max-width: 425px) {
 
-            img {
-                width: 150px;
-            }
-
-            h1.title {
-                color: var(--primary);
-                font-size: 40px;
-            }
+    section.new-project {
+        height: 80vh;
+        padding-bottom: 30px;
+        gap: 10px;
     
-            p.description {
-                color: var(--gray);
-                font-size: 21px;
+        img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .about-me {
+        padding: 120px 0 50px 0;
+        gap: 20px;
+        margin-bottom: 10px;
+    
+        img {
+            width: 100px;
+        }
+    
+        h1 {
+            font-size: 40px;
+            color: var(--primary);
+            text-align: center;
+        }
+    
+        h1.featured-projects {
+            font-size: 40px;
+            margin-top: 100px;
+            width: 300px;
+        }
+    
+        p {
+            font-size: 19px;
+            width: 300px;
+        }
+    }
+    
+    section.featured-projects {
+        padding: 20px 0 20px 0;
+    
+        .container {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+    
+            .project {
+                height: 80vh;
+                border-radius: 10px;
+                padding-bottom: 30px;
+                gap: 5px;
+    
+                img.project-icons {
+                    width: 150px;
+                    margin-bottom: 80px;
+                }
+    
+                img.grandeur-image {
+                    width: 230px;
+                }
+    
+                img.vah-image {
+                    width: 130px;
+                }
+    
+                h1 {
+                    font-size: 30px;
+                    color: var(--white);
+                }
+    
+                p {
+                    font-size: 19px;
+                    text-align: center;
+                    color: var(--white);
+                }
             }
         }
     }
