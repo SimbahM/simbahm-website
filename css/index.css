@@ -69,7 +69,7 @@ section.featured-projects {
   padding: 20px 0 100px 0;
 }
 section.featured-projects .container {
-  padding: 0 20px;
+  padding: 0 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 1000px;
@@ -78,7 +78,7 @@ section.featured-projects .container {
 }
 section.featured-projects .container .project {
   height: 80vh;
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -256,7 +256,7 @@ section.featured-projects .container .project p {
   }
   section.featured-projects .container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    gap: 10px;
   }
   section.featured-projects .container .project {
     height: 80vh;
@@ -317,11 +317,11 @@ section.featured-projects .container .project p {
     width: 300px;
   }
   section.featured-projects {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
   }
   section.featured-projects .container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    gap: 10px;
   }
   section.featured-projects .container .project {
     height: 80vh;

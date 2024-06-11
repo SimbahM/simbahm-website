@@ -78,7 +78,7 @@ section.featured-projects {
     padding: 20px 0 100px 0;
 
     .container {
-        padding: 0 20px;
+        padding: 0 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 1000px;
@@ -87,7 +87,7 @@ section.featured-projects {
 
         .project {
             height: 80vh;
-            border-radius: 20px;
+            border-radius: 15px;
             display: flex;
             flex-direction: column;
             justify-content: end;
@@ -297,7 +297,7 @@ section.featured-projects {
     
         .container {
             grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
+            gap: 10px;
     
             .project {
                 height: 80vh;
@@ -374,11 +374,11 @@ section.featured-projects {
     }
     
     section.featured-projects {
-        padding: 20px 0 20px 0;
+        padding: 20px 0 10px 0;
     
         .container {
             grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
+            gap: 10px;
     
             .project {
                 height: 80vh;
