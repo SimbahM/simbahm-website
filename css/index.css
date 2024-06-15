@@ -201,14 +201,14 @@ section.featured-projects .container .project p {
     gap: 5px;
   }
   section.featured-projects .container .project img.project-icons {
-    width: 100px;
+    width: 200px;
     margin-bottom: 80px;
   }
   section.featured-projects .container .project img.grandeur-image {
-    width: 230px;
+    width: 330px;
   }
   section.featured-projects .container .project img.vah-image {
-    width: 130px;
+    width: 230px;
   }
   section.featured-projects .container .project h1 {
     font-size: 30px;
