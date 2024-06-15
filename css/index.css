@@ -324,7 +324,7 @@ section.featured-projects .container .project p {
     gap: 10px;
   }
   section.featured-projects .container .project {
-    height: 80vh;
+    height: 70vh;
     border-radius: 10px;
     padding-bottom: 30px;
     gap: 5px;
