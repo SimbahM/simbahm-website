@@ -65,6 +65,27 @@ section.new-project p {
   text-align: center;
 }
 
+section.grandeur {
+  padding: 300px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding: 100px;
+}
+section.grandeur img {
+  width: 600px;
+}
+section.grandeur h1 {
+  font-size: 40px;
+  text-align: center;
+}
+section.grandeur p {
+  font-size: 19px;
+  text-align: center;
+  color: var(--gray);
+}
+
 section.featured-projects {
   padding: 20px 0 100px 0;
 }
@@ -77,7 +98,7 @@ section.featured-projects .container {
   gap: 40px;
 }
 section.featured-projects .container .project {
-  height: 80vh;
+  height: 70vh;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -116,7 +137,14 @@ section.featured-projects .container .project p {
 }
 
 .envirozyme {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/envirozyme-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/envirozyme.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vah {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/vah.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,8 +178,8 @@ section.featured-projects .container .project p {
   background-size: cover;
 }
 
-.dustme {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/dustme-logo.webp);
+.dust-me {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/dust-me.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,12 +215,25 @@ section.featured-projects .container .project p {
     font-size: 19px;
     width: 440px;
   }
+  section.grandeur {
+    padding: 100px 0;
+  }
+  section.grandeur img {
+    width: 400px;
+  }
+  section.grandeur h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  section.grandeur p {
+    font-size: 19px;
+  }
   section.featured-projects {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
   }
   section.featured-projects .container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
   }
   section.featured-projects .container .project {
     height: 80vh;
@@ -252,7 +293,7 @@ section.featured-projects .container .project p {
     width: 350px;
   }
   section.featured-projects {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
   }
   section.featured-projects .container {
     grid-template-columns: repeat(1, 1fr);
@@ -315,6 +356,19 @@ section.featured-projects .container .project p {
   .about-me p {
     font-size: 19px;
     width: 300px;
+  }
+  section.grandeur {
+    padding: 100px 0;
+  }
+  section.grandeur img {
+    width: 300px;
+  }
+  section.grandeur h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  section.grandeur p {
+    font-size: 19px;
   }
   section.featured-projects {
     padding: 20px 0 10px 0;
