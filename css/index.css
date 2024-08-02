@@ -93,13 +93,12 @@ section.featured-projects .container {
   padding: 0 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
 }
 section.featured-projects .container .project {
-  height: 70vh;
-  border-radius: 15px;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -237,7 +236,6 @@ section.featured-projects .container .project p {
   }
   section.featured-projects .container .project {
     height: 80vh;
-    border-radius: 10px;
     padding-bottom: 50px;
     gap: 5px;
   }
@@ -301,7 +299,6 @@ section.featured-projects .container .project p {
   }
   section.featured-projects .container .project {
     height: 80vh;
-    border-radius: 10px;
     padding-bottom: 30px;
     gap: 5px;
   }
@@ -379,7 +376,6 @@ section.featured-projects .container .project p {
   }
   section.featured-projects .container .project {
     height: 70vh;
-    border-radius: 10px;
     padding-bottom: 30px;
     gap: 5px;
   }
