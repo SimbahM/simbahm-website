@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sf-pro-display-cufonfonts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/fonts/sf-pro-display-cufonfonts.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
