@@ -1,5 +1,13 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
 section.new-project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/home-project-main.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/mazimura-brands.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9,6 +17,7 @@ section.new-project {
   align-items: center;
   justify-content: end;
   padding-bottom: 50px;
+  margin-bottom: 10px;
   gap: 20px;
 }
 section.new-project img {
@@ -31,71 +40,49 @@ section.new-project p {
   text-align: center;
 }
 
-.about-me {
-  padding: 120px 0 50px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 10px;
-}
-.about-me img {
-  width: 100px;
-}
-.about-me h1 {
-  font-size: 50px;
-  color: var(--primary);
-  text-align: center;
-}
-.about-me h1.featured-projects {
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0.11rem;
-  text-transform: uppercase;
-  margin-top: 100px;
-  text-align: center;
-}
-.about-me p {
-  color: var(--gray);
-  line-height: 1.38105;
-  letter-spacing: 0.031em;
-  font-size: 21px;
-  width: 440px;
-  text-align: center;
-}
-
-section.grandeur {
-  padding: 300px 0;
+section.envirozyme {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/canvas-logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  padding: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+  gap: 20px;
 }
-section.grandeur img {
-  width: 600px;
+section.envirozyme img {
+  width: 200px;
+  margin-bottom: 30px;
 }
-section.grandeur h1 {
+section.envirozyme h1 {
   font-size: 40px;
+  color: var(--white);
+}
+section.envirozyme span {
+  color: var(--acent);
+  font-size: 21px;
+  margin-bottom: 10px;
   text-align: center;
 }
-section.grandeur p {
-  font-size: 19px;
+section.envirozyme p {
+  font-size: 21px;
+  color: var(--white);
   text-align: center;
-  color: var(--gray);
 }
 
 section.featured-projects {
-  padding: 20px 0 100px 0;
+  padding: 0px 0 10px 0;
 }
 section.featured-projects .container {
   padding: 0 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1200px;
   margin: 0 auto;
-  gap: 40px;
+  gap: 10px;
 }
 section.featured-projects .container .project {
   height: 80vh;
@@ -110,15 +97,21 @@ section.featured-projects .container .project img.project-icons {
   width: 150px;
   margin-bottom: 80px;
 }
-section.featured-projects .container .project img.grandeur-image {
+section.featured-projects .container .project img.grandeur-meats {
   width: 300px;
 }
 section.featured-projects .container .project img.vah-image {
-  width: 180px;
+  width: 400px;
 }
 section.featured-projects .container .project h1 {
   font-size: 30px;
   color: var(--white);
+}
+section.featured-projects .container .project h1.grandeur-heading, section.featured-projects .container .project .vah {
+  color: var(--secondary);
+}
+section.featured-projects .container .project p.grandeur-paragraphy, section.featured-projects .container .project .vah {
+  color: var(--secondary);
 }
 section.featured-projects .container .project .grandeur,
 section.featured-projects .container .project .vah {
@@ -130,34 +123,19 @@ section.featured-projects .container .project p {
   color: var(--white);
 }
 
-.grandeur-meats,
-.vah {
+.grandeur-meats, .vah {
   background-color: var(--white);
 }
 
-.envirozyme {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/envirozyme.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.vah {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/vah.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .niche {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/niche-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../assets/images/home-page/niche.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .car-guvi {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/car-guvi-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/car-guvi.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,14 +149,14 @@ section.featured-projects .container .project p {
 }
 
 .prime-drive {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/prime-drive-logo.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/prime.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .dust-me {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/dust-me.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/dustme.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,56 +164,43 @@ section.featured-projects .container .project p {
 
 @media (max-width: 1024px) {
   section.new-project {
+    height: 80vh;
     padding-bottom: 50px;
     gap: 10px;
   }
-  section.new-project img {
-    width: 150px;
+  section.envirozyme {
+    height: 80vh;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+  }
+  section.envirozyme img {
+    width: 200px;
     margin-bottom: 30px;
   }
-  .about-me {
-    padding: 120px 0 50px 0;
-    gap: 20px;
+  section.envirozyme h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+  section.envirozyme span {
+    color: var(--acent);
+    font-size: 21px;
     margin-bottom: 10px;
-  }
-  .about-me img {
-    width: 100px;
-  }
-  .about-me h1 {
-    font-size: 40px;
-    color: var(--primary);
     text-align: center;
   }
-  .about-me h1.featured-projects {
-    font-size: 40px;
-    margin-top: 100px;
-  }
-  .about-me p {
-    font-size: 19px;
-    width: 440px;
-  }
-  section.grandeur {
-    padding: 100px 0;
-  }
-  section.grandeur img {
-    width: 400px;
-  }
-  section.grandeur h1 {
-    font-size: 40px;
+  section.envirozyme p {
+    font-size: 21px;
+    color: var(--white);
     text-align: center;
-  }
-  section.grandeur p {
-    font-size: 19px;
   }
   section.featured-projects {
-    padding: 20px 0 10px 0;
+    padding: 10px 0 10px 0;
   }
   section.featured-projects .container {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
   section.featured-projects .container .project {
-    height: 80vh;
+    height: 70vh;
     padding-bottom: 50px;
     gap: 5px;
   }
@@ -243,11 +208,11 @@ section.featured-projects .container .project p {
     width: 200px;
     margin-bottom: 80px;
   }
-  section.featured-projects .container .project img.grandeur-image {
+  section.featured-projects .container .project img.grandure-meats {
     width: 330px;
   }
   section.featured-projects .container .project img.vah-image {
-    width: 230px;
+    width: 330px;
   }
   section.featured-projects .container .project h1 {
     font-size: 30px;
