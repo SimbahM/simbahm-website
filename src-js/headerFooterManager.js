@@ -78,7 +78,7 @@ class SpecialFooter extends HTMLElement {
                 <p>
                     
                 </p>
-                <a href="https://sass-lang.com/" target="_blank">
+                <a href="" target="_blank">
                     <img src="./assets/icons/simbahm-logo.png" alt="Sass Logo">
                 </a>
             </div>
