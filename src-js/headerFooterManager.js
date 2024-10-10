@@ -78,9 +78,7 @@ class SpecialFooter extends HTMLElement {
                 <p>
                     
                 </p>
-                <a href="" target="_blank">
-                    <img src="./assets/icons/simbahm-logo.png" alt="Sass Logo">
-                </a>
+                <img src="./assets/icons/simbahm-logo.png" alt="Sass Logo">
             </div>
         </footer>
         `
