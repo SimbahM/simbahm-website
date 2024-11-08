@@ -176,26 +176,26 @@ section.featured-projects .container .project p {
     padding-bottom: 50px;
     gap: 10px;
   }
-  section.envirozyme {
+  section.faith-haritage-school {
     height: 80vh;
     padding-bottom: 50px;
     margin-bottom: 0;
   }
-  section.envirozyme img {
+  section.faith-haritage-school img {
     width: 200px;
     margin-bottom: 30px;
   }
-  section.envirozyme h1 {
-    font-size: 40px;
+  section.faith-haritage-school h1 {
+    font-size: 60px;
     color: var(--white);
   }
-  section.envirozyme span {
+  section.faith-haritage-school span {
     color: var(--acent);
     font-size: 21px;
     margin-bottom: 10px;
     text-align: center;
   }
-  section.envirozyme p {
+  section.faith-haritage-school p {
     font-size: 21px;
     color: var(--white);
     text-align: center;
@@ -242,6 +242,14 @@ section.featured-projects .container .project p {
     width: 100px;
     margin-bottom: 10px;
   }
+  section.new-project h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+  section.faith-haritage-school h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
   section.featured-projects {
     padding: 10px 0 10px 0;
   }
@@ -284,6 +292,14 @@ section.featured-projects .container .project p {
     width: 100px;
     margin-bottom: 10px;
   }
+  section.new-project h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+  section.faith-haritage-school h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
   section.featured-projects {
     padding: 10px 0 10px 0;
   }
@@ -307,7 +323,7 @@ section.featured-projects .container .project p {
     width: 330px;
   }
   section.featured-projects .container .project h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: var(--white);
   }
   section.featured-projects .container .project p {
