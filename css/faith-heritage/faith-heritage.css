@@ -1,0 +1,304 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
+.faith-heritage {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/faith-heritage-school/school-cover-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.main-logo {
+  padding: 200px 15px 200px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.main-logo img {
+  width: 500px;
+}
+
+section.colors {
+  width: 1000px;
+  margin: 0 auto;
+}
+section.colors .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 30px;
+}
+section.colors .container .burgundy {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #C9252C;
+  height: inherit;
+}
+section.colors .container .burgundy p.hex-code {
+  color: var(--white);
+  font-size: 20px;
+}
+section.colors .container .burgundy p.title {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 60px;
+  color: var(--white);
+  font-weight: 300;
+}
+section.colors .container .deep-yellow {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FDB913;
+  height: inherit;
+}
+section.colors .container .deep-yellow p.hex-code {
+  color: var(--primary);
+  font-size: 20px;
+}
+section.colors .container .deep-yellow p.title {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 60px;
+  color: var(--primary);
+  font-weight: 300;
+}
+section.colors .container .rich-black {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000F26;
+  height: inherit;
+}
+section.colors .container .rich-black p.hex-code {
+  color: var(--white);
+  font-size: 20px;
+}
+section.colors .container .rich-black p.title {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-size: 60px;
+  color: var(--white);
+  font-weight: 300;
+}
+
+section.corporate-wear {
+  padding: 200px 15px;
+}
+section.corporate-wear .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section.corporate-wear .container img {
+  width: 900px;
+}
+
+@media (max-width: 1024px) {
+  section.colors {
+    padding: 0 15px;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  section.colors .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 15px;
+  }
+  section.colors .container .burgundy {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #C9252C;
+    height: inherit;
+  }
+  section.colors .container .burgundy p.hex-code {
+    color: var(--white);
+    font-size: 20px;
+  }
+  section.colors .container .burgundy p.title {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 60px;
+    color: var(--white);
+    font-weight: 300;
+  }
+  section.colors .container .deep-yellow {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FDB913;
+    height: inherit;
+  }
+  section.colors .container .deep-yellow p.hex-code {
+    color: var(--primary);
+    font-size: 20px;
+  }
+  section.colors .container .deep-yellow p.title {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 60px;
+    color: var(--primary);
+    font-weight: 300;
+  }
+  section.colors .container .rich-black {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000F26;
+    height: inherit;
+  }
+  section.colors .container .rich-black p.hex-code {
+    color: var(--white);
+    font-size: 20px;
+  }
+  section.colors .container .rich-black p.title {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 60px;
+    color: var(--white);
+    font-weight: 300;
+  }
+  section.corporate-wear {
+    padding: 200px 15px;
+  }
+  section.corporate-wear .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  section.corporate-wear .container img {
+    width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  section.colors {
+    padding: 0 15px;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  section.colors .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 15px;
+  }
+  section.colors .container .burgundy {
+    padding: 15px;
+  }
+  section.colors .container .burgundy p.hex-code {
+    color: var(--white);
+    font-size: 20px;
+  }
+  section.colors .container .burgundy p.title {
+    font-size: 50px;
+  }
+  section.colors .container .deep-yellow {
+    padding: 15px;
+  }
+  section.colors .container .deep-yellow p.hex-code {
+    color: var(--primary);
+    font-size: 20px;
+  }
+  section.colors .container .deep-yellow p.title {
+    font-size: 50px;
+  }
+  section.colors .container .rich-black {
+    padding: 15px;
+  }
+  section.colors .container .rich-black p.hex-code {
+    color: var(--white);
+    font-size: 20px;
+  }
+  section.colors .container .rich-black p.title {
+    font-size: 50px;
+  }
+  section.corporate-wear {
+    padding: 50px 15px;
+  }
+  section.corporate-wear .container {
+    height: 80vh;
+  }
+  section.corporate-wear .container img {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.main-logo img {
+    width: 250px;
+  }
+  section.colors {
+    padding: 0 15px;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  section.colors .container {
+    height: 50vh;
+    gap: 15px;
+  }
+  section.colors .container .burgundy {
+    padding: 10px;
+  }
+  section.colors .container .burgundy p.hex-code {
+    color: var(--white);
+    font-size: 15px;
+  }
+  section.colors .container .burgundy p.title {
+    font-size: 40px;
+  }
+  section.colors .container .deep-yellow {
+    padding: 10px;
+  }
+  section.colors .container .deep-yellow p.hex-code {
+    color: var(--primary);
+    font-size: 15px;
+  }
+  section.colors .container .deep-yellow p.title {
+    font-size: 40px;
+  }
+  section.colors .container .rich-black {
+    padding: 10px;
+  }
+  section.colors .container .rich-black p.hex-code {
+    color: var(--white);
+    font-size: 15px;
+  }
+  section.colors .container .rich-black p.title {
+    font-size: 40px;
+  }
+  section.corporate-wear {
+    padding: 50px 15px;
+  }
+  section.corporate-wear .container {
+    height: 50vh;
+  }
+  section.corporate-wear .container img {
+    width: 300px;
+  }
+}/*# sourceMappingURL=faith-heritage.css.map */

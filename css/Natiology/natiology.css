@@ -1,0 +1,445 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
+.natiology {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/natiology/coverpage.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.natiology img.natiologo-logo-symbol {
+  width: 200px;
+  margin-bottom: 70px;
+}
+
+section.colors {
+  width: 1000px;
+  margin: 0 auto;
+}
+section.colors .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 30px;
+}
+section.colors .container .dark-green {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .dark-green .image {
+  background-image: url(../../assets/images/pages/natiology/color1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #003323;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .dark-green .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .dark-green .color {
+  background-color: #003323;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .dark-green .color span.hex {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+section.colors .container .pastel-green {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .pastel-green .image {
+  background-image: url(../../assets/images/pages/natiology/color2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #85EE78;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .pastel-green .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .pastel-green .color {
+  background-color: #85EE78;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .pastel-green .color span.hex {
+  color: #003323;
+  font-size: 20px;
+  font-weight: 300;
+}
+section.colors .container .celadon-green {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .celadon-green .image {
+  background-image: url(../../assets/images/pages/natiology/color3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #29866D;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .celadon-green .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .celadon-green .color {
+  background-color: #29866D;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .celadon-green .color span.hex {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+section.colors .container .illuminating-green {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .illuminating-green .image {
+  background-image: url(../../assets/images/pages/natiology/color4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #329D80;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .illuminating-green .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .illuminating-green .color {
+  background-color: #329D80;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .illuminating-green .color span.hex {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+section.main-logo .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.main-logo .container img {
+  width: 700px;
+}
+
+@media (max-width: 1024px) {
+  .natiology img.natiologo-logo-symbol {
+    width: 200px;
+    margin-bottom: 60px;
+  }
+  section.colors {
+    width: 750px;
+    margin: 0 auto;
+  }
+  section.colors .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 15px;
+  }
+  section.colors .container .dark-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 60vh;
+  }
+  section.colors .container .dark-green .image {
+    height: inherit;
+    flex: 2;
+    position: relative;
+  }
+  section.colors .container .dark-green .image span.color-name {
+    font-size: 35px;
+  }
+  section.colors .container .dark-green .color {
+    padding: 15px;
+  }
+  section.colors .container .dark-green .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .pastel-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 60vh;
+  }
+  section.colors .container .pastel-green .image span.color-name {
+    font-size: 35px;
+    font-weight: 300;
+  }
+  section.colors .container .pastel-green .color {
+    padding: 15px;
+  }
+  section.colors .container .pastel-green .color span.hex {
+    color: #003323;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .celadon-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 60vh;
+  }
+  section.colors .container .celadon-green .image span.color-name {
+    font-size: 35px;
+  }
+  section.colors .container .celadon-green .color {
+    padding: 15px;
+  }
+  section.colors .container .celadon-green .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .illuminating-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 60vh;
+  }
+  section.colors .container .illuminating-green .image span.color-name {
+    font-size: 35px;
+  }
+  section.colors .container .illuminating-green .color {
+    padding: 15px;
+  }
+  section.colors .container .illuminating-green .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.main-logo .container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.main-logo .container img {
+    width: 750px;
+  }
+}
+@media (max-width: 768px) {
+  .natiology img.natiologo-logo-symbol {
+    width: 150px;
+    margin-bottom: 40px;
+  }
+  section.colors {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  section.colors .container {
+    margin: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 15px;
+  }
+  section.colors .container .dark-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 70vh;
+  }
+  section.colors .container .dark-green .image {
+    height: inherit;
+    flex: 2;
+    position: relative;
+  }
+  section.colors .container .dark-green .image span.color-name {
+    font-size: 35px;
+  }
+  section.colors .container .dark-green .color {
+    padding: 15px;
+  }
+  section.colors .container .dark-green .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .pastel-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 70vh;
+  }
+  section.colors .container .pastel-green .image span.color-name {
+    font-size: 35px;
+    font-weight: 300;
+  }
+  section.colors .container .pastel-green .color {
+    padding: 15px;
+  }
+  section.colors .container .pastel-green .color span.hex {
+    color: #003323;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .celadon-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 70vh;
+  }
+  section.colors .container .celadon-green .image span.color-name {
+    font-size: 35px;
+  }
+  section.colors .container .celadon-green .color {
+    padding: 15px;
+  }
+  section.colors .container .celadon-green .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .illuminating-green {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    height: 70vh;
+  }
+  section.colors .container .illuminating-green .image span.color-name {
+    font-size: 35px;
+  }
+  section.colors .container .illuminating-green .color {
+    padding: 15px;
+  }
+  section.colors .container .illuminating-green .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.main-logo .container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.main-logo .container img {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  section.colors {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  section.colors .container {
+    margin: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 15px;
+  }
+  section.main-logo .container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.main-logo .container img {
+    width: 500px;
+  }
+}
+@media (max-width: 425px) {
+  .natiology img.natiologo-logo-symbol {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  section.main-logo .container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.main-logo .container img {
+    width: 360px;
+  }
+}/*# sourceMappingURL=natiology.css.map */

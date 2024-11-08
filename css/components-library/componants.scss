@@ -216,12 +216,6 @@ section.projects-hero {
     padding-bottom: 50px;
     gap: 20px;
 
-    img {
-        width: 400px;
-        margin-bottom: 50px;
-        opacity: .5;
-    }
-
     h1 {
         font-size: 70px;
         color: var(--white);
@@ -417,12 +411,6 @@ section.colors-container {
         height: 90vh;
         padding-bottom: 30px;
         gap: 15px;
-
-        img {
-            width: 350px;
-            margin-bottom: 100px;
-            opacity: .5;
-        }
     
         h1 {
             font-size: 50px;
@@ -587,13 +575,6 @@ section.colors-container {
         height: 70vh;
         padding-bottom: 30px;
         gap: 15px;
-
-        img {
-            display: none;
-            width: 250px;
-            margin-bottom: 20px;
-            opacity: .5;
-        }
     
         h1 {
             font-size: 40px;

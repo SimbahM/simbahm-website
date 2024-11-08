@@ -195,11 +195,6 @@ section.projects-hero {
   padding-bottom: 50px;
   gap: 20px;
 }
-section.projects-hero img {
-  width: 400px;
-  margin-bottom: 50px;
-  opacity: 0.5;
-}
 section.projects-hero h1 {
   font-size: 70px;
   color: var(--white);
@@ -351,11 +346,6 @@ section.colors-container .colors p.platinum-title {
     padding-bottom: 30px;
     gap: 15px;
   }
-  section.projects-hero img {
-    width: 350px;
-    margin-bottom: 100px;
-    opacity: 0.5;
-  }
   section.projects-hero h1 {
     font-size: 50px;
     text-align: center;
@@ -477,12 +467,6 @@ section.colors-container .colors p.platinum-title {
     height: 70vh;
     padding-bottom: 30px;
     gap: 15px;
-  }
-  section.projects-hero img {
-    display: none;
-    width: 250px;
-    margin-bottom: 20px;
-    opacity: 0.5;
   }
   section.projects-hero h1 {
     font-size: 40px;
