@@ -5,6 +5,20 @@
   background-position: center;
 }
 
+.natiology {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/pages/work/natiology.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.faith-haritage-school {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/pages/work/faith-haritage-school.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
 .envirozyme {
   background-image: url(../../assets/images/pages/work/envirozyme-logo.webp);
   background-repeat: none;
@@ -184,6 +198,10 @@ section.projects .work p.grandeur-meats-title {
   color: var(--gray);
   font-size: 20px;
 }
+section.projects .work img.natiology-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
 section.projects .work img {
   width: 400px;
 }
@@ -191,6 +209,7 @@ section.projects .work h1.title {
   color: var(--white);
   font-size: 40px;
   font-family: Simbah M;
+  text-align: center;
 }
 section.projects .work p.descriptor {
   color: var(--white);
@@ -233,6 +252,9 @@ section.projects .work .scrolldown {
   section.projects .work img {
     width: 250px;
   }
+  section.projects .work img.natiology-logo {
+    width: 150px;
+  }
   section.projects .kabwe-lodge-interior {
     max-width: 700px;
   }
@@ -248,6 +270,9 @@ section.projects .work .scrolldown {
     height: 80vh;
     padding-bottom: 30px;
     margin-bottom: 10px;
+  }
+  section.projects .work img.natiology-logo {
+    width: 130px;
   }
   section.projects .kabwe-lodge-interior {
     max-width: 700px;
