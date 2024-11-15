@@ -45,8 +45,8 @@ section.new-project {
     }
 }
 
-section.faith-haritage-school {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../assets/images/home-page/faith-heritage-school.webp);
+section.ethereal {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(../assets/images/home-page/sewing-machine-tools.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -196,40 +196,32 @@ section.featured-projects {
         height: 80vh;
         padding-bottom: 50px;
         gap: 10px;
+
+        img {
+            width: 150px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
     }
 
-    section.faith-haritage-school {
+    section.ethereal {
     
         height: 80vh;
-        padding-bottom: 50px;
-        margin-bottom: 0;
-    
+        gap: 20px;
+
         img {
-            width: 200px;
-            margin-bottom: 30px;
+            width: 150px;
         }
-    
+
         h1 {
-            font-size: 60px;
-            color: var(--white);
-        }
-    
-        span {
-            color: var(--acent);
-            font-size: 21px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-    
-        p {
-            font-size: 21px;
-            color: var(--white);
-            text-align: center;
+            font-size: 50px;
         }
     }
     
     section.featured-projects {
-        padding: 10px 0 10px 0;
+        padding: 0px 0 10px 0;
     
         .container {
             grid-template-columns: repeat(2, 1fr);
@@ -286,7 +278,14 @@ section.featured-projects {
         }
     }
 
-    section.faith-haritage-school {
+    section.ethereal {
+        margin-bottom: 0;
+
+        img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
         h1 {
             font-size: 40px;
             color: var(--white);

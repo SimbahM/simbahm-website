@@ -1,0 +1,565 @@
+:root {
+  --primary: #1B2F3F;
+  --secondary: #2E465E;
+  --white: #EBEFF2;
+  --acent: #FFA656;
+  --gray: #54595F;
+}
+
+.ethereal {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ethereal img.natiologo-logo-symbol {
+  width: 200px;
+  margin-bottom: 70px;
+}
+
+section.quote {
+  height: 100vh;
+}
+section.quote .container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.quote .container img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+section.quote .container h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #353535;
+}
+
+section.need-for-a-new-logo {
+  height: 100vh;
+}
+section.need-for-a-new-logo .container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.need-for-a-new-logo .container img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+section.need-for-a-new-logo .container h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #353535;
+  margin-bottom: 20px;
+}
+section.need-for-a-new-logo .container p {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 300;
+  color: var(--gray);
+}
+
+section.old-to-new {
+  padding: 100px 0;
+  background-color: #E5EBF8;
+}
+section.old-to-new .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.old-to-new .container img {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+section.main-logo {
+  padding: 300px 15px;
+}
+section.main-logo .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.main-logo .container img {
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+section.white-logo {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/ethereal/sewing-machine-tools.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section.white-logo .container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.white-logo .container img {
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+section.colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+}
+section.colors .container {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+section.colors .container .cetacean-blue {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .cetacean-blue .image {
+  background-image: url(../../assets/images/pages/ethereal/color.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #001033;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .cetacean-blue .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .cetacean-blue .color {
+  background-color: #001033;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .cetacean-blue .color span.hex {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+section.colors .container .ateneo-blue {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .ateneo-blue .image {
+  background-image: url(../../assets/images/pages/ethereal/color2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #003975;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .ateneo-blue .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .ateneo-blue .color {
+  background-color: #003975;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .ateneo-blue .color span.hex {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+section.colors .container .lavender {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .lavender .image {
+  background-image: url(../../assets/images/pages/natiology/color3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #E5EBF8;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .lavender .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .lavender .color {
+  background-color: #E5EBF8;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .lavender .color span.hex {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 300;
+}
+section.colors .container .celestial-blue {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .celestial-blue .image {
+  background-image: url(../../assets/images/pages/ethereal/color4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #468ECD;
+  background-blend-mode: multiply;
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .celestial-blue .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .celestial-blue .color {
+  background-color: #468ECD;
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .celestial-blue .color span.hex {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+section.white-quote {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section.white-quote .container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.white-quote .container img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+section.white-quote .container h1 {
+  text-align: center;
+  color: var(--white);
+  font-size: 40px;
+  width: 750px;
+}
+
+@media (max-width: 1024px) {
+  section.main-logo {
+    padding: 200px 15px;
+  }
+  section.main-logo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.main-logo .container img {
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  section.white-logo {
+    height: 80vh;
+  }
+  section.white-logo .container img {
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  section.colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px;
+  }
+  section.colors .container {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  section.colors .container .cetacean-blue {
+    height: 80vh;
+  }
+  section.colors .container .cetacean-blue .image span.color-name {
+    font-size: 40px;
+  }
+  section.colors .container .cetacean-blue .color {
+    padding: 20px;
+  }
+  section.colors .container .cetacean-blue .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .ateneo-blue {
+    height: 80vh;
+  }
+  section.colors .container .ateneo-blue .image span.color-name {
+    font-size: 40px;
+  }
+  section.colors .container .ateneo-blue .color {
+    padding: 20px;
+  }
+  section.colors .container .ateneo-blue .color span.hex {
+    font-size: 20px;
+  }
+  section.colors .container .lavender {
+    height: 80vh;
+  }
+  section.colors .container .lavender .image span.color-name {
+    font-size: 40px;
+  }
+  section.colors .container .lavender .color {
+    padding: 20px;
+  }
+  section.colors .container .lavender .color span.hex {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.colors .container .celestial-blue {
+    height: 80vh;
+  }
+  section.colors .container .celestial-blue .image span.color-name {
+    font-size: 40px;
+  }
+  section.colors .container .celestial-blue .color {
+    padding: 20px;
+  }
+  section.colors .container .celestial-blue .color span.hex {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+  }
+  section.white-quote {
+    height: 80vh;
+  }
+  section.white-quote .container img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  section.white-quote .container h1 {
+    font-size: 40px;
+    width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .ethereal img.natiologo-logo-symbol {
+    width: 150px;
+    margin-bottom: 40px;
+  }
+  section.quote {
+    height: 80vh;
+  }
+  section.quote .container img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  section.quote .container h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #353535;
+  }
+  section.main-logo {
+    padding: 100px 15px;
+  }
+  section.main-logo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.main-logo .container img {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  section.white-logo {
+    height: 80vh;
+  }
+  section.white-logo .container img {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  section.white-quote {
+    height: 80vh;
+  }
+  section.white-quote .container img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  section.white-quote .container h1 {
+    font-size: 30px;
+    width: 450px;
+  }
+}
+@media (max-width: 600px) {
+  section.colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px;
+  }
+  section.colors .container {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  section.white-quote {
+    height: 80vh;
+  }
+  section.white-quote .container img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  section.white-quote .container h1 {
+    font-size: 30px;
+    width: 350px;
+  }
+}
+@media (max-width: 425px) {
+  .ethereal img.natiologo-logo-symbol {
+    width: 100px;
+    margin-bottom: 30px;
+  }
+  section.quote {
+    height: 80vh;
+  }
+  section.quote .container img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  section.quote .container h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #353535;
+  }
+  section.need-for-a-new-logo {
+    height: 80vh;
+  }
+  section.need-for-a-new-logo .container img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  section.need-for-a-new-logo .container h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #353535;
+    margin-bottom: 20px;
+  }
+  section.old-to-new {
+    padding: 80px 0;
+    background-color: #E5EBF8;
+  }
+  section.old-to-new .container img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  section.main-logo {
+    padding: 100px 15px;
+  }
+  section.main-logo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.main-logo .container img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  section.white-logo {
+    height: 60vh;
+  }
+  section.white-logo .container img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  section.white-quote {
+    height: 80vh;
+  }
+  section.white-quote .container img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  section.white-quote .container h1 {
+    font-size: 27px;
+    width: 320px;
+  }
+}/*# sourceMappingURL=ethereal.css.map */
