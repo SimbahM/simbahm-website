@@ -34,9 +34,11 @@ section.quote {
         }
 
         h1 {
+            display: flex;
             text-align: center;
             font-size: 50px;
             color: #353535;
+            width: 700px;
         }
     }
 }
@@ -68,6 +70,7 @@ section.need-for-a-new-logo {
             font-size: 23px;
             font-weight: 300;
             color: var(--gray);
+            width: 500px;
         }
     }
 }
@@ -528,6 +531,17 @@ section.white-quote {
                 text-align: center;
                 font-size: 40px;
                 color: #353535;
+                width: 400px;
+            }
+        }
+    }
+
+    section.need-for-a-new-logo {
+    
+        .container {
+
+            p {
+                width: 350px;
             }
         }
     }
@@ -638,6 +652,7 @@ section.white-quote {
                 text-align: center;
                 font-size: 30px;
                 color: #353535;
+                width: 300px;
             }
         }
     }
@@ -657,6 +672,11 @@ section.white-quote {
                 font-size: 30px;
                 color: #353535;
                 margin-bottom: 20px;
+            }
+
+            p {
+                width: 280px;
+                font-size: 20px;
             }
         }
     }
