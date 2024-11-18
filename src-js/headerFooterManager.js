@@ -56,9 +56,6 @@ class SpecialHeader extends HTMLElement {
                         </li>
                     </ul>
                 </div>
-                <div class="hamburger-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
             </nav>
         </header>
         `

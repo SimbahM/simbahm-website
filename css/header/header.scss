@@ -1,7 +1,8 @@
 header {
+    background-color: rgba(27, 47, 63, 0.9);
+    backdrop-filter: blur(10px);
+    position: fixed;
     display: flex;
-    position: absolute;
-    top: 0;
     height: 60px;
     width: 100%;
     z-index: 999;
@@ -56,20 +57,15 @@ header {
                         color: var(--white);
                         font-size: 12px;
                         font-weight: 400;
-                        opacity: .8;
+                        opacity: .7;
                         padding: 8px 15px;
                         border-radius: 0 0 2px 2px;
                         transition: all .5s ease 0s;
                         text-transform: uppercase;
                         letter-spacing: 0.05rem;
-                        border-top: 3px solid #ffffff00;
 
                         &:hover {
-                            backdrop-filter: blur(8px);background-color: rgba(235, 239, 242, 0.3);
-                            padding: 8px 15px;
-                            border-radius: 0 0 2px 2px;
-                            border-top: 3px solid var(--white);
-                            opacity: .7;
+                            opacity: 1;
                         }
                     }
                 }
@@ -104,7 +100,7 @@ header {
                         font-size: 20px;
                         transition: all .5s ease 0s;
                         border-radius: 0 0 2px 2px;
-                        border-top: 3px solid #ffffff00;
+                        opacity: .6;
 
                         img {
                             width: 17px;
@@ -112,20 +108,11 @@ header {
                         }
                         
                         &:hover {
-                            background-color: rgba(235, 239, 242, .2);
-                            padding: 7px 15px;
-                            border-radius: 0 0 2px 2px;
-                            border-top: 2px solid var(--white);
-                            backdrop-filter: blur(8px);
-                            opacity: .7;
+                            opacity: 1;
                         }
                     }
                 }
             }
-        }
-
-        .hamburger-menu {
-            display: none;
         }
     }
 }
@@ -152,18 +139,13 @@ header {
                             color: var(--white);
                             font-size: 12px;
                             font-weight: 400;
-                            opacity: .8;
+                            opacity: .7;
                             padding: 8px 15px;
                             border-radius: 0 0 2px 2px;
-                            border-top: 3px solid #ffffff00;
                             transition: all .5s ease 0s;
     
                             &:hover {
-                                background-color: rgba(235, 239, 242, .2);
-                                color: var(--white);
-                                padding: 8px 15px;
-                                border-radius: 0 0 2px 2px;
-                                border-top: 3px solid var(--white);
+                                opacity: 1;
                             }
                         }
                     }
@@ -172,42 +154,7 @@ header {
     
             .social-media {
                 display: none;
-                flex-direction: row;
-                align-items: center;
-    
-                ul {
-                    list-style: none;
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    // gap: 25px;
-    
-                    li{
-                        display: block;
-    
-                        a {
-                            text-decoration: none;
-                            color: var(--white);
-                            padding: 5px 15px;
-                            font-size: 20px;
-                            transition: all .5s ease 0s;
-                            
-                            &:hover {
-                                background-color: rgba(235, 239, 242, .7);
-                                padding: 3px 15px;
-                                border-radius: 5px;
-                                color: #1B2F3F;
-                            }
-                        }
-                    }
-                }
             }
-        }
-
-        .hamburger-menu {
-            display: block;
-            margin-right: 50px;
-            color: var(--white);
         }
     }
 }

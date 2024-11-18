@@ -63,13 +63,32 @@ section.ethereal h1 {
   color: var(--white);
   text-align: center;
 }
-section.ethereal span {
-  color: var(--acent);
+section.ethereal p {
   font-size: 21px;
-  margin-bottom: 10px;
+  color: var(--white);
   text-align: center;
 }
-section.ethereal p {
+
+section.apex {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/apex-logo-envelop.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+section.apex h1 {
+  font-size: 60px;
+  color: var(--white);
+  text-align: center;
+}
+section.apex p {
   font-size: 21px;
   color: var(--white);
   text-align: center;
@@ -192,6 +211,13 @@ section.featured-projects .container .project p {
   section.ethereal h1 {
     font-size: 50px;
   }
+  section.apex {
+    height: 80vh;
+    gap: 20px;
+  }
+  section.apex h1 {
+    font-size: 50px;
+  }
   section.featured-projects {
     padding: 0px 0 10px 0;
   }
@@ -239,7 +265,7 @@ section.featured-projects .container .project p {
     color: var(--white);
   }
   section.ethereal {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   section.ethereal img {
     width: 150px;
@@ -249,10 +275,19 @@ section.featured-projects .container .project p {
     font-size: 40px;
     color: var(--white);
   }
+  section.apex {
+    margin-bottom: 0;
+    height: 80vh;
+    gap: 20px;
+  }
+  section.apex h1 {
+    font-size: 40px;
+  }
   section.featured-projects {
     padding: 10px 0 10px 0;
   }
   section.featured-projects .container {
+    padding: 0 0;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }
@@ -272,18 +307,18 @@ section.featured-projects .container .project p {
     width: 330px;
   }
   section.featured-projects .container .project h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: var(--white);
   }
   section.featured-projects .container .project p {
-    font-size: 19px;
+    font-size: 21px;
     text-align: center;
     color: var(--white);
   }
 }
 @media (max-width: 425px) {
   section.new-project {
-    height: 80vh;
+    height: 70vh;
     padding-bottom: 50px;
     gap: 10px;
   }
@@ -295,9 +330,23 @@ section.featured-projects .container .project p {
     font-size: 40px;
     color: var(--white);
   }
-  section.faith-haritage-school h1 {
+  section.ethereal {
+    height: 70vh;
+    gap: 20px;
+  }
+  section.ethereal img {
+    width: 130px;
+    margin-bottom: 10px;
+  }
+  section.ethereal h1 {
     font-size: 40px;
-    color: var(--white);
+  }
+  section.apex {
+    height: 70vh;
+    gap: 20px;
+  }
+  section.apex h1 {
+    font-size: 40px;
   }
   section.featured-projects {
     padding: 10px 0 10px 0;
@@ -326,7 +375,7 @@ section.featured-projects .container .project p {
     color: var(--white);
   }
   section.featured-projects .container .project p {
-    font-size: 19px;
+    font-size: 21px;
     text-align: center;
     color: var(--white);
   }
