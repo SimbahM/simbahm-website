@@ -116,6 +116,7 @@ section.contact-me .container .say-hello a span:hover {
   }
   section.contact-me .container .lets-chat h1 {
     font-size: 25px;
+    width: 250px;
   }
   section.contact-me .container .say-hello {
     gap: 10px;
