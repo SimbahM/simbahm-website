@@ -57,7 +57,7 @@ section.contact-me .container .say-hello {
   gap: 10px;
 }
 section.contact-me .container .say-hello h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--secondary);
   color: var(--white);
 }
@@ -95,9 +95,6 @@ section.contact-me .container .say-hello a span:hover {
   section.contact-me .container .say-hello {
     gap: 10px;
   }
-  section.contact-me .container .say-hello h1 {
-    font-size: 40px;
-  }
 }
 @media (max-width: 425px) {
   section.contact-me .container {
@@ -122,8 +119,5 @@ section.contact-me .container .say-hello a span:hover {
   }
   section.contact-me .container .say-hello {
     gap: 10px;
-  }
-  section.contact-me .container .say-hello h1 {
-    font-size: 40px;
   }
 }/*# sourceMappingURL=contact-me.css.map */
