@@ -164,10 +164,11 @@ section.projects .vah h1.grandeur-meats-title {
   color: var(--primary);
   font-size: 40px;
 }
-section.projects .grandeur-meats p.grandeur-meats-title,
-section.projects .vah p.grandeur-meats-title {
+section.projects .grandeur-meats p.description,
+section.projects .vah p.description {
   color: var(--gray);
   font-size: 20px;
+  text-align: center;
 }
 section.projects .grandeur-meats img,
 section.projects .vah img {

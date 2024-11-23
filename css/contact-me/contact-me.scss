@@ -7,10 +7,10 @@
 }
 
 section.contact-me {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.7)), url(../../assets/images/contact-me/conact-me.webp);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.7)), url(../../assets/images/contact-me/contact-simbah-m.webp);
     background-repeat: none;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,67 +19,100 @@ section.contact-me {
     gap: 50px;
     text-align: center;
 
-    .lets-chat {
-
-        h1 {
-            font-size: 40px;
-            font-family: Simbah M;
-            color: var(--white);
-        }
-    }
-
-    .say-hello {
+    .container {
+        background-color: rgba(225, 225, 225, .5);
+        height: 500px;
+        width: 650px;
+        backdrop-filter: blur(20px);
+        border-radius: 10px;
+        border: .5px #fff solid;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        justify-content: center;
+        align-items: center;
 
-        h1 {
-            font-size: 40px;
-            color: var(--secondary);
-            color: var(--white);
+        img.simbahm-logo {
+            width: 60px;
+            margin-bottom: 40px;
         }
 
-        a {
-            text-decoration: none;
-            color: var(--white);
-
-            span {
+        .lets-chat {
+            margin-bottom: 30px;
+    
+            p {
                 font-size: 25px;
-                transition: all .3s ease 0s;
+                font-family: Simbah M;
+                color: var(--white);
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
 
-                &:hover {
-                    color: var(--acent);
+            h1 {
+                font-size: 30px;
+                color: var(--secondary);
+                color: var(--white);
+            }
+        }
+    
+        .say-hello {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+    
+            h1 {
+                font-size: 40px;
+                color: var(--secondary);
+                color: var(--white);
+            }
+    
+            a {
+                text-decoration: none;
+                color: var(--white);
+    
+                span {
+                    font-size: 25px;
+                    transition: all .3s ease 0s;
+    
+                    &:hover {
+                        color: var(--acent);
+                    }
                 }
             }
         }
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 677px) {
 
     section.contact-me {
-        padding: 0 50px;
-        justify-content: start;
-        padding-top: 150px;
     
-        .lets-chat {
+        .container {
+            height: 500px;
+            width: 420px;
     
-            h1 {
-                font-size: 30px;
-            }
-        }
-    
-        .say-hello {
-            gap: 10px;
-    
-            h1 {
-                font-size: 30px;
+            img.simbahm-logo {
+                width: 60px;
+                margin-bottom: 30px;
             }
     
-            a {
+            .lets-chat {
+                margin-bottom: 30px;
+        
+                p {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
     
-                span {
-                    font-size: 20px;
+                h1 {
+                    font-size: 25px;
+                }
+            }
+        
+            .say-hello {
+                gap: 10px;
+        
+                h1 {
+                    font-size: 40px;
                 }
             }
         }
@@ -89,6 +122,38 @@ section.contact-me {
 @media (max-width: 425px) {
 
     section.contact-me {
-        height: 75vh;
+    
+        .container {
+            height: 100vh;
+            width: 100%;
+            border-radius: 0;
+            border: none;
+    
+            img.simbahm-logo {
+                width: 60px;
+                margin-bottom: 30px;
+            }
+    
+            .lets-chat {
+                margin-bottom: 30px;
+        
+                p {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+    
+                h1 {
+                    font-size: 25px;
+                }
+            }
+        
+            .say-hello {
+                gap: 10px;
+        
+                h1 {
+                    font-size: 40px;
+                }
+            }
+        }
     }
 }
