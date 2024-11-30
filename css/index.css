@@ -6,11 +6,7 @@
   --gray: #54595F;
 }
 
-section.new-project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/natiology.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+section.large-panels {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,78 +16,38 @@ section.new-project {
   margin-bottom: 10px;
   gap: 20px;
 }
-section.new-project img {
+section.large-panels img {
   width: 200px;
   margin-bottom: 30px;
 }
-section.new-project h1 {
+section.large-panels h1 {
   font-size: 60px;
   color: var(--white);
 }
-section.new-project span {
+section.large-panels span {
   color: var(--acent);
   font-size: 21px;
   margin-bottom: 10px;
   text-align: center;
 }
-section.new-project p {
+section.large-panels p {
   font-size: 21px;
   color: var(--white);
   text-align: center;
 }
 
-section.ethereal {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/sewing-machine-tools.webp);
+.esi {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/esi-apple-watch.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  padding-bottom: 50px;
-  margin-bottom: 10px;
-  gap: 20px;
-}
-section.ethereal img {
-  width: 200px;
-  margin-bottom: 30px;
-}
-section.ethereal h1 {
-  font-size: 60px;
-  color: var(--white);
-  text-align: center;
-}
-section.ethereal p {
-  font-size: 21px;
-  color: var(--white);
-  text-align: center;
 }
 
-section.apex {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/apex-logo-envelop.webp);
+.natiology {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/natiology.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  padding-bottom: 50px;
-  margin-bottom: 10px;
-  gap: 20px;
-}
-section.apex h1 {
-  font-size: 60px;
-  color: var(--white);
-  text-align: center;
-}
-section.apex p {
-  font-size: 21px;
-  color: var(--white);
-  text-align: center;
 }
 
 section.featured-projects {
@@ -112,6 +68,10 @@ section.featured-projects .container .project {
   align-items: center;
   padding-bottom: 50px;
   gap: 5px;
+}
+section.featured-projects .container .project img.ethereal-logo {
+  width: 150px;
+  margin-bottom: 20px;
 }
 section.featured-projects .container .project img.project-icons {
   width: 150px;
@@ -147,6 +107,13 @@ section.featured-projects .container .project p {
   background-color: var(--white);
 }
 
+.ethereal {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/ethereal.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .mazi-brands {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/mazi-brands.webp);
   background-position: center;
@@ -168,54 +135,16 @@ section.featured-projects .container .project p {
   background-size: cover;
 }
 
-.eca {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/eca-logo.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.prime-drive {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/prime.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.dust-me {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/dustme.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media (max-width: 1024px) {
-  section.new-project {
+  section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
     gap: 10px;
   }
-  section.new-project img {
+  section.large-panels img {
     width: 150px;
   }
-  section.new-project h1 {
-    font-size: 50px;
-  }
-  section.ethereal {
-    height: 80vh;
-    gap: 20px;
-  }
-  section.ethereal img {
-    width: 150px;
-  }
-  section.ethereal h1 {
-    font-size: 50px;
-  }
-  section.apex {
-    height: 80vh;
-    gap: 20px;
-  }
-  section.apex h1 {
+  section.large-panels h1 {
     font-size: 50px;
   }
   section.featured-projects {
@@ -229,6 +158,10 @@ section.featured-projects .container .project p {
     height: 70vh;
     padding-bottom: 50px;
     gap: 5px;
+  }
+  section.featured-projects .container .project img.ethereal-logo {
+    width: 100px;
+    margin-bottom: 20px;
   }
   section.featured-projects .container .project img.project-icons {
     width: 200px;
@@ -251,37 +184,18 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 768px) {
-  section.new-project {
+  section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
     gap: 10px;
   }
-  section.new-project img {
+  section.large-panels img {
     width: 100px;
     margin-bottom: 10px;
   }
-  section.new-project h1 {
+  section.large-panels h1 {
     font-size: 40px;
     color: var(--white);
-  }
-  section.ethereal {
-    margin-bottom: 10px;
-  }
-  section.ethereal img {
-    width: 150px;
-    margin-bottom: 10px;
-  }
-  section.ethereal h1 {
-    font-size: 40px;
-    color: var(--white);
-  }
-  section.apex {
-    margin-bottom: 0;
-    height: 80vh;
-    gap: 20px;
-  }
-  section.apex h1 {
-    font-size: 40px;
   }
   section.featured-projects {
     padding: 10px 0 10px 0;
@@ -317,39 +231,21 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 425px) {
-  section.new-project {
+  section.large-panels {
     height: 70vh;
     padding-bottom: 50px;
     gap: 10px;
   }
-  section.new-project img {
+  section.large-panels img {
     width: 100px;
     margin-bottom: 10px;
   }
-  section.new-project h1 {
+  section.large-panels h1 {
     font-size: 40px;
     color: var(--white);
   }
-  section.ethereal {
-    height: 70vh;
-    gap: 20px;
-  }
-  section.ethereal img {
-    width: 130px;
-    margin-bottom: 10px;
-  }
-  section.ethereal h1 {
-    font-size: 40px;
-  }
-  section.apex {
-    height: 70vh;
-    gap: 20px;
-  }
-  section.apex h1 {
-    font-size: 40px;
-  }
   section.featured-projects {
-    padding: 10px 0 10px 0;
+    padding: 0 0 10px 0;
   }
   section.featured-projects .container {
     grid-template-columns: repeat(1, 1fr);

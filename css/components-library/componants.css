@@ -340,6 +340,51 @@ section.colors-container .colors p.platinum-title {
   color: #203244;
 }
 
+section.ui-ux-hero {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+section.ui-ux-hero .container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1000px;
+  justify-content: center;
+  padding: 0 15px;
+}
+section.ui-ux-hero .container .project-logo {
+  width: 100px;
+  margin-bottom: 50px;
+}
+section.ui-ux-hero .container p.title-head {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+section.ui-ux-hero .container p.title {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 200;
+}
+section.ui-ux-hero .container .divider {
+  border-bottom: 0.1px solid var(--white);
+  margin: 20px 0;
+  opacity: 0.5;
+  width: 350px;
+}
+section.ui-ux-hero .container .scroll-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
 @media (max-width: 1024px) {
   section.projects-hero {
     height: 90vh;
@@ -392,6 +437,10 @@ section.colors-container .colors p.platinum-title {
   }
   section.colors-container .colors {
     height: 70vh;
+  }
+  section.ui-ux-hero {
+    display: flex;
+    height: 90vh;
   }
 }
 @media (max-width: 768px) {
@@ -527,5 +576,11 @@ section.colors-container .colors p.platinum-title {
   }
   section.colors-container .colors {
     height: 50vh;
+  }
+  section.ui-ux-hero {
+    height: 70vh;
+  }
+  section.ui-ux-hero .container .divider {
+    width: 100%;
   }
 }/*# sourceMappingURL=componants.css.map */

@@ -394,6 +394,57 @@ section.colors-container {
     }
 }
 
+section.ui-ux-hero {
+    display: flex;
+    height: 100vh;
+    position: relative;
+
+    .container {
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 1000px;
+        justify-content: center;
+        padding: 0 15px;
+
+        .project-logo {
+            width: 100px;
+            margin-bottom: 50px;
+        }
+
+        p.title-head {
+            color: var(--white);
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        p.title {
+            color: var(--white);
+            font-size: 20px;
+            font-weight: 200;
+        }
+
+        .divider {
+            border-bottom: .1px solid var(--white);
+            margin: 20px 0;
+            opacity: .5;
+            width: 350px;
+        }
+
+        .scroll-down {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
 // Media Query
 // Media Query
 // Media Query
@@ -476,6 +527,11 @@ section.colors-container {
         .colors {
             height: 70vh;
         }
+    }
+
+    section.ui-ux-hero {
+        display: flex;
+        height: 90vh;
     }
 }
 
@@ -654,6 +710,17 @@ section.colors-container {
     
         .colors {
             height: 50vh;
+        }
+    }
+
+    section.ui-ux-hero {
+        height: 70vh;
+    
+        .container {
+    
+            .divider {
+                width: 100%;
+            }
         }
     }
 }
