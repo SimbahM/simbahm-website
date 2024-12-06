@@ -115,183 +115,61 @@ section.white-logo .container img {
   margin-bottom: 20px;
 }
 
-section.colors {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 200px auto;
-}
-section.colors .container {
-  width: 1000px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-section.colors .container .cetacean-blue {
-  display: flex;
-  flex-direction: column;
-  height: inherit;
-  height: 80vh;
-}
-section.colors .container .cetacean-blue .image {
-  background-image: url(../../assets/images/pages/ethereal/color.webp);
+.cetacean-blue-image {
+  background-image: url(../../assets/images/pages/natiology/color2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #001033;
   background-blend-mode: multiply;
-  height: inherit;
-  flex: 2;
-  position: relative;
 }
-section.colors .container .cetacean-blue .image span.color-name {
-  color: var(--white);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 40px;
-  font-weight: 300;
-}
-section.colors .container .cetacean-blue .color {
-  background-color: #001033;
-  height: inherit;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 20px;
-}
-section.colors .container .cetacean-blue .color span.hex {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 300;
-}
-section.colors .container .ateneo-blue {
-  display: flex;
-  flex-direction: column;
-  height: inherit;
-  height: 80vh;
-}
-section.colors .container .ateneo-blue .image {
-  background-image: url(../../assets/images/pages/ethereal/color2.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #003975;
-  background-blend-mode: multiply;
-  height: inherit;
-  flex: 2;
-  position: relative;
-}
-section.colors .container .ateneo-blue .image span.color-name {
-  color: var(--white);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 40px;
-  font-weight: 300;
-}
-section.colors .container .ateneo-blue .color {
-  background-color: #003975;
-  height: inherit;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 20px;
-}
-section.colors .container .ateneo-blue .color span.hex {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 300;
-}
-section.colors .container .lavender {
-  display: flex;
-  flex-direction: column;
-  height: inherit;
-  height: 80vh;
-}
-section.colors .container .lavender .image {
+
+.ateneo-blue {
   background-image: url(../../assets/images/pages/natiology/color3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #003975;
+  background-blend-mode: multiply;
+}
+
+.lavender-image {
+  background-image: url(../../assets/images/pages/natiology/color4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #E5EBF8;
   background-blend-mode: multiply;
-  height: inherit;
-  flex: 2;
-  position: relative;
 }
-section.colors .container .lavender .image span.color-name {
-  color: var(--white);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 40px;
-  font-weight: 300;
-}
-section.colors .container .lavender .color {
-  background-color: #E5EBF8;
-  height: inherit;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 20px;
-}
-section.colors .container .lavender .color span.hex {
-  color: var(--primary);
-  font-size: 20px;
-  font-weight: 300;
-}
-section.colors .container .celestial-blue {
-  display: flex;
-  flex-direction: column;
-  height: inherit;
-  height: 80vh;
-}
-section.colors .container .celestial-blue .image {
-  background-image: url(../../assets/images/pages/ethereal/color4.webp);
+
+.celestial-blue-image {
+  background-image: url(../../assets/images/pages/natiology/color1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #468ECD;
   background-blend-mode: multiply;
-  height: inherit;
-  flex: 2;
-  position: relative;
 }
-section.colors .container .celestial-blue .image span.color-name {
-  color: var(--white);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 40px;
-  font-weight: 300;
+
+.cetacean-blue-color {
+  background-color: #001033;
 }
-section.colors .container .celestial-blue .color {
-  background-color: #468ECD;
-  height: inherit;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 20px;
+
+.ateneo-color {
+  background-color: #003975;
 }
-section.colors .container .celestial-blue .color span.hex {
-  color: var(--white);
+
+.lavender-color {
+  background-color: #E5EBF8;
+}
+.lavender-color span.lavender-color-hex {
+  color: #001033;
   font-size: 20px;
   font-weight: 300;
+}
+
+.celestial-blue-color {
+  background-color: #468ECD;
 }
 
 section.white-quote {
@@ -339,74 +217,6 @@ section.white-quote .container h1 {
   section.white-logo .container img {
     width: 500px;
     margin-bottom: 20px;
-  }
-  section.colors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 15px;
-  }
-  section.colors .container {
-    width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-  }
-  section.colors .container .cetacean-blue {
-    height: 80vh;
-  }
-  section.colors .container .cetacean-blue .image span.color-name {
-    font-size: 40px;
-  }
-  section.colors .container .cetacean-blue .color {
-    padding: 20px;
-  }
-  section.colors .container .cetacean-blue .color span.hex {
-    color: var(--white);
-    font-size: 20px;
-    font-weight: 300;
-  }
-  section.colors .container .ateneo-blue {
-    height: 80vh;
-  }
-  section.colors .container .ateneo-blue .image span.color-name {
-    font-size: 40px;
-  }
-  section.colors .container .ateneo-blue .color {
-    padding: 20px;
-  }
-  section.colors .container .ateneo-blue .color span.hex {
-    font-size: 20px;
-  }
-  section.colors .container .lavender {
-    height: 80vh;
-  }
-  section.colors .container .lavender .image span.color-name {
-    font-size: 40px;
-  }
-  section.colors .container .lavender .color {
-    padding: 20px;
-  }
-  section.colors .container .lavender .color span.hex {
-    color: var(--primary);
-    font-size: 20px;
-    font-weight: 300;
-  }
-  section.colors .container .celestial-blue {
-    height: 80vh;
-  }
-  section.colors .container .celestial-blue .image span.color-name {
-    font-size: 40px;
-  }
-  section.colors .container .celestial-blue .color {
-    padding: 20px;
-  }
-  section.colors .container .celestial-blue .color span.hex {
-    color: var(--white);
-    font-size: 20px;
-    font-weight: 300;
   }
   section.white-quote {
     height: 80vh;
@@ -474,20 +284,6 @@ section.white-quote .container h1 {
   }
 }
 @media (max-width: 600px) {
-  section.colors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 15px;
-  }
-  section.colors .container {
-    width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-  }
   section.white-quote {
     height: 80vh;
   }

@@ -56,113 +56,62 @@ section.main-logo {
     }
 }
 
-section.colors {
-    width: 1000px;
-    margin: 0 auto;
+.blue-sapphire-image {
+    background-image: url(../../assets/images/pages/esi/image1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1A6979;
+    background-blend-mode: multiply;
+}
 
-    .container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        gap: 30px;
+.pewter-blue-image {
+    background-image: url(../../assets/images/pages/esi/image2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #8CB3C4;
+    background-blend-mode: multiply;
+}
 
-        .color {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
+.cultured-image {
+    background-image: url(../../assets/images/pages/esi/image3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #F2F7F9;
+    background-blend-mode: multiply;
+}
 
-            .blue-sapphire-image {
-                background-image: url(../../assets/images/pages/esi/image1.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #1A6979;
-                background-blend-mode: multiply;
-            }
+.slate-gray-image {
+    background-image: url(../../assets/images/pages/esi/image4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #70868C;
+    background-blend-mode: multiply;
+}
 
-            .pewter-blue-image {
-                background-image: url(../../assets/images/pages/esi/image2.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #8CB3C4;
-                background-blend-mode: multiply;
-            }
+.blue-sapphire-color {
+    background-color: #1A6979;
+}
 
-            .cultured-image {
-                background-image: url(../../assets/images/pages/esi/image3.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #F2F7F9;
-                background-blend-mode: multiply;
-            }
+.pewter-blue-color {
+    background-color: #8CB3C4;
+}
 
-            .slate-gray-image {
-                background-image: url(../../assets/images/pages/esi/image4.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #70868C;
-                background-blend-mode: multiply;
-            }
+.cultured-color {
+    background-color: #F2F7F9;
 
-            .image {
-                height: inherit;
-                flex:  2;
-                position: relative;
-
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
-
-            .blue-sapphire-color {
-                background-color: #1A6979;
-            }
-
-            .pewter-blue-color {
-                background-color: #8CB3C4;
-            }
-
-            .cultured-color {
-                background-color: #F2F7F9;
-
-                span.cultured-hex {
-                    color: #1A6979;
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-
-            .slate-gray-color {
-                background-color: #70868C;
-            }
-
-            .color {
-                height: inherit;
-                flex:  1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
-
-                span.hex {
-                    color: var(--white);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
+    span.cultured-hex {
+        color: #1A6979;
+        font-size: 20px;
+        font-weight: 300;
     }
+}
+
+.slate-gray-color {
+    background-color: #70868C;
 }
 
 @media (max-width: 1024px) {
@@ -192,41 +141,6 @@ section.colors {
     
         img {
             width: 600px;
-        }
-    }
-
-    section.colors {
-        width: 100%;
-        padding: 0 15px;
-    
-        .container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            align-items: center;
-            gap: 15px;
-    
-            .color {
-                height: 80vh;
-    
-                .image {
-                    height: inherit;
-                    flex:  2;
-                    position: relative;
-    
-                    span.color-name {
-                        font-size: 40px;
-                        font-weight: 300;
-                    }
-                }
-    
-                .color {
-                    padding: 20px;
-    
-                    span.hex {
-                        font-size: 20px;
-                    }
-                }
-            }
         }
     }
 }
@@ -260,41 +174,6 @@ section.colors {
     
         img {
             width: 400px;
-        }
-    }
-
-    section.colors {
-        width: 100%;
-        padding: 0 15px;
-    
-        .container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            gap: 15px;
-    
-            .color {
-                height: 80vh;
-    
-                .image {
-                    height: inherit;
-                    flex:  2;
-                    position: relative;
-    
-                    span.color-name {
-                        font-size: 40px;
-                        font-weight: 300;
-                    }
-                }
-    
-                .color {
-                    padding: 20px;
-    
-                    span.hex {
-                        font-size: 20px;
-                    }
-                }
-            }
         }
     }
 }
@@ -341,7 +220,7 @@ section.colors {
             align-items: center;
             gap: 15px;
     
-            .color {
+            .color-panels {
                 height: 80vh;
     
                 .image {

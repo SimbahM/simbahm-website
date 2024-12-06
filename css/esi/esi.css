@@ -53,23 +53,7 @@ section.main-logo img {
   width: 900px;
 }
 
-section.colors {
-  width: 1000px;
-  margin: 0 auto;
-}
-section.colors .container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  gap: 30px;
-}
-section.colors .container .color {
-  display: flex;
-  flex-direction: column;
-  height: inherit;
-  height: 80vh;
-}
-section.colors .container .color .blue-sapphire-image {
+.blue-sapphire-image {
   background-image: url(../../assets/images/pages/esi/image1.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +61,8 @@ section.colors .container .color .blue-sapphire-image {
   background-color: #1A6979;
   background-blend-mode: multiply;
 }
-section.colors .container .color .pewter-blue-image {
+
+.pewter-blue-image {
   background-image: url(../../assets/images/pages/esi/image2.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +70,8 @@ section.colors .container .color .pewter-blue-image {
   background-color: #8CB3C4;
   background-blend-mode: multiply;
 }
-section.colors .container .color .cultured-image {
+
+.cultured-image {
   background-image: url(../../assets/images/pages/esi/image3.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +79,8 @@ section.colors .container .color .cultured-image {
   background-color: #F2F7F9;
   background-blend-mode: multiply;
 }
-section.colors .container .color .slate-gray-image {
+
+.slate-gray-image {
   background-image: url(../../assets/images/pages/esi/image4.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,50 +88,26 @@ section.colors .container .color .slate-gray-image {
   background-color: #70868C;
   background-blend-mode: multiply;
 }
-section.colors .container .color .image {
-  height: inherit;
-  flex: 2;
-  position: relative;
-}
-section.colors .container .color .image span.color-name {
-  color: var(--white);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 40px;
-  font-weight: 300;
-}
-section.colors .container .color .blue-sapphire-color {
+
+.blue-sapphire-color {
   background-color: #1A6979;
 }
-section.colors .container .color .pewter-blue-color {
+
+.pewter-blue-color {
   background-color: #8CB3C4;
 }
-section.colors .container .color .cultured-color {
+
+.cultured-color {
   background-color: #F2F7F9;
 }
-section.colors .container .color .cultured-color span.cultured-hex {
+.cultured-color span.cultured-hex {
   color: #1A6979;
   font-size: 20px;
   font-weight: 300;
 }
-section.colors .container .color .slate-gray-color {
+
+.slate-gray-color {
   background-color: #70868C;
-}
-section.colors .container .color .color {
-  height: inherit;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 20px;
-}
-section.colors .container .color .color span.hex {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 300;
 }
 
 @media (max-width: 1024px) {
@@ -168,34 +131,6 @@ section.colors .container .color .color span.hex {
   section.main-logo img {
     width: 600px;
   }
-  section.colors {
-    width: 100%;
-    padding: 0 15px;
-  }
-  section.colors .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    gap: 15px;
-  }
-  section.colors .container .color {
-    height: 80vh;
-  }
-  section.colors .container .color .image {
-    height: inherit;
-    flex: 2;
-    position: relative;
-  }
-  section.colors .container .color .image span.color-name {
-    font-size: 40px;
-    font-weight: 300;
-  }
-  section.colors .container .color .color {
-    padding: 20px;
-  }
-  section.colors .container .color .color span.hex {
-    font-size: 20px;
-  }
 }
 @media (max-width: 768px) {
   section.app-icon {
@@ -218,34 +153,6 @@ section.colors .container .color .color span.hex {
   }
   section.main-logo img {
     width: 400px;
-  }
-  section.colors {
-    width: 100%;
-    padding: 0 15px;
-  }
-  section.colors .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 15px;
-  }
-  section.colors .container .color {
-    height: 80vh;
-  }
-  section.colors .container .color .image {
-    height: inherit;
-    flex: 2;
-    position: relative;
-  }
-  section.colors .container .color .image span.color-name {
-    font-size: 40px;
-    font-weight: 300;
-  }
-  section.colors .container .color .color {
-    padding: 20px;
-  }
-  section.colors .container .color .color span.hex {
-    font-size: 20px;
   }
 }
 @media (max-width: 425px) {
@@ -280,22 +187,22 @@ section.colors .container .color .color span.hex {
     align-items: center;
     gap: 15px;
   }
-  section.colors .container .color {
+  section.colors .container .color-panels {
     height: 80vh;
   }
-  section.colors .container .color .image {
+  section.colors .container .color-panels .image {
     height: inherit;
     flex: 2;
     position: relative;
   }
-  section.colors .container .color .image span.color-name {
+  section.colors .container .color-panels .image span.color-name {
     font-size: 40px;
     font-weight: 300;
   }
-  section.colors .container .color .color {
+  section.colors .container .color-panels .color {
     padding: 20px;
   }
-  section.colors .container .color .color span.hex {
+  section.colors .container .color-panels .color span.hex {
     font-size: 20px;
   }
 }/*# sourceMappingURL=esi.css.map */

@@ -14,7 +14,10 @@ class SpecialHeader extends HTMLElement {
                 <div class="nav-items">
                     <ul class="desktop-menu">
                         <li>
-                            <a href="./work">Work</a>
+                            <a href="./ui-ux-design">UI / UX Design</a>
+                        </li>
+                        <li>
+                            <a href="./logo-desgin">Logo Design</a>
                         </li>
                         <li>
                         <li>
@@ -27,13 +30,16 @@ class SpecialHeader extends HTMLElement {
 
                     <ul class="mobile-menu">
                         <li>
-                            <a href="./work">Work</a>
+                            <a href="./ui-ux-design">UI</a>
+                        </li>
+                        <li>
+                            <a href="./logo-desgin">Logo</a>
                         </li>
                         <li>
                             <a href="./about-me">About</a>
                         </li>
                         <li>
-                            <a href="./contact-me">Contact</a>
+                            <a href="./contact-me">Call</a>
                         </li>
                     </ul>
                 </div>

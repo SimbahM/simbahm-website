@@ -18,204 +18,62 @@
     }
 }
 
-section.colors {
-    width: 1000px;
-    margin: 0 auto;
+.dark-green-image {
+    background-image: url(../../assets/images/pages/natiology/color1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #003323;
+    background-blend-mode: multiply;
+}
 
-    .container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        gap: 30px;
+.pastel-green-image {
+    background-image: url(../../assets/images/pages/natiology/color2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #85EE78;
+    background-blend-mode: multiply;
+}
 
-        .dark-green {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
+.celadon-green-image {
+    background-image: url(../../assets/images/pages/natiology/color3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #29866D;
+    background-blend-mode: multiply;
+}
 
-            .image {
-                background-image: url(../../assets/images/pages/natiology/color1.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #003323;
-                background-blend-mode: multiply;
-                
-                height: inherit;
-                flex:  2;
-                position: relative;
+.illuminating-green-image {
+    background-image: url(../../assets/images/pages/natiology/color4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #329D80;
+    background-blend-mode: multiply;
+}
 
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
+.dark-green-color {
+    background-color: #003323;
+}
 
-            .color {
-                background-color: #003323;
-                height: inherit;
-                flex:  1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
+.pastel-green-color {
+    background-color: #85EE78;
 
-                span.hex {
-                    color: var(--white);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
-
-        .pastel-green {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
-
-            .image {
-                background-image: url(../../assets/images/pages/natiology/color2.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #85EE78;
-                background-blend-mode: multiply;
-
-                height: inherit;
-                flex:  2;
-                position: relative;
-
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
-
-            .color {
-                background-color: #85EE78;
-                height: inherit;
-                flex:  1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
-
-                span.hex {
-                    color: #003323;
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
-
-        .celadon-green {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
-
-            .image {
-                background-image: url(../../assets/images/pages/natiology/color3.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #29866D;
-                background-blend-mode: multiply;
-
-                height: inherit;
-                flex:  2;
-                position: relative;
-
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
-
-            .color {
-                background-color: #29866D;
-                height: inherit;
-                flex:  1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
-
-                span.hex {
-                    color: var(--white);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
-
-        .illuminating-green {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
-
-            .image {
-                background-image: url(../../assets/images/pages/natiology/color4.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #329D80;
-                background-blend-mode: multiply;
-
-                height: inherit;
-                flex:  2;
-                position: relative;
-
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
-
-            .color {
-                background-color: #329D80;
-                height: inherit;
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
-
-                span.hex {
-                    color: var(--white);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
+    span.pastel-green-color-hex {
+        color: #003323;
+        font-size: 20px;
+        font-weight: 300;
     }
+}
+
+.celadon-green-color {
+    background-color: #29866D;
+}
+
+.illuminating-green-color {
+    background-color: #329D80;
 }
 
 section.main-logo {
@@ -240,119 +98,6 @@ section.main-logo {
         img.natiologo-logo-symbol {
             width: 200px;
             margin-bottom: 60px;
-        }
-    }
-
-    section.colors {
-        width: 750px;
-        margin: 0 auto;
-    
-        .container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            align-items: center;
-            gap: 15px;
-    
-            .dark-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 60vh;
-    
-                .image {
-                    
-                    height: inherit;
-                    flex:  2;
-                    position: relative;
-    
-                    span.color-name {
-                        font-size: 35px;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .pastel-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 60vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 35px;
-                        font-weight: 300;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: #003323;
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .celadon-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 60vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 35px;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .illuminating-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 60vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 35px;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
         }
     }
 
@@ -382,120 +127,6 @@ section.main-logo {
         }
     }
 
-    section.colors {
-        width: 100vw;
-        margin: 0 auto;
-    
-        .container {
-            margin: 0 15px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            align-items: center;
-            gap: 15px;
-    
-            .dark-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 70vh;
-    
-                .image {
-                    
-                    height: inherit;
-                    flex:  2;
-                    position: relative;
-    
-                    span.color-name {
-                        font-size: 35px;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .pastel-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 70vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 35px;
-                        font-weight: 300;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: #003323;
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .celadon-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 70vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 35px;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .illuminating-green {
-                display: flex;
-                flex-direction: column;
-                height: inherit;
-                height: 70vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 35px;
-                    }
-                }
-    
-                .color {
-                    padding: 15px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-        }
-    }
-
     section.main-logo {
 
         .container {
@@ -513,19 +144,6 @@ section.main-logo {
 }
 
 @media (max-width: 600px) {
-
-    section.colors {
-        width: 100vw;
-        margin: 0 auto;
-    
-        .container {
-            margin: 0 15px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            gap: 15px;
-        }
-    }
 
     section.main-logo {
 

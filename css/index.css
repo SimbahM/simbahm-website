@@ -20,6 +20,10 @@ section.large-panels img {
   width: 200px;
   margin-bottom: 30px;
 }
+section.large-panels img.aa-logo {
+  width: 350px;
+  opacity: 0.7;
+}
 section.large-panels h1 {
   font-size: 60px;
   color: var(--white);
@@ -36,15 +40,15 @@ section.large-panels p {
   text-align: center;
 }
 
-.esi {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/esi-apple-watch.webp);
+.aa {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/aa.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.natiology {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/natiology.webp);
+.esi {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/esi-apple-watch.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -69,7 +73,7 @@ section.featured-projects .container .project {
   padding-bottom: 50px;
   gap: 5px;
 }
-section.featured-projects .container .project img.ethereal-logo {
+section.featured-projects .container .project img.logo-symbol {
   width: 150px;
   margin-bottom: 20px;
 }
@@ -107,6 +111,13 @@ section.featured-projects .container .project p {
   background-color: var(--white);
 }
 
+.natiology {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/natiology.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .ethereal {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/ethereal.webp);
   background-position: center;
@@ -128,18 +139,15 @@ section.featured-projects .container .project p {
   background-size: cover;
 }
 
-.car-guvi {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/car-guvi.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media (max-width: 1024px) {
   section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
     gap: 10px;
+  }
+  section.large-panels img.aa-logo {
+    width: 250px;
+    opacity: 0.7;
   }
   section.large-panels img {
     width: 150px;
@@ -159,7 +167,7 @@ section.featured-projects .container .project p {
     padding-bottom: 50px;
     gap: 5px;
   }
-  section.featured-projects .container .project img.ethereal-logo {
+  section.featured-projects .container .project img.logo-symbol {
     width: 100px;
     margin-bottom: 20px;
   }
@@ -189,6 +197,10 @@ section.featured-projects .container .project p {
     padding-bottom: 50px;
     gap: 10px;
   }
+  section.large-panels img.aa-logo {
+    width: 150px;
+    opacity: 0.7;
+  }
   section.large-panels img {
     width: 100px;
     margin-bottom: 10px;
@@ -198,7 +210,7 @@ section.featured-projects .container .project p {
     color: var(--white);
   }
   section.featured-projects {
-    padding: 10px 0 10px 0;
+    padding: 0 0 10px 0;
   }
   section.featured-projects .container {
     padding: 0 0;

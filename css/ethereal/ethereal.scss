@@ -129,208 +129,62 @@ section.white-logo {
     }
 }
 
-section.colors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 200px auto;
+.cetacean-blue-image {
+    background-image: url(../../assets/images/pages/natiology/color2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #001033;
+    background-blend-mode: multiply;
+}
 
-    .container {
-        width: 1000px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
+.ateneo-blue {
+    background-image: url(../../assets/images/pages/natiology/color3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #003975;
+    background-blend-mode: multiply;
+}
 
-        .cetacean-blue {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
+.lavender-image {
+    background-image: url(../../assets/images/pages/natiology/color4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #E5EBF8;
+    background-blend-mode: multiply;
+}
 
-            .image {
-                background-image: url(../../assets/images/pages/ethereal/color.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #001033;
-                background-blend-mode: multiply;
-                
-                height: inherit;
-                flex:  2;
-                position: relative;
+.celestial-blue-image {
+    background-image: url(../../assets/images/pages/natiology/color1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #468ECD;
+    background-blend-mode: multiply;
+}
 
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
+.cetacean-blue-color {
+    background-color: #001033;
+}
 
-            .color {
-                background-color: #001033;
-                height: inherit;
-                flex:  1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
+.ateneo-color {
+    background-color: #003975;
+}
 
-                span.hex {
-                    color: var(--white);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
+.lavender-color {
+    background-color: #E5EBF8;
 
-        .ateneo-blue {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
-
-            .image {
-                background-image: url(../../assets/images/pages/ethereal/color2.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #003975;
-                background-blend-mode: multiply;
-
-                height: inherit;
-                flex:  2;
-                position: relative;
-
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
-
-            .color {
-                background-color: #003975;
-                height: inherit;
-                flex:  1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
-
-                span.hex {
-                    color: var(--white);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
-
-        .lavender {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
-
-            .image {
-                background-image: url(../../assets/images/pages/natiology/color3.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #E5EBF8;
-                background-blend-mode: multiply;
-
-                height: inherit;
-                flex:  2;
-                position: relative;
-
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
-
-            .color {
-                background-color: #E5EBF8;
-                height: inherit;
-                flex:  1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
-
-                span.hex {
-                    color: var(--primary);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
-
-        .celestial-blue {
-            display: flex;
-            flex-direction: column;
-            height: inherit;
-            height: 80vh;
-
-            .image {
-                background-image: url(../../assets/images/pages/ethereal/color4.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                background-color: #468ECD;
-                background-blend-mode: multiply;
-
-                height: inherit;
-                flex:  2;
-                position: relative;
-
-                span.color-name {
-                    color: var(--white);
-                    writing-mode: vertical-rl;
-                    transform: rotate(180deg);
-                    position: absolute;
-                    bottom: 10px;
-                    right: 10px;
-                    font-size: 40px;
-                    font-weight: 300;
-                }
-            }
-
-            .color {
-                background-color: #468ECD;
-                height: inherit;
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                justify-content: end;
-                padding: 20px;
-
-                span.hex {
-                    color: var(--white);
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
+    span.lavender-color-hex {
+        color: #001033;
+        font-size: 20px;
+        font-weight: 300;
     }
+}
+
+.celestial-blue-color {
+    background-color: #468ECD;
 }
 
 section.white-quote {
@@ -387,104 +241,6 @@ section.white-quote {
             img {
                 width: 500px;
                 margin-bottom: 20px;
-            }
-        }
-    }
-    
-    section.colors {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px 15px;
-    
-        .container {
-            width: 1000px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-    
-            .cetacean-blue {
-                height: 80vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 40px;
-                    }
-                }
-    
-                .color {
-                    padding: 20px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .ateneo-blue {
-                height: 80vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 40px;
-                    }
-                }
-    
-                .color {
-                    padding: 20px;
-    
-                    span.hex {
-                        font-size: 20px;
-                    }
-                }
-            }
-    
-            .lavender {
-                height: 80vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 40px;
-                    }
-                }
-    
-                .color {
-                    padding: 20px;
-    
-                    span.hex {
-                        color: var(--primary);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
-    
-            .celestial-blue {
-                height: 80vh;
-    
-                .image {
-    
-                    span.color-name {
-                        font-size: 40px;
-                    }
-                }
-    
-                .color {
-                    padding: 20px;
-    
-                    span.hex {
-                        color: var(--white);
-                        font-size: 20px;
-                        font-weight: 300;
-                    }
-                }
             }
         }
     }
@@ -593,22 +349,6 @@ section.white-quote {
 }
 
 @media (max-width: 600px) {
-    
-    section.colors {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px 15px;
-    
-        .container {
-            width: 1000px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-        }
-    }
 
     section.white-quote {
         height: 80vh;
