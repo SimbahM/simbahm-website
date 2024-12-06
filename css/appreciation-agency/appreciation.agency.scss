@@ -118,10 +118,12 @@ section.main-logo {
 @media (max-width: 574px) {
 
     section.main-logo {
-        height: 50vh;
+        height: 0;
+        padding: 50px 0 200px 0;
     
         img {
-            width: 350px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
