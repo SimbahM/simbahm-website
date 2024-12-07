@@ -1,3 +1,16 @@
+section.main-logo {
+    padding: 200px 0;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 500px;
+    }
+}
+
 section.items-wrapper {
     padding: 200px 0;
     display: flex;
@@ -30,78 +43,63 @@ section.items-wrapper {
 }
 
 .seal-brown {
-    background-image: linear-gradient(to bottom, rgba(104,30,7,1), rgba(104,30,7,0)), url(../../assets/images/pages/grandure-meats/image-seal-brown.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(104, 30, 7, 1), rgba(104, 30, 7, 0)), url(../../assets/images/pages/grandure-meats/image-seal-brown.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .deep-carrot-orange {
-    background-image: linear-gradient(to bottom, rgba(241,107,44,1), rgba(241,107,44,0)), url(../../assets/images/pages/grandure-meats/image-deep-carrot-orange.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(241, 107, 44, 1), rgba(241, 107, 44, 0)), url(../../assets/images/pages/grandure-meats/image-deep-carrot-orange.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .platinum {
-    background-image: linear-gradient(to bottom, rgba(229,229,229,1), rgba(229,229,229,0)), url(../../assets/images/pages/grandure-meats/image-platinum.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(229, 229, 229, 1), rgba(229, 229, 229, 0)), url(../../assets/images/pages/grandure-meats/image-platinum.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .yankees-blue {
-    background-image: linear-gradient(to bottom, rgba(32,50,68,1), rgba(32,50,68,0)), url(../../assets/images/pages/grandure-meats/image-yankees-blue.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(32, 50, 68, 1), rgba(32, 50, 68, 0)), url(../../assets/images/pages/grandure-meats/image-yankees-blue.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 @media (max-width: 1024px) {
 
-    section.items-wrapper {
-        padding: 200px 0 50px 0;
-        gap: 50px;
-    
-        img {
-            width: 500px;
-        }
-    
-        .titles {
-    
-            h1 {
-                font-size: 50px;
-                color: var(--primary);
-                text-align: center;
-            }
-    
-            p {
-                font-size: 25px;
-                color: var(--gray);
-    
-            }
-        }
-    }
-}
+    section.main-logo {
+        padding: 150px 0;
 
-@media (max-width: 768px) {
-
-    section.items-wrapper {
-        padding: 100px 0 50px 0;
-        gap: 50px;
-    
         img {
             width: 400px;
         }
-    
+    }
+
+    section.items-wrapper {
+        padding: 200px 0 50px 0;
+        gap: 50px;
+
+        img {
+            width: 500px;
+        }
+
         .titles {
-    
+
             h1 {
                 font-size: 50px;
                 color: var(--primary);
                 text-align: center;
             }
-    
+
             p {
                 font-size: 25px;
                 color: var(--gray);
-    
+
             }
         }
     }
@@ -109,22 +107,66 @@ section.items-wrapper {
 
 @media (max-width: 768px) {
 
-    section.items-wrapper {
-        padding: 100px 0 50px 0;
-        gap: 50px;
-    
+    section.main-logo {
+        padding: 100px 0;
+
         img {
             width: 300px;
         }
-    
+    }
+
+    section.items-wrapper {
+        padding: 100px 0 50px 0;
+        gap: 50px;
+
+        img {
+            width: 400px;
+        }
+
         .titles {
-    
+
+            h1 {
+                font-size: 50px;
+                color: var(--primary);
+                text-align: center;
+            }
+
+            p {
+                font-size: 25px;
+                color: var(--gray);
+
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.main-logo {
+        padding: 100px 0;
+
+        img {
+            width: 100%;
+            padding: 0 90px;
+        }
+    }
+
+    section.items-wrapper {
+        padding: 100px 0 50px 0;
+        gap: 50px;
+
+        img {
+            width: 300px;
+        }
+
+        .titles {
+
             h1 {
                 font-size: 40px;
                 color: var(--primary);
                 text-align: center;
             }
-    
+
             p {
                 font-size: 25px;
                 color: var(--gray);

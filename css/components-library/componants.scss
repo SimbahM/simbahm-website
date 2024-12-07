@@ -21,7 +21,8 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Simbah M", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -237,7 +238,8 @@ section.projects-hero {
         display: none;
     }
 
-    p, i {
+    p,
+    i {
         font-size: 25px;
         color: var(--white);
         width: 700px;
@@ -377,8 +379,9 @@ section.colors-container {
 
         p.title {
             position: absolute;
-            writing-mode: vertical-rl;
-            left: 0;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            right: 10px;
             font-size: 40px;
             font-weight: 300;
             color: var(--white);
@@ -388,7 +391,7 @@ section.colors-container {
         p {
             color: var(--white);
         }
-        
+
         p.change-color {
             color: #1E1C1B;
         }
@@ -510,7 +513,7 @@ section.colors {
 
             .image {
                 height: inherit;
-                flex:  2;
+                flex: 2;
                 position: relative;
 
                 span.color-name {
@@ -549,7 +552,7 @@ section.colors {
 
             .color {
                 height: inherit;
-                flex:  1;
+                flex: 1;
                 display: flex;
                 flex-direction: column;
                 justify-content: end;
@@ -593,29 +596,30 @@ section.colors {
             margin-bottom: 30px;
             opacity: .7;
         }
-    
+
         h1 {
             font-size: 50px;
             text-align: center;
         }
-    
-        p, i {
+
+        p,
+        i {
             font-size: 20px;
             width: 600px;
         }
     }
-    
+
     section.hero {
         padding: 160px 20px 100px 20px;
         justify-content: end;
-    
+
         .hero-metadata {
             max-width: 500px;
-    
+
             .hero-title {
                 font-size: 50px;
             }
-    
+
             .hero-page-text {
                 font-size: 20px;
             }
@@ -623,9 +627,9 @@ section.colors {
     }
 
     section.project-header {
-    
+
         .project-header-content {
-    
+
             h1.project-title {
                 font-size: 50px;
             }
@@ -635,7 +639,7 @@ section.colors {
     section.works-images {
         display: flex;
         padding: 20px 15px;
-    
+
         .container {
             display: flex;
             flex-direction: column;
@@ -649,12 +653,12 @@ section.colors {
 
     section.colors-container {
         padding: 20px 15px 0px 15px;
-    
+
         .container {
             grid-template-columns: repeat(4, 1fr);
             gap: 20px;
         }
-    
+
         .colors {
             height: 70vh;
         }
@@ -668,30 +672,30 @@ section.colors {
     section.colors {
         width: 100%;
         padding: 15px 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             align-items: center;
             gap: 15px;
-    
+
             .color-panels {
                 height: 80vh;
-    
+
                 .image {
                     height: inherit;
-                    flex:  2;
+                    flex: 2;
                     position: relative;
-    
+
                     span.color-name {
                         font-size: 40px;
                         font-weight: 300;
                     }
                 }
-    
+
                 .color {
                     padding: 20px;
-    
+
                     span.hex {
                         font-size: 20px;
                     }
@@ -717,13 +721,14 @@ section.colors {
             margin-bottom: 20px;
             opacity: .7;
         }
-    
+
         h1 {
             font-size: 40px;
             text-align: center;
         }
-    
-        p, i {
+
+        p,
+        i {
             font-size: 20px;
             width: 400px;
         }
@@ -732,14 +737,14 @@ section.colors {
     section.hero {
         padding: 160px 20px 50px 20px;
         justify-content: end;
-    
+
         .hero-metadata {
             max-width: 500px;
-    
+
             .hero-title {
                 font-size: 50px;
             }
-    
+
             .hero-page-text {
                 font-size: 20px;
             }
@@ -749,10 +754,10 @@ section.colors {
     section.project-header {
         display: flex;
         margin: 0 20px;
-    
+
         .project-header-content {
             width: 400px;
-    
+
             h1.project-title {
                 font-size: 50px;
             }
@@ -762,9 +767,9 @@ section.colors {
                 font-family: Simbah M;
                 color: var(--secondary);
             }
-    
+
             .project-description {
-    
+
                 p {
                     font-size: 17px;
                     margin-bottom: 20px;
@@ -775,12 +780,12 @@ section.colors {
 
     section.colors-container {
         padding: 20px 15px 20px 15px;
-    
+
         .container {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
-    
+
         .colors {
             height: 70vh;
         }
@@ -789,30 +794,30 @@ section.colors {
     section.colors {
         width: 100%;
         padding: 15px 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             align-items: center;
             gap: 15px;
-    
+
             .color-panels {
                 height: 80vh;
-    
+
                 .image {
                     height: inherit;
-                    flex:  2;
+                    flex: 2;
                     position: relative;
-    
+
                     span.color-name {
                         font-size: 40px;
                         font-weight: 300;
                     }
                 }
-    
+
                 .color {
                     padding: 20px;
-    
+
                     span.hex {
                         font-size: 20px;
                     }
@@ -843,7 +848,7 @@ section.colors {
         height: 70vh;
         padding-bottom: 30px;
         gap: 15px;
-    
+
         h1 {
             font-size: 40px;
             text-align: center;
@@ -856,8 +861,9 @@ section.colors {
         h1.eca-title-mobile {
             display: block;
         }
-    
-        p, i {
+
+        p,
+        i {
             font-size: 20px;
             width: 300px;
         }
@@ -865,15 +871,15 @@ section.colors {
 
     section.hero {
         padding: 160px 20px 50px 20px;
-    
+
         .hero-metadata {
             max-width: 500px;
             width: 350px;
-    
+
             .hero-title {
                 font-size: 30px;
             }
-    
+
             .hero-page-text {
                 font-size: 17px;
             }
@@ -882,7 +888,7 @@ section.colors {
 
     section.project-header {
         margin: 0 20px;
-    
+
         .project-header-content {
             width: 350px;
             padding: 50px 0px;
@@ -891,7 +897,7 @@ section.colors {
             img.logo-mark {
                 width: 100px;
             }
-    
+
             h1.project-title {
                 font-size: 40px;
             }
@@ -901,9 +907,9 @@ section.colors {
                 font-family: Simbah M;
                 color: var(--secondary);
             }
-    
+
             .project-description {
-    
+
                 p {
                     font-size: 17px;
                     margin-bottom: 20px;
@@ -914,12 +920,12 @@ section.colors {
 
     section.colors-container {
         padding: 20px 15px 0px 15px;
-    
+
         .container {
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
-    
+
         .colors {
             height: 50vh;
         }
@@ -927,9 +933,9 @@ section.colors {
 
     section.ui-ux-hero {
         height: 70vh;
-    
+
         .container {
-    
+
             .divider {
                 width: 100%;
             }
@@ -939,30 +945,30 @@ section.colors {
     section.colors {
         width: 100%;
         padding: 15px 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             align-items: center;
             gap: 15px;
-    
+
             .color-panels {
                 height: 80vh;
-    
+
                 .image {
                     height: inherit;
-                    flex:  2;
+                    flex: 2;
                     position: relative;
-    
+
                     span.color-name {
                         font-size: 40px;
                         font-weight: 300;
                     }
                 }
-    
+
                 .color {
                     padding: 20px;
-    
+
                     span.hex {
                         font-size: 20px;
                     }

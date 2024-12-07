@@ -21,8 +21,8 @@ section.large-panels img {
   margin-bottom: 30px;
 }
 section.large-panels img.aa-logo {
-  width: 350px;
-  opacity: 0.7;
+  width: 300px;
+  opacity: 0.5;
 }
 section.large-panels h1 {
   font-size: 60px;
@@ -91,10 +91,12 @@ section.featured-projects .container .project h1 {
   font-size: 40px;
   color: var(--white);
 }
-section.featured-projects .container .project h1.grandeur-heading, section.featured-projects .container .project .vah {
+section.featured-projects .container .project h1.grandeur-heading,
+section.featured-projects .container .project .vah {
   color: var(--secondary);
 }
-section.featured-projects .container .project p.grandeur-paragraphy, section.featured-projects .container .project .vah {
+section.featured-projects .container .project p.grandeur-paragraphy,
+section.featured-projects .container .project .vah {
   color: var(--secondary);
 }
 section.featured-projects .container .project .grandeur,
@@ -107,7 +109,8 @@ section.featured-projects .container .project p {
   color: var(--white);
 }
 
-.grandeur-meats, .vah {
+.grandeur-meats,
+.vah {
   background-color: var(--white);
 }
 
@@ -147,7 +150,7 @@ section.featured-projects .container .project p {
   }
   section.large-panels img.aa-logo {
     width: 250px;
-    opacity: 0.7;
+    opacity: 0.5;
   }
   section.large-panels img {
     width: 150px;
