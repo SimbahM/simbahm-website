@@ -15,38 +15,31 @@ footer {
     gap: 5px;
     background-color: var(--white);
 
-    .copyright {
-        
-        p {
-            font-size: 14px;
-            color: var(--gray);
-        }
-    }
-
     .website-tag {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
-
-        p {
-            font-size: 14px;
-            color: var(--gray);
-
-            a {
-                text-decoration: none;
-                color: var(--gray);
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
+        margin-bottom: 20px;
 
         img {
             width: 160px;
             display: block;
             margin-top: 20px;
+        }
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 14px;
+            color: var(--gray);
+            text-align: center;
+            padding: 0 20px;
         }
     }
 }

@@ -72,16 +72,13 @@ class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer>
+            <div class="website-tag">
+                <img src="./assets/icons/simbahm-logo.png" alt="Simbah M Logo">
+            </div>
             <div class="copyright">
                 <p>
-                    Copyright since 2020 - Simbah M The Designer 🇿🇼
+                    © 2020 - 2024 Simbah M. All Rights Reserved.
                 </p>
-            </div>
-            <div class="website-tag">
-                <p>
-                    
-                </p>
-                <img src="./assets/icons/simbahm-logo.png" alt="Sass Logo">
             </div>
         </footer>
         `

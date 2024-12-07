@@ -15,29 +15,27 @@ footer {
   gap: 5px;
   background-color: var(--white);
 }
-footer .copyright p {
-  font-size: 14px;
-  color: var(--gray);
-}
 footer .website-tag {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-}
-footer .website-tag p {
-  font-size: 14px;
-  color: var(--gray);
-}
-footer .website-tag p a {
-  text-decoration: none;
-  color: var(--gray);
-}
-footer .website-tag p a:hover {
-  text-decoration: underline;
+  margin-bottom: 20px;
 }
 footer .website-tag img {
   width: 160px;
   display: block;
   margin-top: 20px;
+}
+footer .copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .copyright p {
+  font-size: 14px;
+  color: var(--gray);
+  text-align: center;
+  padding: 0 20px;
 }/*# sourceMappingURL=footer.css.map */
