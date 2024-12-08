@@ -1,33 +1,35 @@
 .hero-eca {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/images/pages/eca/ellchart-chartered-accountants-cover-image.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/eca/ellchart-chartered-accountants-cover-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .red {
-    background-image: linear-gradient(to bottom, rgba(192,39,45,1), rgba(192,39,45,0)), url(../../assets/images/pages/eca/color-image1.webp)
-    ;background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(192, 39, 45, 1), rgba(192, 39, 45, 0)), url(../../assets/images/pages/eca/color-image1.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .yellow {
-    background-image: linear-gradient(to bottom, rgba(244,198,3,1), rgba(244,198,3,0)), url(../../assets/images/pages/eca/color-image2.webp);
-    ;background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(244, 198, 3, 1), rgba(244, 198, 3, 0)), url(../../assets/images/pages/eca/color-image2.webp);
+    ;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .cadet-grey {
-    background-image: linear-gradient(to bottom, rgba(143,164,165,1), rgba(143,164,165,0)), url(../../assets/images/pages/eca/color-image3.webp)
-    ;background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(143, 164, 165, 1), rgba(143, 164, 165, 0)), url(../../assets/images/pages/eca/color-image3.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .arsenic {
-    background-image: linear-gradient(to bottom, rgba(56,66,66,1), rgba(56,66,66,0)), url(../../assets/images/pages/eca/color-image4.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(56, 66, 66, 1), rgba(56, 66, 66, 0)), url(../../assets/images/pages/eca/color-image4.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -44,7 +46,7 @@
 }
 
 section.section-eca-quote {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/images/pages/eca/ellchart-chartered-accountants-images.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/eca/ellchart-chartered-accountants-images.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -79,7 +81,7 @@ section.section-eca-quote {
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
         img {
             width: 500px;
         }
@@ -90,7 +92,7 @@ section.section-eca-quote {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+
         img {
             width: 700px;
             margin: 0 20px;
@@ -99,16 +101,16 @@ section.section-eca-quote {
 
     section.section-eca-quote {
         height: 80vh;
-    
+
         .text {
             width: 700px;
             display: flex;
             flex-direction: column;
-    
+
             h2 {
                 color: var(--white);
                 font-size: 50px;
-    
+
                 span {
                     opacity: .4;
                 }
@@ -124,7 +126,7 @@ section.section-eca-quote {
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
         img {
             width: 400px;
         }
@@ -136,7 +138,7 @@ section.section-eca-quote {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+
         img {
             width: 425px;
             margin: 0 20px;
@@ -146,16 +148,16 @@ section.section-eca-quote {
     section.section-eca-quote {
         height: 70vh;
         margin-bottom: 10px;
-    
+
         .text {
             width: 400px;
             display: flex;
             flex-direction: column;
-    
+
             h2 {
                 color: var(--white);
                 font-size: 30px;
-    
+
                 span {
                     opacity: .4;
                 }
@@ -171,9 +173,10 @@ section.section-eca-quote {
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
@@ -183,7 +186,7 @@ section.section-eca-quote {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+
         img {
             width: 100%;
             padding: 0 20px;
@@ -193,16 +196,16 @@ section.section-eca-quote {
     section.section-eca-quote {
         height: 70vh;
         margin-bottom: 10px;
-    
+
         .text {
             width: 350px;
             display: flex;
             flex-direction: column;
-    
+
             h2 {
                 color: var(--white);
                 font-size: 30px;
-    
+
                 span {
                     opacity: .4;
                 }

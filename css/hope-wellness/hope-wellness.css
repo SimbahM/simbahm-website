@@ -54,6 +54,10 @@ section.color-palette img {
   max-width: 1000px;
 }
 
+.paper-logo {
+  border: 1px solid rgb(221, 221, 221);
+}
+
 @media (max-width: 1024px) {
   section.logo-meaning-main-logo {
     padding: 100px 0;
@@ -124,7 +128,8 @@ section.color-palette img {
     gap: 200px;
   }
   section.logo-meaning-main-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.golden-ratio {
     padding: 150px 0;
@@ -137,11 +142,13 @@ section.color-palette img {
   section.golden-ratio .title p {
     font-size: 21px;
     color: var(--gray);
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
     text-align: center;
   }
   section.golden-ratio img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.color-palette {
     padding: 0px 15px;

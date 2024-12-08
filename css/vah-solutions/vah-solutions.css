@@ -117,7 +117,8 @@ section.main-logo .container img {
     height: 60vh;
   }
   .white-logo .container img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.main-logo {
     padding: 20px 15px 0 15px;
@@ -127,6 +128,7 @@ section.main-logo .container img {
     background-color: var(--white);
   }
   section.main-logo .container img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
 }/*# sourceMappingURL=vah-solutions.css.map */

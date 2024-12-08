@@ -256,7 +256,8 @@ section.kabwe-golf-tshirts {
     padding: 50px 0 100px 0;
   }
   section.kabwe-logo img {
-    width: 150px;
+    width: 100%;
+    padding: 0 90px;
   }
   section.kabwe-grid {
     padding: 0 15px 20px 15px;
@@ -266,33 +267,37 @@ section.kabwe-golf-tshirts {
     grid-template-columns: repeat(1, 1fr);
   }
   section.kabwe-grid .container .image-logo {
-    height: 80vh;
+    height: 60vh;
   }
   section.kabwe-grid .container .image-logo img {
-    width: 150px;
+    width: 100%;
+    padding: 0 70px;
   }
   section.kabwe-grid .container .towel {
-    height: 80vh;
+    height: 60vh;
   }
   section.kabwe-grid .container .logo-symbol {
-    height: 80vh;
+    height: 60vh;
   }
   section.kabwe-grid .container .logo-symbol img {
-    width: 200px;
+    width: 100%;
+    padding: 0 60px;
   }
   section.logo-mark {
     height: 100vh;
     gap: 60px;
   }
   section.logo-mark img {
-    width: 200px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.logo-mark p {
-    width: 350px;
+    width: 100%;
+    padding: 0 30px;
     font-size: 17px;
   }
   section.kabwe-lodge-quote {
-    height: 80vh;
+    height: 50vh;
   }
   section.kabwe-lodge-quote .filter {
     gap: 30px;
@@ -301,7 +306,7 @@ section.kabwe-golf-tshirts {
     width: 70px;
   }
   section.kabwe-lodge-quote .filter h1.title {
-    font-size: 40px;
+    font-size: 30px;
   }
   section.kabwe-golf-tshirts {
     display: grid;

@@ -7,7 +7,7 @@
 }
 
 .mazi {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/pages/mazi/logo-on-rubber-mockup.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/mazi/logo-on-rubber-mockup.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,20 +25,23 @@ section.main-logo {
 }
 
 .cool-black {
-    background-image: linear-gradient(to bottom, rgba(0,48,96,1), rgba(0,48,96,0)), url(../../assets/images/pages/mazi/color-cool-black.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0, 48, 96, 1), rgba(0, 48, 96, 0)), url(../../assets/images/pages/mazi/color-cool-black.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .azureish-white {
-    background-image: linear-gradient(to bottom, rgba(222,233,236,1), rgba(222,233,236,0)), url(../../assets/images/pages/mazi/color-white.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(222, 233, 236, 1), rgba(222, 233, 236, 0)), url(../../assets/images/pages/mazi/color-white.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 
 .picton-blue {
-    background-image: linear-gradient(to bottom, rgba(52, 181, 239,1), rgba(52, 181, 239,0)), url(../../assets/images/pages/mazi/color-picton-blue.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(52, 181, 239, 1), rgba(52, 181, 239, 0)), url(../../assets/images/pages/mazi/color-picton-blue.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -63,8 +66,9 @@ section.mazi-colors {
 
         p.title {
             position: absolute;
-            writing-mode: vertical-rl;
-            left: 0;
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            right: 10px;
             font-size: 40px;
             font-weight: 300;
             color: var(--white);
@@ -74,7 +78,7 @@ section.mazi-colors {
         p {
             color: var(--white);
         }
-        
+
         p.change-color {
             color: #1E1C1B;
         }
@@ -85,7 +89,7 @@ section.mazi-colors {
 
     section.main-logo {
         padding: 100px 15px 200px 15px;
-    
+
         img {
             width: 500px;
         }
@@ -96,7 +100,7 @@ section.mazi-colors {
 
     section.main-logo {
         padding: 100px 15px 100px 15px;
-    
+
         img {
             width: 400px;
         }
@@ -107,7 +111,7 @@ section.mazi-colors {
 
     section.main-logo {
         padding: 100px 15px 50px 15px;
-    
+
         img {
             width: 300px;
         }
@@ -115,13 +119,13 @@ section.mazi-colors {
 
     section.mazi-colors {
         padding: 200px 15px 0 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .colors {
             height: 70vh;
         }

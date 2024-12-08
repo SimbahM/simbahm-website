@@ -58,7 +58,7 @@ section.design-lead-text {
 section.about-me {
     display: flex;
     padding: 100px 0;
-    
+
 
     .container {
         display: flex;
@@ -134,21 +134,21 @@ section.about-me {
 
     section.header-text {
         height: 50vh;
-    
+
         .container {
             height: inherit;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    
+
             p {
                 text-align: center;
                 font-size: 32px;
                 color: var(--gray);
                 margin-bottom: 0px;
             }
-    
+
             h1 {
                 text-align: center;
                 font-size: 30px;
@@ -159,19 +159,19 @@ section.about-me {
 
     section.design-lead-text {
         margin: 50px 20px;
-    
+
         .container {
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
             p {
                 text-align: center;
                 width: 600px;
                 font-size: 25px;
                 font-weight: 600;
                 color: var(--gray);
-    
+
             }
         }
     }
@@ -180,28 +180,28 @@ section.about-me {
         display: flex;
         padding: 50px 0;
         margin: 0 25px;
-    
+
         .container {
             width: 600px;
             margin: 0 auto;
-    
+
             .info {
                 display: flex;
                 flex-direction: column;
-    
+
                 h1 {
                     font-size: 35px;
                     color: var(--primary);
                     margin-bottom: 30px;
                 }
-    
+
                 p {
                     font-size: 1.3rem;
                     font-weight: 400;
                     line-height: 1.53;
                     color: var(--gray);
                     margin-bottom: 30px;
-    
+
                     span {
                         font-size: 1.3rem;
                         font-weight: 400;
@@ -209,14 +209,14 @@ section.about-me {
                         color: var(--gray);
                     }
                 }
-    
+
                 span.quote {
                     font-size: 22px;
                     font-weight: 500;
                     line-height: 1.45;
                 }
             }
-    
+
             .social-links {
                 display: flex;
                 flex-direction: row;
@@ -224,19 +224,19 @@ section.about-me {
                 align-items: center;
                 margin: 20px 0;
                 margin-top: 30px;
-    
-    
+
+
                 span {
                     font-size: 18px;
                     color: var(--gray);
                 }
-    
+
                 a {
                     text-decoration: none;
                     color: var(--secondary);
                     transition: all .3s ease 0s;
                     font-weight: bold;
-    
+
                     &:hover {
                         color: var(--acent);
                     }
@@ -249,55 +249,55 @@ section.about-me {
 @media (max-width: 425px) {
 
     section.header-text {
-        height: 40vh;
-    
+        height: 50vh;
+
         .container {
-    
+
             p {
                 font-size: 25px;
             }
-    
+
             h1 {
-                font-size: 25px;
+                font-size: 22px;
             }
         }
     }
 
     section.design-lead-text {
         margin: 50px 20px;
-    
+
         .container {
-    
+
             p {
                 width: 400px;
                 font-size: 18px;
-    
+
             }
         }
     }
 
     section.about-me {
         padding: 50px 0;
-    
+
         .container {
             padding: 200px auto;
             gap: 50px;
             width: 600px;
             margin: 0 auto;
-    
+
             .info {
                 display: flex;
                 flex-direction: column;
-    
+
                 h1 {
                     font-size: 25px;
                     margin-bottom: 20px;
                 }
-    
+
                 p {
                     font-size: 1.1rem;
                     margin-bottom: 20px;
-    
+
                     span {
                         font-size: 1rem;
                         font-weight: 400;
@@ -305,14 +305,14 @@ section.about-me {
                         color: var(--gray);
                     }
                 }
-    
+
                 span.quote {
                     font-size: 22px;
                     font-weight: 500;
                     line-height: 1.45;
                 }
             }
-    
+
             .social-links {
                 display: flex;
                 flex-direction: column;
@@ -320,19 +320,19 @@ section.about-me {
                 align-items: start;
                 margin: 20px 0;
                 margin-top: 30px;
-    
-    
+
+
                 span {
                     font-size: 18px;
                     color: var(--gray);
                 }
-    
+
                 a {
                     text-decoration: none;
                     color: var(--secondary);
                     transition: all .3s ease 0s;
                     font-weight: bold;
-    
+
                     &:hover {
                         color: var(--acent);
                     }

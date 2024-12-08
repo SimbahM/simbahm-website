@@ -1,5 +1,5 @@
 .hero-pricelyst {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../../assets/images/pages/shop-savvy/shop-savvy-cover-image.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/shop-savvy/shop-savvy-cover-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,12 +55,12 @@ section.shop-savvy-logo-on-blue-bg {
 
     section.new-logo-font {
         padding: 100px 0;
-    
+
         img {
             width: 500px;
             margin-bottom: 50px;
         }
-    
+
         p {
             font-size: 21px;
             color: var(--gray);
@@ -69,19 +69,19 @@ section.shop-savvy-logo-on-blue-bg {
             margin-bottom: 30px;
         }
     }
-    
+
     section.logo-revolution {
         padding: 100px 0;
         gap: 30px;
-    
+
         img.logo-revolution {
             width: 500px;
         }
     }
-    
+
     section.shop-savvy-logo-on-blue-bg {
         height: 80vh;
-    
+
         img {
             width: 500px;
         }
@@ -92,35 +92,35 @@ section.shop-savvy-logo-on-blue-bg {
 
     section.new-logo-font {
         padding: 100px 0;
-    
+
         img {
-            width: 400px;
+            width: 300px;
             margin-bottom: 50px;
         }
-    
+
         p {
             font-size: 21px;
             color: var(--gray);
-            width: 450px;
+            width: 300px;
             text-align: center;
             margin-bottom: 30px;
         }
     }
-    
+
     section.logo-revolution {
         padding: 100px 0;
         gap: 30px;
-    
+
         img.logo-revolution {
-            width: 400px;
+            width: 300px;
         }
     }
-    
+
     section.shop-savvy-logo-on-blue-bg {
         height: 80vh;
-    
+
         img {
-            width: 400px;
+            width: 300px;
         }
     }
 }
@@ -129,35 +129,38 @@ section.shop-savvy-logo-on-blue-bg {
 
     section.new-logo-font {
         padding: 50px 0;
-    
+
         img {
             width: 300px;
             margin-bottom: 50px;
         }
-    
+
         p {
             font-size: 21px;
             color: var(--gray);
-            width: 300px;
-            text-align: center;
+            width: 100%;
+            padding: 0 30px;
+            text-align: left;
             margin-bottom: 30px;
         }
     }
-    
+
     section.logo-revolution {
         padding: 50px 0;
         gap: 30px;
-    
+
         img.logo-revolution {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
-    
+
     section.shop-savvy-logo-on-blue-bg {
         height: 50vh;
-    
+
         img {
-            width: 250px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 }

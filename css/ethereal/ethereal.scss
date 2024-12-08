@@ -7,15 +7,10 @@
 }
 
 .ethereal {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    img.natiologo-logo-symbol {
-        width: 200px;
-        margin-bottom: 70px;
-    }
 }
 
 section.quote {
@@ -110,7 +105,7 @@ section.main-logo {
 
 section.white-logo {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../assets/images/pages/ethereal/sewing-machine-tools.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/ethereal/sewing-machine-tools.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -189,7 +184,7 @@ section.white-logo {
 
 section.white-quote {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -216,45 +211,45 @@ section.white-quote {
 }
 
 @media (max-width: 1024px) {
-    
+
     section.main-logo {
         padding: 200px 15px;
-    
+
         .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    
+
             img {
                 width: 500px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
     section.white-logo {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 500px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
     section.white-quote {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 300px;
                 margin-bottom: 20px;
             }
-    
+
             h1 {
                 font-size: 40px;
                 width: 600px;
@@ -265,24 +260,16 @@ section.white-quote {
 
 @media (max-width: 768px) {
 
-    .ethereal {
-    
-        img.natiologo-logo-symbol {
-            width: 150px;
-            margin-bottom: 40px;
-        }
-    }
-
     section.quote {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 250px;
                 margin-bottom: 20px;
             }
-    
+
             h1 {
                 text-align: center;
                 font-size: 40px;
@@ -293,7 +280,7 @@ section.white-quote {
     }
 
     section.need-for-a-new-logo {
-    
+
         .container {
 
             p {
@@ -301,45 +288,45 @@ section.white-quote {
             }
         }
     }
-    
+
     section.main-logo {
         padding: 100px 15px;
-    
+
         .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    
+
             img {
                 width: 400px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
     section.white-logo {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 400px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
     section.white-quote {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 300px;
                 margin-bottom: 20px;
             }
-    
+
             h1 {
                 font-size: 30px;
                 width: 450px;
@@ -352,14 +339,14 @@ section.white-quote {
 
     section.white-quote {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 250px;
                 margin-bottom: 20px;
             }
-    
+
             h1 {
                 font-size: 30px;
                 width: 350px;
@@ -370,24 +357,16 @@ section.white-quote {
 
 @media (max-width: 425px) {
 
-    .ethereal {
-    
-        img.natiologo-logo-symbol {
-            width: 100px;
-            margin-bottom: 30px;
-        }
-    }
-
     section.quote {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 250px;
                 margin-bottom: 20px;
             }
-    
+
             h1 {
                 text-align: center;
                 font-size: 30px;
@@ -399,14 +378,14 @@ section.white-quote {
 
     section.need-for-a-new-logo {
         height: 80vh;
-    
+
         .container {
-    
+
             img {
                 width: 250px;
                 margin-bottom: 20px;
             }
-    
+
             h1 {
                 text-align: center;
                 font-size: 30px;
@@ -424,57 +403,60 @@ section.white-quote {
     section.old-to-new {
         padding: 80px 0;
         background-color: #E5EBF8;
-    
+
         .container {
-    
+
             img {
                 width: 250px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
     section.main-logo {
         padding: 100px 15px;
-    
+
         .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    
+
             img {
-                width: 300px;
+                width: 100%;
+                padding: 0 30px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
     section.white-logo {
         height: 60vh;
-    
+
         .container {
-    
+
             img {
-                width: 300px;
+                width: 100%;
+                padding: 0 30px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
     section.white-quote {
-        height: 80vh;
-    
+        height: 60vh;
+
         .container {
-    
+
             img {
-                width: 200px;
+                width: 150px;
                 margin-bottom: 20px;
             }
-    
+
             h1 {
-                font-size: 27px;
-                width: 320px;
+                font-size: 21px;
+                width: 100%;
+                padding: 0 30px;
             }
         }
     }

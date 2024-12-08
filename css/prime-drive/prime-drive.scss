@@ -42,7 +42,8 @@ section.colors {
             border-radius: 10px;
             padding: 30px;
 
-            h2, p {
+            h2,
+            p {
                 color: var(--white);
             }
         }
@@ -75,7 +76,8 @@ section.colors {
             border-radius: 10px;
             padding: 30px;
 
-            h2, p {
+            h2,
+            p {
                 color: var(--white);
             }
         }
@@ -92,7 +94,7 @@ section.quote {
     .image-filter {
         height: inherit;
         width: 100%;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -119,7 +121,7 @@ section.quote {
         justify-content: center;
         align-items: center;
         height: 80vh;
-    
+
         img {
             width: 500px;
         }
@@ -127,17 +129,17 @@ section.quote {
 
     section.colors {
         padding: 100px 20px 20px 20px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
-    
+
             .teal-blue {
                 background-color: #2F7992;
                 height: 300px;
@@ -149,15 +151,15 @@ section.quote {
 
     section.quote {
         height: 80vh;
-    
+
         .image-filter {
             height: inherit;
             gap: 30px;
-    
+
             img {
                 width: 100px;
             }
-    
+
             h1 {
                 color: var(--white);
                 font-size: 34px;
@@ -175,7 +177,7 @@ section.quote {
         justify-content: center;
         align-items: center;
         height: 60vh;
-    
+
         img {
             width: 400px;
         }
@@ -183,13 +185,13 @@ section.quote {
 
     section.colors {
         padding: 100px 20px 20px 20px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
@@ -198,15 +200,15 @@ section.quote {
 
     section.quote {
         height: 60vh;
-    
+
         .image-filter {
             height: inherit;
             gap: 30px;
-    
+
             img {
                 width: 80px;
             }
-    
+
             h1 {
                 color: var(--white);
                 font-size: 28px;
@@ -224,21 +226,22 @@ section.quote {
         justify-content: center;
         align-items: center;
         height: 40vh;
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
     section.colors {
         padding: 100px 20px 20px 20px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
@@ -247,19 +250,20 @@ section.quote {
 
     section.quote {
         height: 60vh;
-    
+
         .image-filter {
             height: inherit;
             gap: 30px;
-    
+
             img {
-                width: 80px;
+                width: 70px;
             }
-    
+
             h1 {
                 color: var(--white);
-                font-size: 28px;
-                width: 300px;
+                font-size: 21px;
+                width: 100%;
+                padding: 0 30px;
                 text-align: center;
             }
         }

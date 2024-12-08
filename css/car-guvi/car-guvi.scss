@@ -7,7 +7,7 @@
 }
 
 .hero-car-guvi {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.0)), url(../../assets/images/pages/car-guvi/car-guvi-images3.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url(../../assets/images/pages/car-guvi/car-guvi-images3.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,31 +27,36 @@ section.logo {
 }
 
 .international-red {
-    background-image: linear-gradient(to bottom, rgba(192,39,45,1), rgba(0,0,0,0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors3.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(192, 39, 45, 1), rgba(0, 0, 0, 0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors3.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .vermilion {
-    background-image: linear-gradient(to bottom, rgba(209,61,41,1), rgba(0,0,0,0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors2.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(209, 61, 41, 1), rgba(0, 0, 0, 0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors2.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .yellow-munsell {
-    background-image: linear-gradient(to bottom, rgba(244,198,3,1), rgba(0,0,0,0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors6.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(244, 198, 3, 1), rgba(0, 0, 0, 0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors6.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .cadet-grey {
-    background-image: linear-gradient(to bottom, rgba(143,164,165,1), rgba(0,0,0,0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors5.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(143, 164, 165, 1), rgba(0, 0, 0, 0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors5.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .arsenic {
-    background-image: linear-gradient(to bottom, rgba(56,66,66,1), rgba(0,0,0,0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(56, 66, 66, 1), rgba(0, 0, 0, 0.0)), url(../../assets/images/pages/car-guvi/car-guvi-colors.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -60,7 +65,7 @@ section.logo {
 
     section.logo {
         padding: 200px 0;
-    
+
         img {
             width: 500px;
             margin: 70px;
@@ -72,7 +77,7 @@ section.logo {
 
     section.logo {
         padding: 50px 0 100px 0px;
-    
+
         img {
             width: 400px;
             margin: 70px;
@@ -84,9 +89,10 @@ section.logo {
 
     section.logo {
         padding: 50px 0 100px 0px;
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
             margin: 70px;
         }
     }

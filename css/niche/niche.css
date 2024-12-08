@@ -50,7 +50,8 @@ section.colors .grid .maximum-green {
   border-radius: 10px;
   padding: 30px;
 }
-section.colors .grid .charleston-green h2, section.colors .grid .charleston-green p,
+section.colors .grid .charleston-green h2,
+section.colors .grid .charleston-green p,
 section.colors .grid .feldgraun h2,
 section.colors .grid .feldgraun p,
 section.colors .grid .yellow-green-crayola h2,
@@ -59,7 +60,8 @@ section.colors .grid .maximum-green h2,
 section.colors .grid .maximum-green p {
   color: var(--white);
 }
-section.colors .grid .charleston-green .title, section.colors .grid .charleston-green .hex-code,
+section.colors .grid .charleston-green .title,
+section.colors .grid .charleston-green .hex-code,
 section.colors .grid .feldgraun .title,
 section.colors .grid .feldgraun .hex-code,
 section.colors .grid .yellow-green-crayola .title,
@@ -91,7 +93,8 @@ section.colors .main-color .teal-blue {
   border-radius: 10px;
   padding: 30px;
 }
-section.colors .main-color .teal-blue h2, section.colors .main-color .teal-blue p {
+section.colors .main-color .teal-blue h2,
+section.colors .main-color .teal-blue p {
   color: var(--white);
 }
 
@@ -120,7 +123,7 @@ section.posters .poster-container .main-poster {
 }
 section.posters .poster-container .logic-poster,
 section.posters .poster-container .main-poster {
-  height: 700px;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -206,37 +209,7 @@ section.grid-ads .grid {
     padding: 30px;
   }
   section.posters {
-    padding: 0 15px 20px 15px;
-  }
-  section.posters .poster-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  section.posters .poster-container .logic-poster,
-  section.posters .poster-container .main-poster {
-    height: 700px;
-    padding: 20px;
-  }
-  section.posters .poster-container .logic-poster .logo-symbol img,
-  section.posters .poster-container .main-poster .logo-symbol img {
-    width: 250px;
-    margin-bottom: 70px;
-  }
-  section.posters .poster-container .logic-poster .meta-data,
-  section.posters .poster-container .main-poster .meta-data {
-    gap: 20px;
-  }
-  section.posters .poster-container .logic-poster .meta-data .logo,
-  section.posters .poster-container .main-poster .meta-data .logo {
-    width: 150px;
-  }
-  section.posters .poster-container .logic-poster .meta-data .quorts,
-  section.posters .poster-container .main-poster .meta-data .quorts {
-    width: 50px;
-  }
-  section.posters .poster-container .logic-poster .meta-data p,
-  section.posters .poster-container .main-poster .meta-data p {
-    color: var(--white);
-    font-size: 21px;
+    padding: 0 15px 15px 15px;
   }
   section.logo-on-blue-bg img {
     width: 500px;
@@ -276,24 +249,27 @@ section.grid-ads .grid {
     margin-top: 20px;
   }
   section.posters {
-    padding: 0 15px 20px 15px;
+    padding: 0 15px 15px 15px;
   }
   section.posters .poster-container {
     grid-template-columns: repeat(1, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
   }
   section.posters .poster-container .logic-poster,
   section.posters .poster-container .main-poster {
-    height: 700px;
-    padding: 20px;
+    height: 100vh;
+    padding: 30px;
   }
-  section.posters .poster-container .logic-poster .logo-symbol img.logo-outline-symbol,
-  section.posters .poster-container .main-poster .logo-symbol img.logo-outline-symbol {
+  section.posters .poster-container .logic-poster .logo-symbol img,
+  section.posters .poster-container .main-poster .logo-symbol img {
     width: 250px;
     margin-bottom: 70px;
   }
   section.posters .poster-container .logic-poster .meta-data,
   section.posters .poster-container .main-poster .meta-data {
-    gap: 20px;
+    align-items: center;
+    gap: 40px;
   }
   section.posters .poster-container .logic-poster .meta-data .logo,
   section.posters .poster-container .main-poster .meta-data .logo {
@@ -305,8 +281,8 @@ section.grid-ads .grid {
   }
   section.posters .poster-container .logic-poster .meta-data p,
   section.posters .poster-container .main-poster .meta-data p {
-    color: var(--white);
-    font-size: 21px;
+    text-align: center;
+    width: 300px;
   }
   section.logo-on-blue-bg {
     height: 70vh;
@@ -333,7 +309,8 @@ section.grid-ads .grid {
     padding: 30px 0 50px 0;
   }
   section.niche-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
     margin: 70px;
   }
   section.colors {
@@ -349,24 +326,50 @@ section.grid-ads .grid {
     margin-top: 20px;
   }
   section.posters {
-    padding: 20px 15px 0 15px;
+    padding: 0 15px 15px 15px;
   }
-  section.posters .logic-poster,
-  section.posters .main-poster {
-    height: 600px;
-    padding: 20px;
+  section.posters .poster-container {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 15px;
   }
-  section.posters .logic-poster .logo-symbol img,
-  section.posters .main-poster .logo-symbol img {
+  section.posters .poster-container .logic-poster,
+  section.posters .poster-container .main-poster {
+    height: 80vh;
+    padding: 30px;
+  }
+  section.posters .poster-container .logic-poster .logo-symbol img,
+  section.posters .poster-container .main-poster .logo-symbol img {
     width: 250px;
     margin-bottom: 70px;
   }
+  section.posters .poster-container .logic-poster .meta-data,
+  section.posters .poster-container .main-poster .meta-data {
+    align-items: center;
+    gap: 20px;
+  }
+  section.posters .poster-container .logic-poster .meta-data .logo,
+  section.posters .poster-container .main-poster .meta-data .logo {
+    width: 150px;
+  }
+  section.posters .poster-container .logic-poster .meta-data .quorts,
+  section.posters .poster-container .main-poster .meta-data .quorts {
+    width: 50px;
+  }
+  section.posters .poster-container .logic-poster .meta-data p,
+  section.posters .poster-container .main-poster .meta-data p {
+    text-align: center;
+    width: 200px;
+    font-size: 17px;
+  }
   section.logo-on-blue-bg {
     height: 70vh;
-    margin: 20px 15px 0 15px;
+    margin: 0px 15px 0 15px;
   }
   section.logo-on-blue-bg img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.grid-ads {
     padding: 20px 15px 0 15px;

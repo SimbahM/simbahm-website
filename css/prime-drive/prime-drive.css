@@ -41,7 +41,8 @@ section.colors .grid .pine-tree {
   border-radius: 10px;
   padding: 30px;
 }
-section.colors .grid .grayish-green h2, section.colors .grid .grayish-green p,
+section.colors .grid .grayish-green h2,
+section.colors .grid .grayish-green p,
 section.colors .grid .dark-grayish-green h2,
 section.colors .grid .dark-grayish-green p,
 section.colors .grid .dark-grayish-cyan h2,
@@ -73,7 +74,8 @@ section.colors .main-color .cadet-grey {
   border-radius: 10px;
   padding: 30px;
 }
-section.colors .main-color .cadet-grey h2, section.colors .main-color .cadet-grey p {
+section.colors .main-color .cadet-grey h2,
+section.colors .main-color .cadet-grey p {
   color: var(--white);
 }
 
@@ -196,7 +198,8 @@ section.quote .image-filter h1 {
     height: 40vh;
   }
   .prime-drive-main-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.colors {
     padding: 100px 20px 20px 20px;
@@ -218,12 +221,13 @@ section.quote .image-filter h1 {
     gap: 30px;
   }
   section.quote .image-filter img {
-    width: 80px;
+    width: 70px;
   }
   section.quote .image-filter h1 {
     color: var(--white);
-    font-size: 28px;
-    width: 300px;
+    font-size: 21px;
+    width: 100%;
+    padding: 0 30px;
     text-align: center;
   }
 }/*# sourceMappingURL=prime-drive.css.map */

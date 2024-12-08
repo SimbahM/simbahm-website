@@ -56,7 +56,8 @@ section.envirozyme-colors .colors {
 section.envirozyme-colors .colors p.title {
   position: absolute;
   writing-mode: vertical-rl;
-  left: 0;
+  transform: rotate(180deg);
+  right: 10px;
   font-size: 40px;
   font-weight: 300;
   color: var(--white);
@@ -67,7 +68,8 @@ section.envirozyme-colors .colors p.sallegreen-title {
   color: var(--white);
 }
 section.envirozyme-colors .colors p.change-color,
-section.envirozyme-colors .colors p, section.envirozyme-colors .colors .cultured {
+section.envirozyme-colors .colors p,
+section.envirozyme-colors .colors .cultured {
   color: #1E1C1B;
 }
 
@@ -92,7 +94,8 @@ section.envirozyme-colors .colors p, section.envirozyme-colors .colors .cultured
     padding: 100px 15px 50px 15px;
   }
   section.main-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.envirozyme-colors {
     padding: 200px 15px 0 15px;

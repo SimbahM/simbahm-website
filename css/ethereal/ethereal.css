@@ -12,10 +12,6 @@
   background-size: cover;
   background-position: center;
 }
-.ethereal img.natiologo-logo-symbol {
-  width: 200px;
-  margin-bottom: 70px;
-}
 
 section.quote {
   height: 100vh;
@@ -231,10 +227,6 @@ section.white-quote .container h1 {
   }
 }
 @media (max-width: 768px) {
-  .ethereal img.natiologo-logo-symbol {
-    width: 150px;
-    margin-bottom: 40px;
-  }
   section.quote {
     height: 80vh;
   }
@@ -297,10 +289,6 @@ section.white-quote .container h1 {
   }
 }
 @media (max-width: 425px) {
-  .ethereal img.natiologo-logo-symbol {
-    width: 100px;
-    margin-bottom: 30px;
-  }
   section.quote {
     height: 80vh;
   }
@@ -349,25 +337,28 @@ section.white-quote .container h1 {
     align-items: center;
   }
   section.main-logo .container img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
     margin-bottom: 20px;
   }
   section.white-logo {
     height: 60vh;
   }
   section.white-logo .container img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
     margin-bottom: 20px;
   }
   section.white-quote {
-    height: 80vh;
+    height: 60vh;
   }
   section.white-quote .container img {
-    width: 200px;
+    width: 150px;
     margin-bottom: 20px;
   }
   section.white-quote .container h1 {
-    font-size: 27px;
-    width: 320px;
+    font-size: 21px;
+    width: 100%;
+    padding: 0 30px;
   }
 }/*# sourceMappingURL=ethereal.css.map */

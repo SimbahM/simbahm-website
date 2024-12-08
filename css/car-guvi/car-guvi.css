@@ -83,7 +83,8 @@ section.logo img {
     padding: 50px 0 100px 0px;
   }
   section.logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
     margin: 70px;
   }
 }/*# sourceMappingURL=car-guvi.css.map */

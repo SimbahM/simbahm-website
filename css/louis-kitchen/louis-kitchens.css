@@ -58,7 +58,8 @@ section.colors .grid .deer {
   border-radius: 10px;
   padding: 30px;
 }
-section.colors .grid .granite-gray h2, section.colors .grid .granite-gray p,
+section.colors .grid .granite-gray h2,
+section.colors .grid .granite-gray p,
 section.colors .grid .pale-silver h2,
 section.colors .grid .pale-silver p,
 section.colors .grid .black-coffee h2,
@@ -90,7 +91,8 @@ section.colors .main-color .coconut {
   border-radius: 10px;
   padding: 30px;
 }
-section.colors .main-color .coconut h2, section.colors .main-color .coconut p {
+section.colors .main-color .coconut h2,
+section.colors .main-color .coconut p {
   color: var(--white);
 }
 
@@ -174,13 +176,14 @@ section.colors .main-color .coconut h2, section.colors .main-color .coconut p {
 }
 @media (max-width: 425px) {
   section.louis-logo {
-    height: 60vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   section.louis-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.louis-white-logo {
     height: 60vh;
@@ -193,7 +196,8 @@ section.colors .main-color .coconut h2, section.colors .main-color .coconut p {
     background-color: rgba(0, 0, 0, 0.3);
   }
   section.louis-white-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.colors {
     padding: 20px 15px 0 15px;

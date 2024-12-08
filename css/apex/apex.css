@@ -47,7 +47,8 @@ section.apex-logo .color-palette {
     width: 300px;
   }
   section.apex-logo .main-logo {
-    width: 600px;
+    width: 100%;
+    padding: 0 30px;
   }
 }
 @media (max-width: 425px) {
@@ -60,6 +61,7 @@ section.apex-logo .color-palette {
     width: 200px;
   }
   section.apex-logo .main-logo {
-    width: 350px;
+    width: 100%;
+    padding: 0 30px;
   }
 }/*# sourceMappingURL=apex.css.map */

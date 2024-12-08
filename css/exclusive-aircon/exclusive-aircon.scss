@@ -1,5 +1,5 @@
 .hero-eac {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../../assets/images/pages/eac/eac-cover-page.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/eac/eac-cover-page.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,10 +12,15 @@ section.large-section-content {
     justify-content: center;
     align-items: center;
 
-    i {
-        text-align: center;
-        font-size: 100px;
-        color: var(--secondary);
+    img {
+        width: 100px;
+    }
+
+    .divider {
+        border-bottom: 1px solid rgb(176, 176, 176);
+        width: 250px;
+        margin: 30px 0;
+
     }
 
     h1 {
@@ -65,7 +70,7 @@ section.grid-app-icon {
         max-width: 1000px;
         margin: 0 auto;
         gap: 20px;
-    
+
         .icon {
             background-image: url(../../assets/images/pages/eac/app-icon-design.webp);
             background-position: center;
@@ -73,7 +78,7 @@ section.grid-app-icon {
             background-size: cover;
             height: 80vh;
         }
-    
+
         .frame {
             background-color: #3BB5E6;
             height: 80vh;
@@ -81,7 +86,7 @@ section.grid-app-icon {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    
+
             img {
                 width: 150px;
             }
@@ -94,19 +99,19 @@ section.grid-app-icon {
             background-size: cover;
             height: 80vh;
         }
-    
+
         .logo {
-            background-color:var(--white);
+            background-color: var(--white);
             height: 80vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-    
+
             img.vertical-logo {
                 width: 100px;
             }
-    
+
             img.main-logo {
                 display: none;
             }
@@ -118,31 +123,31 @@ section.grid-app-icon {
 
     section.large-section-content {
         padding: 100px 0;
-    
+
         i {
             font-size: 80px;
         }
-    
+
         h1 {
             font-size: 40px;
         }
     }
-    
+
     section.eac-old-logo {
         padding: 100px 0;
-    
+
         img {
             width: 500px;
         }
-    
+
         h1 {
             font-size: 40px;
         }
     }
-    
+
     section.eac-old-and-new-logo {
         padding: 100px 0;
-    
+
         img {
             width: 500px;
         }
@@ -150,34 +155,34 @@ section.grid-app-icon {
 
     section.grid-app-icon {
         padding: 0 15px 0 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-        
+
             .icon {
                 height: 80vh;
             }
-        
+
             .frame {
                 height: 80vh;
-        
+
                 img {
                     width: 150px;
                 }
             }
-            
+
             .web {
                 height: 90vh;
             }
-        
+
             .logo {
                 height: 90vh;
-        
+
                 img.vertical-logo {
                     display: none;
                 }
-    
+
                 img.main-logo {
                     width: 400px;
                     display: block;
@@ -192,33 +197,40 @@ section.grid-app-icon {
     section.large-section-content {
 
         padding: 100px 0;
-    
-        i {
-            font-size: 80px;
+
+        img {
+            width: 70px;
         }
-    
+
+        .divider {
+            border-bottom: 1px solid rgb(176, 176, 176);
+            width: 180px;
+            margin: 20px 0;
+
+        }
+
         h1 {
             font-size: 30px;
         }
     }
-    
+
     section.eac-old-logo {
 
         padding: 100px 0;
-    
+
         img {
             width: 400px;
         }
-    
+
         h1 {
             font-size: 40px;
         }
     }
-    
+
     section.eac-old-and-new-logo {
 
         padding: 100px 0;
-    
+
         img {
             width: 400px;
         }
@@ -226,18 +238,18 @@ section.grid-app-icon {
 
     section.grid-app-icon {
         padding: 0px 15px 0 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-        
+
             .icon {
                 height: 90vh;
             }
-        
+
             .frame {
                 height: 90vh;
-        
+
                 img {
                     width: 150px;
                 }
@@ -246,14 +258,14 @@ section.grid-app-icon {
             .web {
                 height: 90vh;
             }
-        
+
             .logo {
                 height: 90vh;
-        
+
                 img.vertical-logo {
                     display: none;
                 }
-    
+
                 img.main-logo {
                     width: 400px;
                     display: block;
@@ -268,70 +280,69 @@ section.grid-app-icon {
     section.large-section-content {
 
         padding: 100px 0;
-    
-        i {
-            font-size: 80px;
+
+        h1 {
+            font-size: 25px;
         }
-    
+    }
+
+    section.eac-old-logo {
+
+        padding: 50px 0;
+
+        img {
+            width: 100%;
+            padding: 0 30px;
+        }
+
         h1 {
             font-size: 30px;
         }
     }
-    
-    section.eac-old-logo {
 
-        padding: 100px 0;
-    
-        img {
-            width: 300px;
-        }
-    
-        h1 {
-            font-size: 40px;
-        }
-    }
-    
     section.eac-old-and-new-logo {
 
         padding: 100px 0;
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
     section.grid-app-icon {
         padding: 0px 15px 0 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-        
+
             .icon {
                 height: 60vh;
             }
-        
+
             .frame {
                 height: 60vh;
-        
+
                 img {
-                    width: 100px;
+                    width: 120px;
                 }
             }
 
             .web {
                 height: 60vh;
             }
-        
+
             .logo {
                 height: 60vh;
-        
+
                 img.vertical-logo {
                     display: none;
                 }
-    
+
                 img.main-logo {
-                    width: 300px;
+                    width: 100%;
+                    padding: 0 30px;
                     display: block;
                 }
             }

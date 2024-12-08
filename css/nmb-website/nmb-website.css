@@ -109,7 +109,7 @@ section.user-persona .container .eli .divider {
 section.user-persona .container .eli span {
   font-size: 21px;
   color: var(--gray);
-  width: 650px;
+  width: 100px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -579,7 +579,7 @@ section.title .title {
   }
   section.project-outline .container {
     width: 100%;
-    padding: 0 60px;
+    padding: 0 30px;
     margin: 0 auto;
     gap: 30px;
   }
@@ -621,7 +621,11 @@ section.title .title {
   section.user-persona .container .cards {
     border-radius: 0;
     width: 100%;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 0 0 20px;
   }
   section.user-persona .container .cards h1 {
     font-size: 25px;
@@ -633,7 +637,7 @@ section.title .title {
   }
   section.user-persona .container .cards ul {
     width: 100%;
-    padding: 0 50px;
+    padding: 0 15px;
     line-height: 1.7rem;
   }
   section.user-persona .container .cards ul li {
@@ -643,7 +647,10 @@ section.title .title {
   section.user-persona .container .cards .personal-info {
     gap: 20px;
     width: 100%;
-    padding: 0 20px;
+    padding: 0;
+  }
+  section.user-persona .container .cards .personal-info .info {
+    align-items: start;
   }
   section.user-persona .container .cards .personal-info .personal-data {
     flex: 1;
@@ -661,6 +668,7 @@ section.title .title {
   section.steps .header h1 {
     font-size: 30px;
     color: var(--primary);
+    text-align: center;
   }
   section.steps .header p {
     text-align: center;
@@ -669,7 +677,7 @@ section.title .title {
   }
   section.steps img.user-journey-map {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
     margin-top: 70px;
   }
   section.steps img.iformation-architecture-web {
@@ -677,7 +685,7 @@ section.title .title {
   }
   section.steps img.iformation-architecture-mobile {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
     margin-top: 70px;
     display: block;
   }

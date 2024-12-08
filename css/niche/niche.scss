@@ -7,7 +7,7 @@
 }
 
 .hero-niche {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.0)), url(../../assets/images/pages/niche/niche-logo-cover-image.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url(../../assets/images/pages/niche/niche-logo-cover-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,11 +51,13 @@ section.colors {
             border-radius: 10px;
             padding: 30px;
 
-            h2, p {
+            h2,
+            p {
                 color: var(--white);
             }
 
-            .title, .hex-code {
+            .title,
+            .hex-code {
                 color: #262B28;
             }
         }
@@ -88,7 +90,8 @@ section.colors {
             border-radius: 10px;
             padding: 30px;
 
-            h2, p {
+            h2,
+            p {
                 color: var(--white);
             }
         }
@@ -112,7 +115,7 @@ section.posters {
             background-repeat: no-repeat;
             background-size: cover;
         }
-    
+
         .main-poster {
             background-image: url(../../assets/images/pages/niche/african-american-man.webp);
             background-position: center;
@@ -122,35 +125,35 @@ section.posters {
 
         .logic-poster,
         .main-poster {
-            height: 700px;
+            height: 80vh;
             display: flex;
             flex-direction: column;
             justify-content: end;
             align-items: center;
             padding: 30px;
-    
+
             .logo-symbol {
-    
+
                 img {
                     width: 250px;
                     margin-bottom: 70px;
                 }
             }
-    
+
             .meta-data {
                 display: flex;
                 flex-direction: column;
                 align-items: start;
                 gap: 20px;
-    
+
                 .logo {
                     width: 150px;
                 }
-    
+
                 .quorts {
                     width: 50px;
                 }
-    
+
                 p {
                     color: var(--white);
                     font-size: 21px;
@@ -165,7 +168,7 @@ section.logo-on-blue-bg {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 
     img {
         width: 700px;
@@ -174,7 +177,7 @@ section.logo-on-blue-bg {
 
 section.grid-ads {
     padding: 200px 15px 0 15px;
-    
+
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -192,7 +195,7 @@ section.grid-ads {
         justify-content: center;
         align-items: center;
         padding: 50px 0 100px 0;
-    
+
         img {
             width: 500px;
             margin: 70px;
@@ -201,17 +204,17 @@ section.grid-ads {
 
     section.colors {
         padding: 20px 15px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
-    
+
             .teal-blue {
                 background-color: #2F7992;
                 height: 300px;
@@ -222,46 +225,11 @@ section.grid-ads {
     }
 
     section.posters {
-        padding: 0 15px 20px 15px;
-    
-        .poster-container {
-            grid-template-columns: repeat(2, 1fr);
-    
-            .logic-poster,
-            .main-poster {
-                height: 700px;
-                padding: 20px;
-        
-                .logo-symbol {
-        
-                    img {
-                        width: 250px;
-                        margin-bottom: 70px;
-                    }
-                }
-        
-                .meta-data {
-                    gap: 20px;
-        
-                    .logo {
-                        width: 150px;
-                    }
-        
-                    .quorts {
-                        width: 50px;
-                    }
-        
-                    p {
-                        color: var(--white);
-                        font-size: 21px;
-                    }
-                }
-            }
-        }
+        padding: 0 15px 15px 15px;
     }
 
     section.logo-on-blue-bg {
-    
+
         img {
             width: 500px;
         }
@@ -269,7 +237,7 @@ section.grid-ads {
 
     section.grid-ads {
         padding: 20px 15px 0 15px;
-        
+
         .grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -287,7 +255,7 @@ section.grid-ads {
         justify-content: center;
         align-items: center;
         padding: 30px 0 50px 0;
-    
+
         img {
             width: 400px;
             margin: 70px;
@@ -296,13 +264,13 @@ section.grid-ads {
 
     section.colors {
         padding: 20px 15px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
@@ -310,38 +278,41 @@ section.grid-ads {
     }
 
     section.posters {
-        padding: 0 15px 20px 15px;
-    
+        padding: 0 15px 15px 15px;
+
         .poster-container {
             grid-template-columns: repeat(1, 1fr);
-    
+            max-width: 1000px;
+            margin: 0 auto;
+
             .logic-poster,
             .main-poster {
-                height: 700px;
-                padding: 20px;
-        
+                height: 100vh;
+                padding: 30px;
+
                 .logo-symbol {
-        
-                    img.logo-outline-symbol {
+
+                    img {
                         width: 250px;
                         margin-bottom: 70px;
                     }
                 }
-        
+
                 .meta-data {
-                    gap: 20px;
-        
+                    align-items: center;
+                    gap: 40px;
+
                     .logo {
                         width: 150px;
                     }
-        
+
                     .quorts {
                         width: 50px;
                     }
-        
+
                     p {
-                        color: var(--white);
-                        font-size: 21px;
+                        text-align: center;
+                        width: 300px;
                     }
                 }
             }
@@ -350,7 +321,7 @@ section.grid-ads {
 
     section.logo-on-blue-bg {
         height: 70vh;
-    
+
         img {
             width: 420px;
         }
@@ -358,7 +329,7 @@ section.grid-ads {
 
     section.grid-ads {
         padding: 20px 15px 0 15px;
-        
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -376,22 +347,23 @@ section.grid-ads {
         justify-content: center;
         align-items: center;
         padding: 30px 0 50px 0;
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
             margin: 70px;
         }
     }
 
     section.colors {
         padding: 20px 15px 0 15px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
@@ -399,18 +371,44 @@ section.grid-ads {
     }
 
     section.posters {
-        padding: 20px 15px 0 15px;
-    
-        .logic-poster,
-        .main-poster {
-            height: 600px;
-            padding: 20px;
-    
-            .logo-symbol {
-    
-                img {
-                    width: 250px;
-                    margin-bottom: 70px;
+        padding: 0 15px 15px 15px;
+
+        .poster-container {
+            grid-template-columns: repeat(1, 1fr);
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 15px;
+
+            .logic-poster,
+            .main-poster {
+                height: 80vh;
+                padding: 30px;
+
+                .logo-symbol {
+
+                    img {
+                        width: 250px;
+                        margin-bottom: 70px;
+                    }
+                }
+
+                .meta-data {
+                    align-items: center;
+                    gap: 20px;
+
+                    .logo {
+                        width: 150px;
+                    }
+
+                    .quorts {
+                        width: 50px;
+                    }
+
+                    p {
+                        text-align: center;
+                        width: 200px;
+                        font-size: 17px;
+                    }
                 }
             }
         }
@@ -418,16 +416,17 @@ section.grid-ads {
 
     section.logo-on-blue-bg {
         height: 70vh;
-        margin: 20px 15px 0 15px;
-    
+        margin: 0px 15px 0 15px;
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
     section.grid-ads {
         padding: 20px 15px 0 15px;
-        
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);

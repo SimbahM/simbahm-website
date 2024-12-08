@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -196,13 +198,14 @@ section.projects-hero {
   padding-bottom: 50px;
   gap: 20px;
 }
-section.projects-hero img.logo-symbol {
-  width: 400px;
+section.projects-hero img.hero-logo {
+  width: 200px;
+  opacity: 0.7;
   margin-bottom: 40px;
 }
-section.projects-hero img.aa-logo {
-  width: 400px;
-  margin-bottom: 40px;
+section.projects-hero img.shop-savvy-logo {
+  width: 600px;
+  margin-bottom: 80px;
   opacity: 0.7;
 }
 section.projects-hero h1 {
@@ -294,23 +297,6 @@ section.project-header .project-header-content .project-description .tags {
   margin-top: 20px;
 }
 
-section.ui-projects .container {
-  width: 1500px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 100px auto;
-  gap: 20px;
-}
-section.ui-projects .container .uiux-project {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-  padding-bottom: 50px;
-  gap: 10px;
-}
-
 section.colors-container {
   padding: 200px 15px 0 15px;
 }
@@ -352,49 +338,50 @@ section.colors-container .colors p.platinum-title {
   color: #203244;
 }
 
-section.ui-ux-hero {
-  display: flex;
-  height: 100vh;
-  position: relative;
+section.ui-ux-project-outline {
+  padding: 200px 0 0 0;
 }
-section.ui-ux-hero .container {
-  height: inherit;
+section.ui-ux-project-outline .container {
   display: flex;
   flex-direction: column;
+  width: 500px;
   margin: 0 auto;
-  width: 1000px;
-  justify-content: center;
-  padding: 0 15px;
+  gap: 20px;
 }
-section.ui-ux-hero .container .project-logo {
+section.ui-ux-project-outline .container .project-logo {
+  margin-bottom: 20px;
+}
+section.ui-ux-project-outline .container .project-logo img.nmb-logo {
   width: 100px;
-  margin-bottom: 50px;
 }
-section.ui-ux-hero .container p.title-head {
-  color: var(--white);
+section.ui-ux-project-outline .container .divider {
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+section.ui-ux-project-outline .container .client,
+section.ui-ux-project-outline .container .role,
+section.ui-ux-project-outline .container .duration,
+section.ui-ux-project-outline .container .tools {
+  display: flex;
+  flex-direction: column;
+}
+section.ui-ux-project-outline .container .client p.title,
+section.ui-ux-project-outline .container .role p.title,
+section.ui-ux-project-outline .container .duration p.title,
+section.ui-ux-project-outline .container .tools p.title {
+  color: var(--secondary);
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
+  margin-bottom: 5px;
 }
-section.ui-ux-hero .container p.title {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 200;
-}
-section.ui-ux-hero .container .divider {
-  border-bottom: 0.1px solid var(--white);
-  margin: 20px 0;
-  opacity: 0.5;
-  width: 350px;
-}
-section.ui-ux-hero .container .scroll-down {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 50px;
-  left: 0;
-  right: 0;
+section.ui-ux-project-outline .container .client span,
+section.ui-ux-project-outline .container .role span,
+section.ui-ux-project-outline .container .duration span,
+section.ui-ux-project-outline .container .tools span {
+  color: var(--gray);
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 section.colors {
@@ -495,17 +482,12 @@ section.colors .container .color-panels .color span.hex {
 @media (max-width: 1024px) {
   section.projects-hero {
     height: 90vh;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     gap: 15px;
   }
-  section.projects-hero img.logo-symbol {
-    width: 300px;
-    margin-bottom: 30px;
-  }
-  section.projects-hero img.aa-logo {
-    width: 300px;
-    margin-bottom: 30px;
-    opacity: 0.7;
+  section.projects-hero img.shop-savvy-logo {
+    width: 400px;
+    margin-bottom: 80px;
   }
   section.projects-hero h1 {
     font-size: 50px;
@@ -593,14 +575,18 @@ section.colors .container .color-panels .color span.hex {
     padding-bottom: 30px;
     gap: 15px;
   }
+  section.projects-hero img.hero-logo {
+    width: 150px;
+    opacity: 0.7;
+    margin-bottom: 40px;
+  }
+  section.projects-hero img.shop-savvy-logo {
+    width: 300px;
+    margin-bottom: 80px;
+  }
   section.projects-hero img.logo-symbol {
     width: 200px;
     margin-bottom: 20px;
-  }
-  section.projects-hero img.aa-logo {
-    width: 200px;
-    margin-bottom: 20px;
-    opacity: 0.7;
   }
   section.projects-hero h1 {
     font-size: 40px;
@@ -682,6 +668,54 @@ section.colors .container .color-panels .color span.hex {
     font-size: 20px;
   }
 }
+@media (max-width: 537px) {
+  section.ui-ux-project-outline {
+    padding: 100px 0;
+  }
+  section.ui-ux-project-outline .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  section.ui-ux-project-outline .container .project-logo {
+    margin-bottom: 20px;
+  }
+  section.ui-ux-project-outline .container .project-logo img.nmb-logo {
+    width: 100px;
+  }
+  section.ui-ux-project-outline .container .divider {
+    border-bottom: 1px solid rgb(218, 218, 218);
+  }
+  section.ui-ux-project-outline .container .client,
+  section.ui-ux-project-outline .container .role,
+  section.ui-ux-project-outline .container .duration,
+  section.ui-ux-project-outline .container .tools {
+    display: flex;
+    flex-direction: column;
+  }
+  section.ui-ux-project-outline .container .client p.title,
+  section.ui-ux-project-outline .container .role p.title,
+  section.ui-ux-project-outline .container .duration p.title,
+  section.ui-ux-project-outline .container .tools p.title {
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  section.ui-ux-project-outline .container .client span,
+  section.ui-ux-project-outline .container .role span,
+  section.ui-ux-project-outline .container .duration span,
+  section.ui-ux-project-outline .container .tools span {
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+}
 @media (max-width: 425px) {
   .button {
     font-size: 13px;
@@ -700,8 +734,17 @@ section.colors .container .color-panels .color span.hex {
     padding-bottom: 30px;
     gap: 15px;
   }
+  section.projects-hero img.hero-logo {
+    width: 100px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
+  section.projects-hero img.shop-savvy-logo {
+    width: 200px;
+    margin-bottom: 80px;
+  }
   section.projects-hero h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
   section.projects-hero h1.eca-title {
@@ -712,8 +755,9 @@ section.colors .container .color-panels .color span.hex {
   }
   section.projects-hero p,
   section.projects-hero i {
-    font-size: 20px;
-    width: 300px;
+    font-size: 21px;
+    width: 100%;
+    padding: 0 10px;
   }
   section.hero {
     padding: 160px 20px 50px 20px;
@@ -736,11 +780,14 @@ section.colors .container .color-panels .color span.hex {
     padding: 50px 0px;
     gap: 20px;
   }
+  section.project-header .project-header-content img.logo-symbol {
+    width: 150px;
+  }
   section.project-header .project-header-content img.logo-mark {
     width: 100px;
   }
   section.project-header .project-header-content h1.project-title {
-    font-size: 40px;
+    font-size: 30px;
   }
   section.project-header .project-header-content h2.sub-project-title {
     font-size: 20px;
@@ -778,7 +825,7 @@ section.colors .container .color-panels .color span.hex {
     gap: 15px;
   }
   section.colors .container .color-panels {
-    height: 80vh;
+    height: 60vh;
   }
   section.colors .container .color-panels .image {
     height: inherit;
@@ -786,13 +833,13 @@ section.colors .container .color-panels .color span.hex {
     position: relative;
   }
   section.colors .container .color-panels .image span.color-name {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
   }
   section.colors .container .color-panels .color {
     padding: 20px;
   }
   section.colors .container .color-panels .color span.hex {
-    font-size: 20px;
+    font-size: 17px;
   }
 }/*# sourceMappingURL=componants.css.map */

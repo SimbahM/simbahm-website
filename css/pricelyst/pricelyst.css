@@ -87,7 +87,7 @@ section.pricelyst-logo img {
   section.pricelyst-logo-project .breaking-down-the-old-logo h1,
   section.pricelyst-logo-project .selected-parts h1,
   section.pricelyst-logo-project .typography h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: var(--primary);
   }
@@ -95,13 +95,15 @@ section.pricelyst-logo img {
   section.pricelyst-logo-project .breaking-down-the-old-logo img,
   section.pricelyst-logo-project .selected-parts img,
   section.pricelyst-logo-project .typography img {
-    width: 300px;
+    width: 100%;
+    padding: 0 20px;
   }
   section.pricelyst-logo-project .need-for-a-noew-logo p,
   section.pricelyst-logo-project .breaking-down-the-old-logo p,
   section.pricelyst-logo-project .selected-parts p,
   section.pricelyst-logo-project .typography p {
-    width: 350px;
+    width: 100%;
+    padding: 0 30px;
     font-size: 21px;
     text-align: center;
     letter-spacing: 0.011em;
@@ -113,6 +115,7 @@ section.pricelyst-logo img {
     justify-content: center;
   }
   section.pricelyst-logo img {
-    width: 250px;
+    width: 100%;
+    padding: 0 50px;
   }
 }/*# sourceMappingURL=pricelyst.css.map */

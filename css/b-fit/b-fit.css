@@ -32,6 +32,10 @@ section.logo p {
   text-align: center;
 }
 
+.logo-color {
+  border: 1px solid rgb(221, 221, 221);
+}
+
 .water-bottles {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -93,22 +97,27 @@ section.logo p {
     padding: 50px 0;
   }
   section.logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
     margin: 70px;
   }
   section.logo img.logo-lockup {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.logo img.logo-lockup2 {
-    width: 200px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.logo img.logo-lockup3 {
-    width: 90px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.logo p {
     font-size: 21px;
     color: var(--gray);
-    width: 350px;
+    width: 100%;
+    padding: 0 30px;
     text-align: center;
   }
 }/*# sourceMappingURL=b-fit.css.map */

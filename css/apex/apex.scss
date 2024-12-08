@@ -1,5 +1,5 @@
 .hero-apex {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../../assets/images/pages/apex/apex-logo-envelop.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/apex/apex-logo-envelop.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@ section.apex-logo {
     section.apex-logo {
         padding: 100px 15px 0 15px;
         gap: 300px;
-    
+
         .logo-redraw,
         .typeface {
             width: 300px;
@@ -49,14 +49,15 @@ section.apex-logo {
     section.apex-logo {
         padding: 100px 15px 0 15px;
         gap: 300px;
-    
+
         .logo-redraw,
         .typeface {
             width: 300px;
         }
 
         .main-logo {
-            width: 600px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 }
@@ -66,14 +67,15 @@ section.apex-logo {
     section.apex-logo {
         padding: 100px 15px 0 15px;
         gap: 200px;
-    
+
         .logo-redraw,
         .typeface {
             width: 200px;
         }
 
         .main-logo {
-            width: 350px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 }

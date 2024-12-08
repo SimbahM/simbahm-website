@@ -12,10 +12,6 @@
   background-size: cover;
   background-position: center;
 }
-.natiology img.natiologo-logo-symbol {
-  width: 200px;
-  margin-bottom: 70px;
-}
 
 .dark-green-image {
   background-image: url(../../assets/images/pages/natiology/color1.webp);
@@ -86,10 +82,6 @@ section.main-logo .container img {
 }
 
 @media (max-width: 1024px) {
-  .natiology img.natiologo-logo-symbol {
-    width: 200px;
-    margin-bottom: 60px;
-  }
   section.main-logo .container {
     height: 80vh;
     display: flex;
@@ -130,10 +122,6 @@ section.main-logo .container img {
   }
 }
 @media (max-width: 425px) {
-  .natiology img.natiologo-logo-symbol {
-    width: 100px;
-    margin-bottom: 10px;
-  }
   section.main-logo .container {
     height: 60vh;
     display: flex;
@@ -142,6 +130,7 @@ section.main-logo .container img {
     align-items: center;
   }
   section.main-logo .container img {
-    width: 360px;
+    width: 100%;
+    padding: 0 10px;
   }
 }/*# sourceMappingURL=natiology.css.map */

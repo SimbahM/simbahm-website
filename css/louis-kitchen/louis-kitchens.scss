@@ -29,13 +29,13 @@ section.louis-white-logo {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
+
     .filter {
         height: inherit;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(0, 0, 0, 0.3);
     }
 
     img {
@@ -61,7 +61,8 @@ section.colors {
             border-radius: 10px;
             padding: 30px;
 
-            h2, p {
+            h2,
+            p {
                 color: var(--white);
             }
         }
@@ -94,7 +95,8 @@ section.colors {
             border-radius: 10px;
             padding: 30px;
 
-            h2, p {
+            h2,
+            p {
                 color: var(--white);
             }
         }
@@ -108,7 +110,7 @@ section.colors {
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
         img {
             width: 500px;
         }
@@ -116,15 +118,15 @@ section.colors {
 
     section.louis-white-logo {
         height: 80vh;
-        
+
         .filter {
             height: inherit;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgba(0,0,0,0.3);
+            background-color: rgba(0, 0, 0, 0.3);
         }
-    
+
         img {
             width: 500px;
         }
@@ -132,17 +134,17 @@ section.colors {
 
     section.colors {
         padding: 20px 15px 0 15px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
-    
+
             .teal-blue {
                 background-color: #2F7992;
                 height: 300px;
@@ -160,7 +162,7 @@ section.colors {
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
         img {
             width: 400px;
         }
@@ -168,15 +170,15 @@ section.colors {
 
     section.louis-white-logo {
         height: 80vh;
-        
+
         .filter {
             height: inherit;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgba(0,0,0,0.3);
+            background-color: rgba(0, 0, 0, 0.3);
         }
-    
+
         img {
             width: 400px;
         }
@@ -184,13 +186,13 @@ section.colors {
 
     section.colors {
         padding: 20px 15px 0 15px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;
@@ -201,42 +203,44 @@ section.colors {
 @media (max-width: 425px) {
 
     section.louis-logo {
-        height: 60vh;
+        height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
     section.louis-white-logo {
         height: 60vh;
-        
+
         .filter {
             height: inherit;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgba(0,0,0,0.3);
+            background-color: rgba(0, 0, 0, 0.3);
         }
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
     section.colors {
         padding: 20px 15px 0 15px;
         margin-top: 30px;
-    
+
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .main-color {
             margin: 0 auto;
             margin-top: 20px;

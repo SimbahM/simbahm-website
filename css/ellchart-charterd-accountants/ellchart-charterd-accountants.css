@@ -150,7 +150,8 @@ section.section-eca-quote .text h2 span {
     align-items: center;
   }
   .eca-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.eca-colors {
     margin-bottom: 40px;

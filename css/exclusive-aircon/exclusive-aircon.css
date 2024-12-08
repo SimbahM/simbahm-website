@@ -12,10 +12,13 @@ section.large-section-content {
   justify-content: center;
   align-items: center;
 }
-section.large-section-content i {
-  text-align: center;
-  font-size: 100px;
-  color: var(--secondary);
+section.large-section-content img {
+  width: 100px;
+}
+section.large-section-content .divider {
+  border-bottom: 1px solid rgb(176, 176, 176);
+  width: 250px;
+  margin: 30px 0;
 }
 section.large-section-content h1 {
   text-align: center;
@@ -160,8 +163,13 @@ section.grid-app-icon .container .logo img.main-logo {
   section.large-section-content {
     padding: 100px 0;
   }
-  section.large-section-content i {
-    font-size: 80px;
+  section.large-section-content img {
+    width: 70px;
+  }
+  section.large-section-content .divider {
+    border-bottom: 1px solid rgb(176, 176, 176);
+    width: 180px;
+    margin: 20px 0;
   }
   section.large-section-content h1 {
     font-size: 30px;
@@ -215,26 +223,25 @@ section.grid-app-icon .container .logo img.main-logo {
   section.large-section-content {
     padding: 100px 0;
   }
-  section.large-section-content i {
-    font-size: 80px;
-  }
   section.large-section-content h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   section.eac-old-logo {
-    padding: 100px 0;
+    padding: 50px 0;
   }
   section.eac-old-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.eac-old-logo h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   section.eac-old-and-new-logo {
     padding: 100px 0;
   }
   section.eac-old-and-new-logo img {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
   }
   section.grid-app-icon {
     padding: 0px 15px 0 15px;
@@ -250,7 +257,7 @@ section.grid-app-icon .container .logo img.main-logo {
     height: 60vh;
   }
   section.grid-app-icon .container .frame img {
-    width: 100px;
+    width: 120px;
   }
   section.grid-app-icon .container .web {
     height: 60vh;
@@ -262,7 +269,8 @@ section.grid-app-icon .container .logo img.main-logo {
     display: none;
   }
   section.grid-app-icon .container .logo img.main-logo {
-    width: 300px;
+    width: 100%;
+    padding: 0 30px;
     display: block;
   }
 }/*# sourceMappingURL=exclusive-aircon.css.map */

@@ -1,5 +1,5 @@
 .envirozyme {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url(../../assets/images/pages/evirozyme/color-harlequin-green.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/evirozyme/color-harlequin-green.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,7 +31,8 @@ section.main-logo {
 }
 
 .cultured {
-    background-image: linear-gradient(to bottom, rgba(248, 243, 241, 1), rgba(248, 243, 241, 0)), url(../../assets/images/pages/evirozyme/color-cultured.webp);background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(248, 243, 241, 1), rgba(248, 243, 241, 0)), url(../../assets/images/pages/evirozyme/color-cultured.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -57,7 +58,8 @@ section.envirozyme-colors {
         p.title {
             position: absolute;
             writing-mode: vertical-rl;
-            left: 0;
+            transform: rotate(180deg);
+            right: 10px;
             font-size: 40px;
             font-weight: 300;
             color: var(--white);
@@ -68,9 +70,10 @@ section.envirozyme-colors {
         p.sallegreen-title {
             color: var(--white);
         }
-        
+
         p.change-color,
-        p,.cultured {
+        p,
+        .cultured {
             color: #1E1C1B;
         }
     }
@@ -80,7 +83,7 @@ section.envirozyme-colors {
 
     section.main-logo {
         padding: 100px 15px 200px 15px;
-    
+
         img {
             width: 500px;
         }
@@ -91,7 +94,7 @@ section.envirozyme-colors {
 
     section.main-logo {
         padding: 100px 15px 100px 15px;
-    
+
         img {
             width: 400px;
         }
@@ -102,21 +105,22 @@ section.envirozyme-colors {
 
     section.main-logo {
         padding: 100px 15px 50px 15px;
-    
+
         img {
-            width: 300px;
+            width: 100%;
+            padding: 0 30px;
         }
     }
 
     section.envirozyme-colors {
         padding: 200px 15px 0 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
         }
-    
+
         .colors {
             height: 70vh;
         }

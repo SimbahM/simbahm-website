@@ -66,7 +66,8 @@ section.overview .tags .tag p {
   text-align: center;
 }
 
-section.my-role, .design-process {
+section.my-role,
+.design-process {
   background-color: var(--white);
 }
 
@@ -217,9 +218,6 @@ section.screens .container {
     padding: 50px 0;
     gap: 30px;
   }
-  section.overview img.connect-logo {
-    width: 70px;
-  }
   section.overview h1 {
     font-size: 30px;
   }
@@ -240,11 +238,11 @@ section.screens .container {
     color: var(--white);
     font-weight: 100;
     margin: 0 18px 0 0;
-    font-size: 30px;
+    font-size: 25px;
   }
   section.sections-main-title h1.title {
     color: var(--white);
-    font-size: 30px;
+    font-size: 25px;
   }
   section.screens {
     margin: 50px 0;

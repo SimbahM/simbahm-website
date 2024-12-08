@@ -1,8 +1,11 @@
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    // outline: solid 1px lime;
 }
 
 img,
@@ -216,14 +219,15 @@ section.projects-hero {
     padding-bottom: 50px;
     gap: 20px;
 
-    img.logo-symbol {
-        width: 400px;
+    img.hero-logo {
+        width: 200px;
+        opacity: .7;
         margin-bottom: 40px;
     }
 
-    img.aa-logo {
-        width: 400px;
-        margin-bottom: 40px;
+    img.shop-savvy-logo {
+        width: 600px;
+        margin-bottom: 80px;
         opacity: .7;
     }
 
@@ -336,29 +340,6 @@ section.project-header {
     }
 }
 
-// UI/UX Projects 
-
-section.ui-projects {
-
-    .container {
-        width: 1500px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 100px auto;
-        gap: 20px;
-
-        .uiux-project {
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: center;
-            padding-bottom: 50px;
-            gap: 10px;
-        }
-    }
-}
-
 section.colors-container {
     padding: 200px 15px 0 15px;
 
@@ -407,53 +388,49 @@ section.colors-container {
     }
 }
 
-section.ui-ux-hero {
-    display: flex;
-    height: 100vh;
-    position: relative;
+section.ui-ux-project-outline {
+    padding: 200px 0 0 0;
 
     .container {
-        height: inherit;
         display: flex;
         flex-direction: column;
+        width: 500px;
         margin: 0 auto;
-        width: 1000px;
-        justify-content: center;
-        padding: 0 15px;
+        gap: 20px;
 
         .project-logo {
-            width: 100px;
-            margin-bottom: 50px;
-        }
+            margin-bottom: 20px;
 
-        p.title-head {
-            color: var(--white);
-            text-transform: uppercase;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        p.title {
-            color: var(--white);
-            font-size: 20px;
-            font-weight: 200;
+            img.nmb-logo {
+                width: 100px;
+            }
         }
 
         .divider {
-            border-bottom: .1px solid var(--white);
-            margin: 20px 0;
-            opacity: .5;
-            width: 350px;
+            border-bottom: 1px solid rgb(218, 218, 218);
         }
 
-        .scroll-down {
+        .client,
+        .role,
+        .duration,
+        .tools {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            bottom: 50px;
-            left: 0;
-            right: 0;
+            flex-direction: column;
+
+            p.title {
+                color: var(--secondary);
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+
+            span {
+                color: var(--gray);
+                font-size: 16px;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
         }
     }
 }
@@ -583,18 +560,12 @@ section.colors {
 
     section.projects-hero {
         height: 90vh;
-        padding-bottom: 30px;
+        padding-bottom: 80px;
         gap: 15px;
 
-        img.logo-symbol {
-            width: 300px;
-            margin-bottom: 30px;
-        }
-
-        img.aa-logo {
-            width: 300px;
-            margin-bottom: 30px;
-            opacity: .7;
+        img.shop-savvy-logo {
+            width: 400px;
+            margin-bottom: 80px;
         }
 
         h1 {
@@ -711,15 +682,20 @@ section.colors {
         padding-bottom: 30px;
         gap: 15px;
 
+        img.hero-logo {
+            width: 150px;
+            opacity: .7;
+            margin-bottom: 40px;
+        }
+
+        img.shop-savvy-logo {
+            width: 300px;
+            margin-bottom: 80px;
+        }
+
         img.logo-symbol {
             width: 200px;
             margin-bottom: 20px;
-        }
-
-        img.aa-logo {
-            width: 200px;
-            margin-bottom: 20px;
-            opacity: .7;
         }
 
         h1 {
@@ -827,6 +803,57 @@ section.colors {
     }
 }
 
+@media (max-width: 537px) {
+
+    section.ui-ux-project-outline {
+        padding: 100px 0;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 0 15px;
+            margin: 0 auto;
+            gap: 20px;
+
+            .project-logo {
+                margin-bottom: 20px;
+
+                img.nmb-logo {
+                    width: 100px;
+                }
+            }
+
+            .divider {
+                border-bottom: 1px solid rgb(218, 218, 218);
+            }
+
+            .client,
+            .role,
+            .duration,
+            .tools {
+                display: flex;
+                flex-direction: column;
+
+                p.title {
+                    color: var(--secondary);
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+
+                span {
+                    color: var(--gray);
+                    font-size: 16px;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 425px) {
 
     .button {
@@ -849,8 +876,19 @@ section.colors {
         padding-bottom: 30px;
         gap: 15px;
 
+        img.hero-logo {
+            width: 100px;
+            opacity: .7;
+            margin-bottom: 10px;
+        }
+
+        img.shop-savvy-logo {
+            width: 200px;
+            margin-bottom: 80px;
+        }
+
         h1 {
-            font-size: 40px;
+            font-size: 30px;
             text-align: center;
         }
 
@@ -864,8 +902,9 @@ section.colors {
 
         p,
         i {
-            font-size: 20px;
-            width: 300px;
+            font-size: 21px;
+            width: 100%;
+            padding: 0 10px;
         }
     }
 
@@ -894,12 +933,16 @@ section.colors {
             padding: 50px 0px;
             gap: 20px;
 
+            img.logo-symbol {
+                width: 150px;
+            }
+
             img.logo-mark {
                 width: 100px;
             }
 
             h1.project-title {
-                font-size: 40px;
+                font-size: 30px;
             }
 
             h2.sub-project-title {
@@ -953,7 +996,7 @@ section.colors {
             gap: 15px;
 
             .color-panels {
-                height: 80vh;
+                height: 60vh;
 
                 .image {
                     height: inherit;
@@ -961,7 +1004,7 @@ section.colors {
                     position: relative;
 
                     span.color-name {
-                        font-size: 40px;
+                        font-size: 30px;
                         font-weight: 300;
                     }
                 }
@@ -970,7 +1013,7 @@ section.colors {
                     padding: 20px;
 
                     span.hex {
-                        font-size: 20px;
+                        font-size: 17px;
                     }
                 }
             }
