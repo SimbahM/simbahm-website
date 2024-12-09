@@ -7,7 +7,7 @@ class SpecialHeader extends HTMLElement {
             <nav class="navigation-bar">
                 <div class="logo">
                     <a href="./">
-                        <img src="./assets/icons/simbahm-logo-white.png" alt="Simbah M Logo">
+                        <img src="./assets/icons/simbahm-logo-white.svg" alt="Simbah M Logo">
                         <img class="mobile-logo" src="./assets/icons/simbahm-logo-mark.svg" alt="Simbah M Logo Icon">
                     </a>
                 </div>
@@ -73,7 +73,7 @@ class SpecialFooter extends HTMLElement {
         this.innerHTML = `
         <footer>
             <div class="website-tag">
-                <img src="./assets/icons/simbahm-logo.png" alt="Simbah M Logo">
+                <img src="./assets/icons/simbahm-logo.svg" alt="Simbah M Logo">
             </div>
             <div class="copyright">
                 <p>
