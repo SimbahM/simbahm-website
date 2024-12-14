@@ -29,7 +29,7 @@ section.large-panels h1 {
   color: var(--white);
 }
 section.large-panels span {
-  color: var(--acent);
+  color: var(--accent);
   font-size: 21px;
   margin-bottom: 10px;
   text-align: center;

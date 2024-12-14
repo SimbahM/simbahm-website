@@ -197,6 +197,7 @@ section.steps .header {
 section.steps .header h1 {
   font-size: 70px;
   color: var(--primary);
+  text-align: center;
 }
 section.steps .header p {
   text-align: center;
@@ -603,6 +604,9 @@ section.title .title {
     width: 100%;
     padding: 30px;
   }
+  section.user-persona .container .eli {
+    width: 100px;
+  }
   section.user-persona .container .eli img {
     width: 70px;
     margin-bottom: 20px;
@@ -611,7 +615,7 @@ section.title .title {
     font-size: 30px;
   }
   section.user-persona .container .eli .divider {
-    width: 150px;
+    width: 100%;
     margin: 10px 0;
   }
   section.user-persona .container .eli span {
@@ -632,7 +636,7 @@ section.title .title {
   }
   section.user-persona .container .cards .divider {
     border-bottom: 1px solid rgb(117, 117, 117);
-    width: 300px;
+    width: 100%;
     margin: 10px 0;
   }
   section.user-persona .container .cards ul {

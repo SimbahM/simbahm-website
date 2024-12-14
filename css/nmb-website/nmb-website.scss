@@ -228,6 +228,7 @@ section.steps {
         h1 {
             font-size: 70px;
             color: var(--primary);
+            text-align: center;
         }
 
         p {
@@ -763,6 +764,7 @@ section.title {
             }
 
             .eli {
+                width: 100px;
 
                 img {
                     width: 70px;
@@ -774,7 +776,7 @@ section.title {
                 }
 
                 .divider {
-                    width: 150px;
+                    width: 100%;
                     margin: 10px 0;
                 }
 
@@ -800,7 +802,7 @@ section.title {
 
                 .divider {
                     border-bottom: 1px solid rgb(117, 117, 117);
-                    width: 300px;
+                    width: 100%;
                     margin: 10px 0;
                 }
 

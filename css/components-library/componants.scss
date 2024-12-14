@@ -33,7 +33,7 @@ h2 {
     --primary: #1B2F3F;
     --secondary: #2E465E;
     --white: #EBEFF2;
-    --acent: #FFA656;
+    --accent: #FFA656;
     --gray: #54595F;
 }
 
@@ -136,7 +136,7 @@ h2 {
     transform: translateX(-50%);
     width: 6px;
     height: 6px;
-    background-color: var(--white);
+    background-color: var(--accent);
     border-radius: 100%;
     box-shadow: 0px -5px 3px 1px rgba(228, 234, 237, 0.3);
     animation: scrolldown-anim 2s infinite;
