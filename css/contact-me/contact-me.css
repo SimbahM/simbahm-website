@@ -31,16 +31,25 @@ section.contacts p.sub-head {
   text-align: center;
   color: var(--gray);
 }
-section.contacts .conatct-details a {
+section.contacts .conatct-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section.contacts .conatct-details .contacts-card {
+  background-color: #e8e8ed;
+  padding: 10px 30px;
+  border-radius: 100px;
+  transition: all 0.3s ease;
   text-decoration: none;
 }
-section.contacts .conatct-details a p {
-  font-size: 30px;
-  color: var(--gray);
-  transition: all 0.3s ease;
+section.contacts .conatct-details .contacts-card:hover {
+  background-color: #dadadf;
 }
-section.contacts .conatct-details a p:hover {
-  color: var(--acent);
+section.contacts .conatct-details .contacts-card p {
+  font-size: 21px;
 }
 
 section.contact-form {
@@ -148,7 +157,11 @@ section.contact-form form button:hover {
 @media (max-width: 768px) {
   section.contacts {
     padding: 200px 0;
-    gap: 30px;
+    gap: 20px;
+  }
+  section.contacts span {
+    margin-bottom: 0;
+    font-size: 25px;
   }
   section.contacts h1.main-title {
     font-size: 40px;
@@ -156,17 +169,18 @@ section.contact-form form button:hover {
   section.contacts p.sub-head {
     font-size: 21px;
     width: 400px;
+    margin-bottom: 0;
   }
-  section.contacts .conatct-details a {
-    text-decoration: none;
+  section.contacts .conatct-details {
+    gap: 10px;
   }
-  section.contacts .conatct-details a p {
-    font-size: 30px;
-    color: var(--gray);
-    transition: all 0.3s ease;
+  section.contacts .conatct-details .contacts-card {
+    background-color: #e8e8ed;
+    padding: 10px 25px;
+    border-radius: 100px;
   }
-  section.contacts .conatct-details a p:hover {
-    color: var(--acent);
+  section.contacts .conatct-details .contacts-card p {
+    font-size: 17px;
   }
   section.contact-form {
     margin-bottom: 100px;
@@ -204,26 +218,40 @@ section.contact-form form button:hover {
   section.contacts {
     height: 0;
     padding: 250px 0;
-    gap: 30px;
+    gap: 10px;
+  }
+  section.contacts span {
+    font-size: 17px;
   }
   section.contacts h1.main-title {
     font-size: 30px;
+    margin-bottom: 20px;
   }
   section.contacts p.sub-head {
     font-size: 17px;
     width: 100%;
     padding: 0 20px;
   }
-  section.contacts .conatct-details a {
+  section.contacts .conatct-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  section.contacts .conatct-details .contacts-card {
+    background-color: #e8e8ed;
+    padding: 10px 30px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
     text-decoration: none;
   }
-  section.contacts .conatct-details a p {
-    font-size: 20px;
-    color: var(--gray);
-    transition: all 0.3s ease;
+  section.contacts .conatct-details .contacts-card:hover {
+    background-color: #dadadf;
   }
-  section.contacts .conatct-details a p:hover {
-    color: var(--acent);
+  section.contacts .conatct-details .contacts-card p {
+    font-size: 17px;
   }
   section.contact-form {
     margin-bottom: 50px;

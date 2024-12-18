@@ -35,17 +35,25 @@ section.contacts {
     }
 
     .conatct-details {
-        a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .contacts-card {
+            background-color: #e8e8ed;
+            padding: 10px 30px;
+            border-radius: 100px;
+            transition: all .3s ease;
             text-decoration: none;
 
-            p {
-                font-size: 30px;
-                color: var(--gray);
-                transition: all .3s ease;
+            &:hover {
+                background-color: #dadadf;
+            }
 
-                &:hover {
-                    color: var(--acent);
-                }
+            p {
+                font-size: 21px;
             }
         }
     }
@@ -168,7 +176,12 @@ section.contact-form {
 
     section.contacts {
         padding: 200px 0;
-        gap: 30px;
+        gap: 20px;
+
+        span {
+            margin-bottom: 0;
+            font-size: 25px;
+        }
 
         h1.main-title {
             font-size: 40px;
@@ -177,20 +190,19 @@ section.contact-form {
         p.sub-head {
             font-size: 21px;
             width: 400px;
+            margin-bottom: 0;
         }
 
         .conatct-details {
-            a {
-                text-decoration: none;
+            gap: 10px;
+
+            .contacts-card {
+                background-color: #e8e8ed;
+                padding: 10px 25px;
+                border-radius: 100px;
 
                 p {
-                    font-size: 30px;
-                    color: var(--gray);
-                    transition: all .3s ease;
-
-                    &:hover {
-                        color: var(--acent);
-                    }
+                    font-size: 17px;
                 }
             }
         }
@@ -235,10 +247,15 @@ section.contact-form {
     section.contacts {
         height: 0;
         padding: 250px 0;
-        gap: 30px;
+        gap: 10px;
+
+        span {
+            font-size: 17px;
+        }
 
         h1.main-title {
             font-size: 30px;
+            margin-bottom: 20px;
         }
 
         p.sub-head {
@@ -248,18 +265,26 @@ section.contact-form {
         }
 
         .conatct-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            gap: 10px;
 
-            a {
+            .contacts-card {
+                background-color: #e8e8ed;
+                padding: 10px 30px;
+                border-radius: 100px;
+                transition: all .3s ease;
                 text-decoration: none;
 
-                p {
-                    font-size: 20px;
-                    color: var(--gray);
-                    transition: all .3s ease;
+                &:hover {
+                    background-color: #dadadf;
+                }
 
-                    &:hover {
-                        color: var(--acent);
-                    }
+                p {
+                    font-size: 17px;
                 }
             }
         }
