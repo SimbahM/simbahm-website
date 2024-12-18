@@ -124,7 +124,7 @@ section.pagebody .container .pagebody-copy p {
     margin-bottom: 17px;
   }
   section.pagebody .container .pagebody-copy p {
-    font-size: 21px;
+    font-size: 17px;
   }
 }
 @media (max-width: 425px) {
@@ -139,8 +139,5 @@ section.pagebody .container .pagebody-copy p {
   section.pagebody .container .pagebody-copy h1 {
     font-size: 27px;
     margin-bottom: 17px;
-  }
-  section.pagebody .container .pagebody-copy p {
-    font-size: 21px;
   }
 }/*# sourceMappingURL=works.css.map */
