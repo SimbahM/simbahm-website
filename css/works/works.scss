@@ -135,7 +135,7 @@ section.pagebody {
 @media (max-width: 768px) {
 
     section.pagebody {
-        padding: 70px 0;
+        padding: 0px 0 30px 0;
 
         .container {
             width: 400px;
@@ -159,7 +159,7 @@ section.pagebody {
 @media (max-width: 425px) {
 
     section.pagebody {
-        padding: 0 0 30px 0;
+        padding: 20px 0 30px 0;
 
         .container {
             width: 100%;
