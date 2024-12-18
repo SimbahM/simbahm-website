@@ -1,0 +1,73 @@
+.button {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-top: 3px rgb(152, 152, 152) solid;
+  color: var(--primary);
+  font-size: 14px;
+  padding: 13px 35px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: var(--white);
+  letter-spacing: 0.2rem;
+  border-radius: 1px;
+  transition: all 0.3s ease 0s;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-top: 3px rgb(255, 255, 255) solid;
+}
+
+.button-light {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-top: 3px rgb(238, 238, 238) solid;
+  color: var(--gray);
+  font-size: 14px;
+  padding: 13px 35px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 1px;
+  transition: all 0.3s ease 0s;
+}
+.button-light:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-top: 3px rgb(255, 255, 255) solid;
+}
+
+.dark-button {
+  text-decoration: none;
+  background-color: #e1e6ea;
+  border-top: 3px solid var(--secondary);
+  color: var(--primary);
+  font-size: 14px;
+  padding: 13px 35px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-radius: 1px;
+  transition: all 0.3s ease 0s;
+}
+.dark-button:hover {
+  background-color: #d2dbe2;
+  border-top: 3px solid #577ca2;
+}
+
+@media (max-width: 425px) {
+  .button {
+    font-size: 13px;
+    padding: 12px 25px;
+  }
+  .button-light {
+    font-size: 13px;
+    padding: 12px 25px;
+  }
+  .dark-button {
+    font-size: 13px;
+    padding: 12px 25px;
+  }
+}/*# sourceMappingURL=buttons.css.map */

@@ -46,45 +46,6 @@ section.main-logo {
     background-position: center;
 }
 
-section.mazi-colors {
-    padding: 200px 15px 0 15px;
-
-    .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        max-width: 1000px;
-        margin: 0 auto;
-        gap: 20px;
-    }
-
-    .colors {
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        padding: 30px 20px;
-
-        p.title {
-            position: absolute;
-            writing-mode: vertical-lr;
-            transform: rotate(180deg);
-            right: 10px;
-            font-size: 40px;
-            font-weight: 300;
-            color: var(--white);
-            bottom: 20px;
-        }
-
-        p {
-            color: var(--white);
-        }
-
-        p.change-color {
-            color: #1E1C1B;
-        }
-    }
-}
-
 @media (max-width: 1024px) {
 
     section.main-logo {
@@ -114,20 +75,6 @@ section.mazi-colors {
 
         img {
             width: 300px;
-        }
-    }
-
-    section.mazi-colors {
-        padding: 200px 15px 0 15px;
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
-        }
-
-        .colors {
-            height: 70vh;
         }
     }
 }

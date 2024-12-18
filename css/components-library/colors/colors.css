@@ -1,0 +1,285 @@
+section.colors-container {
+  padding: 200px 15px 0 15px;
+}
+section.colors-container .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+section.colors-container .colors {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 20px;
+}
+section.colors-container .colors p.title {
+  position: absolute;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--white);
+  bottom: 20px;
+}
+section.colors-container .colors p {
+  color: var(--white);
+}
+section.colors-container .colors p.change-color {
+  color: #1E1C1B;
+}
+section.colors-container .colors p.snow-color {
+  color: #133155;
+}
+section.colors-container .colors p.hex-code,
+section.colors-container .colors p.platinum-title {
+  color: #203244;
+}
+
+section.colors {
+  padding: 200px 0;
+  width: 1000px;
+  margin: 0 auto;
+}
+section.colors .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 30px;
+}
+section.colors .container .color-panels {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  height: 80vh;
+}
+section.colors .container .color-panels .image {
+  height: inherit;
+  flex: 2;
+  position: relative;
+}
+section.colors .container .color-panels .image span.color-name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+section.colors .container .color-panels .color {
+  height: inherit;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+}
+section.colors .container .color-panels .color span.hex {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+section.three-colors {
+  padding: 200px 15px 0 15px;
+}
+section.three-colors .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+section.three-colors .colors {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px 20px;
+}
+section.three-colors .colors p.title {
+  position: absolute;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  right: 10px;
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--white);
+  bottom: 20px;
+}
+section.three-colors .colors p.mazi-hex {
+  color: var(--white);
+}
+section.three-colors .colors p.mazi-hex-color {
+  color: #1E1C1B;
+}
+section.three-colors .colors p,
+section.three-colors .colors p.sallegreen-title {
+  color: var(--white);
+}
+section.three-colors .colors p.change-color,
+section.three-colors .colors p,
+section.three-colors .colors .cultured {
+  color: #1E1C1B;
+}
+
+@media (max-width: 1024px) {
+  section.colors-container {
+    padding: 20px 15px 0px 15px;
+  }
+  section.colors-container .container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  section.colors-container .colors {
+    height: 70vh;
+  }
+  section.colors {
+    width: 100%;
+    padding: 15px 15px;
+  }
+  section.colors .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 15px;
+  }
+  section.colors .container .color-panels {
+    height: 80vh;
+  }
+  section.colors .container .color-panels .image {
+    height: inherit;
+    flex: 2;
+    position: relative;
+  }
+  section.colors .container .color-panels .image span.color-name {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  section.colors .container .color-panels .color {
+    padding: 20px;
+  }
+  section.colors .container .color-panels .color span.hex {
+    font-size: 20px;
+  }
+  section.three-colors {
+    padding: 200px 15px 0 15px;
+  }
+  section.three-colors .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 700px;
+  }
+  section.three-colors .colors {
+    height: 60vh;
+  }
+}
+@media (max-width: 768px) {
+  section.colors-container {
+    padding: 20px 15px 20px 15px;
+  }
+  section.colors-container .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.colors-container .colors {
+    height: 60vh;
+  }
+  section.colors {
+    width: 100%;
+    padding: 15px 15px;
+  }
+  section.colors .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 15px;
+  }
+  section.colors .container .color-panels {
+    height: 80vh;
+  }
+  section.colors .container .color-panels .image {
+    height: inherit;
+    flex: 2;
+    position: relative;
+  }
+  section.colors .container .color-panels .image span.color-name {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  section.colors .container .color-panels .color {
+    padding: 20px;
+  }
+  section.colors .container .color-panels .color span.hex {
+    font-size: 20px;
+  }
+  section.three-colors {
+    padding: 200px 0px 0 0px;
+  }
+  section.three-colors .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  section.three-colors .colors {
+    height: 50vh;
+  }
+}
+@media (max-width: 425px) {
+  section.colors-container {
+    padding: 20px 15px 0px 15px;
+  }
+  section.colors-container .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.colors-container .colors {
+    height: 40vh;
+  }
+  section.colors {
+    width: 100%;
+    padding: 15px 15px;
+  }
+  section.colors .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 15px;
+  }
+  section.colors .container .color-panels {
+    height: 60vh;
+  }
+  section.colors .container .color-panels .image {
+    height: inherit;
+    flex: 2;
+    position: relative;
+  }
+  section.colors .container .color-panels .image span.color-name {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  section.colors .container .color-panels .color {
+    padding: 20px;
+  }
+  section.colors .container .color-panels .color span.hex {
+    font-size: 17px;
+  }
+  section.three-colors {
+    padding: 200px 0px 0 0px;
+  }
+  section.three-colors .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  section.three-colors .colors {
+    height: 50vh;
+  }
+}/*# sourceMappingURL=colors.css.map */

@@ -229,7 +229,17 @@ section.screens .container {
     width: 130px;
   }
   section.overview img.design-process {
-    width: 300px;
+    width: 100%;
+    padding: 10px;
+  }
+  section.overview .tags {
+    width: 100%;
+    padding: 0 10px;
+    gap: 10px;
+  }
+  section.overview .tags .tag {
+    width: 100%;
+    border-radius: 20px;
   }
   section.sections-main-title {
     height: 60vh;

@@ -1,0 +1,29 @@
+section.project-mockups {
+  display: flex;
+  padding: 200px 15px;
+}
+section.project-mockups .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  gap: 200px;
+}
+
+@media (max-width: 1024px) {
+  section.project-mockups {
+    display: flex;
+    padding: 20px 15px;
+  }
+  section.project-mockups .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=project-mockups.css.map */

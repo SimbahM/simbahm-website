@@ -7,7 +7,7 @@
 }
 
 .esi {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5)), url(../../assets/images/pages/esi/apple-watch.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/esi/apple-watch.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -118,13 +118,13 @@ section.main-logo {
 
     section.app-icon {
         padding: 10px 0;
-    
+
         .container {
             flex-direction: row;
-    
+
             .image,
             .text {
-    
+
                 .quote {
                     font-size: 40px;
                     width: 100%;
@@ -138,7 +138,7 @@ section.main-logo {
         height: 90vh;
         display: flex;
         justify-content: center;
-    
+
         img {
             width: 600px;
         }
@@ -149,17 +149,17 @@ section.main-logo {
 
     section.app-icon {
         padding: 10px 0;
-    
+
         .container {
             flex-direction: column;
 
             .text {
                 padding: 50px 0;
             }
-    
+
             .image,
             .text {
-    
+
                 .quote {
                     font-size: 40px;
                 }
@@ -171,7 +171,7 @@ section.main-logo {
         height: 90vh;
         display: flex;
         justify-content: center;
-    
+
         img {
             width: 400px;
         }
@@ -182,17 +182,17 @@ section.main-logo {
 
     section.app-icon {
         padding: 10px 0;
-    
+
         .container {
             flex-direction: column;
 
             .text {
                 padding: 50px 0;
             }
-    
+
             .image,
             .text {
-    
+
                 .quote {
                     font-size: 40px;
                 }
@@ -204,7 +204,7 @@ section.main-logo {
         height: 60vh;
         display: flex;
         justify-content: center;
-    
+
         img {
             width: 300px;
         }
@@ -213,30 +213,30 @@ section.main-logo {
     section.colors {
         width: 100%;
         padding: 0 15px;
-    
+
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             align-items: center;
             gap: 15px;
-    
+
             .color-panels {
                 height: 80vh;
-    
+
                 .image {
                     height: inherit;
-                    flex:  2;
+                    flex: 2;
                     position: relative;
-    
+
                     span.color-name {
                         font-size: 40px;
                         font-weight: 300;
                     }
                 }
-    
+
                 .color {
                     padding: 20px;
-    
+
                     span.hex {
                         font-size: 20px;
                     }

@@ -1,0 +1,116 @@
+section.projects-hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+section.projects-hero img.hero-logo {
+  width: 200px;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+section.projects-hero img.shop-savvy-logo {
+  width: 600px;
+  margin-bottom: 80px;
+  opacity: 0.7;
+}
+section.projects-hero h1 {
+  font-size: 70px;
+  color: var(--white);
+  padding: 0 20px;
+  text-align: center;
+}
+section.projects-hero h1.eca-title-mobile {
+  display: none;
+}
+section.projects-hero p,
+section.projects-hero i {
+  font-size: 25px;
+  color: var(--white);
+  width: 700px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  section.projects-hero {
+    height: 90vh;
+    padding-bottom: 80px;
+    gap: 15px;
+  }
+  section.projects-hero img.shop-savvy-logo {
+    width: 400px;
+    margin-bottom: 80px;
+  }
+  section.projects-hero h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  section.projects-hero p,
+  section.projects-hero i {
+    font-size: 20px;
+    width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  section.projects-hero {
+    padding-bottom: 30px;
+    gap: 15px;
+  }
+  section.projects-hero img.hero-logo {
+    width: 150px;
+    opacity: 0.7;
+    margin-bottom: 40px;
+  }
+  section.projects-hero img.shop-savvy-logo {
+    width: 300px;
+    margin-bottom: 80px;
+  }
+  section.projects-hero img.logo-symbol {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  section.projects-hero h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  section.projects-hero p,
+  section.projects-hero i {
+    font-size: 20px;
+    width: 400px;
+  }
+}
+@media (max-width: 768px) {
+  section.projects-hero {
+    height: 50vh;
+    padding-bottom: 30px;
+    gap: 15px;
+  }
+  section.projects-hero img.hero-logo {
+    width: 100px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
+  section.projects-hero img.shop-savvy-logo {
+    width: 200px;
+    margin-bottom: 80px;
+  }
+  section.projects-hero h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  section.projects-hero h1.eca-title {
+    display: none;
+  }
+  section.projects-hero h1.eca-title-mobile {
+    display: block;
+  }
+  section.projects-hero p,
+  section.projects-hero i {
+    font-size: 21px;
+    width: 100%;
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=project-hero.css.map */

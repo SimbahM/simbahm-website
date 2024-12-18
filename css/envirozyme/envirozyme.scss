@@ -99,6 +99,18 @@ section.envirozyme-colors {
             width: 400px;
         }
     }
+
+    section.envirozyme-colors {
+        padding: 200px 15px 0 15px;
+
+        .container {
+            gap: 20px;
+        }
+
+        .colors {
+            height: 60vh;
+        }
+    }
 }
 
 @media (max-width: 425px) {
@@ -122,7 +134,7 @@ section.envirozyme-colors {
         }
 
         .colors {
-            height: 70vh;
+            height: 50vh;
         }
     }
 }

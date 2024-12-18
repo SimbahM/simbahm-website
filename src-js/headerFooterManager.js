@@ -14,12 +14,8 @@ class SpecialHeader extends HTMLElement {
                 <div class="nav-items">
                     <ul class="desktop-menu">
                         <li>
-                            <a href="./ui-ux-design">UI / UX Design</a>
+                            <a href="./works">Works</a>
                         </li>
-                        <li>
-                            <a href="./logo-desgin">Logo Design</a>
-                        </li>
-                        <li>
                         <li>
                             <a href="./about-me">About</a>
                         </li>
@@ -30,10 +26,7 @@ class SpecialHeader extends HTMLElement {
 
                     <ul class="mobile-menu">
                         <li>
-                            <a href="./ui-ux-design">UI</a>
-                        </li>
-                        <li>
-                            <a href="./logo-desgin">Logo</a>
+                            <a href="./works">Works</a>
                         </li>
                         <li>
                             <a href="./about-me">About</a>

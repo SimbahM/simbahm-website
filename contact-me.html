@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/header/header.css">
     <link rel="stylesheet" href="./css/footer/footer.css">
     <link rel="icon" href="./assets/icons/simbahm-favicon-logo.png">
+    <link rel="stylesheet" href="./css/components-library/hero-text-wrapper/hero-text-wrapper.css">
+    <link rel="stylesheet" href="./css/components-library/headline-wrapper/headline-wrapper.css">
 
     <!-- Google tag (gtag.js) -->
 
@@ -35,30 +37,43 @@
 
     <!-- Page Content  -->
 
-    <section class="contact-me">
-        <div class="container">
-            <img class="simbahm-logo" src="./assets/icons/simbahm-logo-mark.svg" alt="Simbah M Logo">
-            <div class="lets-chat">
-                <p>
-                    Let's chat
-                </p>
-                <h1>
-                    Tell me about your project
-                </h1>
-            </div>
-            <div class="say-hello">
-                <h1>
-                    Just Say Hello.
-                </h1>
-                <a href="mailto:simadungwe@icloud.com" target="_blank">
-                    <span class="email">simadungwe@icloud.com</span>
-                </a>
-                <a href="tel:+263774018766" target="_blank">
-                    <span class="phone-number">+26377 401 8766 </span>
-                </a>
-            </div>
+    <section class="contacts">
+        <span>
+            Contact Me &
+        </span>
+        <h1 class="main-title">Let’s Bring Your <br> Vision to Life</h1>
+        <p class="sub-head">
+            Get in touch to discuss how we can transform your ideas into unique visual realities, leveraging my
+            commitment to excellence and innovation to bring your vision to life.
+        </p>
+        <div class="conatct-details">
+            <a target="_blank" href="mailto:info@simbahm.com?subject=Hello Simbah M.">
+                <p class="email">info@simbahm.com</p>
+            </a>
+            <a target="_blank" href="tel://263774018766">
+                <p class="phone">+263 77 401 8766</p>
+            </a>
         </div>
     </section>
+
+    <section class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="066d1b80-b55b-46f5-970e-a08d29c19df6">
+
+            <input type="text" name="Name" placeholder="Your Name" class="contact-inputs" required>
+
+            <input type="email" name="Email" placeholder="Your Email" class="contact-inputs" required>
+
+            <input type="tel" name="Phone" placeholder="Your Phone" class="contact-inputs" required>
+
+            <textarea name="Message" placeholder="Your Message" class="conatc-inputs"></textarea>
+
+            <button class="form-button" type="submit">Submit</button>
+
+        </form>
+    </section>
+
 
     <script src="./src-js/headerFooterManager.js" async defer></script>
 </body>

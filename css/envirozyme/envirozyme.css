@@ -88,6 +88,15 @@ section.envirozyme-colors .colors .cultured {
   section.main-logo img {
     width: 400px;
   }
+  section.envirozyme-colors {
+    padding: 200px 15px 0 15px;
+  }
+  section.envirozyme-colors .container {
+    gap: 20px;
+  }
+  section.envirozyme-colors .colors {
+    height: 60vh;
+  }
 }
 @media (max-width: 425px) {
   section.main-logo {
@@ -106,6 +115,6 @@ section.envirozyme-colors .colors .cultured {
     gap: 20px;
   }
   section.envirozyme-colors .colors {
-    height: 70vh;
+    height: 50vh;
   }
 }/*# sourceMappingURL=envirozyme.css.map */

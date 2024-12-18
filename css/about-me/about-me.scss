@@ -1,25 +1,23 @@
-section.header-text {
-    height: 50vh;
+section.simbahm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 100px 0;
 
-    .container {
-        height: inherit;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    img.simbahm {
+        width: 150px;
+    }
+}
 
-        p {
-            text-align: center;
-            font-size: 32px;
-            color: var(--gray);
-            margin-bottom: 0px;
-        }
+section.what-i-do-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 50px 0;
 
-        h1 {
-            text-align: center;
-            font-size: 48px;
-            color: var(--secondary);
-        }
+    h1.title {
+        font-size: 70px;
+        color: var(--primary);
     }
 }
 
@@ -81,11 +79,11 @@ section.about-me {
             }
 
             p {
-                font-size: 1.3rem;
-                font-weight: 400;
-                line-height: 1.53;
                 color: var(--gray);
-                margin-bottom: 30px;
+                font-size: 21px;
+                line-height: 1.4705882353;
+                font-weight: 400;
+                letter-spacing: -0.022em;
 
                 span {
                     font-size: 1.3rem;
@@ -132,28 +130,20 @@ section.about-me {
 
 @media (max-width: 768px) {
 
-    section.header-text {
-        height: 50vh;
+    section.simbahm {
+        padding: 0px 0 50px 0;
 
-        .container {
-            height: inherit;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+        img.simbahm {
+            width: 100px;
+        }
+    }
 
-            p {
-                text-align: center;
-                font-size: 32px;
-                color: var(--gray);
-                margin-bottom: 0px;
-            }
+    section.what-i-do-title {
+        padding: 0px 0 50px 0;
 
-            h1 {
-                text-align: center;
-                font-size: 30px;
-                color: var(--secondary);
-            }
+        h1.title {
+            font-size: 50px;
+            color: var(--primary);
         }
     }
 
@@ -182,7 +172,7 @@ section.about-me {
         margin: 0 25px;
 
         .container {
-            width: 600px;
+            width: 400px;
             margin: 0 auto;
 
             .info {
@@ -248,18 +238,20 @@ section.about-me {
 
 @media (max-width: 425px) {
 
-    section.header-text {
-        height: 50vh;
+    section.simbahm {
+        padding: 0px 0 30px 0;
 
-        .container {
+        img.simbahm {
+            width: 70px;
+        }
+    }
 
-            p {
-                font-size: 25px;
-            }
+    section.what-i-do-title {
+        padding: 0px 0 20px 0;
 
-            h1 {
-                font-size: 22px;
-            }
+        h1.title {
+            font-size: 30px;
+            color: var(--primary);
         }
     }
 
@@ -278,12 +270,12 @@ section.about-me {
 
     section.about-me {
         padding: 50px 0;
+        margin: 0 0 0 0;
 
         .container {
-            padding: 200px auto;
             gap: 50px;
-            width: 600px;
-            margin: 0 auto;
+            width: 100%;
+            padding: 0 30px;
 
             .info {
                 display: flex;
@@ -295,7 +287,7 @@ section.about-me {
                 }
 
                 p {
-                    font-size: 1.1rem;
+                    font-size: 21px;
                     margin-bottom: 20px;
 
                     span {

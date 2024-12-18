@@ -6,73 +6,155 @@
     --gray: #54595F;
 }
 
-section.contact-me {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.7)), url(../../assets/images/contact-me/contact-simbah-m.webp);
-    background-repeat: none;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+section.contacts {
     display: flex;
     flex-direction: column;
+    padding: 100px 0 100px 0;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    text-align: center;
+    gap: 30px;
 
-    .container {
-        background-color: rgba(225, 225, 225, .5);
-        height: 500px;
-        width: 650px;
-        backdrop-filter: blur(20px);
-        border-radius: 10px;
-        border: .5px #fff solid;
+    span {
+        text-align: center;
+        font-size: 32px;
+        color: var(--gray);
+        margin-bottom: 0px;
+    }
+
+    h1.main-title {
+        font-size: 70px;
+        color: var(--primary);
+        text-align: center;
+    }
+
+    p.sub-head {
+        font-size: 30px;
+        width: 750px;
+        text-align: center;
+        color: var(--gray);
+    }
+
+    .conatct-details {
+        a {
+            text-decoration: none;
+
+            p {
+                font-size: 30px;
+                color: var(--gray);
+                transition: all .3s ease;
+
+                &:hover {
+                    color: var(--acent);
+                }
+            }
+        }
+    }
+}
+
+section.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+    form {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 15px;
 
-        img.simbahm-logo {
-            width: 60px;
-            margin-bottom: 40px;
+        input {
+            width: 600px;
+            height: 60px;
+            border: 2px solid rgb(202, 202, 202);
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: transparent;
+            outline: none;
+            color: rgb(149, 149, 149);
+            font-size: 16px;
+
+            &:active {
+                border: 2px solid red;
+                outline: none;
+            }
+
+            &:focus {
+                border: 2px solid var(--acent);
+                outline: none;
+            }
+
+            &::placeholder {
+                color: rgb(193, 193, 193);
+                font-size: 16px;
+            }
         }
 
-        .lets-chat {
-            margin-bottom: 30px;
-    
-            p {
-                font-size: 25px;
-                font-family: Simbah M;
-                color: var(--white);
-                text-transform: uppercase;
-                margin-bottom: 10px;
-            }
+        textarea {
+            width: 600px;
+            height: 150px;
+            border: 2px solid rgb(202, 202, 202);
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: transparent;
+            outline: none;
 
-            h1 {
-                font-size: 30px;
-                color: var(--secondary);
-                color: var(--white);
+            &:focus {
+                border: 2px solid var(--acent);
+                outline: none;
             }
         }
-    
-        .say-hello {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-    
-            h1 {
-                font-size: 30px;
-                color: var(--secondary);
-                color: var(--white);
+
+        textarea::placeholder {
+            color: rgb(193, 193, 193);
+            font-size: 16px;
+        }
+
+        button {
+            padding: 15px 20px;
+            width: 200px;
+            border: none;
+            background-color: #f6f6f6;
+            border-top: 3px solid rgb(202, 202, 202);
+            font-size: 20px;
+            color: rgb(152, 152, 152);
+            margin-top: 20px;
+            transition: all .3s ease;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #eaeaea;
+                border-top: 3px solid var(--accent);
             }
-    
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    section.contacts {
+        height: 80vh;
+        gap: 30px;
+
+        h1.main-title {
+            font-size: 50px;
+        }
+
+        p.sub-head {
+            font-size: 25px;
+            width: 600px;
+        }
+
+        .conatct-details {
             a {
                 text-decoration: none;
-                color: var(--white);
-    
-                span {
-                    font-size: 25px;
-                    transition: all .3s ease 0s;
-    
+
+                p {
+                    font-size: 30px;
+                    color: var(--gray);
+                    transition: all .3s ease;
+
                     &:hover {
                         color: var(--acent);
                     }
@@ -82,34 +164,67 @@ section.contact-me {
     }
 }
 
-@media (max-width: 677px) {
+@media (max-width: 768px) {
 
-    section.contact-me {
-    
-        .container {
-            height: 500px;
-            width: 420px;
-    
-            img.simbahm-logo {
-                width: 60px;
-                margin-bottom: 30px;
-            }
-    
-            .lets-chat {
-                margin-bottom: 30px;
-        
+    section.contacts {
+        padding: 200px 0;
+        gap: 30px;
+
+        h1.main-title {
+            font-size: 40px;
+        }
+
+        p.sub-head {
+            font-size: 21px;
+            width: 400px;
+        }
+
+        .conatct-details {
+            a {
+                text-decoration: none;
+
                 p {
-                    font-size: 25px;
-                    margin-bottom: 10px;
-                }
-    
-                h1 {
-                    font-size: 25px;
+                    font-size: 30px;
+                    color: var(--gray);
+                    transition: all .3s ease;
+
+                    &:hover {
+                        color: var(--acent);
+                    }
                 }
             }
-        
-            .say-hello {
-                gap: 10px;
+        }
+    }
+
+    section.contact-form {
+        margin-bottom: 100px;
+
+        form {
+            gap: 15px;
+
+            input {
+                width: 400px;
+                height: 60px;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-size: 16px;
+            }
+
+            textarea {
+                width: 400px;
+                height: 150px;
+                padding: 10px 20px;
+            }
+
+            textarea::placeholder {
+                color: rgb(193, 193, 193);
+                font-size: 16px;
+            }
+
+            button {
+                padding: 10px 15px;
+                width: 200px;
+                font-size: 20px;
             }
         }
     }
@@ -117,35 +232,71 @@ section.contact-me {
 
 @media (max-width: 425px) {
 
-    section.contact-me {
-    
-        .container {
-            height: 100vh;
+    section.contacts {
+        height: 0;
+        padding: 250px 0 200px;
+        gap: 30px;
+
+        h1.main-title {
+            font-size: 30px;
+        }
+
+        p.sub-head {
+            font-size: 17px;
             width: 100%;
-            border-radius: 0;
-            border: none;
-    
-            img.simbahm-logo {
-                width: 60px;
-                margin-bottom: 30px;
-            }
-    
-            .lets-chat {
-                margin-bottom: 30px;
-        
+            padding: 0 20px;
+        }
+
+        .conatct-details {
+
+            a {
+                text-decoration: none;
+
                 p {
-                    font-size: 25px;
-                    margin-bottom: 10px;
-                }
-    
-                h1 {
-                    font-size: 25px;
-                    width: 250px;
+                    font-size: 20px;
+                    color: var(--gray);
+                    transition: all .3s ease;
+
+                    &:hover {
+                        color: var(--acent);
+                    }
                 }
             }
-        
-            .say-hello {
-                gap: 10px;
+        }
+    }
+
+    section.contact-form {
+        margin-bottom: 50px;
+
+        form {
+            gap: 10px;
+            width: 100%;
+            padding: 0 10px;
+
+            input {
+                width: 100%;
+                height: 60px;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-size: 16px;
+            }
+
+            textarea {
+                width: 100%;
+                height: 150px;
+                padding: 10px 20px;
+            }
+
+            textarea::placeholder {
+                color: rgb(193, 193, 193);
+                font-size: 16px;
+            }
+
+            button {
+                padding: 10px 15px;
+                width: 200px;
+                font-size: 20px;
+                margin-top: 10px;
             }
         }
     }

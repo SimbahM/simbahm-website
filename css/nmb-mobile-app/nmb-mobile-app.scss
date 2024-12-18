@@ -271,7 +271,19 @@ section.screens {
         }
 
         img.design-process {
-            width: 300px;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .tags {
+            width: 100%;
+            padding: 0 10px;
+            gap: 10px;
+
+            .tag {
+                width: 100%;
+                border-radius: 20px;
+            }
         }
     }
 

@@ -1,23 +1,22 @@
-section.header-text {
-  height: 50vh;
-}
-section.header-text .container {
-  height: inherit;
+section.simbahm {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0px 0 100px 0;
 }
-section.header-text .container p {
-  text-align: center;
-  font-size: 32px;
-  color: var(--gray);
-  margin-bottom: 0px;
+section.simbahm img.simbahm {
+  width: 150px;
 }
-section.header-text .container h1 {
-  text-align: center;
-  font-size: 48px;
-  color: var(--secondary);
+
+section.what-i-do-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0 50px 0;
+}
+section.what-i-do-title h1.title {
+  font-size: 70px;
+  color: var(--primary);
 }
 
 section.work-hero-image {
@@ -72,11 +71,11 @@ section.about-me .container .info h1 {
   margin-bottom: 30px;
 }
 section.about-me .container .info p {
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.53;
   color: var(--gray);
-  margin-bottom: 30px;
+  font-size: 21px;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: -0.022em;
 }
 section.about-me .container .info p span {
   font-size: 1.3rem;
@@ -112,26 +111,18 @@ section.about-me .container .social-links a:hover {
 }
 
 @media (max-width: 768px) {
-  section.header-text {
-    height: 50vh;
+  section.simbahm {
+    padding: 0px 0 50px 0;
   }
-  section.header-text .container {
-    height: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  section.simbahm img.simbahm {
+    width: 100px;
   }
-  section.header-text .container p {
-    text-align: center;
-    font-size: 32px;
-    color: var(--gray);
-    margin-bottom: 0px;
+  section.what-i-do-title {
+    padding: 0px 0 50px 0;
   }
-  section.header-text .container h1 {
-    text-align: center;
-    font-size: 30px;
-    color: var(--secondary);
+  section.what-i-do-title h1.title {
+    font-size: 50px;
+    color: var(--primary);
   }
   section.design-lead-text {
     margin: 50px 20px;
@@ -154,7 +145,7 @@ section.about-me .container .social-links a:hover {
     margin: 0 25px;
   }
   section.about-me .container {
-    width: 600px;
+    width: 400px;
     margin: 0 auto;
   }
   section.about-me .container .info {
@@ -207,14 +198,18 @@ section.about-me .container .social-links a:hover {
   }
 }
 @media (max-width: 425px) {
-  section.header-text {
-    height: 50vh;
+  section.simbahm {
+    padding: 0px 0 30px 0;
   }
-  section.header-text .container p {
-    font-size: 25px;
+  section.simbahm img.simbahm {
+    width: 70px;
   }
-  section.header-text .container h1 {
-    font-size: 22px;
+  section.what-i-do-title {
+    padding: 0px 0 20px 0;
+  }
+  section.what-i-do-title h1.title {
+    font-size: 30px;
+    color: var(--primary);
   }
   section.design-lead-text {
     margin: 50px 20px;
@@ -225,12 +220,12 @@ section.about-me .container .social-links a:hover {
   }
   section.about-me {
     padding: 50px 0;
+    margin: 0 0 0 0;
   }
   section.about-me .container {
-    padding: 200px auto;
     gap: 50px;
-    width: 600px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 0 30px;
   }
   section.about-me .container .info {
     display: flex;
@@ -241,7 +236,7 @@ section.about-me .container .social-links a:hover {
     margin-bottom: 20px;
   }
   section.about-me .container .info p {
-    font-size: 1.1rem;
+    font-size: 21px;
     margin-bottom: 20px;
   }
   section.about-me .container .info p span {

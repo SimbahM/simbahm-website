@@ -35,6 +35,9 @@ section.overview {
         width: 600px;
         font-size: 25px;
         color: var(--gray);
+        line-height: 1.4705882353;
+        font-weight: 400;
+        letter-spacing: -0.022em;
     }
 
     img.nmb-logo {
@@ -42,8 +45,8 @@ section.overview {
     }
 }
 
-section.project-outline {
-    padding: 200px 0;
+section.the-project-outline {
+    padding: 0 0 200px 0;
 
     .container {
         display: flex;
@@ -58,12 +61,15 @@ section.project-outline {
 
             h1 {
                 font-size: 30px;
-                color: var(--gray);
+                color: var(--secondary);
             }
 
             p {
-                font-size: 21px;
                 color: var(--gray);
+                font-size: 21px;
+                line-height: 1.4705882353;
+                font-weight: 400;
+                letter-spacing: -0.022em;
             }
         }
     }
@@ -95,6 +101,9 @@ section.user-persona {
                 color: var(--gray);
                 width: 650px;
                 text-align: center;
+                line-height: 1.4705882353;
+                font-weight: 400;
+                letter-spacing: -0.022em;
             }
         }
 
@@ -276,7 +285,7 @@ section.title {
 @media (max-width: 1024px) {
 
     section.overview {
-        padding: 100px 0;
+        padding: 150px 0;
         gap: 40px;
 
         img.connect-logo {
@@ -297,7 +306,7 @@ section.title {
         }
     }
 
-    section.project-outline {
+    section.the-project-outline {
         padding: 100px 0;
 
         .container {
@@ -489,7 +498,7 @@ section.title {
 @media (max-width: 768px) {
 
     section.overview {
-        padding: 50px 0;
+        padding: 100px 0;
         gap: 20px;
 
         img.connect-logo {
@@ -511,12 +520,11 @@ section.title {
         }
     }
 
-    section.project-outline {
+    section.the-project-outline {
         padding: 100px 0;
 
         .container {
-            width: 100%;
-            padding: 0 60px;
+            width: 400px;
             margin: 0 auto;
             gap: 30px;
 
@@ -722,12 +730,12 @@ section.title {
         }
     }
 
-    section.project-outline {
+    section.the-project-outline {
         padding: 100px 0;
 
         .container {
             width: 100%;
-            padding: 0 30px;
+            padding: 0 20px;
             margin: 0 auto;
             gap: 30px;
 

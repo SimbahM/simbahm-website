@@ -52,8 +52,8 @@ section.large-panels {
     background-size: cover;
 }
 
-.esi {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/esi-apple-watch.webp);
+.ui-ux-design {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/ui-ux-design-nmb-bank.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,6 +130,13 @@ section.featured-projects {
     background-color: var(--white);
 }
 
+.esi {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/esi-apple-watch.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .natiology {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/natiology.webp);
     background-position: center;
@@ -146,13 +153,6 @@ section.featured-projects {
 
 .mazi-brands {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/mazi-brands.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.niche {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/images/home-page/niche.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -341,6 +341,242 @@ section.featured-projects {
                     font-size: 21px;
                     text-align: center;
                     color: var(--white);
+                }
+            }
+        }
+    }
+}
+
+
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+// NavBar
+
+header {
+    background-color: rgba(27, 47, 63, 0.9);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    z-index: 999;
+    padding: 0 15px;
+
+    nav.navigation-bar {
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                img {
+                    display: block;
+                    width: 110px;
+                    opacity: .8;
+                    transition: all .3s ease 0s;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+
+                img.mobile-logo {
+                    display: none;
+                }
+            }
+        }
+
+        .nav-items {
+
+            ul {
+                list-style: none;
+                display: flex;
+                padding: 8px 15px;
+                gap: 30px;
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: var(--white);
+                        font-size: 12px;
+                        font-weight: 400;
+                        opacity: .7;
+                        border-radius: 0 0 2px 2px;
+                        transition: all .5s ease 0s;
+                        text-transform: uppercase;
+                        letter-spacing: 0.05rem;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
+            ul.mobile-menu {
+                display: none;
+            }
+        }
+
+        .social-media {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: -13px;
+
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                // gap: 25px;
+
+                li {
+                    display: block;
+
+                    a {
+                        display: flex;
+                        text-decoration: none;
+                        color: var(--white);
+                        padding: 7px 15px;
+                        font-size: 20px;
+                        transition: all .5s ease 0s;
+                        border-radius: 0 0 2px 2px;
+                        opacity: .6;
+
+                        img {
+                            width: 17px;
+                            color: #EBEFF2;
+                        }
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// media Query 
+
+@media (max-width: 854px) {
+
+    header {
+
+        nav.navigation-bar {
+
+            .nav-items {
+                margin-right: -13px;
+
+
+                ul {
+                    list-style: none;
+                    gap: 30px;
+
+                    li {
+
+                        a {
+                            text-decoration: none;
+                            color: var(--white);
+                            font-size: 12px;
+                            font-weight: 400;
+                            opacity: .7;
+                            border-radius: 0 0 2px 2px;
+                            transition: all .5s ease 0s;
+
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .social-media {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    header {
+
+        nav.navigation-bar {
+
+            .nav-items {
+
+
+                ul {
+                    display: none;
+                }
+
+                ul.mobile-menu {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+
+    header {
+
+        nav.navigation-bar {
+
+            .logo {
+
+                a {
+
+                    img {
+                        display: none;
+                    }
+
+                    img.mobile-logo {
+                        display: block;
+                        width: 30px;
+                    }
+                }
+            }
+
+            .nav-items {
+
+                ul {
+                    display: none;
+                }
+
+                ul.mobile-menu {
+                    display: flex;
                 }
             }
         }

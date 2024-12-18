@@ -33,32 +33,38 @@ section.overview p {
   width: 600px;
   font-size: 25px;
   color: var(--gray);
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: -0.022em;
 }
 section.overview img.nmb-logo {
   width: 150px;
 }
 
-section.project-outline {
-  padding: 200px 0;
+section.the-project-outline {
+  padding: 0 0 200px 0;
 }
-section.project-outline .container {
+section.the-project-outline .container {
   display: flex;
   flex-direction: column;
   width: 500px;
   margin: 0 auto;
   gap: 30px;
 }
-section.project-outline .container div {
+section.the-project-outline .container div {
   display: flex;
   flex-direction: column;
 }
-section.project-outline .container div h1 {
+section.the-project-outline .container div h1 {
   font-size: 30px;
-  color: var(--gray);
+  color: var(--secondary);
 }
-section.project-outline .container div p {
-  font-size: 21px;
+section.the-project-outline .container div p {
   color: var(--gray);
+  font-size: 21px;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: -0.022em;
 }
 
 section.user-persona {
@@ -86,6 +92,9 @@ section.user-persona .container .title p {
   color: var(--gray);
   width: 650px;
   text-align: center;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: -0.022em;
 }
 section.user-persona .container .eli {
   display: flex;
@@ -236,7 +245,7 @@ section.title .title {
 
 @media (max-width: 1024px) {
   section.overview {
-    padding: 100px 0;
+    padding: 150px 0;
     gap: 40px;
   }
   section.overview img.connect-logo {
@@ -252,18 +261,18 @@ section.title .title {
   section.overview img.nmb-logo {
     width: 150px;
   }
-  section.project-outline {
+  section.the-project-outline {
     padding: 100px 0;
   }
-  section.project-outline .container {
+  section.the-project-outline .container {
     width: 500px;
     margin: 0 auto;
     gap: 30px;
   }
-  section.project-outline .container div h1 {
+  section.the-project-outline .container div h1 {
     font-size: 25px;
   }
-  section.project-outline .container div p {
+  section.the-project-outline .container div p {
     font-size: 17px;
   }
   section.user-persona {
@@ -399,7 +408,7 @@ section.title .title {
 }
 @media (max-width: 768px) {
   section.overview {
-    padding: 50px 0;
+    padding: 100px 0;
     gap: 20px;
   }
   section.overview img.connect-logo {
@@ -416,19 +425,18 @@ section.title .title {
   section.overview img.nmb-logo {
     width: 150px;
   }
-  section.project-outline {
+  section.the-project-outline {
     padding: 100px 0;
   }
-  section.project-outline .container {
-    width: 100%;
-    padding: 0 60px;
+  section.the-project-outline .container {
+    width: 400px;
     margin: 0 auto;
     gap: 30px;
   }
-  section.project-outline .container div h1 {
+  section.the-project-outline .container div h1 {
     font-size: 25px;
   }
-  section.project-outline .container div p {
+  section.the-project-outline .container div p {
     font-size: 17px;
   }
   section.user-persona {
@@ -575,19 +583,19 @@ section.title .title {
   section.overview img.nmb-logo {
     width: 100px;
   }
-  section.project-outline {
+  section.the-project-outline {
     padding: 100px 0;
   }
-  section.project-outline .container {
+  section.the-project-outline .container {
     width: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
     margin: 0 auto;
     gap: 30px;
   }
-  section.project-outline .container div h1 {
+  section.the-project-outline .container div h1 {
     font-size: 25px;
   }
-  section.project-outline .container div p {
+  section.the-project-outline .container div p {
     font-size: 17px;
   }
   section.user-persona {
