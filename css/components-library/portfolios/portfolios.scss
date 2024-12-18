@@ -19,8 +19,9 @@ section.portfolios {
 
             .overlay {
                 display: flex;
-                flex-direction: column;
-                justify-content: end;
+                flex-direction: row;
+                justify-content: start;
+                align-items: end;
                 color: var(--white);
                 padding: 0 0 20px 20px;
                 background-color: rgba(0, 0, 0, 0.0);
@@ -28,7 +29,7 @@ section.portfolios {
                 height: 100%;
                 transition: all .3s ease;
 
-                span {
+                span.title {
                     font-size: 21px;
                     letter-spacing: 1px;
                     text-transform: uppercase;
