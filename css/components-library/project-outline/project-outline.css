@@ -1,5 +1,5 @@
 section.project-outline {
-  padding: 200px 0 0 0;
+  padding: 100px 0;
 }
 section.project-outline .container {
   display: flex;
@@ -46,7 +46,7 @@ section.project-outline .container .tools span {
 
 @media (max-width: 768px) {
   section.project-outline {
-    padding: 100px 0 0 0;
+    padding: 100px 0;
   }
 }
 @media (max-width: 537px) {

@@ -3,7 +3,7 @@ section.heading-wrapper {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 200px 0;
+  padding: 100px 0;
   gap: 30px;
 }
 section.heading-wrapper img.touchbase-logo {
@@ -61,6 +61,7 @@ section.wrapper .container .pagebody-content p.subhead {
   font-size: 21px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 section.wrapper .container .pagebody-content p.subhead span.emoji {
   margin-right: 15px;
@@ -390,7 +391,6 @@ section.final-design .container {
   section.wrapper .container .pagebody-content p.subhead {
     font-size: 19px;
     margin-bottom: 20px;
-    margin-top: 20px;
   }
   section.wrapper .container .pagebody-content p.subhead span.emoji {
     margin-right: 15px;
