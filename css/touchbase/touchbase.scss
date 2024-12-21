@@ -1,0 +1,577 @@
+section.heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+    gap: 30px;
+
+    img.touchbase-logo {
+        width: 200px;
+    }
+
+    h1.header {
+        font-size: 70px;
+        color: var(--primary);
+        text-align: center;
+    }
+
+    p.subhead {
+        font-size: 25px;
+        text-align: center;
+        max-width: 650px;
+        padding: 0 30px;
+    }
+}
+
+section.project-image {
+    padding: 200px 0 0 0;
+    background-color: var(--white);
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+section.wrapper {
+    padding: 100px 0;
+
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+
+        .feature-header {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+
+            h1.heading {
+                font-size: 40px;
+                color: var(--primary);
+            }
+        }
+
+        .pagebody-content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+
+            p.subhead {
+                font-size: 21px;
+                font-weight: bold;
+                margin-bottom: 20px;
+
+                span.emoji {
+                    margin-right: 15px;
+                    font-size: 21px;
+                }
+            }
+
+            p.pagebody-text {
+                font-size: 19px;
+                margin-bottom: 0px;
+                color: var(--gray);
+
+                a {
+                    color: #141452;
+                    transition: all .3s ease;
+
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+
+            .web-link {
+                margin-top: 20px;
+            }
+
+            p.subtitle {
+                font-size: 35px;
+                font-weight: 300;
+                margin: 20px 0px;
+
+                a {
+                    text-decoration: underline;
+                    color: var(--gray);
+                    transition: all .3s ease;
+
+                    &:hover {
+                        color: red;
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .nb {
+                padding: 20px;
+                background-color: #f3f3f3;
+                margin: 20px 0;
+                border-radius: 5px;
+                font-size: 17px;
+                color: var(--gray);
+
+                span.voltage-emoji {
+                    font-size: 21px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    section.divider {
+
+        .wrapper-divider {
+            width: 1000px;
+            border-bottom: 1px solid #d7d7d7;
+            margin: 100px auto;
+        }
+    }
+
+
+    .mind-map-graphic {
+        padding: 200px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img.mind-map {
+            max-width: 1000px;
+            padding: 0 30px;
+        }
+    }
+}
+
+section.final-design {
+    padding: 50px 0;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    section.heading-wrapper {
+        padding: 200px 0;
+        gap: 30px;
+
+        img.touchbase-logo {
+            width: 150px;
+        }
+
+        h1.header {
+            font-size: 50px;
+            color: var(--primary);
+            text-align: center;
+        }
+
+        p.subhead {
+            font-size: 21px;
+            text-align: center;
+            max-width: 550px;
+            padding: 0 30px;
+        }
+    }
+
+    section.project-image {
+        padding: 200px 0 0 0;
+        background-color: var(--white);
+
+        .container {
+            max-width: 1000px;
+            padding: 0 50px;
+            position: relative;
+
+            img.mobile-ui {
+                position: absolute;
+                width: 280px;
+                top: 150px;
+                right: 90px;
+            }
+        }
+    }
+
+    section.wrapper {
+        padding: 100px 0;
+
+        .container {
+            width: 700px;
+            flex-direction: row;
+
+            .feature-header {
+
+                h1.heading {
+                    font-size: 30px;
+                    color: var(--primary);
+                }
+            }
+
+            .pagebody-content {
+
+                p.subhead {
+                    font-size: 19px;
+                    margin-bottom: 20px;
+
+                    span.emoji {
+                        margin-right: 15px;
+                        font-size: 21px;
+                    }
+                }
+
+                p.pagebody-text {
+                    font-size: 17px;
+                    margin-bottom: 0px;
+
+                    a {
+                        color: #141452;
+                        transition: all .3s ease;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+
+                p.subtitle {
+                    font-size: 25px;
+                    font-weight: 300;
+                    margin: 20px 0px;
+
+                    a {
+                        text-decoration: underline;
+                        color: var(--gray);
+                        transition: all .3s ease;
+
+                        &:hover {
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .nb {
+                    padding: 20px;
+                    margin: 20px 0;
+                    font-size: 15px;
+
+                    span.voltage-emoji {
+                        font-size: 17px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        section.divider {
+
+            .wrapper-divider {
+                width: 700px;
+                border-bottom: 1px solid #d7d7d7;
+                margin: 50px auto;
+            }
+        }
+
+        .mind-map-graphic {
+            padding: 100px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    section.heading-wrapper {
+        padding: 130px 0;
+        gap: 30px;
+
+        img.touchbase-logo {
+            width: 100px;
+        }
+
+        h1.header {
+            font-size: 40px;
+        }
+
+        p.subhead {
+            font-size: 21px;
+            max-width: 400px;
+        }
+    }
+
+    section.project-image {
+        padding: 100px 0 0 0;
+        background-color: var(--white);
+
+        .container {
+            max-width: 1000px;
+            padding: 0 30px;
+            position: relative;
+
+            img.mobile-ui {
+                position: absolute;
+                width: 200px;
+                top: 50px;
+                right: 120px;
+            }
+        }
+    }
+
+    section.wrapper {
+        padding: 50px 0;
+
+        .container {
+            width: 400px;
+            flex-direction: column;
+            padding: 0 30px;
+
+            .feature-header {
+                margin-bottom: 20px;
+
+                h1.heading {
+                    font-size: 30px;
+                    color: var(--primary);
+                }
+            }
+
+            .pagebody-content {
+
+                p.subhead {
+                    font-size: 19px;
+                    margin-bottom: 20px;
+
+                    span.emoji {
+                        margin-right: 15px;
+                        font-size: 21px;
+                    }
+                }
+
+                p.pagebody-text {
+                    font-size: 17px;
+                    margin-bottom: 0px;
+
+                    a {
+                        color: #141452;
+                        transition: all .3s ease;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+
+                p.subtitle {
+                    font-size: 25px;
+                    font-weight: 300;
+                    margin: 20px 0px;
+
+                    a {
+                        text-decoration: underline;
+                        color: var(--gray);
+                        transition: all .3s ease;
+
+                        &:hover {
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .nb {
+                    padding: 20px;
+                    margin: 20px 0;
+                    font-size: 15px;
+
+                    span.voltage-emoji {
+                        font-size: 17px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        section.divider {
+
+            .wrapper-divider {
+                width: 400px;
+                border-bottom: 1px solid #d7d7d7;
+                margin: 50px auto;
+            }
+        }
+
+        .mind-map-graphic {
+            padding: 100px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    section.final-design {
+        padding: 30px 0;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 1000px;
+            padding: 0 30px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    section.heading-wrapper {
+        padding: 50px 0;
+        gap: 20px;
+
+        img.touchbase-logo {
+            width: 80px;
+        }
+
+        h1.header {
+            font-size: 30px;
+        }
+
+        p.subhead {
+            font-size: 17px;
+            max-width: 400px;
+        }
+    }
+
+    section.project-image {
+        padding: 30px 0 0 0;
+        background-color: var(--white);
+
+        .container {
+            max-width: 1000px;
+            padding: 0 10px;
+            position: relative;
+
+            img.mobile-ui {
+                position: absolute;
+                width: 200px;
+                top: 50px;
+                right: 120px;
+            }
+        }
+    }
+
+    section.wrapper {
+        padding: 50px 0;
+
+        .container {
+            width: 100%;
+            padding: 0 30px;
+            flex-direction: column;
+
+            .feature-header {
+                margin-bottom: 20px;
+
+                h1.heading {
+                    font-size: 25px;
+                    color: var(--primary);
+                }
+            }
+
+            .pagebody-content {
+
+                p.subhead {
+                    font-size: 19px;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+
+                    span.emoji {
+                        margin-right: 15px;
+                        font-size: 21px;
+                    }
+                }
+
+                p.pagebody-text {
+                    font-size: 17px;
+                    margin-bottom: 0px;
+
+                    a {
+                        color: #141452;
+                        transition: all .3s ease;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+
+                p.subtitle {
+                    font-size: 25px;
+                    font-weight: 300;
+                    margin: 20px 0px;
+
+                    a {
+                        text-decoration: underline;
+                        color: var(--gray);
+                        transition: all .3s ease;
+
+                        &:hover {
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .nb {
+                    padding: 20px;
+                    margin: 20px 0;
+                    font-size: 15px;
+
+                    span.voltage-emoji {
+                        font-size: 17px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        section.divider {
+            padding: 50px 30px;
+
+            .wrapper-divider {
+                margin: 0 0;
+                width: 100%;
+                border-bottom: 1px solid #d7d7d7;
+            }
+        }
+
+        .mind-map-graphic {
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    section.final-design {
+        padding: 20px 0;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 1000px;
+            padding: 0 2%;
+            margin: 0 auto;
+        }
+    }
+}

@@ -51,7 +51,7 @@ section.project-outline .container .tools span {
 }
 @media (max-width: 537px) {
   section.project-outline {
-    padding: 100px 0;
+    padding: 50px 0;
   }
   section.project-outline .container {
     display: flex;
@@ -59,7 +59,7 @@ section.project-outline .container .tools span {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
-    gap: 20px;
+    gap: 10px;
   }
   section.project-outline .container .project-logo {
     margin-bottom: 20px;
@@ -84,7 +84,7 @@ section.project-outline .container .tools span {
     color: var(--secondary);
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 5px;
   }
   section.project-outline .container .client span,
@@ -92,7 +92,7 @@ section.project-outline .container .tools span {
   section.project-outline .container .duration span,
   section.project-outline .container .tools span {
     color: var(--gray);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
   }
