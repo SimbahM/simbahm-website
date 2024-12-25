@@ -40,59 +40,27 @@ section.louis-white-logo img {
   width: 600px;
 }
 
-section.colors {
-  padding: 200px 15px 0 15px;
-}
-section.colors .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 1000px;
-  gap: 20px;
-  margin: 0 auto;
-}
-section.colors .grid .granite-gray,
-section.colors .grid .pale-silver,
-section.colors .grid .black-coffee,
-section.colors .grid .deer {
-  height: 300px;
-  border-radius: 10px;
-  padding: 30px;
-}
-section.colors .grid .granite-gray h2,
-section.colors .grid .granite-gray p,
-section.colors .grid .pale-silver h2,
-section.colors .grid .pale-silver p,
-section.colors .grid .black-coffee h2,
-section.colors .grid .black-coffee p,
-section.colors .grid .deer h2,
-section.colors .grid .deer p {
-  color: var(--white);
-}
-section.colors .grid .granite-gray {
+.granite-gray {
   background-color: #686165;
 }
-section.colors .grid .pale-silver {
+
+.pale-silver {
   background-color: #C4B8B9;
 }
-section.colors .grid .black-coffee {
+
+.black-coffee {
   background-color: #382E2B;
 }
-section.colors .grid .deer {
+
+.deer {
   background-color: #C08B65;
 }
-section.colors .main-color {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-section.colors .main-color .coconut {
+
+.coconut {
   background-color: #945F38;
-  height: 300px;
-  border-radius: 10px;
-  padding: 30px;
 }
-section.colors .main-color .coconut h2,
-section.colors .main-color .coconut p {
+.coconut h2,
+.coconut p {
   color: var(--white);
 }
 
@@ -119,24 +87,6 @@ section.colors .main-color .coconut p {
   section.louis-white-logo img {
     width: 500px;
   }
-  section.colors {
-    padding: 20px 15px 0 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  section.colors .main-color .teal-blue {
-    background-color: #2F7992;
-    height: 300px;
-    border-radius: 10px;
-    padding: 30px;
-  }
 }
 @media (max-width: 768px) {
   section.louis-logo {
@@ -160,18 +110,6 @@ section.colors .main-color .coconut p {
   }
   section.louis-white-logo img {
     width: 400px;
-  }
-  section.colors {
-    padding: 20px 15px 0 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
   }
 }
 @media (max-width: 425px) {
@@ -198,18 +136,5 @@ section.colors .main-color .coconut p {
   section.louis-white-logo img {
     width: 100%;
     padding: 0 30px;
-  }
-  section.colors {
-    padding: 20px 15px 0 15px;
-    margin-top: 30px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
   }
 }/*# sourceMappingURL=louis-kitchens.css.map */

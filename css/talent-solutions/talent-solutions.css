@@ -3,4 +3,175 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+section.gold-logo {
+  background-color: #CEA065;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10px 0;
+  margin-bottom: 200px;
+}
+section.gold-logo img.white-logo-symbol {
+  width: 400px;
+}
+
+section.grid-section .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+section.main-logo {
+  padding: 400px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.main-logo img.main-logo {
+  width: 800px;
+}
+
+.prussian-blue-image {
+  background-image: url(../../assets/images/pages/talent-solutions/color1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #0E3556;
+  background-blend-mode: multiply;
+}
+
+.brown-yellow-image {
+  background-image: url(../../assets/images/pages/talent-solutions/color2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #CEA065;
+  background-blend-mode: multiply;
+}
+
+.desaturated-cyan-image {
+  background-image: url(../../assets/images/pages/talent-solutions/color3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #68A19B;
+  background-blend-mode: multiply;
+}
+
+.crystal-image {
+  background-image: url(../../assets/images/pages/talent-solutions/color4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #B5D9D7;
+  background-blend-mode: multiply;
+}
+
+.prussian-blue-color {
+  background-color: #0E3556;
+}
+.prussian-blue-color span.prussian-blue-hex {
+  color: #CEA065;
+}
+
+.brown-yellow-color {
+  background-color: #CEA065;
+}
+.brown-yellow-color span.brown-yellow-hex {
+  color: #0E3556;
+}
+
+.desaturated-cyan-color {
+  background-color: #68A19B;
+}
+.desaturated-cyan-color span.desaturated-cyan-hex {
+  color: #B5D9D7;
+}
+
+.crystal-color {
+  background-color: #B5D9D7;
+}
+.crystal-color span.crystal-hex {
+  color: #68A19B;
+}
+
+@media (max-width: 1024px) {
+  section.gold-logo {
+    height: 80vh;
+    margin: 10px 0;
+    margin-bottom: 10px;
+  }
+  section.gold-logo img.white-logo-symbol {
+    width: 250px;
+  }
+  section.grid-section {
+    padding: 0;
+  }
+  section.grid-section .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  section.main-logo {
+    padding: 250px 0;
+  }
+  section.main-logo img.main-logo {
+    width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  section.gold-logo {
+    height: 80vh;
+    margin: 10px 0;
+    margin-bottom: 10px;
+  }
+  section.gold-logo img.white-logo-symbol {
+    width: 250px;
+  }
+  section.grid-section {
+    padding: 0;
+  }
+  section.main-logo {
+    padding: 200px 0;
+  }
+  section.main-logo img.main-logo {
+    width: 400px;
+  }
+}
+@media (max-width: 425px) {
+  section.gold-logo {
+    height: 50vh;
+    margin: 10px 0;
+    margin-bottom: 10px;
+  }
+  section.gold-logo img.white-logo-symbol {
+    width: 150px;
+  }
+  section.grid-section {
+    padding: 0;
+  }
+  section.grid-section .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  section.main-logo {
+    padding: 150px 0 170px 0;
+  }
+  section.main-logo img.main-logo {
+    width: 250px;
+  }
 }/*# sourceMappingURL=talent-solutions.css.map */

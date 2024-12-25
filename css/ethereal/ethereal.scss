@@ -103,27 +103,6 @@ section.main-logo {
     }
 }
 
-section.white-logo {
-    height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/ethereal/sewing-machine-tools.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    .container {
-        height: inherit;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            width: 600px;
-            margin-bottom: 20px;
-        }
-    }
-}
-
 .cetacean-blue-image {
     background-image: url(../../assets/images/pages/natiology/color2.webp);
     background-repeat: no-repeat;
@@ -188,6 +167,7 @@ section.white-quote {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 200px;
 
     .container {
         height: inherit;
@@ -213,7 +193,7 @@ section.white-quote {
 @media (max-width: 1024px) {
 
     section.main-logo {
-        padding: 200px 15px;
+        padding: 200px 15px 400px 15px;
 
         .container {
             display: flex;
@@ -228,20 +208,9 @@ section.white-quote {
         }
     }
 
-    section.white-logo {
-        height: 80vh;
-
-        .container {
-
-            img {
-                width: 500px;
-                margin-bottom: 20px;
-            }
-        }
-    }
-
     section.white-quote {
         height: 80vh;
+        margin: 0 0 10px 0;
 
         .container {
 
@@ -290,25 +259,13 @@ section.white-quote {
     }
 
     section.main-logo {
-        padding: 100px 15px;
+        padding: 70px 15px 200px 15px;
 
         .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            img {
-                width: 400px;
-                margin-bottom: 20px;
-            }
-        }
-    }
-
-    section.white-logo {
-        height: 80vh;
-
-        .container {
 
             img {
                 width: 400px;
@@ -371,7 +328,8 @@ section.white-quote {
                 text-align: center;
                 font-size: 30px;
                 color: #353535;
-                width: 300px;
+                width: 100%;
+                padding: 0 20px;
             }
         }
     }
@@ -394,7 +352,8 @@ section.white-quote {
             }
 
             p {
-                width: 280px;
+                width: 100%;
+                padding: 0 20px;
                 font-size: 20px;
             }
         }
@@ -414,7 +373,7 @@ section.white-quote {
     }
 
     section.main-logo {
-        padding: 100px 15px;
+        padding: 0 0 50px 0;
 
         .container {
             display: flex;
@@ -424,21 +383,7 @@ section.white-quote {
 
             img {
                 width: 100%;
-                padding: 0 30px;
-                margin-bottom: 20px;
-            }
-        }
-    }
-
-    section.white-logo {
-        height: 60vh;
-        margin: 20px 0;
-
-        .container {
-
-            img {
-                width: 100%;
-                padding: 0 60px;
+                padding: 20px;
                 margin-bottom: 20px;
             }
         }

@@ -20,67 +20,28 @@
   background-position: center;
 }
 
-section.colors {
-  padding: 20px 15px;
-}
-section.colors .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 1000px;
-  gap: 20px;
-  margin: 0 auto;
-}
-section.colors .grid .racing-green,
-section.colors .grid .apple-green,
-section.colors .grid .sage,
-section.colors .grid .milk {
-  height: 300px;
-  border-radius: 10px;
-  padding: 30px;
-}
-section.colors .grid .racing-green h2, section.colors .grid .racing-green p,
-section.colors .grid .apple-green h2,
-section.colors .grid .apple-green p,
-section.colors .grid .sage h2,
-section.colors .grid .sage p,
-section.colors .grid .milk h2,
-section.colors .grid .milk p {
-  color: var(--white);
-}
-section.colors .grid .racing-green .title, section.colors .grid .racing-green .hex-code,
-section.colors .grid .apple-green .title,
-section.colors .grid .apple-green .hex-code,
-section.colors .grid .sage .title,
-section.colors .grid .sage .hex-code,
-section.colors .grid .milk .title,
-section.colors .grid .milk .hex-code {
-  color: #004A2E;
-}
-section.colors .grid .racing-green {
+.racing-green {
   background-color: #004A2E;
 }
-section.colors .grid .apple-green {
+
+.apple-green {
   background-color: #79BB02;
 }
-section.colors .grid .sage {
+
+.sage {
   background-color: #BEBF93;
 }
-section.colors .grid .milk {
+
+.milk {
   background-color: #FFFFF5;
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
-section.colors .main-color {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-section.colors .main-color .booger-buster {
+
+.booger-buster {
   background-color: #D0FF69;
-  height: 300px;
-  border-radius: 10px;
-  padding: 30px;
 }
-section.colors .main-color .booger-buster h2, section.colors .main-color .booger-buster p {
+.booger-buster h2,
+.booger-buster p {
   color: #004A2E;
 }
 
@@ -94,24 +55,6 @@ section.colors .main-color .booger-buster h2, section.colors .main-color .booger
   .prime-drive-main-logo img {
     width: 500px;
   }
-  section.colors {
-    padding: 20px 15px 0 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  section.colors .main-color .teal-blue {
-    background-color: #2F7992;
-    height: 300px;
-    border-radius: 10px;
-    padding: 30px;
-  }
 }
 @media (max-width: 768px) {
   .prime-drive-main-logo {
@@ -123,18 +66,6 @@ section.colors .main-color .booger-buster h2, section.colors .main-color .booger
   .prime-drive-main-logo img {
     width: 400px;
   }
-  section.colors {
-    padding: 20px 15px 0 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
-  }
 }
 @media (max-width: 425px) {
   .prime-drive-main-logo {
@@ -145,17 +76,5 @@ section.colors .main-color .booger-buster h2, section.colors .main-color .booger
   }
   .prime-drive-main-logo img {
     width: 300px;
-  }
-  section.colors {
-    padding: 20px 15px 0 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
   }
 }/*# sourceMappingURL=dustme.css.map */

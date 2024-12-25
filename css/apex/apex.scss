@@ -6,7 +6,7 @@
 }
 
 section.apex-logo {
-    padding: 100px 15px 0 15px;
+    padding: 100px 10px 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,6 @@ section.apex-logo {
 @media (max-width: 1024px) {
 
     section.apex-logo {
-        padding: 100px 15px 0 15px;
         gap: 300px;
 
         .logo-redraw,
@@ -47,7 +46,6 @@ section.apex-logo {
 @media (max-width: 768px) {
 
     section.apex-logo {
-        padding: 100px 15px 0 15px;
         gap: 300px;
 
         .logo-redraw,
@@ -65,7 +63,7 @@ section.apex-logo {
 @media (max-width: 425px) {
 
     section.apex-logo {
-        padding: 100px 15px 0 15px;
+        padding: 100px 10px 0 10px;
         gap: 200px;
 
         .logo-redraw,

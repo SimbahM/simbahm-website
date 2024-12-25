@@ -82,7 +82,7 @@ section.portfolios .container a.portfolio-card .overlay:hover {
 }
 @media (max-width: 425px) {
   section.portfolios {
-    padding: 50px 0 10px 0;
+    padding: 10px 0 10px 0;
   }
   section.portfolios .container {
     margin: 0 auto;

@@ -43,63 +43,28 @@ section.louis-white-logo {
     }
 }
 
-section.colors {
-    padding: 200px 15px 0 15px;
+.granite-gray {
+    background-color: #686165;
+}
 
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 1000px;
-        gap: 20px;
-        margin: 0 auto;
+.pale-silver {
+    background-color: #C4B8B9;
+}
 
-        .granite-gray,
-        .pale-silver,
-        .black-coffee,
-        .deer {
-            height: 300px;
-            border-radius: 10px;
-            padding: 30px;
+.black-coffee {
+    background-color: #382E2B;
+}
 
-            h2,
-            p {
-                color: var(--white);
-            }
-        }
+.deer {
+    background-color: #C08B65;
+}
 
-        .granite-gray {
-            background-color: #686165;
-        }
+.coconut {
+    background-color: #945F38;
 
-        .pale-silver {
-            background-color: #C4B8B9;
-        }
-
-        .black-coffee {
-            background-color: #382E2B;
-        }
-
-        .deer {
-            background-color: #C08B65;
-        }
-    }
-
-    .main-color {
-        max-width: 1000px;
-        margin: 0 auto;
-        margin-top: 20px;
-
-        .coconut {
-            background-color: #945F38;
-            height: 300px;
-            border-radius: 10px;
-            padding: 30px;
-
-            h2,
-            p {
-                color: var(--white);
-            }
-        }
+    h2,
+    p {
+        color: var(--white);
     }
 }
 
@@ -129,28 +94,6 @@ section.colors {
 
         img {
             width: 500px;
-        }
-    }
-
-    section.colors {
-        padding: 20px 15px 0 15px;
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-        }
-
-        .main-color {
-            margin: 0 auto;
-            margin-top: 20px;
-
-            .teal-blue {
-                background-color: #2F7992;
-                height: 300px;
-                border-radius: 10px;
-                padding: 30px;
-            }
         }
     }
 }
@@ -183,21 +126,6 @@ section.colors {
             width: 400px;
         }
     }
-
-    section.colors {
-        padding: 20px 15px 0 15px;
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
-        }
-
-        .main-color {
-            margin: 0 auto;
-            margin-top: 20px;
-        }
-    }
 }
 
 @media (max-width: 425px) {
@@ -228,22 +156,6 @@ section.colors {
         img {
             width: 100%;
             padding: 0 30px;
-        }
-    }
-
-    section.colors {
-        padding: 20px 15px 0 15px;
-        margin-top: 30px;
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
-        }
-
-        .main-color {
-            margin: 0 auto;
-            margin-top: 20px;
         }
     }
 }

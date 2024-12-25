@@ -26,75 +26,33 @@ section.niche-logo {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 150px 0 200px 0;
+  padding: 150px 0 400px 0;
 }
 section.niche-logo img {
   width: 600px;
 }
 
-section.colors {
-  padding: 200px 20px;
-}
-section.colors .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 1000px;
-  gap: 20px;
-  margin: 0 auto;
-}
-section.colors .grid .charleston-green,
-section.colors .grid .feldgraun,
-section.colors .grid .yellow-green-crayola,
-section.colors .grid .maximum-green {
-  height: 300px;
-  border-radius: 10px;
-  padding: 30px;
-}
-section.colors .grid .charleston-green h2,
-section.colors .grid .charleston-green p,
-section.colors .grid .feldgraun h2,
-section.colors .grid .feldgraun p,
-section.colors .grid .yellow-green-crayola h2,
-section.colors .grid .yellow-green-crayola p,
-section.colors .grid .maximum-green h2,
-section.colors .grid .maximum-green p {
-  color: var(--white);
-}
-section.colors .grid .charleston-green .title,
-section.colors .grid .charleston-green .hex-code,
-section.colors .grid .feldgraun .title,
-section.colors .grid .feldgraun .hex-code,
-section.colors .grid .yellow-green-crayola .title,
-section.colors .grid .yellow-green-crayola .hex-code,
-section.colors .grid .maximum-green .title,
-section.colors .grid .maximum-green .hex-code {
-  color: #262B28;
-}
-section.colors .grid .charleston-green {
+.charleston-green {
   background-color: #262B28;
 }
-section.colors .grid .feldgraun {
+
+.feldgraun {
   background-color: #535E57;
 }
-section.colors .grid .yellow-green-crayola {
+
+.yellow-green-crayola {
   background-color: #B6E27D;
 }
-section.colors .grid .maximum-green {
+
+.maximum-green {
   background-color: #65972E;
 }
-section.colors .main-color {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-section.colors .main-color .teal-blue {
+
+.teal-blue {
   background-color: #2F7992;
-  height: 300px;
-  border-radius: 10px;
-  padding: 30px;
 }
-section.colors .main-color .teal-blue h2,
-section.colors .main-color .teal-blue p {
+.teal-blue h2,
+.teal-blue p {
   color: var(--white);
 }
 
@@ -184,43 +142,28 @@ section.grid-ads .grid {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 100px 0;
+    padding: 50px 0 250px 0;
   }
   section.niche-logo img {
     width: 500px;
     margin: 70px;
   }
-  section.colors {
-    padding: 20px 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  section.colors .main-color .teal-blue {
-    background-color: #2F7992;
-    height: 300px;
-    border-radius: 10px;
-    padding: 30px;
-  }
   section.posters {
-    padding: 0 15px 15px 15px;
+    padding: 0 10px 10px 10px;
+  }
+  section.posters .poster-container {
+    gap: 10px;
   }
   section.logo-on-blue-bg img {
     width: 500px;
   }
   section.grid-ads {
-    padding: 20px 15px 0 15px;
+    padding: 10px 10px;
   }
   section.grid-ads .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
     margin: 0 auto;
   }
 }
@@ -230,26 +173,14 @@ section.grid-ads .grid {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 0 50px 0;
+    padding: 30px 0 150px 0;
   }
   section.niche-logo img {
     width: 400px;
     margin: 70px;
   }
-  section.colors {
-    padding: 20px 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
-  }
   section.posters {
-    padding: 0 15px 15px 15px;
+    padding: 0 10px 10px 10px;
   }
   section.posters .poster-container {
     grid-template-columns: repeat(1, 1fr);
@@ -290,13 +221,9 @@ section.grid-ads .grid {
   section.logo-on-blue-bg img {
     width: 420px;
   }
-  section.grid-ads {
-    padding: 20px 15px 0 15px;
-  }
   section.grid-ads .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
     margin: 0 auto;
   }
 }
@@ -306,27 +233,12 @@ section.grid-ads .grid {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 0 50px 0;
+    padding: 30px 0 100px 0;
   }
   section.niche-logo img {
     width: 100%;
     padding: 0 30px;
     margin: 70px;
-  }
-  section.colors {
-    padding: 20px 15px 0 15px;
-  }
-  section.colors .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  section.colors .main-color {
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  section.posters {
-    padding: 0 15px 15px 15px;
   }
   section.posters .poster-container {
     grid-template-columns: repeat(1, 1fr);
@@ -365,19 +277,15 @@ section.grid-ads .grid {
   }
   section.logo-on-blue-bg {
     height: 70vh;
-    margin: 0px 15px 0 15px;
+    margin: 0px 10px;
   }
   section.logo-on-blue-bg img {
     width: 100%;
     padding: 0 30px;
   }
-  section.grid-ads {
-    padding: 20px 15px 0 15px;
-  }
   section.grid-ads .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
     margin: 0 auto;
   }
 }/*# sourceMappingURL=niche.css.map */

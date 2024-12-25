@@ -148,20 +148,20 @@ section.kabwe-golf-tshirts {
     }
 
     section.kabwe-grid {
-        padding: 0 15px 20px 15px;
+        padding: 0 10px 10px 10px;
 
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             max-width: 1000px;
             margin: 0 auto;
-            gap: 20px;
+            gap: 10px;
 
             .image-logo {
                 height: 80vh;
 
                 img {
-                    width: 200px;
+                    width: 150px;
                 }
             }
 
@@ -173,7 +173,7 @@ section.kabwe-golf-tshirts {
                 height: 80vh;
 
                 img {
-                    width: 300px;
+                    width: 250px;
                 }
             }
         }
@@ -243,14 +243,12 @@ section.kabwe-golf-tshirts {
     }
 
     section.kabwe-grid {
-        padding: 0 15px 20px 15px;
 
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             max-width: 1000px;
             margin: 0 auto;
-            gap: 20px;
 
             .image-logo {
                 height: 80vh;
@@ -317,7 +315,6 @@ section.kabwe-golf-tshirts {
     }
 
     section.kabwe-grid {
-        padding: 0 15px 20px 15px;
 
         .container {
             display: grid;

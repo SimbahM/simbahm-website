@@ -6,7 +6,7 @@
 }
 
 section.main-logo {
-    padding: 200px 15px 300px 15px;
+    padding: 200px 15px 250px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ section.envirozyme-colors {
 @media (max-width: 1024px) {
 
     section.main-logo {
-        padding: 100px 15px 200px 15px;
+        padding: 100px 15px 300px 15px;
 
         img {
             width: 500px;
@@ -93,7 +93,7 @@ section.envirozyme-colors {
 @media (max-width: 768px) {
 
     section.main-logo {
-        padding: 100px 15px 100px 15px;
+        padding: 100px 15px 250px 15px;
 
         img {
             width: 400px;
@@ -116,7 +116,7 @@ section.envirozyme-colors {
 @media (max-width: 425px) {
 
     section.main-logo {
-        padding: 100px 15px 50px 15px;
+        padding: 100px 15px 200px 15px;
 
         img {
             width: 100%;

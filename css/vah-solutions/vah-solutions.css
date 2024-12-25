@@ -6,7 +6,7 @@
 }
 
 .white-logo {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .white-logo .container {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/vah/image-bg.webp);
@@ -73,13 +73,10 @@ section.main-logo .container img {
 
 @media (max-width: 1024px) {
   section.main-logo {
-    padding: 20px 15px 0 15px;
+    padding: 0px 10px 10px 10px;
   }
   section.main-logo .container {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 1000px;
     margin: 0 auto;
     background-color: var(--white);
@@ -90,7 +87,7 @@ section.main-logo .container img {
 }
 @media (max-width: 768px) {
   .white-logo {
-    padding: 0 15px;
+    padding: 0 10px;
   }
   .white-logo .container {
     height: 80vh;
@@ -99,7 +96,7 @@ section.main-logo .container img {
     width: 400px;
   }
   section.main-logo {
-    padding: 0 15px 0 15px;
+    padding: 0 10px 10px 10px;
   }
   section.main-logo .container {
     height: 80vh;
@@ -111,7 +108,7 @@ section.main-logo .container img {
 }
 @media (max-width: 425px) {
   .white-logo {
-    padding: 0 15px;
+    padding: 0 10px;
   }
   .white-logo .container {
     height: 60vh;
@@ -121,7 +118,7 @@ section.main-logo .container img {
     padding: 0 30px;
   }
   section.main-logo {
-    padding: 20px 15px 0 15px;
+    padding: 0px 10px 10px 10px;
   }
   section.main-logo .container {
     height: 60vh;

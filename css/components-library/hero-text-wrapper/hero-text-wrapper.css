@@ -71,7 +71,7 @@ section.hero-text-wrapper .container h1 {
 }
 @media (max-width: 425px) {
   section.hero-text-wrapper {
-    padding: 150px 0 150px 0;
+    padding: 170px 0;
     height: 0vh;
   }
   section.hero-text-wrapper .container {
@@ -81,6 +81,8 @@ section.hero-text-wrapper .container h1 {
     font-size: 21px;
   }
   section.hero-text-wrapper .container h1 {
+    margin-top: 10px;
     font-size: 30px;
+    padding: 0 10px;
   }
 }/*# sourceMappingURL=hero-text-wrapper.css.map */

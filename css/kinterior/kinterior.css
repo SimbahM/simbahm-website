@@ -35,7 +35,7 @@ section.kinterior-logo {
 }
 
 section.logo-construction {
-  padding: 0 15px 100px 15px;
+  padding: 0 10px;
 }
 section.logo-construction .filter {
   max-width: 1000px;
@@ -52,7 +52,7 @@ section.logo-construction .filter img {
 }
 
 section.golden-ratio {
-  padding: 200px 0;
+  padding: 400px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,10 +75,10 @@ section.golden-ratio .titles p {
   text-align: center;
 }
 section.golden-ratio img.graph {
-  width: 700px;
+  width: 500px;
 }
 section.golden-ratio img.logo {
-  width: 1000px;
+  width: 800px;
 }
 
 section.flags {
@@ -141,15 +141,12 @@ section.flags .container .logo img {
     background-color: #fff;
   }
   section.logo-construction {
-    padding: 0 15px 100px 15px;
+    padding: 0 10px;
   }
   section.logo-construction .filter {
     max-width: 1000px;
     margin: 0 auto;
     background-color: #2D2423;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     width: 100%;
   }
@@ -157,7 +154,7 @@ section.flags .container .logo img {
     width: 400px;
   }
   section.golden-ratio {
-    padding: 100px 0;
+    padding: 200px 0;
     gap: 40px;
   }
   section.golden-ratio .titles h1 {
@@ -171,16 +168,17 @@ section.flags .container .logo img {
     text-align: center;
   }
   section.golden-ratio img.graph {
-    width: 500px;
+    width: 400px;
   }
   section.golden-ratio img.logo {
-    width: 700px;
+    width: 600px;
   }
   section.flags {
-    padding: 0 15px 20px 15px;
+    padding: 0 10px 10px 10px;
   }
   section.flags .container {
     display: grid;
+    gap: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
   section.flags .container .web {
@@ -213,30 +211,30 @@ section.flags .container .logo img {
     max-width: 500px;
   }
   section.kinterior-brand img {
-    width: 600px;
+    width: 400px;
   }
   section.kinterior-brand img.logo-mark {
     width: 100px;
   }
   section.kinterior-logo {
     background-color: #fff;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
   }
   section.kinterior-logo img {
-    width: 500px;
+    width: 400px;
   }
   section.logo-construction {
-    padding: 0 15px 100px 15px;
+    padding: 0 10px;
   }
   section.logo-construction .filter {
     height: 100vh;
     width: 100%;
   }
   section.logo-construction .filter img {
-    width: 400px;
+    width: 300px;
   }
   section.golden-ratio {
-    padding: 50px 0;
+    padding: 100px 0;
     gap: 40px;
   }
   section.golden-ratio .titles h1 {
@@ -246,17 +244,17 @@ section.flags .container .logo img {
   section.golden-ratio .titles p {
     font-size: 21px;
     font-weight: 300;
-    width: 500px;
+    width: 400px;
     text-align: center;
   }
   section.golden-ratio img.graph {
-    width: 300px;
+    width: 200px;
   }
   section.golden-ratio img.logo {
     width: 400px;
   }
   section.flags {
-    padding: 0 15px 20px 15px;
+    padding: 0 10px 10px 10px;
   }
   section.flags .container {
     display: grid;
@@ -309,7 +307,7 @@ section.flags .container .logo img {
     padding: 0 30px;
   }
   section.logo-construction {
-    padding: 0 15px 100px 15px;
+    padding: 0 10px;
   }
   section.logo-construction .filter {
     height: 60vh;
@@ -320,7 +318,7 @@ section.flags .container .logo img {
     padding: 0 30px;
   }
   section.golden-ratio {
-    padding: 50px 0;
+    padding: 70px 0;
     gap: 40px;
   }
   section.golden-ratio .titles h1 {
@@ -343,7 +341,7 @@ section.flags .container .logo img {
     padding: 0 30px;
   }
   section.flags {
-    padding: 0 15px 20px 15px;
+    padding: 0 10px 10px 10px;
   }
   section.flags .container {
     display: grid;

@@ -53,7 +53,7 @@ section.eac-old-and-new-logo img {
 }
 
 section.grid-app-icon {
-  padding: 0px 15px 0 15px;
+  padding: 0px 10px 200px 10px;
 }
 section.grid-app-icon .container {
   display: grid;
@@ -130,10 +130,11 @@ section.grid-app-icon .container .logo img.main-logo {
     width: 500px;
   }
   section.grid-app-icon {
-    padding: 0 15px 0 15px;
+    padding: 0 10px 10px 10px;
   }
   section.grid-app-icon .container {
     display: grid;
+    gap: 10px;
     grid-template-columns: repeat(2, 1fr);
   }
   section.grid-app-icon .container .icon {
@@ -155,7 +156,7 @@ section.grid-app-icon .container .logo img.main-logo {
     display: none;
   }
   section.grid-app-icon .container .logo img.main-logo {
-    width: 400px;
+    width: 300px;
     display: block;
   }
 }
@@ -189,11 +190,9 @@ section.grid-app-icon .container .logo img.main-logo {
   section.eac-old-and-new-logo img {
     width: 400px;
   }
-  section.grid-app-icon {
-    padding: 0px 15px 0 15px;
-  }
   section.grid-app-icon .container {
     display: grid;
+    gap: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
   section.grid-app-icon .container .icon {
@@ -215,7 +214,7 @@ section.grid-app-icon .container .logo img.main-logo {
     display: none;
   }
   section.grid-app-icon .container .logo img.main-logo {
-    width: 400px;
+    width: 350px;
     display: block;
   }
 }
@@ -243,10 +242,8 @@ section.grid-app-icon .container .logo img.main-logo {
     width: 100%;
     padding: 0 30px;
   }
-  section.grid-app-icon {
-    padding: 0px 15px 0 15px;
-  }
   section.grid-app-icon .container {
+    gap: 10px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
