@@ -343,10 +343,11 @@ section.white-quote .container h1 {
   }
   section.white-logo {
     height: 60vh;
+    margin: 20px 0;
   }
   section.white-logo .container img {
     width: 100%;
-    padding: 0 30px;
+    padding: 0 60px;
     margin-bottom: 20px;
   }
   section.white-quote {

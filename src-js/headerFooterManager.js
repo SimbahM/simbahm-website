@@ -70,7 +70,7 @@ class SpecialFooter extends HTMLElement {
             </div>
             <div class="copyright">
                 <p>
-                    © 2020 - 2024 Simbah M. All Rights Reserved.
+                    Copyright © 2024 Simbah M. All rights reserved..
                 </p>
             </div>
         </footer>
