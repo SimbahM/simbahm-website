@@ -178,9 +178,6 @@ section.featured-projects .container .project p {
 }
 
 @media (max-width: 1024px) {
-  section.christmas {
-    height: 50vh;
-  }
   section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
@@ -234,12 +231,16 @@ section.featured-projects .container .project p {
 }
 @media (max-width: 768px) {
   section.christmas {
-    height: 50vh;
+    height: 60vh;
   }
   section.christmas .container {
     border: white 1px solid;
     height: inherit;
     padding-bottom: 30px;
+    justify-content: space-between;
+  }
+  section.christmas .container img.festive-season {
+    width: 200px;
   }
   section.christmas .container .text-wrapper {
     display: flex;
@@ -252,7 +253,7 @@ section.featured-projects .container .project p {
   }
   section.christmas .container .text-wrapper p.pagebody {
     color: var(--white);
-    font-size: 21px;
+    font-size: 17px;
     width: 400px;
     text-align: center;
     font-weight: 400px;
@@ -309,12 +310,13 @@ section.featured-projects .container .project p {
 }
 @media (max-width: 425px) {
   section.christmas {
-    height: 40vh;
+    height: 50vh;
   }
   section.christmas .container {
     border: white 1px solid;
     height: inherit;
     padding-bottom: 30px;
+    justify-content: space-between;
   }
   section.christmas .container img.festive-season {
     width: 150px;
@@ -326,11 +328,11 @@ section.featured-projects .container .project p {
     justify-content: end;
   }
   section.christmas .container .text-wrapper img.holiday-cheer {
-    width: 200px;
+    width: 150px;
   }
   section.christmas .container .text-wrapper p.pagebody {
     color: var(--white);
-    font-size: 21px;
+    font-size: 17px;
     width: 100%;
     padding: 0 30px;
     text-align: center;
