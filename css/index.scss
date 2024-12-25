@@ -1,5 +1,4 @@
 section.christmas {
-    height: 60vh;
     background-image: linear-gradient(#233D3C, #132120);
     margin-bottom: 10px;
 
@@ -7,9 +6,11 @@ section.christmas {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 50px;
 
         img.festive-season {
-            width: 250px;
+            max-width: 300px;
+            padding: 0 20px;
         }
 
         .text-wrapper {
@@ -18,15 +19,17 @@ section.christmas {
             align-items: center;
 
             img.holiday-cheer {
-                width: 300px;
+                max-width: 400px;
+                padding: 0 30px;
             }
 
             p.pagebody {
                 color: var(--white);
                 font-size: 25px;
-                width: 500px;
+                max-width: 500px;
                 text-align: center;
                 font-weight: 400px;
+                padding: 0 30px;
             }
         }
 
@@ -268,34 +271,37 @@ section.featured-projects {
 @media (max-width: 768px) {
 
     section.christmas {
-        height: 60vh;
+        background-image: linear-gradient(#233D3C, #132120);
+        margin-bottom: 10px;
 
         .container {
-            border: white 1px solid;
-            height: inherit;
-            padding-bottom: 30px;
-            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 50px;
 
             img.festive-season {
-                width: 200px;
+                max-width: 250px;
+                padding: 0 20px;
             }
 
             .text-wrapper {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: end;
 
                 img.holiday-cheer {
-                    width: 250px;
+                    max-width: 350px;
+                    padding: 0 30px;
                 }
 
                 p.pagebody {
                     color: var(--white);
-                    font-size: 17px;
-                    width: 400px;
+                    font-size: 23px;
+                    max-width: 500px;
                     text-align: center;
                     font-weight: 400px;
+                    padding: 0 30px;
                 }
             }
 
@@ -368,35 +374,37 @@ section.featured-projects {
 @media (max-width: 425px) {
 
     section.christmas {
-        height: 50vh;
+        background-image: linear-gradient(#233D3C, #132120);
+        margin-bottom: 10px;
 
         .container {
-            border: white 1px solid;
-            height: inherit;
-            padding-bottom: 30px;
-            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 50px;
 
             img.festive-season {
-                width: 150px;
+                max-width: 200px;
+                padding: 0 20px;
             }
 
             .text-wrapper {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: end;
 
                 img.holiday-cheer {
-                    width: 150px;
+                    max-width: 300px;
+                    padding: 0 30px;
                 }
 
                 p.pagebody {
                     color: var(--white);
-                    font-size: 17px;
-                    width: 100%;
-                    padding: 0 30px;
+                    font-size: 21px;
+                    max-width: 500px;
                     text-align: center;
                     font-weight: 400px;
+                    padding: 0 30px;
                 }
             }
 
