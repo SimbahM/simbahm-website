@@ -73,11 +73,12 @@ section.wrapper .container .pagebody-content p.pagebody-text {
   color: var(--gray);
 }
 section.wrapper .container .pagebody-content p.pagebody-text a {
-  color: #141452;
+  text-decoration: none;
+  color: red;
   transition: all 0.3s ease;
 }
 section.wrapper .container .pagebody-content p.pagebody-text a:hover {
-  color: red;
+  color: rgb(196, 0, 0);
 }
 section.wrapper .container .pagebody-content .web-link {
   margin-top: 20px;
@@ -88,13 +89,12 @@ section.wrapper .container .pagebody-content p.subtitle {
   margin: 20px 0px;
 }
 section.wrapper .container .pagebody-content p.subtitle a {
-  text-decoration: underline;
-  color: var(--gray);
+  text-decoration: none;
+  color: red;
   transition: all 0.3s ease;
 }
 section.wrapper .container .pagebody-content p.subtitle a:hover {
-  color: red;
-  text-decoration: underline;
+  color: rgb(196, 0, 0);
 }
 section.wrapper .container .pagebody-content .nb {
   padding: 20px;

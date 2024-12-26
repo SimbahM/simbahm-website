@@ -81,11 +81,12 @@ section.wrapper {
                 color: var(--gray);
 
                 a {
-                    color: #141452;
+                    text-decoration: none;
+                    color: red;
                     transition: all .3s ease;
 
                     &:hover {
-                        color: red;
+                        color: rgb(196, 0, 0);
                     }
                 }
             }
@@ -100,13 +101,12 @@ section.wrapper {
                 margin: 20px 0px;
 
                 a {
-                    text-decoration: underline;
-                    color: var(--gray);
+                    text-decoration: none;
+                    color: red;
                     transition: all .3s ease;
 
                     &:hover {
-                        color: red;
-                        text-decoration: underline;
+                        color: rgb(196, 0, 0);
                     }
                 }
             }

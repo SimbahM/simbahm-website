@@ -1,5 +1,6 @@
 header {
-  background-color: rgba(27, 47, 63, 0.9);
+  background-color: #2E465E;
+  border-bottom: 1px solid #3a5772;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   display: flex;
