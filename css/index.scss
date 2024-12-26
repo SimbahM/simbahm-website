@@ -76,8 +76,8 @@ section.large-panels {
     }
 }
 
-.aa {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/aa.webp);
+.talent {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/talent.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -161,6 +161,13 @@ section.featured-projects {
     background-color: var(--white);
 }
 
+.aa {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/aa.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .esi {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/esi-apple-watch.webp);
     background-position: center;
@@ -177,13 +184,6 @@ section.featured-projects {
 
 .ethereal {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/ethereal.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.mazi-brands {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/mazi-brands.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
