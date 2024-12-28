@@ -69,7 +69,7 @@ section.nav .container .nav-items ul a:hover {
 }
 
 section.pagebody {
-  padding: 100px 0;
+  padding: 0px 0 100px 0;
 }
 section.pagebody .container {
   display: flex;
@@ -97,7 +97,7 @@ section.pagebody .container .pagebody-copy p {
 
 @media (max-width: 1024px) {
   section.pagebody {
-    padding: 70px 0;
+    padding: 0px 0 50px 0;
   }
   section.pagebody .container {
     width: 600px;
@@ -113,7 +113,7 @@ section.pagebody .container .pagebody-copy p {
 }
 @media (max-width: 768px) {
   section.pagebody {
-    padding: 0px 0 30px 0;
+    padding: 0px 0 50px 0;
   }
   section.pagebody .container {
     width: 400px;
