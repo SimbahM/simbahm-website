@@ -76,6 +76,7 @@ section.about-me .container .info p {
   line-height: 1.4705882353;
   font-weight: 400;
   letter-spacing: -0.022em;
+  margin-bottom: 30px;
 }
 section.about-me .container .info p span {
   font-size: 1.3rem;
@@ -85,8 +86,9 @@ section.about-me .container .info p span {
 }
 section.about-me .container .info span.quote {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.45;
+  color: var(--secondary);
 }
 section.about-me .container .social-links {
   display: flex;
@@ -162,7 +164,6 @@ section.about-me .container .social-links a:hover {
     font-weight: 400;
     line-height: 1.53;
     color: var(--gray);
-    margin-bottom: 30px;
   }
   section.about-me .container .info p span {
     font-size: 1.3rem;
