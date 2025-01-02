@@ -1,37 +1,3 @@
-section.christmas {
-  background-color: #2E465E;
-  margin-bottom: 10px;
-  padding-top: 60px;
-}
-section.christmas .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 50px;
-}
-section.christmas .container img.festive-season {
-  max-width: 300px;
-  padding: 0 20px;
-  margin-bottom: 20px;
-}
-section.christmas .container .text-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-section.christmas .container .text-wrapper img.holiday-cheer {
-  max-width: 400px;
-  padding: 0 30px;
-}
-section.christmas .container .text-wrapper p.pagebody {
-  color: var(--white);
-  font-size: 25px;
-  max-width: 600px;
-  text-align: center;
-  font-weight: 400px;
-  padding: 0 30px;
-}
-
 section.large-panels {
   height: 100vh;
   display: flex;
@@ -235,38 +201,6 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 768px) {
-  section.christmas {
-    background-image: #2E465E;
-    margin-bottom: 10px;
-  }
-  section.christmas .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 30px;
-  }
-  section.christmas .container img.festive-season {
-    max-width: 250px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-  }
-  section.christmas .container .text-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  section.christmas .container .text-wrapper img.holiday-cheer {
-    max-width: 350px;
-    padding: 0 30px;
-  }
-  section.christmas .container .text-wrapper p.pagebody {
-    color: var(--white);
-    font-size: 23px;
-    max-width: 450px;
-    text-align: center;
-    font-weight: 400px;
-    padding: 0 30px;
-  }
   section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
@@ -318,38 +252,6 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 425px) {
-  section.christmas {
-    background-image: #2E465E;
-    margin-bottom: 10px;
-  }
-  section.christmas .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 30px;
-  }
-  section.christmas .container img.festive-season {
-    max-width: 200px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-  }
-  section.christmas .container .text-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  section.christmas .container .text-wrapper img.holiday-cheer {
-    max-width: 300px;
-    padding: 0 30px;
-  }
-  section.christmas .container .text-wrapper p.pagebody {
-    color: var(--white);
-    font-size: 21px;
-    max-width: 500px;
-    text-align: center;
-    font-weight: 400px;
-    padding: 0 30px;
-  }
   section.large-panels {
     height: 70vh;
     padding-bottom: 50px;
