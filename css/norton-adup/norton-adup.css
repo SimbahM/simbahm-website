@@ -1,0 +1,284 @@
+.norton-adup {
+  background-color: #281F70;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 50px;
+  height: 90vh;
+  gap: 30px;
+}
+.norton-adup .adup {
+  width: 250px;
+}
+.norton-adup p.date {
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+}
+.norton-adup .logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.norton-adup .logos img.norton-adup-logo {
+  width: 500px;
+}
+.norton-adup .logos img.flyer-man-logo {
+  width: 200px;
+}
+
+section.more-ads {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 20px;
+}
+section.more-ads .main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+section.more-ads .main-title h1 {
+  font-size: 30px;
+  color: var(--primary);
+}
+section.more-ads .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1000px;
+  margin: 0 auto;
+}
+section.more-ads .container .ad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding: 40px 0;
+}
+section.more-ads .container .ad .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.more-ads .container .ad .image img {
+  width: 100px;
+}
+section.more-ads .container .ad .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+}
+section.more-ads .container .ad .description h1.title {
+  color: var(--primary);
+  font-size: 25px;
+}
+section.more-ads .container .ad .description span.date,
+section.more-ads .container .ad .description a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gray;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .norton-adup {
+    padding-bottom: 50px;
+    height: 80vh;
+    gap: 20px;
+  }
+  .norton-adup .adup {
+    width: 130px;
+  }
+  .norton-adup p.date {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+  }
+  .norton-adup .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .norton-adup .logos img.norton-adup-logo {
+    width: 300px;
+  }
+  .norton-adup .logos img.flyer-man-logo {
+    width: 150px;
+  }
+  section.more-ads {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+  }
+  section.more-ads .main-title {
+    padding: 50px 0;
+  }
+  section.more-ads .main-title h1 {
+    font-size: 30px;
+    color: var(--primary);
+  }
+  section.more-ads .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 700px;
+    margin: 0 auto;
+  }
+  section.more-ads .container .ad {
+    gap: 30px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  section.more-ads .container .ad .image img {
+    width: 100px;
+  }
+  section.more-ads .container .ad .description {
+    gap: 5px;
+  }
+  section.more-ads .container .ad .description h1.title {
+    color: var(--primary);
+    font-size: 25px;
+  }
+  section.more-ads .container .ad .description span.date,
+  section.more-ads .container .ad .description a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .norton-adup {
+    padding-bottom: 50px;
+    height: 80vh;
+    gap: 20px;
+  }
+  .norton-adup .adup {
+    width: 130px;
+  }
+  .norton-adup p.date {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+  }
+  .norton-adup .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .norton-adup .logos img.norton-adup-logo {
+    width: 300px;
+  }
+  .norton-adup .logos img.flyer-man-logo {
+    width: 150px;
+  }
+  section.more-ads {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  section.more-ads .main-title {
+    padding: 50px 0;
+  }
+  section.more-ads .main-title h1 {
+    font-size: 30px;
+    color: var(--primary);
+  }
+  section.more-ads .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+    margin: 0 auto;
+  }
+  section.more-ads .container .ad {
+    gap: 30px;
+    width: 100%;
+    padding: 30px 0;
+  }
+  section.more-ads .container .ad .image img {
+    width: 100px;
+  }
+  section.more-ads .container .ad .description {
+    gap: 5px;
+  }
+  section.more-ads .container .ad .description h1.title {
+    color: var(--primary);
+    font-size: 21px;
+  }
+  section.more-ads .container .ad .description span.date,
+  section.more-ads .container .ad .description a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .norton-adup {
+    padding-bottom: 50px;
+    height: 70vh;
+    gap: 20px;
+  }
+  .norton-adup .adup {
+    width: 100px;
+  }
+  .norton-adup p.date {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+  }
+  .norton-adup .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .norton-adup .logos img.norton-adup-logo {
+    width: 250px;
+  }
+  .norton-adup .logos img.flyer-man-logo {
+    width: 100px;
+  }
+  section.more-ads {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  section.more-ads .main-title {
+    padding: 20px 0;
+  }
+  section.more-ads .main-title h1 {
+    font-size: 20px;
+    color: var(--primary);
+  }
+  section.more-ads .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 300px;
+    margin: 0 auto;
+  }
+  section.more-ads .container .ad {
+    gap: 30px;
+    width: 100%;
+    padding: 30px 0;
+  }
+  section.more-ads .container .ad .image img {
+    width: 100px;
+  }
+  section.more-ads .container .ad .description {
+    gap: 5px;
+  }
+  section.more-ads .container .ad .description h1.title {
+    color: var(--primary);
+    font-size: 21px;
+  }
+  section.more-ads .container .ad .description span.date,
+  section.more-ads .container .ad .description a {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=norton-adup.css.map */
