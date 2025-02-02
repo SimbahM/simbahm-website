@@ -1,41 +1,87 @@
-:root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --acent: #FFA656;
-  --gray: #54595F;
-}
-
 footer {
-  display: flex;
-  flex-direction: column;
-  height: 25vh;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
+  padding: 30px 15px 20px 15px;
   background-color: var(--white);
 }
-footer .website-tag {
+footer .container {
   display: flex;
   flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer .container .links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+}
+footer .container .links .footer-directory-column {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .links .footer-directory-column h1 {
+  font-size: 20px;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+footer .container .links .footer-directory-column ul {
+  list-style: none;
+}
+footer .container .links .footer-directory-column ul li {
+  margin-bottom: 10px;
+}
+footer .container .links .footer-directory-column ul li a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
-  margin-bottom: 20px;
-}
-footer .website-tag img {
-  width: 130px;
-  display: block;
-  margin-top: 20px;
-}
-footer .copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-footer .copyright p {
-  font-size: 14px;
+  margin-bottom: 5px;
   color: var(--gray);
-  text-align: center;
-  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+}
+footer .container .links .footer-directory-column ul li a:hover {
+  text-decoration: underline;
+}
+footer .container .links .footer-directory-column ul li a img {
+  width: 20px;
+}
+footer .container .links a.logo {
+  display: flex;
+}
+footer .container .links a.logo img {
+  width: 150px;
+}
+footer .container hr {
+  margin: 20px 0;
+}
+footer .container .copyright span {
+  font-size: 16px;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  color: var(--gray);
+}
+
+@media (max-width: 768px) {
+  footer .container .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) and (max-width: 425px) {
+  footer .container .links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer .container .links a.logo {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  footer .container .links a.logo img {
+    width: 150px;
+  }
 }/*# sourceMappingURL=footer.css.map */

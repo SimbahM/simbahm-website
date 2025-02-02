@@ -65,15 +65,62 @@ class SpecialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer>
-            <div class="website-tag">
-                <img src="./assets/icons/simbahm-logo.svg" alt="Simbah M Logo">
+        <div class="container">
+            <div class="links">
+                <a href="/" class="logo">
+                    <img src="./assets/icons/simbahm-logo.svg" alt="Simbah M Logo">
+                </a>
+                <div class="footer-directory-column">
+                    <h1>Works</h1>
+                    <ul>
+                        <li>
+                            <a href="./logo-desgin">Logo Design</a>
+                        </li>
+                        <li>
+                            <a href="./ui-ux-design">UI UX Design</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-directory-column">
+                    <h1>Social Media</h1>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://rb.gy/gxfh30">Facebook</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/simbah.design/">Instagram</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="rb.gy/wyc8c0">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-directory-column">
+                    <h1>Contacts</h1>
+                    <ul>
+                        <li>
+                            <a href="tel:+263774018766">
+                                <img src="./assets/icons/whatsapp-icon.svg" alt="Whatsapp Icon">
+                                +263 77 401 8766
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:simba@simbahm.com">
+                                <img src="./assets/icons/mail-icon.svg" alt="Mail Icon">
+                                simba@simbahm.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <hr>
             <div class="copyright">
-                <p>
-                    Copyright © 2025 Simbah M. All rights reserved..
-                </p>
+                <span class="copyright">
+                    Copyright © 2025 Simbah M. All rights reserved.
+                </span>
             </div>
-        </footer>
+        </div>
+    </footer>
         `
     }
 }
