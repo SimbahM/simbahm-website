@@ -98,6 +98,10 @@ section.more-ads {
                     font-weight: 600;
                     color: gray;
                     text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }

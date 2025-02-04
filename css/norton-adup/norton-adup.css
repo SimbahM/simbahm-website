@@ -89,6 +89,10 @@ section.more-ads .container .ad .description a {
   color: gray;
   text-decoration: none;
 }
+section.more-ads .container .ad .description span.date:hover,
+section.more-ads .container .ad .description a:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 1024px) {
   .norton-adup {
