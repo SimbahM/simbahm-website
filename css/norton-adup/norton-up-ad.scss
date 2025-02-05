@@ -1,4 +1,4 @@
-section.norton-up-ad {
+section.homepage-ad {
     background-color: #027D2C;
     padding: 30px 20px;
     margin-bottom: 10px;
@@ -80,14 +80,13 @@ section.norton-up-ad {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
-    height: 90vh;
+    padding: 50px 0;
     gap: 30px;
 
     .adup {
-        width: 250px;
+        width: 200px;
     }
 
     p.date {
@@ -105,11 +104,11 @@ section.norton-up-ad {
         gap: 20px;
 
         img.norton-adup-logo {
-            width: 500px;
+            width: 400px;
         }
 
         img.flyer-man-logo {
-            width: 200px;
+            width: 150px;
         }
     }
 }
@@ -188,8 +187,6 @@ section.more-ads {
 @media (max-width: 1024px) {
 
     .norton-adup {
-        padding-bottom: 50px;
-        height: 80vh;
         gap: 20px;
 
         .adup {
@@ -271,8 +268,6 @@ section.more-ads {
 @media (max-width: 768px) {
 
     .norton-adup {
-        padding-bottom: 50px;
-        height: 80vh;
         gap: 20px;
 
         .adup {
@@ -353,7 +348,7 @@ section.more-ads {
 
 @media (max-width: 575px) {
 
-    section.norton-up-ad {
+    section.homepage-ad {
         padding: 30px 20px;
         margin-bottom: 10px;
 
@@ -397,48 +392,45 @@ section.more-ads {
 
 @media (max-width: 425px) {
 
-    @media (max-width: 425px) {
+    section.homepage-ad {
+        padding: 30px 20px;
+        margin-bottom: 10px;
 
-        section.norton-up-ad {
-            padding: 30px 20px;
-            margin-bottom: 10px;
+        a.container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 0 20px;
+            text-decoration: none;
 
-            a.container {
+            .magazine-ad {
                 display: flex;
-                flex-direction: column;
-                justify-content: center;
+
+                img {
+                    width: 120px;
+                }
+            }
+
+            .magazine-logo {
+                gap: 15px;
                 align-items: center;
-                gap: 50px;
-                padding: 0 20px;
-                text-decoration: none;
 
-                .magazine-ad {
-                    display: flex;
-
-                    img {
-                        width: 120px;
-                    }
+                img.norton-up-ad-logo {
+                    width: 200px;
                 }
 
-                .magazine-logo {
-                    gap: 15px;
-                    align-items: center;
-
-                    img.norton-up-ad-logo {
-                        width: 200px;
+                .download {
+                    h1 {
+                        color: var(--white);
+                        font-size: 15px;
+                        text-align: center;
                     }
 
-                    .download {
-                        h1 {
-                            color: var(--white);
-                            font-size: 15px;
-                            text-align: center;
-                        }
-
-                        p.subhead {
-                            color: var(--white);
-                            font-size: 16px;
-                        }
+                    p.subhead {
+                        color: var(--white);
+                        font-size: 16px;
                     }
                 }
             }
@@ -446,8 +438,6 @@ section.more-ads {
     }
 
     .norton-adup {
-        padding-bottom: 50px;
-        height: 70vh;
         gap: 20px;
 
         .adup {

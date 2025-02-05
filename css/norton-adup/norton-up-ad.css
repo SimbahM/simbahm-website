@@ -1,9 +1,9 @@
-section.norton-up-ad {
+section.homepage-ad {
   background-color: #027D2C;
   padding: 30px 20px;
   margin-bottom: 10px;
 }
-section.norton-up-ad a.container {
+section.homepage-ad a.container {
   display: flex;
   flex-direction: row;
   max-width: 1000px;
@@ -14,47 +14,47 @@ section.norton-up-ad a.container {
   padding: 0 20px;
   text-decoration: none;
 }
-section.norton-up-ad a.container .magazine-ad {
+section.homepage-ad a.container .magazine-ad {
   display: flex;
 }
-section.norton-up-ad a.container .magazine-ad img {
+section.homepage-ad a.container .magazine-ad img {
   width: 200px;
 }
-section.norton-up-ad a.container .magazine-logo {
+section.homepage-ad a.container .magazine-logo {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 15px;
 }
-section.norton-up-ad a.container .magazine-logo img.norton-up-ad-logo {
+section.homepage-ad a.container .magazine-logo img.norton-up-ad-logo {
   width: 300px;
 }
-section.norton-up-ad a.container .magazine-logo .download h1 {
+section.homepage-ad a.container .magazine-logo .download h1 {
   color: var(--white);
 }
-section.norton-up-ad a.container .magazine-logo .download p.subhead {
+section.homepage-ad a.container .magazine-logo .download p.subhead {
   color: var(--white);
   font-size: 16px;
 }
-section.norton-up-ad a.container a.download {
+section.homepage-ad a.container a.download {
   display: flex;
   flex-direction: row;
   gap: 20px;
   text-decoration: none;
 }
-section.norton-up-ad a.container a.download .divider {
+section.homepage-ad a.container a.download .divider {
   border-right: 1px solid var(--white);
 }
-section.norton-up-ad a.container a.download .download-button {
+section.homepage-ad a.container a.download .download-button {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-section.norton-up-ad a.container a.download .download-button img {
+section.homepage-ad a.container a.download .download-button img {
   width: 30px;
 }
-section.norton-up-ad a.container a.download .download-button h1 {
+section.homepage-ad a.container a.download .download-button h1 {
   font-size: 20px;
   color: var(--white);
 }
@@ -64,14 +64,13 @@ section.norton-up-ad a.container a.download .download-button h1 {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
-  height: 90vh;
+  padding: 50px 0;
   gap: 30px;
 }
 .norton-adup .adup {
-  width: 250px;
+  width: 200px;
 }
 .norton-adup p.date {
   text-transform: uppercase;
@@ -87,10 +86,10 @@ section.norton-up-ad a.container a.download .download-button h1 {
   gap: 20px;
 }
 .norton-adup .logos img.norton-adup-logo {
-  width: 500px;
+  width: 400px;
 }
 .norton-adup .logos img.flyer-man-logo {
-  width: 200px;
+  width: 150px;
 }
 
 section.more-ads {
@@ -157,8 +156,6 @@ section.more-ads .container .ad .description a:hover {
 
 @media (max-width: 1024px) {
   .norton-adup {
-    padding-bottom: 50px;
-    height: 80vh;
     gap: 20px;
   }
   .norton-adup .adup {
@@ -221,8 +218,6 @@ section.more-ads .container .ad .description a:hover {
 }
 @media (max-width: 768px) {
   .norton-adup {
-    padding-bottom: 50px;
-    height: 80vh;
     gap: 20px;
   }
   .norton-adup .adup {
@@ -284,44 +279,44 @@ section.more-ads .container .ad .description a:hover {
   }
 }
 @media (max-width: 575px) {
-  section.norton-up-ad {
+  section.homepage-ad {
     padding: 30px 20px;
     margin-bottom: 10px;
   }
-  section.norton-up-ad a.container {
+  section.homepage-ad a.container {
     display: flex;
     flex-direction: row;
     gap: 50px;
     padding: 0 20px;
     text-decoration: none;
   }
-  section.norton-up-ad a.container .magazine-ad {
+  section.homepage-ad a.container .magazine-ad {
     display: flex;
   }
-  section.norton-up-ad a.container .magazine-ad img {
+  section.homepage-ad a.container .magazine-ad img {
     width: 150px;
   }
-  section.norton-up-ad a.container .magazine-logo {
+  section.homepage-ad a.container .magazine-logo {
     gap: 15px;
   }
-  section.norton-up-ad a.container .magazine-logo img.norton-up-ad-logo {
+  section.homepage-ad a.container .magazine-logo img.norton-up-ad-logo {
     width: 200px;
   }
-  section.norton-up-ad a.container .magazine-logo .download h1 {
+  section.homepage-ad a.container .magazine-logo .download h1 {
     color: var(--white);
     font-size: 17px;
   }
-  section.norton-up-ad a.container .magazine-logo .download p.subhead {
+  section.homepage-ad a.container .magazine-logo .download p.subhead {
     color: var(--white);
     font-size: 16px;
   }
 }
-@media (max-width: 425px) and (max-width: 425px) {
-  section.norton-up-ad {
+@media (max-width: 425px) {
+  section.homepage-ad {
     padding: 30px 20px;
     margin-bottom: 10px;
   }
-  section.norton-up-ad a.container {
+  section.homepage-ad a.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -330,33 +325,29 @@ section.more-ads .container .ad .description a:hover {
     padding: 0 20px;
     text-decoration: none;
   }
-  section.norton-up-ad a.container .magazine-ad {
+  section.homepage-ad a.container .magazine-ad {
     display: flex;
   }
-  section.norton-up-ad a.container .magazine-ad img {
+  section.homepage-ad a.container .magazine-ad img {
     width: 120px;
   }
-  section.norton-up-ad a.container .magazine-logo {
+  section.homepage-ad a.container .magazine-logo {
     gap: 15px;
     align-items: center;
   }
-  section.norton-up-ad a.container .magazine-logo img.norton-up-ad-logo {
+  section.homepage-ad a.container .magazine-logo img.norton-up-ad-logo {
     width: 200px;
   }
-  section.norton-up-ad a.container .magazine-logo .download h1 {
+  section.homepage-ad a.container .magazine-logo .download h1 {
     color: var(--white);
     font-size: 15px;
     text-align: center;
   }
-  section.norton-up-ad a.container .magazine-logo .download p.subhead {
+  section.homepage-ad a.container .magazine-logo .download p.subhead {
     color: var(--white);
     font-size: 16px;
   }
-}
-@media (max-width: 425px) {
   .norton-adup {
-    padding-bottom: 50px;
-    height: 70vh;
     gap: 20px;
   }
   .norton-adup .adup {
@@ -416,4 +407,4 @@ section.more-ads .container .ad .description a:hover {
   section.more-ads .container .ad .description a {
     font-size: 14px;
   }
-}/*# sourceMappingURL=norton-adup.css.map */
+}/*# sourceMappingURL=norton-up-ad.css.map */
