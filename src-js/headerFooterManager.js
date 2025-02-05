@@ -23,7 +23,7 @@ class SpecialHeader extends HTMLElement {
                             <a href="./contact-me">Contact</a>
                         </li>
                         <li>
-                            <a href="./norton-adup">Norton Up-Ad</a>
+                            <a href="./norton-upad">Norton Up-Ad</a>
                         </li>
                     </ul>
 
@@ -38,7 +38,7 @@ class SpecialHeader extends HTMLElement {
                             <a href="./contact-me">Call</a>
                         </li>
                         <li>
-                            <a href="./norton-adup">Up-Ad</a>
+                            <a href="./norton-upad">Up-Ad</a>
                         </li>
                     </ul>
                 </div>
