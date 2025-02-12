@@ -19,6 +19,7 @@ section.portfolios {
 
             .overlay {
                 display: flex;
+                background-color: aqua;
                 flex-direction: row;
                 justify-content: start;
                 align-items: end;
@@ -29,10 +30,24 @@ section.portfolios {
                 height: 100%;
                 transition: all .3s ease;
 
-                span.title {
-                    font-size: 21px;
-                    letter-spacing: 1px;
-                    text-transform: uppercase;
+                .project-title {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 10px;
+
+                    span.title {
+                        font-size: 21px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                    }
+
+                    span.subhead {
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                        opacity: .8;
+                        text-transform: uppercase;
+                    }
                 }
 
                 &:hover {

@@ -77,13 +77,16 @@ class SpecialFooter extends HTMLElement {
                     <img src="./assets/icons/simbahm-logo.svg" alt="Simbah M Logo">
                 </a>
                 <div class="footer-directory-column">
-                    <h1>Works</h1>
+                    <h1>Learn More</h1>
                     <ul>
                         <li>
                             <a href="./logo-desgin">Logo Design</a>
                         </li>
                         <li>
                             <a href="./ui-ux-design">UI UX Design</a>
+                        </li>
+                        <li>
+                            <a href="./norton-upad">Norton UpAd</a>
                         </li>
                     </ul>
                 </div>

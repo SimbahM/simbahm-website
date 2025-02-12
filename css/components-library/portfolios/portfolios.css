@@ -19,6 +19,7 @@ section.portfolios .container a.portfolio-card {
 }
 section.portfolios .container a.portfolio-card .overlay {
   display: flex;
+  background-color: aqua;
   flex-direction: row;
   justify-content: start;
   align-items: end;
@@ -29,9 +30,21 @@ section.portfolios .container a.portfolio-card .overlay {
   height: 100%;
   transition: all 0.3s ease;
 }
-section.portfolios .container a.portfolio-card .overlay span.title {
+section.portfolios .container a.portfolio-card .overlay .project-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+section.portfolios .container a.portfolio-card .overlay .project-title span.title {
   font-size: 21px;
   letter-spacing: 1px;
+  text-transform: uppercase;
+}
+section.portfolios .container a.portfolio-card .overlay .project-title span.subhead {
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.8;
   text-transform: uppercase;
 }
 section.portfolios .container a.portfolio-card .overlay:hover {

@@ -1,0 +1,89 @@
+.dm {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../../assets/images/pages/domain-forest/apple-watch-domain-forest-logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+section.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+section.logo img {
+  width: 400px;
+}
+
+section.dark-background {
+  background-color: #111617;
+}
+
+section.media-status {
+  padding: 200px 15px;
+}
+section.media-status .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.dark-gunmetal-image {
+  background-image: url(../../assets/images/pages/eis/image1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #17192E;
+  background-blend-mode: multiply;
+}
+
+.silver-sand-image {
+  background-image: url(../../assets/images/pages/eis/image2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #C4C4C4;
+  background-blend-mode: multiply;
+}
+
+.anti-flash-white-image {
+  background-image: url(../../assets/images/pages/eis/image3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #EFEFFA;
+  background-blend-mode: multiply;
+}
+
+.sea-serpent-image {
+  background-image: url(../../assets/images/pages/eis/image4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #46BDC5;
+  background-blend-mode: multiply;
+}
+
+.blue-sapphire-color {
+  background-color: #1A6979;
+}
+
+.pewter-blue-color {
+  background-color: #8CB3C4;
+}
+
+.cultured-color {
+  background-color: #F2F7F9;
+}
+.cultured-color span.cultured-hex {
+  color: #1A6979;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.slate-gray-color {
+  background-color: #70868C;
+}/*# sourceMappingURL=domain-forest.css.map */
