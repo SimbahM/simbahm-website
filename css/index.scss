@@ -1,3 +1,83 @@
+.web-public-holiday {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../assets/images/home-page/robert-mugabe.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+
+    .container {
+        height: inherit;
+        max-width: 1000px;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        color: var(--white);
+        gap: 10px;
+        padding: 0 15px;
+
+        span {
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        h1.title {
+            font-size: 40px;
+        }
+
+        p.date {
+            color: var(--white);
+            font-style: italic;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        img {
+            width: 30px;
+            margin: 30px 0 10px 0;
+        }
+
+        hr {
+            width: 200px;
+            opacity: 0.5;
+        }
+
+        p {
+            color: var(--white);
+            font-size: 21px;
+            line-height: 1.4705882353;
+            font-weight: 400;
+            letter-spacing: 0.022em;
+            max-width: 450px;
+        }
+
+        .caption {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+
+            hr {
+                width: 20px;
+                opacity: 0.5;
+            }
+
+            p {
+                color: var(--white);
+                font-style: italic;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
 section.large-panels {
     height: 100vh;
     display: flex;
@@ -15,7 +95,7 @@ section.large-panels {
 
     img.aa-logo {
         width: 300px;
-        opacity: .5;
+        opacity: 0.5;
     }
 
     h1 {
@@ -38,14 +118,16 @@ section.large-panels {
 }
 
 .talent {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/talent.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+        url(../assets/images/home-page/talent.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .touchbase {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/touchbase.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+        url(../assets/images/home-page/touchbase.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -123,49 +205,54 @@ section.featured-projects {
 }
 
 .aa {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/aa.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+        url(../assets/images/home-page/aa.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .esi {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/esi-apple-watch.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../assets/images/home-page/esi-apple-watch.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .natiology {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/natiology.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../assets/images/home-page/natiology.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .ethereal {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/ethereal.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+        url(../assets/images/home-page/ethereal.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .vah {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/vah.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+        url(../assets/images/home-page/vah.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .grandeur-meats {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/gm.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+        url(../assets/images/home-page/gm.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 @media (max-width: 1024px) {
-
     section.large-panels {
         height: 80vh;
         padding-bottom: 50px;
@@ -173,7 +260,7 @@ section.featured-projects {
 
         img.aa-logo {
             width: 250px;
-            opacity: .5;
+            opacity: 0.5;
         }
 
         img {
@@ -231,6 +318,70 @@ section.featured-projects {
 }
 
 @media (max-width: 768px) {
+    .web-public-holiday {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url(../assets/images/home-page/robert-mugabe.webp);
+        background-repeat: no-repeat;
+        // background-position: unset;
+        background-size: cover;
+        height: 90vh;
+
+        .container {
+            color: var(--white);
+            gap: 10px;
+            padding: 0 15px;
+            max-width: 500px;
+
+            span {
+                font-size: 18px;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+            }
+
+            h1.title {
+                font-size: 30px;
+            }
+
+            p.date {
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            img {
+                width: 25px;
+                margin: 30px 0 10px 0;
+            }
+
+            hr {
+                width: 100px;
+                opacity: 0.5;
+            }
+
+            p {
+                color: var(--white);
+                font-size: 21px;
+                line-height: 1.4705882353;
+                font-weight: 400;
+                letter-spacing: 0.022em;
+            }
+
+            .caption {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+
+                hr {
+                    width: 20px;
+                    opacity: 0.5;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 
     section.large-panels {
         height: 80vh;
@@ -239,7 +390,7 @@ section.featured-projects {
 
         img.aa-logo {
             width: 150px;
-            opacity: .7;
+            opacity: 0.7;
         }
 
         img {
@@ -295,6 +446,65 @@ section.featured-projects {
 }
 
 @media (max-width: 425px) {
+    .web-public-holiday {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url(../assets/images/home-page/robert-mugabe.webp);
+        background-repeat: no-repeat;
+        background-position: unset;
+        background-size: cover;
+        height: 90vh;
+        padding: 20px 0;
+
+        .container {
+            color: var(--white);
+            gap: 10px;
+            padding: 0 15px;
+            max-width: 500px;
+            padding: 0px 15px;
+
+            span {
+                font-size: 17px;
+            }
+
+            h1.title {
+                font-size: 25px;
+            }
+
+            p.date {
+                font-size: 14px;
+            }
+
+            img {
+                width: 25px;
+            }
+
+            hr {
+                width: 100px;
+                opacity: 0.5;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .caption {
+                gap: 10px;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+
+                hr {
+                    display: block;
+                    width: 20px;
+                    opacity: 0.5;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 
     section.large-panels {
         height: 70vh;

@@ -1,3 +1,72 @@
+.web-public-holiday {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/robert-mugabe.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.web-public-holiday .container {
+  height: inherit;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  gap: 10px;
+  padding: 0 15px;
+}
+.web-public-holiday .container span {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.web-public-holiday .container h1.title {
+  font-size: 40px;
+}
+.web-public-holiday .container p.date {
+  color: var(--white);
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.web-public-holiday .container img {
+  width: 30px;
+  margin: 30px 0 10px 0;
+}
+.web-public-holiday .container hr {
+  width: 200px;
+  opacity: 0.5;
+}
+.web-public-holiday .container p {
+  color: var(--white);
+  font-size: 21px;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  letter-spacing: 0.022em;
+  max-width: 450px;
+}
+.web-public-holiday .container .caption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.web-public-holiday .container .caption hr {
+  width: 20px;
+  opacity: 0.5;
+}
+.web-public-holiday .container .caption p {
+  color: var(--white);
+  font-style: italic;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 section.large-panels {
   height: 100vh;
   display: flex;
@@ -201,6 +270,58 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 768px) {
+  .web-public-holiday {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/robert-mugabe.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+  }
+  .web-public-holiday .container {
+    color: var(--white);
+    gap: 10px;
+    padding: 0 15px;
+    max-width: 500px;
+  }
+  .web-public-holiday .container span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  .web-public-holiday .container h1.title {
+    font-size: 30px;
+  }
+  .web-public-holiday .container p.date {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .web-public-holiday .container img {
+    width: 25px;
+    margin: 30px 0 10px 0;
+  }
+  .web-public-holiday .container hr {
+    width: 100px;
+    opacity: 0.5;
+  }
+  .web-public-holiday .container p {
+    color: var(--white);
+    font-size: 21px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: 0.022em;
+  }
+  .web-public-holiday .container .caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .web-public-holiday .container .caption hr {
+    width: 20px;
+    opacity: 0.5;
+  }
+  .web-public-holiday .container .caption p {
+    font-size: 12px;
+  }
   section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
@@ -252,6 +373,54 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 425px) {
+  .web-public-holiday {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/robert-mugabe.webp);
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+    height: 90vh;
+    padding: 20px 0;
+  }
+  .web-public-holiday .container {
+    color: var(--white);
+    gap: 10px;
+    padding: 0 15px;
+    max-width: 500px;
+    padding: 0px 15px;
+  }
+  .web-public-holiday .container span {
+    font-size: 17px;
+  }
+  .web-public-holiday .container h1.title {
+    font-size: 25px;
+  }
+  .web-public-holiday .container p.date {
+    font-size: 14px;
+  }
+  .web-public-holiday .container img {
+    width: 25px;
+  }
+  .web-public-holiday .container hr {
+    width: 100px;
+    opacity: 0.5;
+  }
+  .web-public-holiday .container p {
+    font-size: 20px;
+  }
+  .web-public-holiday .container .caption {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .web-public-holiday .container .caption hr {
+    display: block;
+    width: 20px;
+    opacity: 0.5;
+  }
+  .web-public-holiday .container .caption p {
+    font-size: 12px;
+  }
   section.large-panels {
     height: 70vh;
     padding-bottom: 50px;

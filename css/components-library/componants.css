@@ -30,12 +30,12 @@ h2 {
 }
 
 :root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --accent: #FFA656;
-  --gray: #54595F;
-  --gold: #FAC854;
+  --primary: #1b2f3f;
+  --secondary: #2e465e;
+  --white: #ebeff2;
+  --accent: #ffa656;
+  --gray: #54595f;
+  --gold: #fac854;
 }
 
 @font-face {
