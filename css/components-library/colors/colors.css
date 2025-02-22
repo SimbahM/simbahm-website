@@ -29,7 +29,7 @@ section.colors-container .colors p {
   color: var(--white);
 }
 section.colors-container .colors p.change-color {
-  color: #1E1C1B;
+  color: #1e1c1b;
 }
 section.colors-container .colors p.snow-color {
   color: #133155;
@@ -68,7 +68,7 @@ section.colors .container .color-panels .image span.color-name {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
 }
 section.colors .container .color-panels .color {
@@ -116,7 +116,7 @@ section.three-colors .colors p.mazi-hex {
   color: var(--white);
 }
 section.three-colors .colors p.mazi-hex-color {
-  color: #1E1C1B;
+  color: #1e1c1b;
 }
 section.three-colors .colors p,
 section.three-colors .colors p.sallegreen-title {
@@ -125,7 +125,7 @@ section.three-colors .colors p.sallegreen-title {
 section.three-colors .colors p.change-color,
 section.three-colors .colors p,
 section.three-colors .colors .cultured {
-  color: #1E1C1B;
+  color: #1e1c1b;
 }
 
 section.color-palette {
@@ -144,11 +144,11 @@ section.color-palette .grid .palette {
 }
 section.color-palette .grid .palette h2.dustme-hex-title,
 section.color-palette .grid .palette p.dustme-hex-code {
-  color: #004A2E;
+  color: #004a2e;
 }
 section.color-palette .grid .palette h2.niiche-title,
 section.color-palette .grid .palette p.niche-hex-code {
-  color: #262B28;
+  color: #262b28;
 }
 section.color-palette .grid .palette h2,
 section.color-palette .grid .palette p {
@@ -227,7 +227,7 @@ section.color-palette .main-color .palette {
     margin-top: 10px;
   }
   section.color-palette .main-color .teal-blue {
-    background-color: #2F7992;
+    background-color: #2f7992;
     height: 300px;
     padding: 30px;
   }

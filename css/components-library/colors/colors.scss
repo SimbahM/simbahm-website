@@ -32,7 +32,7 @@ section.colors-container {
         }
 
         p.change-color {
-            color: #1E1C1B;
+            color: #1e1c1b;
         }
 
         p.snow-color {
@@ -75,7 +75,7 @@ section.colors {
                     position: absolute;
                     bottom: 10px;
                     right: 10px;
-                    font-size: 40px;
+                    font-size: 30px;
                     font-weight: 300;
                 }
             }
@@ -132,7 +132,7 @@ section.three-colors {
         }
 
         p.mazi-hex-color {
-            color: #1E1C1B;
+            color: #1e1c1b;
         }
 
         p,
@@ -143,7 +143,7 @@ section.three-colors {
         p.change-color,
         p,
         .cultured {
-            color: #1E1C1B;
+            color: #1e1c1b;
         }
     }
 }
@@ -164,12 +164,12 @@ section.color-palette {
 
             h2.dustme-hex-title,
             p.dustme-hex-code {
-                color: #004A2E;
+                color: #004a2e;
             }
 
             h2.niiche-title,
             p.niche-hex-code {
-                color: #262B28;
+                color: #262b28;
             }
 
             h2,
@@ -192,7 +192,6 @@ section.color-palette {
 }
 
 @media (max-width: 1024px) {
-
     section.colors-container {
         padding: 10px 10px;
 
@@ -269,7 +268,7 @@ section.color-palette {
             margin-top: 10px;
 
             .teal-blue {
-                background-color: #2F7992;
+                background-color: #2f7992;
                 height: 300px;
                 padding: 30px;
             }
@@ -278,7 +277,6 @@ section.color-palette {
 }
 
 @media (max-width: 768px) {
-
     section.colors-container {
         padding: 10px 10px;
 
@@ -343,7 +341,6 @@ section.color-palette {
     }
 
     section.color-palette {
-
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -358,7 +355,6 @@ section.color-palette {
 }
 
 @media (max-width: 425px) {
-
     section.colors-container {
         padding: 10px 10px;
 
@@ -423,7 +419,6 @@ section.color-palette {
     }
 
     section.color-palette {
-
         .grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);

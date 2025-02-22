@@ -11,7 +11,7 @@ section.headline-wrapper {
         gap: 20px;
 
         img.logo-symbol {
-            width: 300px;
+            width: 200px;
         }
 
         img.icon {
@@ -49,12 +49,17 @@ section.headline-wrapper {
         }
 
         img {
-            margin: 50px 0;
+            // margin: 50px 0;
             width: 500px;
         }
 
-        .component-content {
+        img.old-new-logo {
+            display: flex;
+            margin-bottom: 30px;
+            width: 550px;
+        }
 
+        .component-content {
             .title {
                 font-family: Simbah M;
             }
@@ -83,16 +88,38 @@ section.headline-wrapper {
             .tags {
                 margin-top: 20px;
             }
+
+            span {
+                ol {
+                    li {
+                        margin-left: 20px;
+                        span {
+                            font-size: 18px;
+                            color: var(--gray);
+                            margin-bottom: 20px;
+                            line-height: 1.4705882353;
+                            font-weight: 400;
+                            letter-spacing: -0.022em;
+                        }
+                    }
+                }
+            }
+        }
+
+        img.domain-forest-old-logo {
+            width: 350px;
+        }
+
+        p.caption {
+            color: rgb(159, 159, 159);
+            font-size: 12px;
         }
     }
 }
 
 @media (max-width: 1024px) {
-
     section.headline-wrapper {
-
         .headline-wrapper-content {
-
             h1.project-title {
                 font-size: 50px;
             }
@@ -101,7 +128,6 @@ section.headline-wrapper {
 }
 
 @media (max-width: 768px) {
-
     section.headline-wrapper {
         display: flex;
         margin: 0 20px;
@@ -110,7 +136,7 @@ section.headline-wrapper {
             width: 400px;
 
             h1.project-title {
-                font-size: 50px;
+                font-size: 40px;
             }
 
             h2.sub-project-title {
@@ -119,8 +145,13 @@ section.headline-wrapper {
                 color: var(--secondary);
             }
 
-            .component-content {
+            img.old-new-logo {
+                display: flex;
+                margin-bottom: 30px;
+                width: 400px;
+            }
 
+            .component-content {
                 p {
                     font-size: 17px;
                     margin-bottom: 20px;
@@ -131,7 +162,6 @@ section.headline-wrapper {
 }
 
 @media (max-width: 425px) {
-
     section.headline-wrapper {
         margin: 0 20px;
 
@@ -158,8 +188,17 @@ section.headline-wrapper {
                 color: var(--secondary);
             }
 
-            .component-content {
+            img.old-new-logo {
+                display: flex;
+                margin-bottom: 30px;
+                width: 250px;
+            }
 
+            img.domain-forest-old-logo {
+                width: 250px;
+            }
+
+            .component-content {
                 p {
                     font-size: 17px;
                     margin-bottom: 20px;

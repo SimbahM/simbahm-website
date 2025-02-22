@@ -1,6 +1,6 @@
 section.homepage-ad {
   background-color: #70b848;
-  padding: 30px 20px;
+  padding: 10px 20px;
   margin-bottom: 10px;
 }
 section.homepage-ad a.container {
@@ -10,7 +10,7 @@ section.homepage-ad a.container {
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
   padding: 0 20px;
   text-decoration: none;
 }
@@ -18,45 +18,20 @@ section.homepage-ad a.container .magazine-ad {
   display: flex;
 }
 section.homepage-ad a.container .magazine-ad img {
-  width: 200px;
+  width: 80px;
 }
 section.homepage-ad a.container .magazine-logo {
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 15px;
+  gap: 10px;
 }
 section.homepage-ad a.container .magazine-logo img.norton-up-ad-logo {
-  width: 300px;
+  width: 200px;
 }
 section.homepage-ad a.container .magazine-logo .download h1 {
   color: var(--white);
-}
-section.homepage-ad a.container .magazine-logo .download p.subhead {
-  color: var(--white);
   font-size: 16px;
-}
-section.homepage-ad a.container a.download {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  text-decoration: none;
-}
-section.homepage-ad a.container a.download .divider {
-  border-right: 1px solid var(--white);
-}
-section.homepage-ad a.container a.download .download-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-section.homepage-ad a.container a.download .download-button img {
-  width: 30px;
-}
-section.homepage-ad a.container a.download .download-button h1 {
-  font-size: 20px;
-  color: var(--white);
 }
 
 .norton-adup {

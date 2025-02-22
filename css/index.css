@@ -1,5 +1,40 @@
+section.domain-forest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+section.domain-forest img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+section.domain-forest .metadata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.domain-forest .metadata h1 {
+  font-size: 60px;
+  color: var(--primary);
+}
+section.domain-forest .metadata span {
+  color: var(--accent);
+  font-size: 21px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+section.domain-forest .metadata p {
+  font-size: 21px;
+  color: var(--primary);
+  text-align: center;
+}
+
 section.large-panels {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,13 +65,6 @@ section.large-panels p {
   font-size: 21px;
   color: var(--white);
   text-align: center;
-}
-
-.talent {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/talent.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .touchbase {
@@ -149,6 +177,23 @@ section.featured-projects .container .project p {
 }
 
 @media (max-width: 1024px) {
+  section.domain-forest {
+    padding-bottom: 50px;
+    gap: 10px;
+  }
+  section.domain-forest img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  section.domain-forest .metadata h1 {
+    font-size: 50px;
+  }
+  section.domain-forest .metadata span {
+    font-size: 21px;
+  }
+  section.domain-forest .metadata p {
+    font-size: 21px;
+  }
   section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
@@ -201,57 +246,22 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 768px) {
-  .web-public-holiday {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/robert-mugabe.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-  }
-  .web-public-holiday .container {
-    color: var(--white);
+  section.domain-forest {
+    padding-bottom: 50px;
     gap: 10px;
-    padding: 0 15px;
-    max-width: 500px;
   }
-  .web-public-holiday .container span {
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
+  section.domain-forest img {
+    width: 250px;
+    margin-bottom: 30px;
   }
-  .web-public-holiday .container h1.title {
-    font-size: 30px;
+  section.domain-forest .metadata h1 {
+    font-size: 40px;
   }
-  .web-public-holiday .container p.date {
-    font-size: 14px;
-    font-weight: 600;
-  }
-  .web-public-holiday .container img {
-    width: 25px;
-    margin: 30px 0 10px 0;
-  }
-  .web-public-holiday .container hr {
-    width: 100px;
-    opacity: 0.5;
-  }
-  .web-public-holiday .container p {
-    color: var(--white);
+  section.domain-forest .metadata span {
     font-size: 21px;
-    line-height: 1.4705882353;
-    font-weight: 400;
-    letter-spacing: 0.022em;
   }
-  .web-public-holiday .container .caption {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-  }
-  .web-public-holiday .container .caption hr {
-    width: 20px;
-    opacity: 0.5;
-  }
-  .web-public-holiday .container .caption p {
-    font-size: 12px;
+  section.domain-forest .metadata p {
+    font-size: 21px;
   }
   section.large-panels {
     height: 80vh;

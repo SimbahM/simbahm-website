@@ -1,5 +1,5 @@
 header {
-    background-color: #2E465E;
+    background-color: #2e465e;
     border-bottom: 1px solid #3a5772;
     backdrop-filter: blur(10px);
     display: flex;
@@ -29,8 +29,8 @@ header {
                 img {
                     display: block;
                     width: 110px;
-                    opacity: .8;
-                    transition: all .3s ease 0s;
+                    opacity: 0.8;
+                    transition: all 0.3s ease 0s;
 
                     &:hover {
                         opacity: 1;
@@ -44,7 +44,6 @@ header {
         }
 
         .nav-items {
-
             ul {
                 list-style: none;
                 display: flex;
@@ -52,15 +51,14 @@ header {
                 gap: 30px;
 
                 li {
-
                     a {
                         text-decoration: none;
                         color: var(--white);
                         font-size: 12px;
                         font-weight: 400;
-                        opacity: .7;
+                        opacity: 0.7;
                         border-radius: 0 0 2px 2px;
-                        transition: all .5s ease 0s;
+                        transition: all 0.5s ease 0s;
                         text-transform: uppercase;
                         letter-spacing: 0.05rem;
 
@@ -98,13 +96,13 @@ header {
                         color: var(--white);
                         padding: 7px 15px;
                         font-size: 20px;
-                        transition: all .5s ease 0s;
+                        transition: all 0.5s ease 0s;
                         border-radius: 0 0 2px 2px;
-                        opacity: .6;
+                        opacity: 0.6;
 
                         img {
                             width: 17px;
-                            color: #EBEFF2;
+                            color: #ebeff2;
                         }
 
                         &:hover {
@@ -117,32 +115,27 @@ header {
     }
 }
 
-// media Query 
+// media Query
 
 @media (max-width: 854px) {
-
     header {
-
         nav.navigation-bar {
-
             .nav-items {
                 margin-right: -13px;
-
 
                 ul {
                     list-style: none;
                     gap: 30px;
 
                     li {
-
                         a {
                             text-decoration: none;
                             color: var(--white);
                             font-size: 12px;
                             font-weight: 400;
-                            opacity: .7;
+                            opacity: 0.7;
                             border-radius: 0 0 2px 2px;
-                            transition: all .5s ease 0s;
+                            transition: all 0.5s ease 0s;
 
                             &:hover {
                                 opacity: 1;
@@ -160,14 +153,9 @@ header {
 }
 
 @media (max-width: 600px) {
-
     header {
-
         nav.navigation-bar {
-
             .nav-items {
-
-
                 ul {
                     display: none;
                 }
@@ -181,15 +169,10 @@ header {
 }
 
 @media (max-width: 447px) {
-
     header {
-
         nav.navigation-bar {
-
             .logo {
-
                 a {
-
                     img {
                         display: none;
                     }
@@ -202,7 +185,6 @@ header {
             }
 
             .nav-items {
-
                 ul {
                     display: none;
                 }

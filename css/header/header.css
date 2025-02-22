@@ -1,5 +1,5 @@
 header {
-  background-color: #2E465E;
+  background-color: #2e465e;
   border-bottom: 1px solid #3a5772;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -89,7 +89,7 @@ header nav.navigation-bar .social-media ul li a {
 }
 header nav.navigation-bar .social-media ul li a img {
   width: 17px;
-  color: #EBEFF2;
+  color: #ebeff2;
 }
 header nav.navigation-bar .social-media ul li a:hover {
   opacity: 1;

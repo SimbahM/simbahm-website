@@ -1,5 +1,45 @@
+section.domain-forest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    gap: 20px;
+
+    img {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .metadata {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 60px;
+            color: var(--primary);
+        }
+
+        span {
+            color: var(--accent);
+            font-size: 21px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 21px;
+            color: var(--primary);
+            text-align: center;
+        }
+    }
+}
+
 section.large-panels {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,14 +75,6 @@ section.large-panels {
         color: var(--white);
         text-align: center;
     }
-}
-
-.talent {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(../assets/images/home-page/talent.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .touchbase {
@@ -173,6 +205,30 @@ section.featured-projects {
 }
 
 @media (max-width: 1024px) {
+    section.domain-forest {
+        padding-bottom: 50px;
+        gap: 10px;
+
+        img {
+            width: 250px;
+            margin-bottom: 30px;
+        }
+
+        .metadata {
+            h1 {
+                font-size: 50px;
+            }
+
+            span {
+                font-size: 21px;
+            }
+
+            p {
+                font-size: 21px;
+            }
+        }
+    }
+
     section.large-panels {
         height: 80vh;
         padding-bottom: 50px;
@@ -238,67 +294,26 @@ section.featured-projects {
 }
 
 @media (max-width: 768px) {
-    .web-public-holiday {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-            url(../assets/images/home-page/robert-mugabe.webp);
-        background-repeat: no-repeat;
-        // background-position: unset;
-        background-size: cover;
-        height: 90vh;
+    section.domain-forest {
+        padding-bottom: 50px;
+        gap: 10px;
 
-        .container {
-            color: var(--white);
-            gap: 10px;
-            padding: 0 15px;
-            max-width: 500px;
+        img {
+            width: 250px;
+            margin-bottom: 30px;
+        }
+
+        .metadata {
+            h1 {
+                font-size: 40px;
+            }
 
             span {
-                font-size: 18px;
-                text-transform: uppercase;
-                letter-spacing: 0.1rem;
-            }
-
-            h1.title {
-                font-size: 30px;
-            }
-
-            p.date {
-                font-size: 14px;
-                font-weight: 600;
-            }
-
-            img {
-                width: 25px;
-                margin: 30px 0 10px 0;
-            }
-
-            hr {
-                width: 100px;
-                opacity: 0.5;
+                font-size: 21px;
             }
 
             p {
-                color: var(--white);
                 font-size: 21px;
-                line-height: 1.4705882353;
-                font-weight: 400;
-                letter-spacing: 0.022em;
-            }
-
-            .caption {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 10px;
-
-                hr {
-                    width: 20px;
-                    opacity: 0.5;
-                }
-
-                p {
-                    font-size: 12px;
-                }
             }
         }
     }
