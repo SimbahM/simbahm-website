@@ -255,7 +255,7 @@ section.featured-projects .container .project p {
     margin-bottom: 30px;
   }
   section.domain-forest .metadata h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   section.domain-forest .metadata span {
     font-size: 21px;
@@ -314,54 +314,6 @@ section.featured-projects .container .project p {
   }
 }
 @media (max-width: 425px) {
-  .web-public-holiday {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/home-page/robert-mugabe.webp);
-    background-repeat: no-repeat;
-    background-position: unset;
-    background-size: cover;
-    height: 90vh;
-    padding: 20px 0;
-  }
-  .web-public-holiday .container {
-    color: var(--white);
-    gap: 10px;
-    padding: 0 15px;
-    max-width: 500px;
-    padding: 0px 15px;
-  }
-  .web-public-holiday .container span {
-    font-size: 17px;
-  }
-  .web-public-holiday .container h1.title {
-    font-size: 25px;
-  }
-  .web-public-holiday .container p.date {
-    font-size: 14px;
-  }
-  .web-public-holiday .container img {
-    width: 25px;
-  }
-  .web-public-holiday .container hr {
-    width: 100px;
-    opacity: 0.5;
-  }
-  .web-public-holiday .container p {
-    font-size: 20px;
-  }
-  .web-public-holiday .container .caption {
-    gap: 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-  }
-  .web-public-holiday .container .caption hr {
-    display: block;
-    width: 20px;
-    opacity: 0.5;
-  }
-  .web-public-holiday .container .caption p {
-    font-size: 12px;
-  }
   section.large-panels {
     height: 70vh;
     padding-bottom: 50px;
@@ -372,7 +324,7 @@ section.featured-projects .container .project p {
     margin-bottom: 10px;
   }
   section.large-panels h1 {
-    font-size: 40px;
+    font-size: 30px;
     color: var(--white);
   }
   section.featured-projects {
@@ -399,7 +351,7 @@ section.featured-projects .container .project p {
     padding: 10px;
   }
   section.featured-projects .container .project h1 {
-    font-size: 40px;
+    font-size: 30px;
     color: var(--white);
   }
   section.featured-projects .container .project p {

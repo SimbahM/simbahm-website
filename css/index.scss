@@ -1,499 +1,468 @@
 section.domain-forest {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 50px;
-    margin-bottom: 10px;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+	gap: 20px;
 
-    img {
-        width: 300px;
-        margin-bottom: 30px;
-    }
+	img {
+		width: 300px;
+		margin-bottom: 30px;
+	}
 
-    .metadata {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+	.metadata {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 
-        h1 {
-            font-size: 60px;
-            color: var(--primary);
-        }
+		h1 {
+			font-size: 60px;
+			color: var(--primary);
+		}
 
-        span {
-            color: var(--accent);
-            font-size: 21px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
+		span {
+			color: var(--accent);
+			font-size: 21px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
 
-        p {
-            font-size: 21px;
-            color: var(--primary);
-            text-align: center;
-        }
-    }
+		p {
+			font-size: 21px;
+			color: var(--primary);
+			text-align: center;
+		}
+	}
 }
 
 section.large-panels {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    padding-bottom: 50px;
-    margin-bottom: 10px;
-    gap: 20px;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+	gap: 20px;
 
-    img {
-        width: 200px;
-        margin-bottom: 30px;
-    }
+	img {
+		width: 200px;
+		margin-bottom: 30px;
+	}
 
-    img.aa-logo {
-        width: 300px;
-        opacity: 0.5;
-    }
+	img.aa-logo {
+		width: 300px;
+		opacity: 0.5;
+	}
 
-    h1 {
-        font-size: 60px;
-        color: var(--white);
-    }
+	h1 {
+		font-size: 60px;
+		color: var(--white);
+	}
 
-    span {
-        color: var(--accent);
-        font-size: 21px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
+	span {
+		color: var(--accent);
+		font-size: 21px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
 
-    p {
-        font-size: 21px;
-        color: var(--white);
-        text-align: center;
-    }
+	p {
+		font-size: 21px;
+		color: var(--white);
+		text-align: center;
+	}
 }
 
 .touchbase {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-        url(../assets/images/home-page/touchbase.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.5)
+		),
+		url(../assets/images/home-page/touchbase.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 section.featured-projects {
-    padding: 0px 0 10px 0;
+	padding: 0px 0 10px 0;
 
-    .container {
-        padding: 0 10px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 auto;
-        gap: 10px;
+	.container {
+		padding: 0 10px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin: 0 auto;
+		gap: 10px;
 
-        .project {
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            align-items: center;
-            padding-bottom: 50px;
-            gap: 5px;
+		.project {
+			height: 80vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: end;
+			align-items: center;
+			padding-bottom: 50px;
+			gap: 5px;
 
-            img.logo-symbol {
-                width: 150px;
-                margin-bottom: 20px;
-            }
+			img.logo-symbol {
+				width: 150px;
+				margin-bottom: 20px;
+			}
 
-            img.project-icons {
-                width: 150px;
-                margin-bottom: 80px;
-            }
+			img.project-icons {
+				width: 150px;
+				margin-bottom: 80px;
+			}
 
-            img.grandeur-meats {
-                width: 300px;
-            }
+			img.grandeur-meats {
+				width: 300px;
+			}
 
-            img.vah-image {
-                width: 400px;
-            }
+			img.vah-image {
+				width: 400px;
+			}
 
-            h1 {
-                font-size: 40px;
-                color: var(--white);
-            }
+			h1 {
+				font-size: 40px;
+				color: var(--white);
+			}
 
-            h1.grandeur-heading,
-            .vah {
-                color: var(--secondary);
-            }
+			h1.grandeur-heading,
+			.vah {
+				color: var(--secondary);
+			}
 
-            p.grandeur-paragraphy,
-            .vah {
-                color: var(--secondary);
-            }
+			p.grandeur-paragraphy,
+			.vah {
+				color: var(--secondary);
+			}
 
-            .grandeur,
-            .vah {
-                color: var(--primary);
-            }
+			.grandeur,
+			.vah {
+				color: var(--primary);
+			}
 
-            p {
-                font-size: 19px;
-                text-align: center;
-                color: var(--white);
-            }
-        }
-    }
+			p {
+				font-size: 19px;
+				text-align: center;
+				color: var(--white);
+			}
+		}
+	}
 }
 
 .grandeur-meats,
 .vah {
-    background-color: var(--white);
+	background-color: var(--white);
 }
 
 .aa {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-        url(../assets/images/home-page/aa.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.8)
+		),
+		url(../assets/images/home-page/aa.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .esi {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../assets/images/home-page/esi-apple-watch.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
+		),
+		url(../assets/images/home-page/esi-apple-watch.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .natiology {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../assets/images/home-page/natiology.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
+		),
+		url(../assets/images/home-page/natiology.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .ethereal {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-        url(../assets/images/home-page/ethereal.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.8)
+		),
+		url(../assets/images/home-page/ethereal.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .vah {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-        url(../assets/images/home-page/vah.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.8)
+		),
+		url(../assets/images/home-page/vah.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .grandeur-meats {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-        url(../assets/images/home-page/gm.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.8)
+		),
+		url(../assets/images/home-page/gm.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @media (max-width: 1024px) {
-    section.domain-forest {
-        padding-bottom: 50px;
-        gap: 10px;
+	section.domain-forest {
+		padding-bottom: 50px;
+		gap: 10px;
 
-        img {
-            width: 250px;
-            margin-bottom: 30px;
-        }
+		img {
+			width: 250px;
+			margin-bottom: 30px;
+		}
 
-        .metadata {
-            h1 {
-                font-size: 50px;
-            }
+		.metadata {
+			h1 {
+				font-size: 50px;
+			}
 
-            span {
-                font-size: 21px;
-            }
+			span {
+				font-size: 21px;
+			}
 
-            p {
-                font-size: 21px;
-            }
-        }
-    }
+			p {
+				font-size: 21px;
+			}
+		}
+	}
 
-    section.large-panels {
-        height: 80vh;
-        padding-bottom: 50px;
-        gap: 10px;
+	section.large-panels {
+		height: 80vh;
+		padding-bottom: 50px;
+		gap: 10px;
 
-        img.aa-logo {
-            width: 250px;
-            opacity: 0.5;
-        }
+		img.aa-logo {
+			width: 250px;
+			opacity: 0.5;
+		}
 
-        img {
-            width: 150px;
-        }
+		img {
+			width: 150px;
+		}
 
-        h1 {
-            font-size: 50px;
-        }
-    }
+		h1 {
+			font-size: 50px;
+		}
+	}
 
-    section.featured-projects {
-        padding: 0px 0 10px 0;
+	section.featured-projects {
+		padding: 0px 0 10px 0;
 
-        .container {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
+		.container {
+			grid-template-columns: repeat(2, 1fr);
 
-            .project {
-                height: 70vh;
-                padding-bottom: 50px;
-                gap: 5px;
+			gap: 10px;
 
-                img.logo-symbol {
-                    width: 100px;
-                    margin-bottom: 20px;
-                }
+			.project {
+				height: 70vh;
+				padding-bottom: 50px;
+				gap: 5px;
 
-                img.project-icons {
-                    width: 200px;
-                    margin-bottom: 80px;
-                }
+				img.logo-symbol {
+					width: 100px;
+					margin-bottom: 20px;
+				}
 
-                img.grandure-meats {
-                    width: 330px;
-                }
+				img.project-icons {
+					width: 200px;
+					margin-bottom: 80px;
+				}
 
-                img.vah-image {
-                    width: 330px;
-                }
+				img.grandure-meats {
+					width: 330px;
+				}
 
-                h1 {
-                    font-size: 30px;
-                    color: var(--white);
-                }
+				img.vah-image {
+					width: 330px;
+				}
 
-                p {
-                    font-size: 19px;
-                    text-align: center;
-                    color: var(--white);
-                }
-            }
-        }
-    }
+				h1 {
+					font-size: 30px;
+					color: var(--white);
+				}
+
+				p {
+					font-size: 19px;
+					text-align: center;
+					color: var(--white);
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 768px) {
-    section.domain-forest {
-        padding-bottom: 50px;
-        gap: 10px;
+	section.domain-forest {
+		padding-bottom: 50px;
+		gap: 10px;
 
-        img {
-            width: 250px;
-            margin-bottom: 30px;
-        }
+		img {
+			width: 250px;
+			margin-bottom: 30px;
+		}
 
-        .metadata {
-            h1 {
-                font-size: 40px;
-            }
+		.metadata {
+			h1 {
+				font-size: 30px;
+			}
 
-            span {
-                font-size: 21px;
-            }
+			span {
+				font-size: 21px;
+			}
 
-            p {
-                font-size: 21px;
-            }
-        }
-    }
+			p {
+				font-size: 21px;
+			}
+		}
+	}
 
-    section.large-panels {
-        height: 80vh;
-        padding-bottom: 50px;
-        gap: 10px;
+	section.large-panels {
+		height: 80vh;
+		padding-bottom: 50px;
+		gap: 10px;
 
-        img.aa-logo {
-            width: 150px;
-            opacity: 0.7;
-        }
+		img.aa-logo {
+			width: 150px;
+			opacity: 0.7;
+		}
 
-        img {
-            width: 100px;
-            margin-bottom: 10px;
-        }
+		img {
+			width: 100px;
+			margin-bottom: 10px;
+		}
 
-        h1 {
-            font-size: 40px;
-            color: var(--white);
-        }
-    }
+		h1 {
+			font-size: 40px;
+			color: var(--white);
+		}
+	}
 
-    section.featured-projects {
-        padding: 0 0 10px 0;
+	section.featured-projects {
+		padding: 0 0 10px 0;
 
-        .container {
-            padding: 0 0;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 10px;
+		.container {
+			padding: 0 0;
+			grid-template-columns: repeat(1, 1fr);
+			gap: 10px;
 
-            .project {
-                height: 80vh;
-                padding-bottom: 50px;
-                gap: 5px;
+			.project {
+				height: 80vh;
+				padding-bottom: 50px;
+				gap: 5px;
 
-                img.project-icons {
-                    width: 150px;
-                    margin-bottom: 80px;
-                }
+				img.project-icons {
+					width: 150px;
+					margin-bottom: 80px;
+				}
 
-                img.grandeur-meats {
-                    width: 250px;
-                }
+				img.grandeur-meats {
+					width: 250px;
+				}
 
-                img.vah-image {
-                    width: 330px;
-                }
+				img.vah-image {
+					width: 330px;
+				}
 
-                h1 {
-                    font-size: 40px;
-                    color: var(--white);
-                }
+				h1 {
+					font-size: 40px;
+					color: var(--white);
+				}
 
-                p {
-                    font-size: 21px;
-                    text-align: center;
-                    color: var(--white);
-                }
-            }
-        }
-    }
+				p {
+					font-size: 21px;
+					text-align: center;
+					color: var(--white);
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 425px) {
-    .web-public-holiday {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-            url(../assets/images/home-page/robert-mugabe.webp);
-        background-repeat: no-repeat;
-        background-position: unset;
-        background-size: cover;
-        height: 90vh;
-        padding: 20px 0;
+	section.large-panels {
+		height: 70vh;
+		padding-bottom: 50px;
+		gap: 10px;
 
-        .container {
-            color: var(--white);
-            gap: 10px;
-            padding: 0 15px;
-            max-width: 500px;
-            padding: 0px 15px;
+		img {
+			width: 100px;
+			margin-bottom: 10px;
+		}
 
-            span {
-                font-size: 17px;
-            }
+		h1 {
+			font-size: 30px;
+			color: var(--white);
+		}
+	}
 
-            h1.title {
-                font-size: 25px;
-            }
+	section.featured-projects {
+		padding: 0 0 10px 0;
 
-            p.date {
-                font-size: 14px;
-            }
+		.container {
+			grid-template-columns: repeat(1, 1fr);
+			gap: 10px;
 
-            img {
-                width: 25px;
-            }
+			.project {
+				height: 70vh;
+				padding-bottom: 50px;
+				gap: 5px;
 
-            hr {
-                width: 100px;
-                opacity: 0.5;
-            }
+				img.project-icons {
+					width: 150px;
+					margin-bottom: 80px;
+				}
 
-            p {
-                font-size: 20px;
-            }
+				img.grandeur-meats {
+					width: 230px;
+				}
 
-            .caption {
-                gap: 10px;
-                align-items: center;
-                display: flex;
-                flex-direction: row;
+				img.vah-image {
+					width: 100%;
+					padding: 10px;
+				}
 
-                hr {
-                    display: block;
-                    width: 20px;
-                    opacity: 0.5;
-                }
+				h1 {
+					font-size: 30px;
+					color: var(--white);
+				}
 
-                p {
-                    font-size: 12px;
-                }
-            }
-        }
-    }
-
-    section.large-panels {
-        height: 70vh;
-        padding-bottom: 50px;
-        gap: 10px;
-
-        img {
-            width: 100px;
-            margin-bottom: 10px;
-        }
-
-        h1 {
-            font-size: 40px;
-            color: var(--white);
-        }
-    }
-
-    section.featured-projects {
-        padding: 0 0 10px 0;
-
-        .container {
-            grid-template-columns: repeat(1, 1fr);
-            gap: 10px;
-
-            .project {
-                height: 70vh;
-                padding-bottom: 50px;
-                gap: 5px;
-
-                img.project-icons {
-                    width: 150px;
-                    margin-bottom: 80px;
-                }
-
-                img.grandeur-meats {
-                    width: 230px;
-                }
-
-                img.vah-image {
-                    width: 100%;
-                    padding: 10px;
-                }
-
-                h1 {
-                    font-size: 40px;
-                    color: var(--white);
-                }
-
-                p {
-                    font-size: 21px;
-                    text-align: center;
-                    color: var(--white);
-                }
-            }
-        }
-    }
+				p {
+					font-size: 21px;
+					text-align: center;
+					color: var(--white);
+				}
+			}
+		}
+	}
 }
