@@ -1,41 +1,5 @@
-section.homepage-ad {
-  background-color: #70b848;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-}
-section.homepage-ad a.container {
-  display: flex;
-  flex-direction: row;
-  max-width: 1000px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 0 20px;
-  text-decoration: none;
-}
-section.homepage-ad a.container .magazine-ad {
-  display: flex;
-}
-section.homepage-ad a.container .magazine-ad img {
-  width: 80px;
-}
-section.homepage-ad a.container .magazine-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 10px;
-}
-section.homepage-ad a.container .magazine-logo img.norton-up-ad-logo {
-  width: 200px;
-}
-section.homepage-ad a.container .magazine-logo .download h1 {
-  color: var(--white);
-  font-size: 16px;
-}
-
 .norton-adup {
-  background-color: #70b848;
+  background-color: #F8B01F;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
