@@ -1,3 +1,11 @@
+.spg {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+		url(../assets/images/home-page/spg-logo.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
 section.domain-forest {
 	display: flex;
 	flex-direction: column;
@@ -51,6 +59,7 @@ section.large-panels {
 	img {
 		width: 200px;
 		margin-bottom: 30px;
+		opacity: 0.7;
 	}
 
 	img.aa-logo {
@@ -78,11 +87,7 @@ section.large-panels {
 }
 
 .touchbase {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
 		url(../assets/images/home-page/touchbase.webp);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -160,12 +165,16 @@ section.featured-projects {
 	background-color: var(--white);
 }
 
+.touchbase {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+		url(../assets/images/home-page/touchbase.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .aa {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0),
-			rgba(0, 0, 0, 0.8)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
 		url(../assets/images/home-page/aa.webp);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -173,11 +182,7 @@ section.featured-projects {
 }
 
 .esi {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../assets/images/home-page/esi-apple-watch.webp);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -185,11 +190,7 @@ section.featured-projects {
 }
 
 .natiology {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../assets/images/home-page/natiology.webp);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -197,11 +198,7 @@ section.featured-projects {
 }
 
 .ethereal {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0),
-			rgba(0, 0, 0, 0.8)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
 		url(../assets/images/home-page/ethereal.webp);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -209,24 +206,8 @@ section.featured-projects {
 }
 
 .vah {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0),
-			rgba(0, 0, 0, 0.8)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
 		url(../assets/images/home-page/vah.webp);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.grandeur-meats {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0),
-			rgba(0, 0, 0, 0.8)
-		),
-		url(../assets/images/home-page/gm.webp);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

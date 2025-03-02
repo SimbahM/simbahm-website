@@ -7,16 +7,22 @@ section.projects-hero {
     padding-bottom: 50px;
     gap: 20px;
 
+    img.spg-logo {
+        width: 200px;
+        margin-bottom: 50px;
+        opacity: 0.7;
+    }
+
     img.hero-logo {
         width: 200px;
-        opacity: .7;
+        opacity: 0.7;
         margin-bottom: 40px;
     }
 
     img.shop-savvy-logo {
         width: 600px;
         margin-bottom: 80px;
-        opacity: .7;
+        opacity: 0.7;
     }
 
     h1 {
@@ -40,7 +46,6 @@ section.projects-hero {
 }
 
 @media (max-width: 1024px) {
-
     section.projects-hero {
         height: 90vh;
         padding-bottom: 80px;
@@ -69,15 +74,20 @@ section.projects-hero {
 }
 
 @media (max-width: 768px) {
-
     section.projects-hero {
         height: 70vh;
         padding-bottom: 30px;
         gap: 15px;
 
+        img.spg-logo {
+            width: 150px;
+            margin-bottom: 30px;
+            opacity: 0.7;
+        }
+
         img.hero-logo {
             width: 100px;
-            opacity: .7;
+            opacity: 0.7;
             margin-bottom: 10px;
         }
 
@@ -109,15 +119,20 @@ section.projects-hero {
 }
 
 @media (max-width: 425px) {
-
     section.projects-hero {
         height: 50vh;
         padding-bottom: 30px;
         gap: 15px;
 
+        img.spg-logo {
+            width: 100px;
+            margin-bottom: 10px;
+            opacity: 0.7;
+        }
+
         img.hero-logo {
             width: 70px;
-            opacity: .7;
+            opacity: 0.7;
             margin-bottom: 10px;
         }
 
