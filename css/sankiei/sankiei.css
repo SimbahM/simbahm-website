@@ -1,0 +1,194 @@
+.sankiei {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../../assets/images/pages/sankiei/cover-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+section.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section.logo img {
+  width: 500px;
+}
+
+section.grid {
+  display: flex;
+  background-color: #544037;
+  padding: 200px 0;
+}
+section.grid .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+section.grid .container .post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.image-bg {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../../assets/images/pages/sankiei/cover-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 200px;
+}
+section.image-bg img.logo-symbol {
+  opacity: 0.4;
+  width: 400px;
+}
+
+section.color-bg {
+  background-color: #544037;
+}
+
+.liver-chestnut-image {
+  background-image: url(../../assets/images/pages/sankiei/image1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #544037;
+  background-blend-mode: multiply;
+}
+
+.tuscany-image {
+  background-image: url(../../assets/images/pages/sankiei/image2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #b79e92;
+  background-blend-mode: multiply;
+}
+
+.cyan-azure-image {
+  background-image: url(../../assets/images/pages/sankiei/image3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #4e85ab;
+  background-blend-mode: multiply;
+}
+
+.ceil-image {
+  background-image: url(../../assets/images/pages/sankiei/image4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #8ca0c3;
+  background-blend-mode: multiply;
+}
+
+.liver-chestnut-color {
+  background-color: #544037;
+}
+
+.tuscany-color {
+  background-color: #b79e92;
+}
+
+.cyan-azure-color {
+  background-color: #4e85ab;
+}
+
+.ceil-color {
+  background-color: #8ca0c3;
+}
+
+@media (max-width: 1024px) {
+  section.grid {
+    display: flex;
+    background-color: #544037;
+    padding: 30px 30px;
+  }
+  section.grid .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  section.grid .container .post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.image-bg {
+    margin-bottom: 10px;
+  }
+  section.image-bg img.logo-symbol {
+    opacity: 0.4;
+    width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  section.grid {
+    display: flex;
+    background-color: #544037;
+    padding: 30px 30px;
+  }
+  section.grid .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  section.grid .container .post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  section.logo img {
+    width: 350px;
+  }
+  section.image-bg img.logo-symbol {
+    opacity: 0.4;
+    width: 200px;
+  }
+}
+@media (max-width: 425px) {
+  section.grid {
+    display: flex;
+    background-color: #544037;
+    padding: 30px 30px;
+  }
+  section.grid .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  section.grid .container .post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  section.logo img {
+    width: 250px;
+  }
+  section.image-bg img.logo-symbol {
+    opacity: 0.4;
+    width: 150px;
+  }
+}/*# sourceMappingURL=sankiei.css.map */

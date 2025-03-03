@@ -58,7 +58,7 @@ section.colors .container .color-panels {
 }
 section.colors .container .color-panels .image {
   height: inherit;
-  flex: 2;
+  flex: 3;
   position: relative;
 }
 section.colors .container .color-panels .image span.color-name {
@@ -190,7 +190,7 @@ section.color-palette .main-color .palette {
   }
   section.colors .container .color-panels .image {
     height: inherit;
-    flex: 2;
+    flex: 3;
     position: relative;
   }
   section.colors .container .color-panels .image span.color-name {
@@ -258,7 +258,7 @@ section.color-palette .main-color .palette {
   }
   section.colors .container .color-panels .image {
     height: inherit;
-    flex: 2;
+    flex: 3;
     position: relative;
   }
   section.colors .container .color-panels .image span.color-name {
@@ -319,7 +319,7 @@ section.color-palette .main-color .palette {
   }
   section.colors .container .color-panels .image {
     height: inherit;
-    flex: 2;
+    flex: 3;
     position: relative;
   }
   section.colors .container .color-panels .image span.color-name {

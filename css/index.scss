@@ -6,48 +6,16 @@
 	background-size: cover;
 }
 
-section.domain-forest {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	padding-bottom: 50px;
-	margin-bottom: 10px;
-	gap: 20px;
-
-	img {
-		width: 300px;
-		margin-bottom: 30px;
-	}
-
-	.metadata {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-
-		h1 {
-			font-size: 60px;
-			color: var(--primary);
-		}
-
-		span {
-			color: var(--accent);
-			font-size: 21px;
-			margin-bottom: 10px;
-			text-align: center;
-		}
-
-		p {
-			font-size: 21px;
-			color: var(--primary);
-			text-align: center;
-		}
-	}
+.sankiei {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+		url(../assets/images/home-page/sankiei.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 section.large-panels {
-	height: 90vh;
+	height: 93vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -60,6 +28,10 @@ section.large-panels {
 		width: 200px;
 		margin-bottom: 30px;
 		opacity: 0.7;
+	}
+
+	img.sankiei-logo-symbol {
+		width: 450px;
 	}
 
 	img.aa-logo {
@@ -113,6 +85,10 @@ section.featured-projects {
 			padding-bottom: 50px;
 			gap: 5px;
 
+			img.domain-forest-logo {
+				width: 300px;
+			}
+
 			img.logo-symbol {
 				width: 150px;
 				margin-bottom: 20px;
@@ -123,38 +99,55 @@ section.featured-projects {
 				margin-bottom: 80px;
 			}
 
-			img.grandeur-meats {
-				width: 300px;
-			}
-
-			img.vah-image {
-				width: 400px;
-			}
-
 			h1 {
 				font-size: 40px;
 				color: var(--white);
-			}
-
-			h1.grandeur-heading,
-			.vah {
-				color: var(--secondary);
-			}
-
-			p.grandeur-paragraphy,
-			.vah {
-				color: var(--secondary);
-			}
-
-			.grandeur,
-			.vah {
-				color: var(--primary);
 			}
 
 			p {
 				font-size: 19px;
 				text-align: center;
 				color: var(--white);
+			}
+		}
+
+		.domain-forest {
+			height: 80vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			padding-bottom: 50px;
+			gap: 5px;
+			border: 1px solid var(--white);
+
+			.logo {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				img.domain-forest-logo {
+					width: 300px;
+				}
+			}
+
+			.metadata {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				h1 {
+					font-size: 40px;
+					color: var(--primary);
+				}
+
+				p {
+					font-size: 19px;
+					text-align: center;
+					color: var(--gray);
+				}
 			}
 		}
 	}
@@ -205,43 +198,15 @@ section.featured-projects {
 	background-size: cover;
 }
 
-.vah {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-		url(../assets/images/home-page/vah.webp);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 @media (max-width: 1024px) {
-	section.domain-forest {
-		padding-bottom: 50px;
-		gap: 10px;
-
-		img {
-			width: 250px;
-			margin-bottom: 30px;
-		}
-
-		.metadata {
-			h1 {
-				font-size: 50px;
-			}
-
-			span {
-				font-size: 21px;
-			}
-
-			p {
-				font-size: 21px;
-			}
-		}
-	}
-
 	section.large-panels {
 		height: 80vh;
 		padding-bottom: 50px;
 		gap: 10px;
+
+		img.sankiei-logo-symbol {
+			width: 350px;
+		}
 
 		img.aa-logo {
 			width: 250px;
@@ -280,14 +245,6 @@ section.featured-projects {
 					margin-bottom: 80px;
 				}
 
-				img.grandure-meats {
-					width: 330px;
-				}
-
-				img.vah-image {
-					width: 330px;
-				}
-
 				h1 {
 					font-size: 30px;
 					color: var(--white);
@@ -299,39 +256,45 @@ section.featured-projects {
 					color: var(--white);
 				}
 			}
+
+			.domain-forest {
+				height: 70vh;
+				padding-bottom: 50px;
+				gap: 5px;
+				border: 1px solid var(--white);
+
+				.logo {
+					img.domain-forest-logo {
+						width: 250px;
+					}
+				}
+
+				.metadata {
+					h1 {
+						font-size: 30px;
+						color: var(--primary);
+					}
+
+					p {
+						font-size: 19px;
+						text-align: center;
+						color: var(--gray);
+					}
+				}
+			}
 		}
 	}
 }
 
 @media (max-width: 768px) {
-	section.domain-forest {
-		padding-bottom: 50px;
-		gap: 10px;
-
-		img {
-			width: 250px;
-			margin-bottom: 30px;
-		}
-
-		.metadata {
-			h1 {
-				font-size: 30px;
-			}
-
-			span {
-				font-size: 21px;
-			}
-
-			p {
-				font-size: 21px;
-			}
-		}
-	}
-
 	section.large-panels {
 		height: 80vh;
 		padding-bottom: 50px;
 		gap: 10px;
+
+		img.sankiei-logo-symbol {
+			width: 300px;
+		}
 
 		img.aa-logo {
 			width: 150px;
@@ -386,6 +349,32 @@ section.featured-projects {
 					color: var(--white);
 				}
 			}
+
+			.domain-forest {
+				height: 80vh;
+				padding-bottom: 50px;
+				gap: 5px;
+				border: 1px solid var(--white);
+
+				.logo {
+					img.domain-forest-logo {
+						width: 250px;
+					}
+				}
+
+				.metadata {
+					h1 {
+						font-size: 30px;
+						color: var(--primary);
+					}
+
+					p {
+						font-size: 21px;
+						text-align: center;
+						color: var(--gray);
+					}
+				}
+			}
 		}
 	}
 }
@@ -395,6 +384,10 @@ section.featured-projects {
 		height: 70vh;
 		padding-bottom: 50px;
 		gap: 10px;
+
+		img.sankiei-logo-symbol {
+			width: 200px;
+		}
 
 		img {
 			width: 100px;
@@ -424,15 +417,6 @@ section.featured-projects {
 					margin-bottom: 80px;
 				}
 
-				img.grandeur-meats {
-					width: 230px;
-				}
-
-				img.vah-image {
-					width: 100%;
-					padding: 10px;
-				}
-
 				h1 {
 					font-size: 30px;
 					color: var(--white);
@@ -442,6 +426,32 @@ section.featured-projects {
 					font-size: 21px;
 					text-align: center;
 					color: var(--white);
+				}
+			}
+
+			.domain-forest {
+				height: 70vh;
+				padding-bottom: 50px;
+				gap: 5px;
+				border: 1px solid var(--white);
+
+				.logo {
+					img.domain-forest-logo {
+						width: 200px;
+					}
+				}
+
+				.metadata {
+					h1 {
+						font-size: 30px;
+						color: var(--primary);
+					}
+
+					p {
+						font-size: 21px;
+						text-align: center;
+						color: var(--gray);
+					}
 				}
 			}
 		}

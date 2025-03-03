@@ -4,7 +4,7 @@ header {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   display: flex;
-  height: 60px;
+  height: 7vh;
   width: 100%;
   z-index: 999;
   padding: 0 15px;

@@ -5,43 +5,15 @@
   background-size: cover;
 }
 
-section.domain-forest {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 50px;
-  margin-bottom: 10px;
-  gap: 20px;
-}
-section.domain-forest img {
-  width: 300px;
-  margin-bottom: 30px;
-}
-section.domain-forest .metadata {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-section.domain-forest .metadata h1 {
-  font-size: 60px;
-  color: var(--primary);
-}
-section.domain-forest .metadata span {
-  color: var(--accent);
-  font-size: 21px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-section.domain-forest .metadata p {
-  font-size: 21px;
-  color: var(--primary);
-  text-align: center;
+.sankiei {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/images/home-page/sankiei.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 section.large-panels {
-  height: 90vh;
+  height: 93vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +26,9 @@ section.large-panels img {
   width: 200px;
   margin-bottom: 30px;
   opacity: 0.7;
+}
+section.large-panels img.sankiei-logo-symbol {
+  width: 450px;
 }
 section.large-panels img.aa-logo {
   width: 300px;
@@ -101,6 +76,9 @@ section.featured-projects .container .project {
   padding-bottom: 50px;
   gap: 5px;
 }
+section.featured-projects .container .project img.domain-forest-logo {
+  width: 300px;
+}
 section.featured-projects .container .project img.logo-symbol {
   width: 150px;
   margin-bottom: 20px;
@@ -109,32 +87,48 @@ section.featured-projects .container .project img.project-icons {
   width: 150px;
   margin-bottom: 80px;
 }
-section.featured-projects .container .project img.grandeur-meats {
-  width: 300px;
-}
-section.featured-projects .container .project img.vah-image {
-  width: 400px;
-}
 section.featured-projects .container .project h1 {
   font-size: 40px;
   color: var(--white);
-}
-section.featured-projects .container .project h1.grandeur-heading,
-section.featured-projects .container .project .vah {
-  color: var(--secondary);
-}
-section.featured-projects .container .project p.grandeur-paragraphy,
-section.featured-projects .container .project .vah {
-  color: var(--secondary);
-}
-section.featured-projects .container .project .grandeur,
-section.featured-projects .container .project .vah {
-  color: var(--primary);
 }
 section.featured-projects .container .project p {
   font-size: 19px;
   text-align: center;
   color: var(--white);
+}
+section.featured-projects .container .domain-forest {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  gap: 5px;
+  border: 1px solid var(--white);
+}
+section.featured-projects .container .domain-forest .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.featured-projects .container .domain-forest .logo img.domain-forest-logo {
+  width: 300px;
+}
+section.featured-projects .container .domain-forest .metadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.featured-projects .container .domain-forest .metadata h1 {
+  font-size: 40px;
+  color: var(--primary);
+}
+section.featured-projects .container .domain-forest .metadata p {
+  font-size: 19px;
+  text-align: center;
+  color: var(--gray);
 }
 
 .grandeur-meats,
@@ -177,35 +171,14 @@ section.featured-projects .container .project p {
   background-size: cover;
 }
 
-.vah {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../assets/images/home-page/vah.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media (max-width: 1024px) {
-  section.domain-forest {
-    padding-bottom: 50px;
-    gap: 10px;
-  }
-  section.domain-forest img {
-    width: 250px;
-    margin-bottom: 30px;
-  }
-  section.domain-forest .metadata h1 {
-    font-size: 50px;
-  }
-  section.domain-forest .metadata span {
-    font-size: 21px;
-  }
-  section.domain-forest .metadata p {
-    font-size: 21px;
-  }
   section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
     gap: 10px;
+  }
+  section.large-panels img.sankiei-logo-symbol {
+    width: 350px;
   }
   section.large-panels img.aa-logo {
     width: 250px;
@@ -237,12 +210,6 @@ section.featured-projects .container .project p {
     width: 200px;
     margin-bottom: 80px;
   }
-  section.featured-projects .container .project img.grandure-meats {
-    width: 330px;
-  }
-  section.featured-projects .container .project img.vah-image {
-    width: 330px;
-  }
   section.featured-projects .container .project h1 {
     font-size: 30px;
     color: var(--white);
@@ -252,29 +219,33 @@ section.featured-projects .container .project p {
     text-align: center;
     color: var(--white);
   }
+  section.featured-projects .container .domain-forest {
+    height: 70vh;
+    padding-bottom: 50px;
+    gap: 5px;
+    border: 1px solid var(--white);
+  }
+  section.featured-projects .container .domain-forest .logo img.domain-forest-logo {
+    width: 250px;
+  }
+  section.featured-projects .container .domain-forest .metadata h1 {
+    font-size: 30px;
+    color: var(--primary);
+  }
+  section.featured-projects .container .domain-forest .metadata p {
+    font-size: 19px;
+    text-align: center;
+    color: var(--gray);
+  }
 }
 @media (max-width: 768px) {
-  section.domain-forest {
-    padding-bottom: 50px;
-    gap: 10px;
-  }
-  section.domain-forest img {
-    width: 250px;
-    margin-bottom: 30px;
-  }
-  section.domain-forest .metadata h1 {
-    font-size: 30px;
-  }
-  section.domain-forest .metadata span {
-    font-size: 21px;
-  }
-  section.domain-forest .metadata p {
-    font-size: 21px;
-  }
   section.large-panels {
     height: 80vh;
     padding-bottom: 50px;
     gap: 10px;
+  }
+  section.large-panels img.sankiei-logo-symbol {
+    width: 300px;
   }
   section.large-panels img.aa-logo {
     width: 150px;
@@ -320,12 +291,33 @@ section.featured-projects .container .project p {
     text-align: center;
     color: var(--white);
   }
+  section.featured-projects .container .domain-forest {
+    height: 80vh;
+    padding-bottom: 50px;
+    gap: 5px;
+    border: 1px solid var(--white);
+  }
+  section.featured-projects .container .domain-forest .logo img.domain-forest-logo {
+    width: 250px;
+  }
+  section.featured-projects .container .domain-forest .metadata h1 {
+    font-size: 30px;
+    color: var(--primary);
+  }
+  section.featured-projects .container .domain-forest .metadata p {
+    font-size: 21px;
+    text-align: center;
+    color: var(--gray);
+  }
 }
 @media (max-width: 425px) {
   section.large-panels {
     height: 70vh;
     padding-bottom: 50px;
     gap: 10px;
+  }
+  section.large-panels img.sankiei-logo-symbol {
+    width: 200px;
   }
   section.large-panels img {
     width: 100px;
@@ -351,13 +343,6 @@ section.featured-projects .container .project p {
     width: 150px;
     margin-bottom: 80px;
   }
-  section.featured-projects .container .project img.grandeur-meats {
-    width: 230px;
-  }
-  section.featured-projects .container .project img.vah-image {
-    width: 100%;
-    padding: 10px;
-  }
   section.featured-projects .container .project h1 {
     font-size: 30px;
     color: var(--white);
@@ -366,5 +351,23 @@ section.featured-projects .container .project p {
     font-size: 21px;
     text-align: center;
     color: var(--white);
+  }
+  section.featured-projects .container .domain-forest {
+    height: 70vh;
+    padding-bottom: 50px;
+    gap: 5px;
+    border: 1px solid var(--white);
+  }
+  section.featured-projects .container .domain-forest .logo img.domain-forest-logo {
+    width: 200px;
+  }
+  section.featured-projects .container .domain-forest .metadata h1 {
+    font-size: 30px;
+    color: var(--primary);
+  }
+  section.featured-projects .container .domain-forest .metadata p {
+    font-size: 21px;
+    text-align: center;
+    color: var(--gray);
   }
 }/*# sourceMappingURL=index.css.map */
