@@ -1,8 +1,6 @@
-
-
 class SpecialHeader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <header>
             <nav class="navigation-bar">
                 <div class="logo">
@@ -64,75 +62,77 @@ class SpecialHeader extends HTMLElement {
             </nav>
         </header>
         `
-    }
+	}
 }
 
 class SpecialFooter extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
         <footer>
-        <div class="container">
-            <div class="links">
-                <a href="/" class="logo">
-                    <img src="./assets/icons/simbahm-logo.svg" alt="Simbah M Logo">
-                </a>
-                <div class="footer-directory-column">
-                    <h1>Learn More</h1>
-                    <ul>
-                        <li>
-                            <a href="./logo-desgin">Logo Design</a>
-                        </li>
-                        <li>
-                            <a href="./ui-ux-design">UI UX Design</a>
-                        </li>
-                        <li>
-                            <a href="./norton-upad">Norton UpAd</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-directory-column">
-                    <h1>Social Media</h1>
-                    <ul>
-                        <li>
-                            <a target="_blank" href="https://rb.gy/gxfh30">Facebook</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.instagram.com/simbah.design/">Instagram</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="rb.gy/wyc8c0">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-directory-column">
-                    <h1>Contacts</h1>
-                    <ul>
-                        <li>
-                            <a href="tel:+263774018766">
-                                <img src="./assets/icons/whatsapp-icon.svg" alt="Whatsapp Icon">
-                                +263 77 401 8766
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:simba@simbahm.com">
-                                <img src="./assets/icons/mail-icon.svg" alt="Mail Icon">
-                                simba@simbahm.com
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <div class="copyright">
-                <span class="copyright">
-                    Copyright © 2025 Simbah M. All rights reserved.
-                </span>
-            </div>
-        </div>
-    </footer>
+			<div class="container">
+				<div class="links">
+					<a href="/" class="logo">
+						<img src="./assets/icons/simbahm-logo.svg" alt="Simbah M Logo" />
+					</a>
+					<div class="footer-directory-column">
+						<h1>Works</h1>
+						<ul>
+							<li>
+								<a href="./logo-desgin">Logo Design</a>
+							</li>
+							<li>
+								<a href="./ui-ux-design">UI UX Design</a>
+							</li>
+							<li>
+								<a href="./norton-upad">Norton UpAd</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-directory-column">
+						<h1>Social Media</h1>
+						<ul>
+							<li>
+								<a target="_blank" href="https://rb.gy/gxfh30">Facebook</a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									href="https://www.instagram.com/simbah.design/"
+									>Instagram</a
+								>
+							</li>
+							<li>
+								<a target="_blank" href="https://shorturl.at/E98X0">LinkedIn</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-directory-column">
+						<h1>contacts</h1>
+						<ul>
+							<li>
+								<a target="_blank" href="tel:+263774018766">+263 77 401 8766</a>
+							</li>
+							<li>
+								<a target="_blank" href="mailto:simba@simbahm.com"
+									>simba@simbahm.com</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr />
+				<div class="copyright">
+					<span class="copyright">
+						Copyright © 2025 Simbah M. All rights reserved.
+					</span>
+				</div>
+			</div>
+		</footer>
         `
-    }
+	}
 }
 
-customElements.define('special-header', SpecialHeader)
-customElements.define('special-footer', SpecialFooter)
+customElements.define("special-header", SpecialHeader)
+customElements.define("special-footer", SpecialFooter)

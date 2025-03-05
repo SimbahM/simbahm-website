@@ -33,16 +33,14 @@ footer {
 
                         a {
                             text-decoration: none;
-                            display: flex;
+                            display: inline-block;
                             flex-direction: row;
                             align-items: center;
-                            gap: 10px;
-                            margin-bottom: 5px;
+                            gap: 15px;
                             color: var(--gray);
                             font-size: 14px;
                             line-height: 1.4705882353;
                             font-weight: 400;
-                            letter-spacing: -0.022em;
 
                             &:hover {
                                 text-decoration: underline;
@@ -87,25 +85,14 @@ footer {
         .container {
             .links {
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-    }
+                grid-template-columns: repeat(1, 1fr);
 
-    @media (max-width: 425px) {
-        footer {
-            .container {
-                .links {
-                    display: grid;
-                    grid-template-columns: repeat(1, 1fr);
+                a.logo {
+                    display: flex;
+                    margin-bottom: 20px;
 
-                    a.logo {
-                        display: flex;
-                        margin-bottom: 20px;
-
-                        img {
-                            width: 150px;
-                        }
+                    img {
+                        width: 150px;
                     }
                 }
             }

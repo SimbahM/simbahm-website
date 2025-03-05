@@ -10,7 +10,7 @@
   margin-top: 20px;
   text-transform: uppercase;
   color: var(--white);
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.15rem;
   border-radius: 1px;
   transition: all 0.3s ease 0s;
 }
