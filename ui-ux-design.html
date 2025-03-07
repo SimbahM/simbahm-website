@@ -1,102 +1,102 @@
 <!DOCTYPE html>
 
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>UI / UX Design - Simbah M</title>
+		<meta name="description" content="UI UX Design works" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/ui-ux-design/ui-ux-design.css" />
+		<link rel="stylesheet" href="./css/header/header.css" />
+		<link rel="stylesheet" href="./css/footer/footer.css" />
+		<link rel="stylesheet" href="./css/components-library/componants.css" />
+		<link rel="icon" href="./assets/icons/simbahm-favicon-logo.png" />
+		<link
+			rel="stylesheet"
+			href="./css/components-library/hero-text-wrapper/hero-text-wrapper.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./css/components-library/portfolios/portfolios.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./css/components-library/headline-wrapper/headline-wrapper.css"
+		/>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UI / UX Design - Simbah M</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/ui-ux-design/ui-ux-design.css">
-    <link rel="stylesheet" href="./css/header/header.css">
-    <link rel="stylesheet" href="./css/footer/footer.css">
-    <link rel="stylesheet" href="./css/components-library/componants.css">
-    <link rel="icon" href="./assets/icons/simbahm-favicon-logo.png">
-    <link rel="stylesheet" href="./css/components-library/hero-text-wrapper/hero-text-wrapper.css">
-    <link rel="stylesheet" href="./css/components-library/portfolios/portfolios.css">
-    <link rel="stylesheet" href="./css/components-library/headline-wrapper/headline-wrapper.css">
+		<!-- Google tag (gtag.js) -->
 
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-SYS0P9QBB7"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag("js", new Date())
 
-    <!-- Google tag (gtag.js) -->
+			gtag("config", "G-SYS0P9QBB7")
+		</script>
+	</head>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYS0P9QBB7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+	<body>
+		<!-- Header  -->
 
-        gtag('config', 'G-SYS0P9QBB7');   
-    </script>
-</head>
+		<special-header></special-header>
 
-<body>
+		<!-- Body Content  -->
 
-    <!-- Header  -->
+		<section class="hero-text-wrapper">
+			<div class="container">
+				<p>UI UX Design</p>
+				<h1>
+					Discover how meticulous craftsmanship transforms ideas into
+					striking visuals.
+				</h1>
+			</div>
+		</section>
 
-    <special-header></special-header>
+		<section class="portfolios">
+			<div class="container">
+				<a href="./touchbase" class="portfolio-card touchbase">
+					<div class="overlay">
+						<div class="project-title">
+							<span class="title"> Touchbase Website </span>
+							<span class="subhead"> UI UX Design Project </span>
+						</div>
+					</div>
+				</a>
 
-    <!-- Body Content  -->
+				<a
+					href="./nmb-mobile-app"
+					class="portfolio-card nmb-mobile-app"
+				>
+					<div class="overlay">
+						<div class="project-title">
+							<span class="title"> NMB Mobile App </span>
+							<span class="subhead"> UI UX Design Project </span>
+						</div>
+					</div>
+				</a>
 
-    <section class="hero-text-wrapper">
-        <div class="container">
-            <p>
-                UI UX Design
-            </p>
-            <h1>
-                Discover how meticulous craftsmanship transforms ideas into striking visuals.
-            </h1>
-        </div>
-    </section>
+				<a href="./nmb-website" class="portfolio-card nmb-website">
+					<div class="overlay">
+						<div class="project-title">
+							<span class="title"> NMB Website </span>
+							<span class="subhead"> UI UX Design Project </span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</section>
 
-    <section class="portfolios">
-        <div class="container">
-            <a href="./touchbase" class="portfolio-card touchbase">
-                <div class="overlay">
-                    <div class="project-title">
-                        <span class="title">
-                            Touchbase Website
-                        </span>
-                        <span class="subhead">
-                            UI UX Design Project
-                        </span>
-                    </div>
-                </div>
-            </a>
+		<!-- Footer  -->
 
-            <a href="./nmb-mobile-app" class="portfolio-card nmb-mobile-app">
-                <div class="overlay">
-                    <div class="project-title">
-                        <span class="title">
-                            NMB Mobile App
-                        </span>
-                        <span class="subhead">
-                            UI UX Design Project
-                        </span>
-                    </div>
-                </div>
-            </a>
+		<special-footer></special-footer>
 
-            <a href="./nmb-website" class="portfolio-card nmb-website">
-                <div class="overlay">
-                    <div class="project-title">
-                        <span class="title">
-                            NMB Website
-                        </span>
-                        <span class="subhead">
-                            UI UX Design Project
-                        </span>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer  -->
-
-    <special-footer></special-footer>
-
-    <script src="./src-js/headerFooterManager.js" async defer></script>
-</body>
-
+		<script src="./src-js/headerFooterManager.js" async defer></script>
+	</body>
 </html>
