@@ -1,0 +1,271 @@
+.ab {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../../assets/images/pages/apexbytes/cover-image.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+section.old-logo {
+  padding-bottom: 150px;
+}
+section.old-logo .container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+section.old-logo .container img {
+  width: 500px;
+}
+section.old-logo .container p {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(177, 177, 177);
+}
+
+section.logo-typeface {
+  padding: 10px;
+}
+section.logo-typeface .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(199, 199, 199);
+  height: 700px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+section.logo-typeface .container img {
+  width: 600px;
+}
+
+section.logo-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 90px;
+  margin-bottom: 100px;
+}
+section.logo-symbol .display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+section.logo-symbol .display p {
+  width: 350px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--gray);
+}
+section.logo-symbol .old-symbol img {
+  width: 200px;
+}
+section.logo-symbol .con-lines img {
+  width: 280px;
+}
+section.logo-symbol .final-logo-symbol img {
+  width: 500px;
+}
+
+section.typeface-grid .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+section.typeface-grid .container .typeface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+}
+section.typeface-grid .container .light {
+  background-color: #284c77;
+}
+section.typeface-grid .container .medium {
+  background-color: #1f3b63;
+}
+section.typeface-grid .container .bold {
+  background-color: #182c4c;
+}
+
+section.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section.logo img {
+  width: 800px;
+}
+
+section.bg {
+  background-color: #182c4c;
+  margin-bottom: 200px;
+}
+
+@media (max-width: 1024px) {
+  section.logo-typeface .container {
+    border: 1px solid rgb(199, 199, 199);
+    height: 400px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  section.logo-typeface .container img {
+    width: 400px;
+  }
+  section.logo {
+    height: 90vh;
+  }
+  section.logo img {
+    width: 600px;
+  }
+  section.bg {
+    background-color: #182c4c;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  section.old-logo {
+    padding-bottom: 50px;
+  }
+  section.old-logo .container {
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  section.old-logo .container img {
+    width: 300px;
+  }
+  section.old-logo .container p {
+    font-size: 14px;
+  }
+  section.logo-typeface .container {
+    border: 1px solid rgb(199, 199, 199);
+    height: 400px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  section.logo-typeface .container img {
+    width: 300px;
+  }
+  section.logo-symbol {
+    gap: 90px;
+    margin-bottom: 100px;
+  }
+  section.logo-symbol .display {
+    gap: 30px;
+  }
+  section.logo-symbol .display p {
+    width: 350px;
+    font-size: 16px;
+  }
+  section.logo-symbol .old-symbol img {
+    width: 130px;
+  }
+  section.logo-symbol .con-lines img {
+    width: 200px;
+  }
+  section.logo-symbol .final-logo-symbol img {
+    width: 370px;
+  }
+  section.typeface-grid .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  section.typeface-grid .container .typeface {
+    padding: 50px 30px;
+  }
+  section.logo {
+    height: 80vh;
+  }
+  section.logo img {
+    width: 400px;
+  }
+  section.bg {
+    background-color: #182c4c;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 425px) {
+  section.old-logo {
+    padding-bottom: 50px;
+  }
+  section.old-logo .container {
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  section.old-logo .container img {
+    width: 250px;
+  }
+  section.old-logo .container p {
+    font-size: 14px;
+  }
+  section.logo-typeface .container {
+    border: 1px solid rgb(199, 199, 199);
+    height: 250px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  section.logo-typeface .container img {
+    width: 250px;
+  }
+  section.logo-symbol {
+    gap: 90px;
+    margin-bottom: 100px;
+  }
+  section.logo-symbol .display {
+    gap: 30px;
+  }
+  section.logo-symbol .display p {
+    width: 250px;
+    font-size: 15px;
+  }
+  section.logo-symbol .old-symbol img {
+    width: 100px;
+  }
+  section.logo-symbol .con-lines img {
+    width: 150px;
+  }
+  section.logo-symbol .final-logo-symbol img {
+    width: 250px;
+  }
+  section.typeface-grid .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  section.typeface-grid .container .typeface {
+    padding: 50px 30px;
+  }
+  section.typeface-grid .container .typeface img {
+    width: 200px;
+  }
+  section.logo {
+    height: 60vh;
+  }
+  section.logo img {
+    width: 250px;
+  }
+  section.bg {
+    background-color: #182c4c;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=apexbytes.css.map */
