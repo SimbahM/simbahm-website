@@ -4,9 +4,10 @@ section.project-outline {
 section.project-outline .container {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  max-width: 650px;
   margin: 0 auto;
   gap: 20px;
+  padding: 0 15px;
 }
 section.project-outline .container .project-logo {
   margin-bottom: 20px;
@@ -48,8 +49,11 @@ section.project-outline .container .tools span {
   section.project-outline {
     padding: 100px 0;
   }
+  section.project-outline .container {
+    max-width: 450px;
+  }
 }
-@media (max-width: 537px) {
+@media (max-width: 425px) {
   section.project-outline {
     padding: 50px 0;
   }
@@ -57,7 +61,6 @@ section.project-outline .container .tools span {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
     gap: 10px;
   }

@@ -1,0 +1,278 @@
+section.article-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    gap: 30px;
+
+    img.touchbase-logo {
+        width: 200px;
+    }
+
+    h1.header {
+        font-size: 70px;
+        color: var(--primary);
+        text-align: center;
+    }
+
+    p.subhead {
+        font-size: 25px;
+        text-align: center;
+        max-width: 650px;
+        padding: 0 30px;
+    }
+}
+
+section.article {
+    padding: 200px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .container {
+        max-width: 650px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+
+        h1.heading {
+            font-size: 40px;
+            color: var(--primary);
+            margin: 70px 0 30px 0;
+        }
+
+        .pagebody-content {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+
+            span.subhead {
+                font-size: 21px;
+                font-weight: bold;
+                color: var(--gray);
+                margin: 0px 0 10px 0;
+            }
+
+            p.pagebody {
+                font-size: 20px;
+                line-height: 1.4705882353;
+                font-weight: 400;
+                letter-spacing: -0.022em;
+                margin-bottom: 30px;
+
+                a {
+                    text-decoration: none;
+                    color: red;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: rgb(196, 0, 0);
+                    }
+                }
+            }
+
+            p.subtitle {
+                font-size: 30px;
+                font-weight: 300;
+                margin-bottom: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: red;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: rgb(196, 0, 0);
+                    }
+                }
+            }
+
+            .nb {
+                padding: 20px;
+                background-color: #f3f3f3;
+                margin: 20px 0;
+                border-radius: 5px;
+                font-size: 17px;
+                color: var(--gray);
+                margin-bottom: 30px;
+
+                span.emoji {
+                    font-size: 21px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+section.project-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 1200px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    section.article-head {
+        padding: 100px 0;
+        gap: 30px;
+
+        img.touchbase-logo {
+            width: 150px;
+        }
+
+        h1.header {
+            font-size: 50px;
+        }
+
+        p.subhead {
+            font-size: 21px;
+            max-width: 650px;
+            padding: 0 30px;
+        }
+    }
+
+    section.article {
+        padding: 100px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.article-head {
+        padding: 100px 0;
+        gap: 30px;
+
+        img.touchbase-logo {
+            width: 150px;
+        }
+
+        h1.header {
+            font-size: 50px;
+        }
+
+        p.subhead {
+            font-size: 21px;
+            max-width: 650px;
+            padding: 0 30px;
+        }
+    }
+
+    section.article {
+        padding: 50px 10px;
+
+        .container {
+            max-width: 450px;
+            padding: 0 10px;
+
+            h1.heading {
+                font-size: 30px;
+                margin: 50px 0 30px 0;
+            }
+
+            .pagebody-content {
+                margin-bottom: 50px;
+
+                span.subhead {
+                    font-size: 19px;
+                    margin: 0px 0 10px 0;
+                }
+
+                p.pagebody {
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+
+                p.subtitle {
+                    font-size: 30px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                }
+
+                .nb {
+                    padding: 20px;
+                    margin: 20px 0;
+                    font-size: 17px;
+                    margin-bottom: 30px;
+
+                    span.emoji {
+                        font-size: 21px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    section.article-head {
+        padding: 50px 0;
+        gap: 20px;
+
+        img.touchbase-logo {
+            width: 100px;
+        }
+
+        h1.header {
+            font-size: 30px;
+        }
+
+        p.subhead {
+            font-size: 19px;
+            max-width: 650px;
+            padding: 0 30px;
+        }
+    }
+
+    section.article {
+        padding: 50px 10px;
+
+        .container {
+            max-width: 450px;
+            padding: 0 10px;
+
+            h1.heading {
+                font-size: 30px;
+                margin: 50px 0 20px 0;
+            }
+
+            .pagebody-content {
+                margin-bottom: 30px;
+
+                span.subhead {
+                    font-size: 19px;
+                    margin: 0px 0 10px 0;
+                }
+
+                p.pagebody {
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+
+                p.subtitle {
+                    font-size: 30px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                }
+
+                .nb {
+                    padding: 20px;
+                    margin: 20px 0;
+                    font-size: 17px;
+                    margin-bottom: 30px;
+
+                    span.emoji {
+                        font-size: 21px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
