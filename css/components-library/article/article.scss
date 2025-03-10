@@ -6,7 +6,7 @@ section.article-head {
     padding: 100px 0;
     gap: 30px;
 
-    img.touchbase-logo {
+    img {
         width: 200px;
     }
 
@@ -25,7 +25,7 @@ section.article-head {
 }
 
 section.article {
-    padding: 200px 10px;
+    padding: 100px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,6 @@ section.article {
         .pagebody-content {
             display: flex;
             flex-direction: column;
-            margin-bottom: 50px;
 
             span.subhead {
                 font-size: 21px;
@@ -89,18 +88,48 @@ section.article {
                 }
             }
 
-            .nb {
-                padding: 20px;
+            .divider {
+                margin-top: 60px;
+            }
+
+            .design-card {
+                display: flex;
+                flex-direction: row;
+                align-items: start;
+                justify-content: start;
                 background-color: #f3f3f3;
                 margin: 20px 0;
-                border-radius: 5px;
-                font-size: 17px;
-                color: var(--gray);
-                margin-bottom: 30px;
+                border-radius: 10px;
+                padding: 20px;
 
                 span.emoji {
-                    font-size: 21px;
-                    margin-right: 10px;
+                    font-size: 25px;
+                    margin-right: 15px;
+
+                    img.memoji {
+                        width: 30px;
+                    }
+                }
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    p {
+                        font-size: 16px;
+                        color: rgb(134, 134, 134);
+                        line-height: 1.4705882353;
+                        font-weight: 400;
+                    }
+
+                    .date {
+                        span {
+                            color: rgb(177, 177, 177);
+                            font-size: 12px;
+                            text-transform: uppercase;
+                        }
+                    }
                 }
             }
         }
@@ -123,7 +152,7 @@ section.project-image {
         padding: 100px 0;
         gap: 30px;
 
-        img.touchbase-logo {
+        img {
             width: 150px;
         }
 
@@ -148,7 +177,7 @@ section.project-image {
         padding: 100px 0;
         gap: 30px;
 
-        img.touchbase-logo {
+        img {
             width: 150px;
         }
 
@@ -176,8 +205,6 @@ section.project-image {
             }
 
             .pagebody-content {
-                margin-bottom: 50px;
-
                 span.subhead {
                     font-size: 19px;
                     margin: 0px 0 10px 0;
@@ -193,18 +220,6 @@ section.project-image {
                     font-weight: 300;
                     margin-bottom: 20px;
                 }
-
-                .nb {
-                    padding: 20px;
-                    margin: 20px 0;
-                    font-size: 17px;
-                    margin-bottom: 30px;
-
-                    span.emoji {
-                        font-size: 21px;
-                        margin-right: 10px;
-                    }
-                }
             }
         }
     }
@@ -215,7 +230,7 @@ section.project-image {
         padding: 50px 0;
         gap: 20px;
 
-        img.touchbase-logo {
+        img {
             width: 100px;
         }
 
@@ -231,7 +246,7 @@ section.project-image {
     }
 
     section.article {
-        padding: 50px 10px;
+        padding: 20px 10px;
 
         .container {
             max-width: 450px;
@@ -243,15 +258,13 @@ section.project-image {
             }
 
             .pagebody-content {
-                margin-bottom: 30px;
-
                 span.subhead {
                     font-size: 19px;
                     margin: 0px 0 10px 0;
                 }
 
                 p.pagebody {
-                    font-size: 20px;
+                    font-size: 17px;
                     margin-bottom: 30px;
                 }
 
@@ -259,18 +272,6 @@ section.project-image {
                     font-size: 30px;
                     font-weight: 300;
                     margin-bottom: 20px;
-                }
-
-                .nb {
-                    padding: 20px;
-                    margin: 20px 0;
-                    font-size: 17px;
-                    margin-bottom: 30px;
-
-                    span.emoji {
-                        font-size: 21px;
-                        margin-right: 10px;
-                    }
                 }
             }
         }

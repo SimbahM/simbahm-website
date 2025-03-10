@@ -1,266 +1,75 @@
-:root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --acent: #FFA656;
-  --gray: #54595F;
-}
-
-.nmbconnect {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/ui-ux/nmb/nmb-mobile-app/NMBConnect.webp);
+.hero-image {
+  background-image: url(../../assets/images/ui-ux/nmb/nmb-mobile-app/NMBConnect.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
-section.overview {
-  padding: 100px 0;
-  display: flex;
-  flex-direction: column;
+section.wireframe-mockup-grid {
+  padding: 50px 0;
+}
+section.wireframe-mockup-grid .container {
+  display: grid;
   justify-content: center;
   align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  max-width: 1000px;
   gap: 30px;
 }
-section.overview img.connect-logo {
-  width: 200px;
-}
-section.overview h1 {
-  font-size: 70px;
-  color: var(--primary);
-}
-section.overview p {
-  text-align: center;
-  width: 700px;
-  font-size: 25px;
-  color: var(--gray);
-}
-section.overview img.nmb-logo {
-  width: 150px;
-}
-section.overview .tags {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-section.overview .tags .gray {
-  border: 5px solid rgb(203, 203, 203);
-}
-section.overview .tags .red {
-  border: 5px solid rgb(232, 79, 153);
-}
-section.overview .tags .orange {
-  border: 5px solid rgb(230, 132, 14);
-}
-section.overview .tags .tag {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  width: 300px;
-  height: 130px;
-  border-radius: 30px;
-}
-section.overview .tags .tag p {
-  text-align: center;
-}
-
-section.my-role,
-.design-process {
-  background-color: var(--white);
-}
-
-.lo-fi-bg-image {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/ui-ux/nmb/nmb-mobile-app/NMBConnect.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hi-fi-bg-image {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/ui-ux/nmb/nmb-mobile-app/paperwork.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.visual-design {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/ui-ux/nmb/nmb-mobile-app/african-american-business-woman-working-computer-bar.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-section.sections-main-title {
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-section.sections-main-title h1.number {
-  color: var(--white);
-  font-weight: 100;
-  margin: 0 18px 0 0;
-  font-size: 70px;
-}
-section.sections-main-title h1.title {
-  color: var(--white);
-  font-size: 70px;
-}
-
-section.screens {
-  margin: 200px 0;
-}
-section.screens .container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  width: 1000px;
-  margin: 0 auto;
+section.wireframe-mockup-grid .margin-bottom {
+  margin-bottom: 200px;
 }
 
 @media (max-width: 1024px) {
-  section.overview {
-    padding: 100px 0;
-    gap: 50px;
-  }
-  section.overview img.connect-logo {
-    width: 150px;
-  }
-  section.overview h1 {
-    font-size: 50px;
-  }
-  section.overview p {
-    font-size: 25px;
-  }
-  section.overview img.nmb-logo {
-    width: 150px;
-  }
-  section.overview .tags {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-  }
-  section.sections-main-title {
+  .hero-image {
     height: 80vh;
   }
-  section.sections-main-title h1.number {
-    color: var(--white);
-    font-weight: 100;
-    margin: 0 18px 0 0;
-    font-size: 50px;
+  section.wireframe-mockup-grid {
+    padding: 10px 0;
   }
-  section.sections-main-title h1.title {
-    color: var(--white);
-    font-size: 50px;
-  }
-  section.screens {
-    margin: 50px 0;
-  }
-  section.screens .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    width: 100%;
-    padding: 0 50px;
+  section.wireframe-mockup-grid .container {
+    grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
+    max-width: 1000px;
+    gap: 30px;
+    padding: 0 10px;
+  }
+  section.wireframe-mockup-grid .margin-bottom {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 768px) {
-  section.overview {
-    padding: 100px 0;
+  .hero-image {
+    height: 60vh;
+  }
+  section.wireframe-mockup-grid {
+    padding: 10px 0;
+  }
+  section.wireframe-mockup-grid .container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    max-width: 1000px;
     gap: 30px;
-  }
-  section.overview img.connect-logo {
-    width: 130px;
-  }
-  section.overview h1 {
-    font-size: 50px;
-  }
-  section.overview p {
-    font-size: 22px;
-    width: 100%;
     padding: 0 30px;
   }
-  section.overview img.nmb-logo {
-    width: 130px;
-  }
-  section.overview .tags {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
-  }
-  section.sections-main-title {
-    height: 80vh;
-  }
-  section.sections-main-title h1.number {
-    color: var(--white);
-    font-weight: 100;
-    margin: 0 18px 0 0;
-    font-size: 40px;
-  }
-  section.sections-main-title h1.title {
-    color: var(--white);
-    font-size: 40px;
-  }
-  section.screens {
-    margin: 50px 0;
-  }
-  section.screens .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    margin: 0 auto;
+  section.wireframe-mockup-grid .margin-bottom {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 425px) {
-  section.overview {
-    padding: 50px 0;
-    gap: 30px;
+  section.wireframe-mockup-grid {
+    padding: 10px 0;
   }
-  section.overview h1 {
-    font-size: 30px;
-  }
-  section.overview p {
-    font-size: 17px;
-    line-height: 1.4705882353;
-  }
-  section.overview img.nmb-logo {
-    width: 130px;
-  }
-  section.overview img.design-process {
-    width: 100%;
-    padding: 10px;
-  }
-  section.overview .tags {
-    width: 100%;
-    padding: 0 10px;
-    gap: 10px;
-  }
-  section.overview .tags .tag {
-    width: 100%;
-    border-radius: 20px;
-  }
-  section.sections-main-title {
-    height: 60vh;
-  }
-  section.sections-main-title h1.number {
-    color: var(--white);
-    font-weight: 100;
-    margin: 0 18px 0 0;
-    font-size: 25px;
-  }
-  section.sections-main-title h1.title {
-    color: var(--white);
-    font-size: 25px;
-  }
-  section.screens {
-    margin: 50px 0;
-  }
-  section.screens .container {
-    display: grid;
+  section.wireframe-mockup-grid .container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
     margin: 0 auto;
+    max-width: 1000px;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  section.wireframe-mockup-grid .margin-bottom {
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=nmb-mobile-app.css.map */
