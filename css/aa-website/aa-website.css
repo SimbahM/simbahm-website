@@ -1,0 +1,41 @@
+section.mind-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 50px;
+}
+section.mind-map img {
+  max-width: 1200px;
+}
+
+section.home-page {
+  padding: 50px 20px;
+}
+section.home-page .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+section.home-page img {
+  box-shadow: 0 0 50px 10px rgb(236, 236, 236);
+  border: 1px solid rgb(212, 212, 212);
+}
+
+@media (max-width: 768px) {
+  section.mind-map {
+    height: 80vh;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 425px) {
+  section.mind-map {
+    height: 40vh;
+    padding: 0 20px;
+  }
+}/*# sourceMappingURL=aa-website.css.map */

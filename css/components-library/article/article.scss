@@ -25,10 +25,10 @@ section.article-head {
 }
 
 section.article {
-    padding: 100px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 20px;
 
     .container {
         max-width: 650px;
@@ -37,37 +37,49 @@ section.article {
         flex-direction: column;
         padding: 0 10px;
 
-        h1.heading {
-            font-size: 40px;
-            color: var(--secondary);
-            margin: 70px 0 30px 0;
-        }
-
         .pagebody-content {
+            padding: 50px 0;
             display: flex;
             flex-direction: column;
+            gap: 25px;
 
             span.subhead {
-                font-size: 21px;
+                font-size: 30px;
                 font-weight: bold;
-                color: var(--gray);
-                margin: 0px 0 10px 0;
+                color: var(--secondary);
+
+                font-family: "Simbah M";
             }
 
-            p.pagebody {
-                font-size: 20px;
-                line-height: 1.4705882353;
-                font-weight: 400;
-                letter-spacing: -0.022em;
-                margin-bottom: 30px;
+            .pagebody-text {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
 
-                a {
-                    text-decoration: none;
-                    color: red;
-                    transition: all 0.3s ease;
+                p.pagebody {
+                    font-size: 20px;
+                    line-height: 1.4705882353;
+                    font-weight: 400;
+                    letter-spacing: -0.022em;
 
-                    &:hover {
-                        color: rgb(196, 0, 0);
+                    a {
+                        text-decoration: none;
+                        color: red;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            color: rgb(196, 0, 0);
+                        }
+                    }
+
+                    a.aa-website-link {
+                        text-decoration: none;
+                        color: #6280ad;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            color: #9fb9df;
+                        }
                     }
                 }
             }
@@ -75,7 +87,6 @@ section.article {
             p.subtitle {
                 font-size: 30px;
                 font-weight: 300;
-                margin-bottom: 20px;
 
                 a {
                     text-decoration: none;
@@ -86,10 +97,6 @@ section.article {
                         color: rgb(196, 0, 0);
                     }
                 }
-            }
-
-            .divider {
-                margin-top: 60px;
             }
 
             .design-card {
@@ -98,7 +105,6 @@ section.article {
                 align-items: start;
                 justify-content: start;
                 background-color: #f3f3f3;
-                margin: 20px 0;
                 border-radius: 10px;
                 padding: 20px;
 
@@ -117,10 +123,22 @@ section.article {
                     gap: 10px;
 
                     p {
+                        display: block;
                         font-size: 16px;
                         color: rgb(134, 134, 134);
                         line-height: 1.4705882353;
                         font-weight: 400;
+
+                        a {
+                            font-size: 16px;
+                            text-decoration: none;
+                            color: #6280ad;
+                            transition: all 0.3s ease;
+
+                            &:hover {
+                                color: #9fb9df;
+                            }
+                        }
                     }
 
                     .date {
@@ -166,10 +184,6 @@ section.project-image {
             padding: 0 30px;
         }
     }
-
-    section.article {
-        padding: 100px 10px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -193,32 +207,50 @@ section.project-image {
     }
 
     section.article {
-        padding: 50px 10px;
-
         .container {
             max-width: 450px;
             padding: 0 10px;
 
-            h1.heading {
-                font-size: 30px;
-                margin: 50px 0 30px 0;
-            }
-
             .pagebody-content {
+                padding: 30px 0;
+                gap: 25px;
+
                 span.subhead {
-                    font-size: 19px;
-                    margin: 0px 0 10px 0;
+                    font-size: 30px;
                 }
 
-                p.pagebody {
-                    font-size: 20px;
-                    margin-bottom: 30px;
+                .pagebody-text {
+                    gap: 20px;
+
+                    p.pagebody {
+                        font-size: 20px;
+                    }
                 }
 
                 p.subtitle {
                     font-size: 30px;
-                    font-weight: 300;
-                    margin-bottom: 20px;
+                }
+
+                .design-card {
+                    border-radius: 10px;
+                    padding: 20px;
+
+                    span.emoji {
+                        font-size: 25px;
+                        margin-right: 15px;
+
+                        img.memoji {
+                            width: 30px;
+                        }
+                    }
+
+                    .text {
+                        gap: 10px;
+
+                        p {
+                            font-size: 16px;
+                        }
+                    }
                 }
             }
         }
@@ -246,32 +278,50 @@ section.project-image {
     }
 
     section.article {
-        padding: 20px 10px;
-
         .container {
             max-width: 450px;
             padding: 0 10px;
 
-            h1.heading {
-                font-size: 30px;
-                margin: 50px 0 20px 0;
-            }
-
             .pagebody-content {
+                padding: 20px 0;
+                gap: 15px;
+
                 span.subhead {
-                    font-size: 19px;
-                    margin: 0px 0 10px 0;
+                    font-size: 25px;
                 }
 
-                p.pagebody {
-                    font-size: 17px;
-                    margin-bottom: 30px;
+                .pagebody-text {
+                    gap: 15px;
+
+                    p.pagebody {
+                        font-size: 20px;
+                    }
                 }
 
                 p.subtitle {
                     font-size: 30px;
-                    font-weight: 300;
-                    margin-bottom: 20px;
+                }
+
+                .design-card {
+                    border-radius: 10px;
+                    padding: 20px;
+
+                    span.emoji {
+                        font-size: 25px;
+                        margin-right: 15px;
+
+                        img.memoji {
+                            width: 30px;
+                        }
+                    }
+
+                    .text {
+                        gap: 10px;
+
+                        p {
+                            font-size: 16px;
+                        }
+                    }
                 }
             }
         }
