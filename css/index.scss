@@ -40,27 +40,6 @@ section.large-panels {
 	margin-bottom: 10px;
 	gap: 10px;
 
-	img.spg-logo {
-		width: 200px;
-		margin-bottom: 30px;
-		opacity: 0.7;
-	}
-
-	img {
-		width: 200px;
-		margin-bottom: 30px;
-		opacity: 0.7;
-	}
-
-	img.sankiei-logo-symbol {
-		width: 450px;
-	}
-
-	img.aa-logo {
-		width: 300px;
-		opacity: 0.5;
-	}
-
 	h1 {
 		font-size: 60px;
 		color: var(--white);
@@ -111,11 +90,7 @@ section.featured-projects {
 			img.logo-symbol {
 				width: 150px;
 				margin-bottom: 20px;
-			}
-
-			img.project-icons {
-				width: 150px;
-				margin-bottom: 80px;
+				opacity: 0.7;
 			}
 
 			h1 {
@@ -255,13 +230,13 @@ section.featured-projects {
 				gap: 5px;
 
 				img.logo-symbol {
-					width: 100px;
+					width: 130px;
 					margin-bottom: 20px;
 				}
 
-				img.project-icons {
+				img.sankiei-logo-symbol {
 					width: 200px;
-					margin-bottom: 80px;
+					margin-bottom: 20px;
 				}
 
 				h1 {
@@ -344,17 +319,14 @@ section.featured-projects {
 				padding-bottom: 50px;
 				gap: 5px;
 
-				img.project-icons {
+				img.logo-symbol {
 					width: 150px;
-					margin-bottom: 80px;
+					margin-bottom: 20px;
 				}
 
-				img.grandeur-meats {
+				img.sankiei-logo-symbol {
 					width: 250px;
-				}
-
-				img.vah-image {
-					width: 330px;
+					margin-bottom: 20px;
 				}
 
 				h1 {
@@ -431,9 +403,14 @@ section.featured-projects {
 				padding-bottom: 50px;
 				gap: 5px;
 
-				img.project-icons {
-					width: 150px;
-					margin-bottom: 80px;
+				img.logo-symbol {
+					width: 130px;
+					margin-bottom: 20px;
+				}
+
+				img.sankiei-logo-symbol {
+					width: 200px;
+					margin-bottom: 20px;
 				}
 
 				h1 {
