@@ -298,7 +298,6 @@ section.project-image img {
 }
 @media (max-width: 425px) {
   section.article-head {
-    padding: 50px 0;
     gap: 20px;
   }
   section.article-head img {

@@ -1,13 +1,13 @@
 :root {
-    --primary: #1B2F3F;
-    --secondary: #2E465E;
-    --white: #EBEFF2;
-    --accent: #FFA656;
-    --gray: #54595F;
+    --primary: #1b2f3f;
+    --secondary: #2e465e;
+    --white: #ebeff2;
+    --accent: #ffa656;
+    --gray: #54595f;
 }
 
 section.hero-text-wrapper {
-    height: 50vh;
+    padding: 90px 0;
 
     .container {
         height: inherit;
@@ -35,9 +35,8 @@ section.hero-text-wrapper {
 }
 
 @media (max-width: 1024px) {
-
     section.hero-text-wrapper {
-        height: 40vh;
+        padding: 90px 0;
 
         .container {
             width: 700px;
@@ -59,9 +58,8 @@ section.hero-text-wrapper {
 }
 
 @media (max-width: 768px) {
-
     section.hero-text-wrapper {
-        height: 50vh;
+        padding: 90px 0 70px 0;
 
         .container {
             width: 400px;
@@ -83,10 +81,8 @@ section.hero-text-wrapper {
 }
 
 @media (max-width: 425px) {
-
     section.hero-text-wrapper {
-        padding: 170px 0;
-        height: 0vh;
+        padding: 120px 0 70px 0;
 
         .container {
             width: 300px;
