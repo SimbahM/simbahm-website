@@ -19,6 +19,13 @@
     // outline: solid 1px lime;
 }
 
+div,
+a,
+span,
+img {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 img,
 Video,
 svg {

@@ -3,10 +3,11 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     padding: 50px 0;
     gap: 30px;
+    height: 90vh;
 
     .adup {
         width: 200px;
@@ -265,96 +266,9 @@ section.more-ads {
     }
 }
 
-@media (max-width: 575px) {
-    section.homepage-ad {
-        padding: 30px 20px;
-        margin-bottom: 10px;
-
-        a.container {
-            display: flex;
-            flex-direction: row;
-            gap: 50px;
-            padding: 0 20px;
-            text-decoration: none;
-
-            .magazine-ad {
-                display: flex;
-
-                img {
-                    width: 150px;
-                }
-            }
-
-            .magazine-logo {
-                gap: 15px;
-
-                img.norton-up-ad-logo {
-                    width: 200px;
-                }
-
-                .download {
-                    h1 {
-                        color: var(--white);
-                        font-size: 17px;
-                    }
-
-                    p.subhead {
-                        color: var(--white);
-                        font-size: 16px;
-                    }
-                }
-            }
-        }
-    }
-}
-
 @media (max-width: 425px) {
-    section.homepage-ad {
-        padding: 30px 20px;
-        margin-bottom: 10px;
-
-        a.container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 50px;
-            padding: 0 20px;
-            text-decoration: none;
-
-            .magazine-ad {
-                display: flex;
-
-                img {
-                    width: 120px;
-                }
-            }
-
-            .magazine-logo {
-                gap: 15px;
-                align-items: center;
-
-                img.norton-up-ad-logo {
-                    width: 200px;
-                }
-
-                .download {
-                    h1 {
-                        color: var(--white);
-                        font-size: 15px;
-                        text-align: center;
-                    }
-
-                    p.subhead {
-                        color: var(--white);
-                        font-size: 16px;
-                    }
-                }
-            }
-        }
-    }
-
     .norton-adup {
+        height: 80vh;
         gap: 20px;
 
         .adup {

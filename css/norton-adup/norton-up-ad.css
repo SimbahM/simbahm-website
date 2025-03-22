@@ -3,10 +3,11 @@
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   padding: 50px 0;
   gap: 30px;
+  height: 90vh;
 }
 .norton-adup .adup {
   width: 200px;
@@ -217,76 +218,9 @@ section.more-ads .container .ad .description a:hover {
     font-size: 14px;
   }
 }
-@media (max-width: 575px) {
-  section.homepage-ad {
-    padding: 30px 20px;
-    margin-bottom: 10px;
-  }
-  section.homepage-ad a.container {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding: 0 20px;
-    text-decoration: none;
-  }
-  section.homepage-ad a.container .magazine-ad {
-    display: flex;
-  }
-  section.homepage-ad a.container .magazine-ad img {
-    width: 150px;
-  }
-  section.homepage-ad a.container .magazine-logo {
-    gap: 15px;
-  }
-  section.homepage-ad a.container .magazine-logo img.norton-up-ad-logo {
-    width: 200px;
-  }
-  section.homepage-ad a.container .magazine-logo .download h1 {
-    color: var(--white);
-    font-size: 17px;
-  }
-  section.homepage-ad a.container .magazine-logo .download p.subhead {
-    color: var(--white);
-    font-size: 16px;
-  }
-}
 @media (max-width: 425px) {
-  section.homepage-ad {
-    padding: 30px 20px;
-    margin-bottom: 10px;
-  }
-  section.homepage-ad a.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 0 20px;
-    text-decoration: none;
-  }
-  section.homepage-ad a.container .magazine-ad {
-    display: flex;
-  }
-  section.homepage-ad a.container .magazine-ad img {
-    width: 120px;
-  }
-  section.homepage-ad a.container .magazine-logo {
-    gap: 15px;
-    align-items: center;
-  }
-  section.homepage-ad a.container .magazine-logo img.norton-up-ad-logo {
-    width: 200px;
-  }
-  section.homepage-ad a.container .magazine-logo .download h1 {
-    color: var(--white);
-    font-size: 15px;
-    text-align: center;
-  }
-  section.homepage-ad a.container .magazine-logo .download p.subhead {
-    color: var(--white);
-    font-size: 16px;
-  }
   .norton-adup {
+    height: 80vh;
     gap: 20px;
   }
   .norton-adup .adup {

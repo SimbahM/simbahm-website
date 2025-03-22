@@ -1,57 +1,9 @@
 :root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --accent: #FFA656;
-  --gray: #54595F;
-}
-
-section.nav {
-  display: flex;
-  height: 60px;
-  position: sticky;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgb(223, 223, 223);
-  z-index: 999;
-  padding: 0 15px;
-}
-section.nav .container {
-  width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  height: inherit;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-section.nav .container .logo a {
-  text-decoration: none;
-}
-section.nav .container .logo a h1 {
-  font-size: 21px;
-  color: var(--primary);
-}
-section.nav .container .nav-items {
-  display: flex;
-}
-section.nav .container .nav-items ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 20px;
-}
-section.nav .container .nav-items ul a {
-  text-decoration: none;
-  color: var(--gray);
-  font-size: 14px;
-  transition: all 0.3s ease;
-}
-section.nav .container .nav-items ul a:hover {
-  color: var(--accent);
+  --primary: #1b2f3f;
+  --secondary: #2e465e;
+  --white: #ebeff2;
+  --accent: #ffa656;
+  --gray: #54595f;
 }
 
 .logo-design {
