@@ -24,7 +24,7 @@ section.hero-project p {
   text-align: center;
 }
 
-section.about-me {
+section.pagebody-header {
   padding: 100px 0;
   display: flex;
   flex-direction: column;
@@ -32,21 +32,14 @@ section.about-me {
   align-items: center;
   gap: 10px;
 }
-section.about-me img {
-  width: 50px;
-}
-section.about-me hr {
-  width: 150px;
-  margin: 10px 0 5px 0;
-}
-section.about-me h1.title {
-  font-size: 35px;
+section.pagebody-header h1.title {
+  font-size: 70px;
   color: var(--secondary);
   text-align: center;
   margin-bottom: 20px;
 }
-section.about-me p.subhead {
-  font-size: 25px;
+section.pagebody-header p.subhead {
+  font-size: 30px;
   color: var(--gray);
   text-align: center;
   max-width: 550px;
@@ -155,6 +148,21 @@ section.cta {
   section.hero-project h1 {
     font-size: 50px;
   }
+  section.pagebody-header {
+    padding: 100px 0;
+    gap: 10px;
+  }
+  section.pagebody-header h1.title {
+    font-size: 50px;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section.pagebody-header p.subhead {
+    font-size: 25px;
+    max-width: 550px;
+    margin-bottom: 30px;
+  }
   section.featured-works {
     padding: 50px 20px 100px 20px;
   }
@@ -218,44 +226,40 @@ section.cta {
   }
 }
 @media (max-width: 768px) {
-  section.hero-project {
-    height: 80vh;
-    padding-bottom: 50px;
-    gap: 10px;
-  }
-  section.hero-project img.sankiei-logo-symbol {
-    width: 300px;
-  }
-  section.hero-project img.aa-logo {
-    width: 150px;
-    opacity: 0.7;
-  }
-  section.hero-project img {
-    width: 100px;
-    margin-bottom: 10px;
-  }
-  section.hero-project h1 {
-    font-size: 40px;
-    color: var(--white);
-  }
-}
-@media (max-width: 630px) {
-  section.about-me {
+  section.pagebody-header {
     padding: 100px 0;
     gap: 10px;
   }
-  section.about-me img {
+  section.pagebody-header h1.title {
+    font-size: 40px;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  section.pagebody-header p.subhead {
+    font-size: 25px;
+    max-width: 400px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 630px) {
+  section.pagebody-title {
+    padding: 100px 0;
+    gap: 10px;
+  }
+  section.pagebody-title img {
     width: 40px;
   }
-  section.about-me hr {
+  section.pagebody-title hr {
     width: 150px;
     margin: 5px 0 3px 0;
   }
-  section.about-me h1.title {
+  section.pagebody-title h1.title {
     font-size: 30px;
     margin-bottom: 20px;
   }
-  section.about-me p.subhead {
+  section.pagebody-title p.subhead {
     font-size: 21px;
     max-width: 300px;
     margin-bottom: 30px;
@@ -336,29 +340,27 @@ section.cta {
     font-size: 30px;
     color: var(--white);
   }
-  section.about-me {
-    padding: 100px 0;
-    gap: 10px;
-  }
-  section.about-me img {
-    width: 40px;
-  }
-  section.about-me hr {
-    width: 150px;
-    margin: 5px 0 3px 0;
-  }
-  section.about-me h1.title {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  section.about-me p.subhead {
-    font-size: 21px;
-    max-width: 300px;
-    margin-bottom: 30px;
-  }
   section.titles h1.title {
     font-size: 25px;
     color: var(--secondary);
+  }
+  section.pagebody-header {
+    padding: 50px 0;
+    gap: 10px;
+  }
+  section.pagebody-header h1.title {
+    font-size: 30px;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  section.pagebody-header p.subhead {
+    font-size: 25px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin-bottom: 30px;
   }
   section.featured-works {
     padding: 50px 10px 50px 10px;
