@@ -63,6 +63,7 @@
   align-items: center;
   opacity: 0.7;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 .nav-container nav .desktop-nav a.norton-upad:hover {
   opacity: 0.9;

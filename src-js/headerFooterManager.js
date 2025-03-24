@@ -14,7 +14,10 @@ class SpecialHeader extends HTMLElement {
 
 					<ul class="nav-items">
 						<li>
-							<a href="./works">Works</a>
+							<a href="./logo-desgin">Logo Design</a>
+						</li>
+						<li>
+							<a href="./ui-ux-design">UI UX Design</a>
 						</li>
 						<li>
 							<a href="./about-me">About Me</a>

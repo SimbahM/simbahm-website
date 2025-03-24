@@ -1,0 +1,453 @@
+.aa-webiste {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../../assets/images/home-page/aa-website.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.touchbase {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/home-page/touchbase.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.apexbytes {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/home-page/apexbytes.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spg {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/home-page/spg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sankiei {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/home-page/sankiei-logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.domain-forest {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/home-page/domain-forest.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.esi {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/images/home-page/esi-apple-watch.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.hero-project {
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+section.hero-project h1 {
+  font-size: 60px;
+  color: var(--white);
+}
+section.hero-project span {
+  color: var(--accent);
+  font-size: 21px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+section.hero-project p {
+  font-size: 21px;
+  color: var(--white);
+  text-align: center;
+}
+
+section.about-me {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section.about-me img {
+  width: 50px;
+}
+section.about-me hr {
+  width: 150px;
+  margin: 10px 0 5px 0;
+}
+section.about-me h1.title {
+  font-size: 35px;
+  color: var(--secondary);
+  text-align: center;
+  margin-bottom: 20px;
+}
+section.about-me p.subhead {
+  font-size: 25px;
+  color: var(--gray);
+  text-align: center;
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+section.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.titles h1.title {
+  font-size: 48px;
+  color: var(--secondary);
+}
+
+section.featured-works {
+  padding: 50px 20px 100px 20px;
+}
+section.featured-works .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section.featured-works .container h1.title {
+  font-size: 48px;
+  color: var(--secondary);
+}
+section.featured-works .container .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+section.featured-works .container .grid a.product-card {
+  display: flex;
+  height: 500px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 100%;
+  color: var(--white);
+}
+section.featured-works .container .grid a.product-card:hover .overlay {
+  opacity: 1;
+  border-radius: 5px;
+}
+section.featured-works .container .grid a.product-card:hover .overlay .project-title {
+  margin-bottom: 0;
+}
+section.featured-works .container .grid a.product-card .overlay {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: end;
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+section.featured-works .container .grid a.product-card .overlay .project-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: -50px;
+  transition: all 0.3s ease;
+}
+section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+  font-size: 17px;
+  color: var(--white);
+  opacity: 0.7;
+}
+
+section.cta {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 200px 0;
+}
+
+@media (max-width: 1024px) {
+  section.hero-project {
+    height: 80vh;
+    padding-bottom: 50px;
+    gap: 10px;
+  }
+  section.hero-project img.sankiei-logo-symbol {
+    width: 350px;
+  }
+  section.hero-project img.aa-logo {
+    width: 250px;
+    opacity: 0.5;
+  }
+  section.hero-project img {
+    width: 150px;
+  }
+  section.hero-project h1 {
+    font-size: 50px;
+  }
+  section.featured-works {
+    padding: 50px 20px 100px 20px;
+  }
+  section.featured-works .container {
+    margin: 0 auto;
+  }
+  section.featured-works .container h1.title {
+    font-size: 48px;
+    color: var(--secondary);
+  }
+  section.featured-works .container .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.featured-works .container .grid a.product-card {
+    display: flex;
+    height: 400px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--white);
+  }
+  section.featured-works .container .grid a.product-card:hover .overlay {
+    opacity: 1;
+    border-radius: 5px;
+  }
+  section.featured-works .container .grid a.product-card:hover .overlay .project-title {
+    margin-bottom: 0;
+  }
+  section.featured-works .container .grid a.product-card .overlay {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: end;
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -50px;
+    transition: all 0.3s ease;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 17px;
+    color: var(--white);
+    opacity: 0.7;
+  }
+}
+@media (max-width: 768px) {
+  section.hero-project {
+    height: 80vh;
+    padding-bottom: 50px;
+    gap: 10px;
+  }
+  section.hero-project img.sankiei-logo-symbol {
+    width: 300px;
+  }
+  section.hero-project img.aa-logo {
+    width: 150px;
+    opacity: 0.7;
+  }
+  section.hero-project img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  section.hero-project h1 {
+    font-size: 40px;
+    color: var(--white);
+  }
+}
+@media (max-width: 630px) {
+  section.about-me {
+    padding: 100px 0;
+    gap: 10px;
+  }
+  section.about-me img {
+    width: 40px;
+  }
+  section.about-me hr {
+    width: 150px;
+    margin: 5px 0 3px 0;
+  }
+  section.about-me h1.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  section.about-me p.subhead {
+    font-size: 21px;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  section.titles h1.title {
+    font-size: 35px;
+    color: var(--secondary);
+  }
+  section.featured-works {
+    padding: 50px 20px 100px 20px;
+  }
+  section.featured-works .container {
+    margin: 0 auto;
+  }
+  section.featured-works .container h1.title {
+    font-size: 48px;
+    color: var(--secondary);
+  }
+  section.featured-works .container .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  section.featured-works .container .grid a.product-card {
+    display: flex;
+    height: 400px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--white);
+  }
+  section.featured-works .container .grid a.product-card .overlay {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: end;
+    padding: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+    transition: all 0.3s ease;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 17px;
+    color: var(--white);
+    opacity: 0.7;
+  }
+}
+@media (max-width: 425px) {
+  section.hero-project {
+    height: 70vh;
+    padding-bottom: 50px;
+    gap: 10px;
+  }
+  section.hero-project img.sankiei-logo-symbol {
+    width: 200px;
+  }
+  section.hero-project img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  section.hero-project h1 {
+    font-size: 30px;
+    color: var(--white);
+  }
+  section.about-me {
+    padding: 100px 0;
+    gap: 10px;
+  }
+  section.about-me img {
+    width: 40px;
+  }
+  section.about-me hr {
+    width: 150px;
+    margin: 5px 0 3px 0;
+  }
+  section.about-me h1.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  section.about-me p.subhead {
+    font-size: 21px;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  section.titles h1.title {
+    font-size: 25px;
+    color: var(--secondary);
+  }
+  section.featured-works {
+    padding: 50px 10px 50px 10px;
+  }
+  section.featured-works .container {
+    margin: 0 auto;
+  }
+  section.featured-works .container h1.title {
+    font-size: 48px;
+    color: var(--secondary);
+  }
+  section.featured-works .container .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  section.featured-works .container .grid a.product-card {
+    display: flex;
+    height: 300px;
+  }
+  section.featured-works .container .grid a.product-card .overlay {
+    opacity: 1;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 17px;
+    color: var(--white);
+    opacity: 0.7;
+  }
+  section.cta {
+    padding: 0 0 50px 0;
+  }
+}/*# sourceMappingURL=new-home.css.map */

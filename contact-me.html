@@ -1,81 +1,84 @@
 <!DOCTYPE html>
 
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Contact Me - Simbah M</title>
+		<meta
+			name="description"
+			content="Lets chat. Tell me about your project. Just Say Hello. info@simbahm.com +26377 401 8766"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/components-library/componants.css" />
+		<link rel="stylesheet" href="./css/contact-me/contact-me.css" />
+		<link rel="stylesheet" href="./css/header/header.css" />
+		<link rel="stylesheet" href="./css/footer/footer.css" />
+		<link rel="icon" href="./assets/icons/simbahm-favicon-logo.png" />
+		<link
+			rel="stylesheet"
+			href="./css/components-library/hero-text-wrapper/hero-text-wrapper.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./css/components-library/headline-wrapper/headline-wrapper.css"
+		/>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Me - Simbah M</title>
-    <meta name="description"
-        content="Lets chat. Tell me about your project. Just Say Hello. info@simbahm.com +26377 401 8766">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/components-library/componants.css">
-    <link rel="stylesheet" href="./css/contact-me/contact-me.css">
-    <link rel="stylesheet" href="./css/header/header.css">
-    <link rel="stylesheet" href="./css/footer/footer.css">
-    <link rel="icon" href="./assets/icons/simbahm-favicon-logo.png">
-    <link rel="stylesheet" href="./css/components-library/hero-text-wrapper/hero-text-wrapper.css">
-    <link rel="stylesheet" href="./css/components-library/headline-wrapper/headline-wrapper.css">
+		<!-- Google tag (gtag.js) -->
 
-    <!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-SYS0P9QBB7"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag("js", new Date())
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYS0P9QBB7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+			gtag("config", "G-SYS0P9QBB7")
+		</script>
+	</head>
 
-        gtag('config', 'G-SYS0P9QBB7');   
-    </script>
-</head>
+	<body>
+		<!-- Header  -->
 
-<body>
+		<special-header></special-header>
 
-    <!-- Header  -->
+		<!-- Page Content  -->
 
-    <special-header></special-header>
+		<section class="contacts">
+			<span> Contact Me & </span>
+			<h1 class="main-title">
+				Let’s Bring Your <br />
+				Vision to Life
+			</h1>
+			<p class="sub-head">
+				Get in touch to discuss how we can transform your ideas into
+				unique visual realities, leveraging my commitment to excellence
+				and innovation to bring your vision to life.
+			</p>
+			<div class="conatct-details">
+				<a
+					target="_blank"
+					href="mailto:info@simbahm.com?subject=Hello Simbah M."
+					class="contacts-card"
+				>
+					<p>info@simbahm.com</p>
+				</a>
+				<a
+					target="_blank"
+					href="tel://263774018766"
+					class="contacts-card"
+				>
+					<p>+263 77 401 8766</p>
+				</a>
+			</div>
+		</section>
 
-    <!-- Page Content  -->
+		<special-footer></special-footer>
 
-    <section class="contacts">
-        <span>
-            Contact Me &
-        </span>
-        <h1 class="main-title">Let’s Bring Your <br> Vision to Life</h1>
-        <p class="sub-head">
-            Get in touch to discuss how we can transform your ideas into unique visual realities, leveraging my
-            commitment to excellence and innovation to bring your vision to life.
-        </p>
-        <div class="conatct-details">
-            <a target="_blank" href="mailto:info@simbahm.com?subject=Hello Simbah M." class="contacts-card">
-                <p>info@simbahm.com</p>
-            </a>
-            <a target="_blank" href="tel://263774018766" class="contacts-card">
-                <p>+263 77 401 8766</p>
-            </a>
-        </div>
-    </section>
-
-    <section class="contact-form">
-        <form action="https://api.web3forms.com/submit" method="POST">
-
-            <input type="hidden" name="access_key" value="066d1b80-b55b-46f5-970e-a08d29c19df6">
-
-            <input type="text" name="Name" placeholder="Your Name" class="contact-inputs" required>
-
-            <input type="email" name="Email" placeholder="Your Email" class="contact-inputs" required>
-
-            <input type="tel" name="Phone" placeholder="Your Phone" class="contact-inputs" required>
-
-            <textarea name="Message" placeholder="Your Message" class="conatc-inputs"></textarea>
-
-            <button class="form-button" type="submit">Submit</button>
-
-        </form>
-    </section>
-
-
-    <script src="./src-js/headerFooterManager.js" async defer></script>
-</body>
-
+		<script src="./src-js/headerFooterManager.js" async defer></script>
+	</body>
 </html>

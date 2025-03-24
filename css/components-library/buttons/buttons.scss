@@ -6,12 +6,12 @@
     color: var(--primary);
     font-size: 14px;
     padding: 13px 35px;
-    margin-top: 20px;
     text-transform: uppercase;
     color: var(--white);
     letter-spacing: 0.15rem;
     border-radius: 1px;
     transition: all 0.3s ease 0s;
+    margin: 20px 0;
 
     &:hover {
         background-color: rgba(255, 255, 255, 0.3);
@@ -19,56 +19,27 @@
     }
 }
 
-.button-light {
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(8px);
-    border-top: 3px rgb(238, 238, 238) solid;
-    color: var(--gray);
-    font-size: 14px;
-    padding: 13px 35px;
-    margin-top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    border-radius: 1px;
-    transition: all 0.3s ease 0s;
-
-    &:hover {
-        background-color: rgba(255, 255, 255, 0.5);
-        border-top: 3px rgb(255, 255, 255) solid;
-    }
-}
-
 .dark-button {
     text-decoration: none;
-    background-color: #e1e6ea;
-    border-top: 3px solid var(--secondary);
+    background-color: #e4e9ee;
+    backdrop-filter: blur(8px);
+    border-top: 3px rgb(152, 152, 152) solid;
     color: var(--primary);
     font-size: 14px;
     padding: 13px 35px;
-    margin-top: 20px;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.15rem;
     border-radius: 1px;
     transition: all 0.3s ease 0s;
 
     &:hover {
-        background-color: #d2dbe2;
-        border-top: 3px solid #577ca2;
+        background-color: #f5f8fa;
+        border-top: 3px rgb(215, 215, 215) solid;
     }
 }
 
 @media (max-width: 425px) {
-    .button {
-        font-size: 13px;
-        padding: 12px 25px;
-    }
-
-    .button-light {
-        font-size: 13px;
-        padding: 12px 25px;
-    }
-
+    .button,
     .dark-button {
         font-size: 13px;
         padding: 12px 25px;
