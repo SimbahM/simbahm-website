@@ -1,455 +1,57 @@
-// .aa-webiste {
-// 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-// 		url(../assets/images/home-page/aa-website.webp);
-// 	background-repeat: no-repeat;
-// 	background-position: center;
-// 	background-size: cover;
-// }
+.aa-webiste {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+		url(../assets/images/home-page/aa-website.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+// TODO:
+
+.touchbase {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(../assets/images/home-page/touchbase.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
 .apexbytes {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 		url(../assets/images/home-page/apexbytes.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.touchbase {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-		url(../assets/images/home-page/touchbase.webp);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 .spg {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-		url(../assets/images/home-page/spg-logo.webp);
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(../assets/images/home-page/spg.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
-
-section.large-panels {
-	height: 93vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: end;
-	padding-bottom: 50px;
-	margin-bottom: 10px;
-	gap: 10px;
-
-	h1 {
-		font-size: 60px;
-		color: var(--white);
-	}
-
-	span {
-		color: var(--accent);
-		font-size: 21px;
-		margin-bottom: 10px;
-		text-align: center;
-	}
-
-	p {
-		font-size: 21px;
-		color: var(--white);
-		text-align: center;
-	}
-}
-
-section.featured-projects {
-	padding: 0px 0 10px 0;
-
-	.container {
-		padding: 0 10px;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		margin: 0 auto;
-		gap: 10px;
-
-		.project {
-			height: 80vh;
-			display: flex;
-			flex-direction: column;
-			justify-content: end;
-			align-items: center;
-			padding-bottom: 50px;
-			gap: 5px;
-
-			img.sankiei-logo-symbol {
-				width: 300px;
-				margin-bottom: 50px;
-			}
-
-			img.domain-forest-logo {
-				width: 300px;
-			}
-
-			img.logo-symbol {
-				width: 150px;
-				margin-bottom: 20px;
-				opacity: 0.7;
-			}
-
-			h1 {
-				font-size: 40px;
-				color: var(--white);
-			}
-
-			p {
-				font-size: 19px;
-				text-align: center;
-				color: var(--white);
-			}
-		}
-
-		.domain-forest {
-			height: 80vh;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;
-			padding-bottom: 50px;
-			gap: 5px;
-			border: 1px solid var(--white);
-
-			.logo {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-
-				img.domain-forest-logo {
-					width: 300px;
-				}
-			}
-
-			.metadata {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-
-				h1 {
-					font-size: 40px;
-					color: var(--primary);
-				}
-
-				p {
-					font-size: 19px;
-					text-align: center;
-					color: var(--gray);
-				}
-			}
-		}
-	}
-}
-
-.grandeur-meats,
-.vah {
-	background-color: var(--white);
 }
 
 .sankiei {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-		url(../assets/images/home-page/sankiei.webp);
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(../assets/images/home-page/sankiei-logo.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.aa {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-		url(../assets/images/home-page/aa.webp);
-	background-position: center;
+.domain-forest {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(../assets/images/home-page/domain-forest.webp);
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 }
 
 .esi {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
 		url(../assets/images/home-page/esi-apple-watch.webp);
-	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.natiology {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../assets/images/home-page/natiology.webp);
 	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.ethereal {
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
-		url(../assets/images/home-page/ethereal.webp);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-@media (max-width: 1024px) {
-	section.large-panels {
-		height: 80vh;
-		padding-bottom: 50px;
-		gap: 10px;
-
-		img.sankiei-logo-symbol {
-			width: 350px;
-		}
-
-		img.aa-logo {
-			width: 250px;
-			opacity: 0.5;
-		}
-
-		img {
-			width: 150px;
-		}
-
-		h1 {
-			font-size: 50px;
-		}
-	}
-
-	section.featured-projects {
-		padding: 0px 0 10px 0;
-
-		.container {
-			grid-template-columns: repeat(2, 1fr);
-
-			gap: 10px;
-
-			.project {
-				height: 70vh;
-				padding-bottom: 50px;
-				gap: 5px;
-
-				img.logo-symbol {
-					width: 130px;
-					margin-bottom: 20px;
-				}
-
-				img.sankiei-logo-symbol {
-					width: 200px;
-					margin-bottom: 20px;
-				}
-
-				h1 {
-					font-size: 30px;
-					color: var(--white);
-				}
-
-				p {
-					font-size: 19px;
-					text-align: center;
-					color: var(--white);
-				}
-			}
-
-			.domain-forest {
-				height: 70vh;
-				padding-bottom: 50px;
-				gap: 5px;
-				border: 1px solid var(--white);
-
-				.logo {
-					img.domain-forest-logo {
-						width: 250px;
-					}
-				}
-
-				.metadata {
-					h1 {
-						font-size: 30px;
-						color: var(--primary);
-					}
-
-					p {
-						font-size: 19px;
-						text-align: center;
-						color: var(--gray);
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 768px) {
-	section.large-panels {
-		height: 80vh;
-		padding-bottom: 50px;
-		gap: 10px;
-
-		img.sankiei-logo-symbol {
-			width: 300px;
-		}
-
-		img.aa-logo {
-			width: 150px;
-			opacity: 0.7;
-		}
-
-		img {
-			width: 100px;
-			margin-bottom: 10px;
-		}
-
-		h1 {
-			font-size: 40px;
-			color: var(--white);
-		}
-	}
-
-	section.featured-projects {
-		padding: 0 0 10px 0;
-
-		.container {
-			padding: 0 0;
-			grid-template-columns: repeat(1, 1fr);
-			gap: 10px;
-
-			.project {
-				height: 80vh;
-				padding-bottom: 50px;
-				gap: 5px;
-
-				img.logo-symbol {
-					width: 150px;
-					margin-bottom: 20px;
-				}
-
-				img.sankiei-logo-symbol {
-					width: 250px;
-					margin-bottom: 20px;
-				}
-
-				h1 {
-					font-size: 40px;
-					color: var(--white);
-				}
-
-				p {
-					font-size: 21px;
-					text-align: center;
-					color: var(--white);
-				}
-			}
-
-			.domain-forest {
-				height: 80vh;
-				padding-bottom: 50px;
-				gap: 5px;
-				border: 1px solid var(--white);
-
-				.logo {
-					img.domain-forest-logo {
-						width: 250px;
-					}
-				}
-
-				.metadata {
-					h1 {
-						font-size: 30px;
-						color: var(--primary);
-					}
-
-					p {
-						font-size: 21px;
-						text-align: center;
-						color: var(--gray);
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 425px) {
-	section.large-panels {
-		height: 70vh;
-		padding-bottom: 50px;
-		gap: 10px;
-
-		img.sankiei-logo-symbol {
-			width: 200px;
-		}
-
-		img {
-			width: 100px;
-			margin-bottom: 10px;
-		}
-
-		h1 {
-			font-size: 30px;
-			color: var(--white);
-		}
-	}
-
-	section.featured-projects {
-		padding: 0 0 10px 0;
-
-		.container {
-			grid-template-columns: repeat(1, 1fr);
-			gap: 10px;
-
-			.project {
-				height: 70vh;
-				padding-bottom: 50px;
-				gap: 5px;
-
-				img.logo-symbol {
-					width: 130px;
-					margin-bottom: 20px;
-				}
-
-				img.sankiei-logo-symbol {
-					width: 200px;
-					margin-bottom: 20px;
-				}
-
-				h1 {
-					font-size: 30px;
-					color: var(--white);
-				}
-
-				p {
-					font-size: 21px;
-					text-align: center;
-					color: var(--white);
-				}
-			}
-
-			.domain-forest {
-				height: 70vh;
-				padding-bottom: 50px;
-				gap: 5px;
-				border: 1px solid var(--white);
-
-				.logo {
-					img.domain-forest-logo {
-						width: 200px;
-					}
-				}
-
-				.metadata {
-					h1 {
-						font-size: 30px;
-						color: var(--primary);
-					}
-
-					p {
-						font-size: 21px;
-						text-align: center;
-						color: var(--gray);
-					}
-				}
-			}
-		}
-	}
 }
