@@ -8,6 +8,12 @@ section.hero-project {
     margin-bottom: 10px;
     gap: 10px;
 
+    img {
+        width: 150px;
+        opacity: 0.8;
+        margin-bottom: 20px;
+    }
+
     h1 {
         font-size: 60px;
         color: var(--white);
@@ -40,6 +46,7 @@ section.pagebody-header {
         color: var(--secondary);
         text-align: center;
         margin-bottom: 20px;
+        max-width: 900px;
     }
 
     p.subhead {
@@ -64,7 +71,7 @@ section.titles {
 }
 
 section.featured-works {
-    padding: 50px 20px 100px 20px;
+    padding: 50px 40px 100px 40px;
 
     .container {
         max-width: 1200px;
@@ -138,36 +145,30 @@ section.featured-works {
     }
 }
 
-section.cta {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 200px 0;
-}
-
 @media (max-width: 1024px) {
     section.hero-project {
-        height: 80vh;
-        padding-bottom: 50px;
+        height: 85vh;
+        padding-bottom: 40px;
+        margin-bottom: 10px;
         gap: 10px;
 
-        img.sankiei-logo-symbol {
-            width: 350px;
-        }
-
-        img.aa-logo {
-            width: 250px;
-            opacity: 0.5;
-        }
-
         img {
-            width: 150px;
+            width: 130px;
+            opacity: 0.8;
+            margin-bottom: 20px;
         }
 
         h1 {
             font-size: 50px;
+        }
+
+        span {
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 19px;
         }
     }
 
@@ -180,6 +181,7 @@ section.cta {
             color: var(--secondary);
             text-align: center;
             margin-bottom: 20px;
+            max-width: 700px;
         }
 
         p.subhead {
@@ -190,7 +192,7 @@ section.cta {
     }
 
     section.featured-works {
-        padding: 50px 20px 100px 20px;
+        padding: 50px 20px 20px 20px;
 
         .container {
             margin: 0 auto;
@@ -213,35 +215,15 @@ section.cta {
                     width: 100%;
                     color: var(--white);
 
-                    &:hover {
-                        .overlay {
-                            opacity: 1;
-                            border-radius: 5px;
-
-                            .project-title {
-                                margin-bottom: 0;
-                            }
-                        }
-                    }
-
                     .overlay {
-                        display: flex;
-                        background-color: rgba(0, 0, 0, 0.5);
-                        width: 100%;
-                        height: 100%;
-                        justify-content: start;
-                        align-items: end;
                         padding: 20px;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all 0.3s ease;
                         border-radius: 5px;
 
                         .project-title {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
                             gap: 10px;
-                            margin-bottom: -50px;
+                            margin-bottom: 0;
                             transition: all 0.3s ease;
 
                             span.title,
@@ -265,6 +247,32 @@ section.cta {
 }
 
 @media (max-width: 768px) {
+    section.hero-project {
+        height: 75vh;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+        gap: 10px;
+
+        img {
+            width: 100px;
+            opacity: 0.8;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        span {
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 19px;
+        }
+    }
+
     section.pagebody-header {
         padding: 100px 0;
         gap: 10px;
@@ -274,13 +282,69 @@ section.cta {
             color: var(--secondary);
             text-align: center;
             margin-bottom: 20px;
-            width: 400px;
+            width: 370px;
         }
 
         p.subhead {
             font-size: 25px;
-            max-width: 400px;
+            max-width: 350px;
             margin-bottom: 30px;
+        }
+    }
+
+    section.featured-works {
+        padding: 50px 20px 20px 20px;
+
+        .container {
+            margin: 0 auto;
+
+            h1.title {
+                font-size: 48px;
+                color: var(--secondary);
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+
+                a.product-card {
+                    display: flex;
+                    height: 400px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    width: 100%;
+                    color: var(--white);
+
+                    .overlay {
+                        padding: 20px;
+                        opacity: 1;
+                        transition: all 0.3s ease;
+                        border-radius: 5px;
+
+                        .project-title {
+                            flex-direction: column;
+                            align-items: start;
+                            gap: 10px;
+                            margin-bottom: 0;
+                            transition: all 0.3s ease;
+
+                            span.title,
+                            p.category {
+                                font-size: 21px;
+                                letter-spacing: 1px;
+                                text-transform: uppercase;
+                            }
+
+                            p.category {
+                                font-size: 17px;
+                                color: var(--white);
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -319,7 +383,7 @@ section.cta {
     }
 
     section.featured-works {
-        padding: 50px 20px 100px 20px;
+        padding: 50px 20px 20px 20px;
 
         .container {
             margin: 0 auto;
@@ -384,22 +448,19 @@ section.cta {
 
 @media (max-width: 425px) {
     section.hero-project {
-        height: 70vh;
-        padding-bottom: 50px;
+        height: 75vh;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
         gap: 10px;
-
-        img.sankiei-logo-symbol {
-            width: 200px;
-        }
 
         img {
             width: 100px;
-            margin-bottom: 10px;
+            opacity: 0.8;
+            margin-bottom: 20px;
         }
 
         h1 {
-            font-size: 30px;
-            color: var(--white);
+            font-size: 35px;
         }
     }
 
@@ -418,7 +479,7 @@ section.cta {
             font-size: 30px;
             color: var(--secondary);
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             max-width: 100%;
             padding: 0 20px;
         }
@@ -426,13 +487,13 @@ section.cta {
         p.subhead {
             font-size: 25px;
             max-width: 100%;
-            padding: 0 20px;
+            padding: 0 30px;
             margin-bottom: 30px;
         }
     }
 
     section.featured-works {
-        padding: 50px 10px 50px 10px;
+        padding: 20px 10px 10px 10px;
 
         .container {
             margin: 0 auto;
@@ -476,9 +537,5 @@ section.cta {
                 }
             }
         }
-    }
-
-    section.cta {
-        padding: 0 0 50px 0;
     }
 }

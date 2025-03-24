@@ -267,4 +267,9 @@
   .nav-container.active nav .mobile-nav .mobile-nav-items .social-media {
     opacity: 1;
   }
+}
+@media (max-width: 425px) {
+  .nav-container {
+    padding: 0 10px;
+  }
 }/*# sourceMappingURL=header.css.map */

@@ -14,7 +14,7 @@ class SpecialHeader extends HTMLElement {
 
 					<ul class="nav-items">
 						<li>
-							<a href="./logo-desgin">Logo Design</a>
+							<a href="./logo-design">Logo Design</a>
 						</li>
 						<li>
 							<a href="./ui-ux-design">UI UX Design</a>
@@ -70,7 +70,7 @@ class SpecialHeader extends HTMLElement {
 
 						<div class="list-items">
 							<li>
-								<a href="./logo-desgin">Logo Design</a>
+								<a href="./logo-design">Logo Design</a>
 							</li>
 							<li>
 								<a href="./ui-ux-design">UI UX Design</a>
@@ -175,8 +175,8 @@ class SpecialFooter extends HTMLElement {
 								<a target="_blank" href="tel:+263774018766">+263 77 401 8766</a>
 							</li>
 							<li>
-								<a target="_blank" href="mailto:simba@simbahm.com"
-									>simba@simbahm.com</a
+								<a target="_blank" href="mailto:simadungwe@icloud.com"
+									>simadungwe@icloud.com</a
 								>
 							</li>
 						</ul>

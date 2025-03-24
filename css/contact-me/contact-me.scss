@@ -51,86 +51,6 @@ section.contacts {
     }
 }
 
-section.contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-
-        input {
-            width: 600px;
-            height: 60px;
-            border: 2px solid rgb(202, 202, 202);
-            padding: 10px 20px;
-            border-radius: 10px;
-            background-color: transparent;
-            outline: none;
-            color: rgb(149, 149, 149);
-            font-size: 16px;
-
-            &:active {
-                border: 2px solid red;
-                outline: none;
-            }
-
-            &:focus {
-                border: 2px solid var(--acent);
-                outline: none;
-            }
-
-            &::placeholder {
-                color: rgb(193, 193, 193);
-                font-size: 16px;
-            }
-        }
-
-        textarea {
-            width: 600px;
-            height: 150px;
-            border: 2px solid rgb(202, 202, 202);
-            padding: 10px 20px;
-            border-radius: 10px;
-            background-color: transparent;
-            outline: none;
-
-            &:focus {
-                border: 2px solid var(--acent);
-                outline: none;
-            }
-        }
-
-        textarea::placeholder {
-            color: rgb(193, 193, 193);
-            font-size: 16px;
-        }
-
-        button {
-            padding: 15px 20px;
-            width: 200px;
-            border: none;
-            background-color: #f6f6f6;
-            border-top: 3px solid rgb(202, 202, 202);
-            font-size: 20px;
-            color: rgb(152, 152, 152);
-            margin-top: 20px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-
-            &:hover {
-                background-color: #eaeaea;
-                border-top: 3px solid var(--accent);
-            }
-        }
-    }
-}
-
 @media (max-width: 1024px) {
     section.contacts {
         padding: 90px 0 70px 0;
@@ -197,39 +117,6 @@ section.contact-form {
             }
         }
     }
-
-    section.contact-form {
-        margin-bottom: 100px;
-
-        form {
-            gap: 15px;
-
-            input {
-                width: 400px;
-                height: 60px;
-                padding: 10px 20px;
-                border-radius: 10px;
-                font-size: 16px;
-            }
-
-            textarea {
-                width: 400px;
-                height: 150px;
-                padding: 10px 20px;
-            }
-
-            textarea::placeholder {
-                color: rgb(193, 193, 193);
-                font-size: 16px;
-            }
-
-            button {
-                padding: 10px 15px;
-                width: 200px;
-                font-size: 20px;
-            }
-        }
-    }
 }
 
 @media (max-width: 425px) {
@@ -253,10 +140,6 @@ section.contact-form {
         }
 
         .conatct-details {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             margin-top: 20px;
             gap: 10px;
 
@@ -274,42 +157,6 @@ section.contact-form {
                 p {
                     font-size: 17px;
                 }
-            }
-        }
-    }
-
-    section.contact-form {
-        margin-bottom: 50px;
-
-        form {
-            gap: 10px;
-            width: 100%;
-            padding: 0 10px;
-
-            input {
-                width: 100%;
-                height: 60px;
-                padding: 10px 20px;
-                border-radius: 10px;
-                font-size: 16px;
-            }
-
-            textarea {
-                width: 100%;
-                height: 150px;
-                padding: 10px 20px;
-            }
-
-            textarea::placeholder {
-                color: rgb(193, 193, 193);
-                font-size: 16px;
-            }
-
-            button {
-                padding: 10px 15px;
-                width: 200px;
-                font-size: 20px;
-                margin-top: 10px;
             }
         }
     }

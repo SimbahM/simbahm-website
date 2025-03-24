@@ -1,5 +1,5 @@
 footer {
-  padding: 30px 15px 20px 15px;
+  padding: 30px 20px 20px 20px;
   background-color: var(--white);
 }
 footer .container {
@@ -76,5 +76,10 @@ footer .container .copyright span {
   }
   footer .container .links a.logo img {
     width: 150px;
+  }
+}
+@media (max-width: 425px) {
+  footer {
+    padding: 30px 10px 20px 10px;
   }
 }/*# sourceMappingURL=footer.css.map */
