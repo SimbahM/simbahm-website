@@ -59,4 +59,459 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+section.hero-project {
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+section.hero-project img {
+  width: 150px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+section.hero-project h1 {
+  font-size: 60px;
+  color: var(--white);
+}
+section.hero-project span {
+  color: var(--accent);
+  font-size: 21px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+section.hero-project p {
+  font-size: 21px;
+  color: var(--white);
+  text-align: center;
+}
+
+section.pagebody-header {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section.pagebody-header h1.title {
+  font-size: 70px;
+  color: var(--secondary);
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 900px;
+}
+section.pagebody-header p.subhead {
+  font-size: 30px;
+  color: var(--gray);
+  text-align: center;
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+section.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.titles h1.title {
+  font-size: 48px;
+  color: var(--secondary);
+}
+
+section.featured-works {
+  padding: 50px 40px 100px 40px;
+}
+section.featured-works .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section.featured-works .container h1.title {
+  font-size: 48px;
+  color: var(--secondary);
+}
+section.featured-works .container .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+section.featured-works .container .grid a.product-card {
+  display: flex;
+  height: 500px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 100%;
+  color: var(--white);
+}
+section.featured-works .container .grid a.product-card:hover .overlay {
+  opacity: 1;
+  border-radius: 5px;
+}
+section.featured-works .container .grid a.product-card:hover .overlay .project-title {
+  margin-bottom: 0;
+}
+section.featured-works .container .grid a.product-card .overlay {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: end;
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+section.featured-works .container .grid a.product-card .overlay .project-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: -50px;
+  transition: all 0.3s ease;
+}
+section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+  font-size: 17px;
+  color: var(--white);
+  opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+  section.hero-project {
+    height: 85vh;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  section.hero-project img {
+    width: 130px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+  }
+  section.hero-project h1 {
+    font-size: 50px;
+  }
+  section.hero-project span {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  section.hero-project p {
+    font-size: 19px;
+  }
+  section.pagebody-header {
+    padding: 100px 0;
+    gap: 10px;
+  }
+  section.pagebody-header h1.title {
+    font-size: 50px;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 700px;
+  }
+  section.pagebody-header p.subhead {
+    font-size: 25px;
+    max-width: 550px;
+    margin-bottom: 30px;
+  }
+  section.featured-works {
+    padding: 50px 20px 20px 20px;
+  }
+  section.featured-works .container {
+    margin: 0 auto;
+  }
+  section.featured-works .container h1.title {
+    font-size: 48px;
+    color: var(--secondary);
+  }
+  section.featured-works .container .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.featured-works .container .grid a.product-card {
+    display: flex;
+    height: 400px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--white);
+  }
+  section.featured-works .container .grid a.product-card .overlay {
+    padding: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title {
+    gap: 10px;
+    margin-bottom: 0;
+    transition: all 0.3s ease;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 17px;
+    color: var(--white);
+    opacity: 0.7;
+  }
+}
+@media (max-width: 768px) {
+  section.hero-project {
+    height: 75vh;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  section.hero-project img {
+    width: 100px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+  }
+  section.hero-project h1 {
+    font-size: 40px;
+  }
+  section.hero-project span {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  section.hero-project p {
+    font-size: 19px;
+  }
+  section.pagebody-header {
+    padding: 100px 0;
+    gap: 10px;
+  }
+  section.pagebody-header h1.title {
+    font-size: 40px;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 370px;
+  }
+  section.pagebody-header p.subhead {
+    font-size: 25px;
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+  section.featured-works {
+    padding: 50px 20px 20px 20px;
+  }
+  section.featured-works .container {
+    margin: 0 auto;
+  }
+  section.featured-works .container h1.title {
+    font-size: 48px;
+    color: var(--secondary);
+  }
+  section.featured-works .container .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  section.featured-works .container .grid a.product-card {
+    display: flex;
+    height: 400px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--white);
+  }
+  section.featured-works .container .grid a.product-card .overlay {
+    padding: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 0;
+    transition: all 0.3s ease;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 17px;
+    color: var(--white);
+    opacity: 0.7;
+  }
+}
+@media (max-width: 630px) {
+  section.pagebody-title {
+    padding: 100px 0;
+    gap: 10px;
+  }
+  section.pagebody-title img {
+    width: 40px;
+  }
+  section.pagebody-title hr {
+    width: 150px;
+    margin: 5px 0 3px 0;
+  }
+  section.pagebody-title h1.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  section.pagebody-title p.subhead {
+    font-size: 21px;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  section.titles h1.title {
+    font-size: 35px;
+    color: var(--secondary);
+  }
+  section.featured-works {
+    padding: 50px 20px 20px 20px;
+  }
+  section.featured-works .container {
+    margin: 0 auto;
+  }
+  section.featured-works .container h1.title {
+    font-size: 48px;
+    color: var(--secondary);
+  }
+  section.featured-works .container .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  section.featured-works .container .grid a.product-card {
+    display: flex;
+    height: 400px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+    color: var(--white);
+  }
+  section.featured-works .container .grid a.product-card .overlay {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: end;
+    padding: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+    transition: all 0.3s ease;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 17px;
+    color: var(--white);
+    opacity: 0.7;
+  }
+}
+@media (max-width: 425px) {
+  section.hero-project {
+    height: 75vh;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  section.hero-project img {
+    width: 100px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+  }
+  section.hero-project h1 {
+    font-size: 35px;
+  }
+  section.titles h1.title {
+    font-size: 25px;
+    color: var(--secondary);
+  }
+  section.pagebody-header {
+    padding: 50px 0;
+    gap: 10px;
+  }
+  section.pagebody-header h1.title {
+    font-size: 30px;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  section.pagebody-header p.subhead {
+    font-size: 21px;
+    max-width: 100%;
+    padding: 0 30px;
+    margin-bottom: 30px;
+  }
+  section.featured-works {
+    padding: 20px 10px 10px 10px;
+  }
+  section.featured-works .container {
+    margin: 0 auto;
+  }
+  section.featured-works .container h1.title {
+    font-size: 48px;
+    color: var(--secondary);
+  }
+  section.featured-works .container .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  section.featured-works .container .grid a.product-card {
+    display: flex;
+    height: 300px;
+  }
+  section.featured-works .container .grid a.product-card .overlay {
+    opacity: 1;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
+    font-size: 17px;
+    color: var(--white);
+    opacity: 0.7;
+  }
 }/*# sourceMappingURL=index.css.map */
