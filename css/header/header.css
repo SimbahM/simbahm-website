@@ -165,6 +165,7 @@
     text-decoration: none;
     transition: all 0.5s ease;
     transition-delay: 0.1s;
+    pointer-events: auto;
   }
   .nav-container nav .mobile-nav ul.mobile-nav-items a.norton-upad:hover {
     opacity: 0.9;
@@ -192,6 +193,7 @@
   }
   .nav-container nav .mobile-nav ul.mobile-nav-items .list-items li {
     margin-bottom: 30px;
+    pointer-events: auto;
   }
   .nav-container nav .mobile-nav ul.mobile-nav-items .list-items li a {
     display: block;
@@ -225,6 +227,7 @@
     gap: 15px;
     opacity: 0;
     transition: 0.3s ease all;
+    pointer-events: auto;
   }
   .nav-container nav .mobile-nav ul.mobile-nav-items .social-media a {
     text-decoration: none;
@@ -242,6 +245,7 @@
     background-color: var(--primary);
     overflow-y: hidden;
     overflow-x: hidden;
+    pointer-events: auto;
   }
   .nav-container.active nav .mobile-nav .mobile-nav-menu .menu-icon-container .menu-icon .line-1 {
     top: 0;
