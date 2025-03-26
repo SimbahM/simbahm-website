@@ -135,6 +135,7 @@
                             width: 100px;
                             opacity: 0.7;
                             transition: all 0.3s ease;
+                            pointer-events: auto;
                         }
                     }
 
@@ -144,6 +145,7 @@
                         align-items: center;
                         display: flex;
                         cursor: pointer;
+                        pointer-events: auto;
 
                         .menu-icon {
                             position: relative;

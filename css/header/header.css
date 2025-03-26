@@ -119,6 +119,7 @@
     width: 100px;
     opacity: 0.7;
     transition: all 0.3s ease;
+    pointer-events: auto;
   }
   .nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container {
     width: 20px;
@@ -126,6 +127,7 @@
     align-items: center;
     display: flex;
     cursor: pointer;
+    pointer-events: auto;
   }
   .nav-container nav .mobile-nav .mobile-nav-menu .menu-icon-container .menu-icon {
     position: relative;
