@@ -116,6 +116,7 @@ section.contacts .conatct-details .contacts-card p {
   }
   section.contacts .conatct-details {
     margin-top: 20px;
+    flex-direction: column;
     gap: 10px;
   }
   section.contacts .conatct-details .contacts-card {

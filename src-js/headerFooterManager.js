@@ -169,7 +169,7 @@ class SpecialFooter extends HTMLElement {
 					</div>
 
 					<div class="footer-directory-column">
-						<h1>contacts</h1>
+						<h1>Contacts</h1>
 						<ul>
 							<li>
 								<a target="_blank" href="tel:+263774018766">+263 77 401 8766</a>

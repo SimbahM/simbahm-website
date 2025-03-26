@@ -141,6 +141,7 @@ section.contacts {
 
         .conatct-details {
             margin-top: 20px;
+            flex-direction: column;
             gap: 10px;
 
             .contacts-card {

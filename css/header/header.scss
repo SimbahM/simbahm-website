@@ -179,6 +179,8 @@
                     display: flex;
                     flex-direction: column;
                     list-style: none;
+                    margin-top: -200px;
+                    transition: all 0.7s ease;
 
                     a.norton-upad {
                         opacity: 0;
@@ -308,6 +310,10 @@
                 transition-delay: 0s, 0.3s;
                 transition-duration: 0.3s;
             }
+        }
+
+        nav .mobile-nav .mobile-nav-items {
+            margin-top: 50px;
         }
 
         nav .mobile-nav .mobile-nav-items {
