@@ -181,8 +181,11 @@ section.mockup-grid .container .bag img {
     margin: 0 auto;
     gap: 30px;
   }
+  section.logo {
+    margin-bottom: 20px;
+  }
   section.mockup-grid {
-    padding: 0 10px 10px 10px;
+    padding: 0 20px;
     display: flex;
   }
   section.mockup-grid .container {
@@ -264,7 +267,7 @@ section.mockup-grid .container .bag img {
     gap: 30px;
   }
   section.mockup-grid {
-    padding: 0 10px 10px 10px;
+    padding: 0 20px;
     display: flex;
   }
   section.mockup-grid .container {
@@ -346,7 +349,7 @@ section.mockup-grid .container .bag img {
     gap: 30px;
   }
   section.mockup-grid {
-    padding: 0 10px 10px 10px;
+    padding: 0 20px;
     display: flex;
   }
   section.mockup-grid .container {

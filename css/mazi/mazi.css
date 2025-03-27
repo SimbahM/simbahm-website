@@ -1,9 +1,9 @@
 :root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --acent: #FFA656;
-  --gray: #54595F;
+  --primary: #1b2f3f;
+  --secondary: #2e465e;
+  --white: #ebeff2;
+  --acent: #ffa656;
+  --gray: #54595f;
 }
 
 .mazi {
@@ -14,7 +14,7 @@
 }
 
 section.main-logo {
-  padding: 200px 15px 300px 15px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@ section.main-logo img {
 
 @media (max-width: 1024px) {
   section.main-logo {
-    padding: 100px 15px 250px 15px;
+    height: 80vh;
   }
   section.main-logo img {
     width: 500px;
@@ -54,7 +54,7 @@ section.main-logo img {
 }
 @media (max-width: 768px) {
   section.main-logo {
-    padding: 100px 15px 250px 15px;
+    height: 60vh;
   }
   section.main-logo img {
     width: 400px;
@@ -62,9 +62,9 @@ section.main-logo img {
 }
 @media (max-width: 425px) {
   section.main-logo {
-    padding: 100px 15px 200px 15px;
+    height: 60vh;
   }
   section.main-logo img {
-    width: 300px;
+    width: 250px;
   }
 }/*# sourceMappingURL=mazi.css.map */

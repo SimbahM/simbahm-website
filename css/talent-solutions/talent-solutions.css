@@ -6,13 +6,13 @@
 }
 
 section.gold-logo {
-  background-color: #CEA065;
+  background-color: #cea065;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 10px 0;
+  margin: 20px 0;
   margin-bottom: 200px;
 }
 section.gold-logo img.white-logo-symbol {
@@ -22,7 +22,7 @@ section.gold-logo img.white-logo-symbol {
 section.grid-section .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 20px;
   width: 1000px;
   margin: 0 auto;
 }
@@ -43,7 +43,7 @@ section.main-logo img.main-logo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #0E3556;
+  background-color: #0e3556;
   background-blend-mode: multiply;
 }
 
@@ -52,7 +52,7 @@ section.main-logo img.main-logo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #CEA065;
+  background-color: #cea065;
   background-blend-mode: multiply;
 }
 
@@ -61,7 +61,7 @@ section.main-logo img.main-logo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #68A19B;
+  background-color: #68a19b;
   background-blend-mode: multiply;
 }
 
@@ -70,43 +70,42 @@ section.main-logo img.main-logo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #B5D9D7;
+  background-color: #b5d9d7;
   background-blend-mode: multiply;
 }
 
 .prussian-blue-color {
-  background-color: #0E3556;
+  background-color: #0e3556;
 }
 .prussian-blue-color span.prussian-blue-hex {
-  color: #CEA065;
+  color: #cea065;
 }
 
 .brown-yellow-color {
-  background-color: #CEA065;
+  background-color: #cea065;
 }
 .brown-yellow-color span.brown-yellow-hex {
-  color: #0E3556;
+  color: #0e3556;
 }
 
 .desaturated-cyan-color {
-  background-color: #68A19B;
+  background-color: #68a19b;
 }
 .desaturated-cyan-color span.desaturated-cyan-hex {
-  color: #B5D9D7;
+  color: #b5d9d7;
 }
 
 .crystal-color {
-  background-color: #B5D9D7;
+  background-color: #b5d9d7;
 }
 .crystal-color span.crystal-hex {
-  color: #68A19B;
+  color: #68a19b;
 }
 
 @media (max-width: 1024px) {
   section.gold-logo {
     height: 80vh;
-    margin: 10px 0;
-    margin-bottom: 10px;
+    margin: 20px 0;
   }
   section.gold-logo img.white-logo-symbol {
     width: 250px;
@@ -117,9 +116,9 @@ section.main-logo img.main-logo {
   section.grid-section .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
     width: 100%;
-    padding: 0 10px;
+    padding: 0 20px 20px 20px;
     margin: 0 auto;
   }
   section.main-logo {
@@ -132,8 +131,7 @@ section.main-logo img.main-logo {
 @media (max-width: 768px) {
   section.gold-logo {
     height: 80vh;
-    margin: 10px 0;
-    margin-bottom: 10px;
+    margin: 20px 0;
   }
   section.gold-logo img.white-logo-symbol {
     width: 250px;
@@ -151,8 +149,7 @@ section.main-logo img.main-logo {
 @media (max-width: 425px) {
   section.gold-logo {
     height: 50vh;
-    margin: 10px 0;
-    margin-bottom: 10px;
+    margin: 20px 0;
   }
   section.gold-logo img.white-logo-symbol {
     width: 150px;
@@ -163,9 +160,8 @@ section.main-logo img.main-logo {
   section.grid-section .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 20px;
     width: 100%;
-    padding: 0 10px;
     margin: 0 auto;
   }
   section.main-logo {

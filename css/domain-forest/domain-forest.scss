@@ -1,9 +1,5 @@
 .domain-forest {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0),
-			rgba(0, 0, 0, 0.9)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
 		url(../../assets/images/pages/domain-forest/apple-watch-domain-forest-logo.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -12,11 +8,7 @@
 }
 
 section.main-header {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../../assets/images/pages/domain-forest/lady-laughing.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -47,11 +39,7 @@ section.main-header {
 }
 
 section.df-case-study {
-	background-image: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0),
-			rgba(0, 0, 0, 0.9)
-		),
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
 		url(../../assets/images/pages/domain-forest/domain-forest-casy-study.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -211,8 +199,12 @@ section.mockup-grid {
 		}
 	}
 
+	section.logo {
+		margin-bottom: 20px;
+	}
+
 	section.mockup-grid {
-		padding: 0 10px 10px 10px;
+		padding: 0 20px;
 		display: flex;
 
 		.container {
@@ -313,7 +305,7 @@ section.mockup-grid {
 	}
 
 	section.mockup-grid {
-		padding: 0 10px 10px 10px;
+		padding: 0 20px;
 		display: flex;
 
 		.container {
@@ -414,7 +406,7 @@ section.mockup-grid {
 	}
 
 	section.mockup-grid {
-		padding: 0 10px 10px 10px;
+		padding: 0 20px;
 		display: flex;
 
 		.container {

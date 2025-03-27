@@ -74,14 +74,14 @@ section.hero-text-wrapper .container h1 {
     padding: 120px 0 70px 0;
   }
   section.hero-text-wrapper .container {
-    width: 300px;
+    width: 100%;
   }
   section.hero-text-wrapper .container p {
     font-size: 21px;
   }
   section.hero-text-wrapper .container h1 {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0 10px;
   }
 }/*# sourceMappingURL=hero-text-wrapper.css.map */

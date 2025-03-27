@@ -1,13 +1,14 @@
 :root {
-    --primary: #1B2F3F;
-    --secondary: #2E465E;
-    --white: #EBEFF2;
-    --acent: #FFA656;
-    --gray: #54595F;
+    --primary: #1b2f3f;
+    --secondary: #2e465e;
+    --white: #ebeff2;
+    --acent: #ffa656;
+    --gray: #54595f;
 }
 
 .ethereal {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,7 +73,7 @@ section.need-for-a-new-logo {
 
 section.old-to-new {
     padding: 100px 0;
-    background-color: #E5EBF8;
+    background-color: #e5ebf8;
 
     .container {
         display: flex;
@@ -126,7 +127,7 @@ section.main-logo {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #E5EBF8;
+    background-color: #e5ebf8;
     background-blend-mode: multiply;
 }
 
@@ -135,7 +136,7 @@ section.main-logo {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #468ECD;
+    background-color: #468ecd;
     background-blend-mode: multiply;
 }
 
@@ -148,7 +149,7 @@ section.main-logo {
 }
 
 .lavender-color {
-    background-color: #E5EBF8;
+    background-color: #e5ebf8;
 
     span.lavender-color-hex {
         color: #001033;
@@ -158,12 +159,13 @@ section.main-logo {
 }
 
 .celestial-blue-color {
-    background-color: #468ECD;
+    background-color: #468ecd;
 }
 
 section.white-quote {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../../assets/images/pages/ethereal/multi-colored-textile.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,7 +193,6 @@ section.white-quote {
 }
 
 @media (max-width: 1024px) {
-
     section.main-logo {
         padding: 200px 15px 400px 15px;
 
@@ -210,10 +211,9 @@ section.white-quote {
 
     section.white-quote {
         height: 80vh;
-        margin: 0 0 10px 0;
+        margin: 20px 0 0 0;
 
         .container {
-
             img {
                 width: 300px;
                 margin-bottom: 20px;
@@ -228,12 +228,10 @@ section.white-quote {
 }
 
 @media (max-width: 768px) {
-
     section.quote {
         height: 80vh;
 
         .container {
-
             img {
                 width: 250px;
                 margin-bottom: 20px;
@@ -249,9 +247,7 @@ section.white-quote {
     }
 
     section.need-for-a-new-logo {
-
         .container {
-
             p {
                 width: 350px;
             }
@@ -278,7 +274,6 @@ section.white-quote {
         height: 80vh;
 
         .container {
-
             img {
                 width: 300px;
                 margin-bottom: 20px;
@@ -293,12 +288,10 @@ section.white-quote {
 }
 
 @media (max-width: 600px) {
-
     section.white-quote {
         height: 80vh;
 
         .container {
-
             img {
                 width: 250px;
                 margin-bottom: 20px;
@@ -313,20 +306,18 @@ section.white-quote {
 }
 
 @media (max-width: 425px) {
-
     section.quote {
-        height: 80vh;
+        height: 60vh;
 
         .container {
-
             img {
-                width: 250px;
+                width: 150px;
                 margin-bottom: 20px;
             }
 
             h1 {
                 text-align: center;
-                font-size: 30px;
+                font-size: 25px;
                 color: #353535;
                 width: 100%;
                 padding: 0 20px;
@@ -338,7 +329,6 @@ section.white-quote {
         height: 80vh;
 
         .container {
-
             img {
                 width: 250px;
                 margin-bottom: 20px;
@@ -361,10 +351,9 @@ section.white-quote {
 
     section.old-to-new {
         padding: 80px 0;
-        background-color: #E5EBF8;
+        background-color: #e5ebf8;
 
         .container {
-
             img {
                 width: 250px;
                 margin-bottom: 20px;
@@ -393,7 +382,6 @@ section.white-quote {
         height: 60vh;
 
         .container {
-
             img {
                 width: 150px;
                 margin-bottom: 20px;

@@ -1,9 +1,9 @@
 :root {
-    --primary: #1B2F3F;
-    --secondary: #2E465E;
-    --white: #EBEFF2;
-    --acent: #FFA656;
-    --gray: #54595F;
+    --primary: #1b2f3f;
+    --secondary: #2e465e;
+    --white: #ebeff2;
+    --acent: #ffa656;
+    --gray: #54595f;
 }
 
 .hero-prime-drive {
@@ -25,23 +25,23 @@
 }
 
 .grayish-green {
-    background-color: #CCD1C1;
+    background-color: #ccd1c1;
 }
 
 .dark-grayish-green {
-    background-color: #A0AC97;
+    background-color: #a0ac97;
 }
 
 .dark-grayish-cyan {
-    background-color: #62736D;
+    background-color: #62736d;
 }
 
 .pine-tree {
-    background-color: #2A2C1F;
+    background-color: #2a2c1f;
 }
 
 .cadet-grey {
-    background-color: #8FA4A5;
+    background-color: #8fa4a5;
 
     h2,
     p {
@@ -81,7 +81,6 @@ section.quote {
 }
 
 @media (max-width: 1024px) {
-
     .prime-drive-main-logo {
         display: flex;
         justify-content: center;
@@ -95,7 +94,7 @@ section.quote {
 
     section.quote {
         height: 80vh;
-        margin-bottom: 10px;
+        margin: 20px 0 0 0;
 
         .image-filter {
             height: inherit;
@@ -116,7 +115,6 @@ section.quote {
 }
 
 @media (max-width: 768px) {
-
     .prime-drive-main-logo {
         display: flex;
         justify-content: center;
@@ -150,7 +148,6 @@ section.quote {
 }
 
 @media (max-width: 425px) {
-
     .prime-drive-main-logo {
         display: flex;
         justify-content: center;

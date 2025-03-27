@@ -130,14 +130,14 @@ section.kabwe-golf-tshirts {
     width: 300px;
   }
   section.kabwe-grid {
-    padding: 0 10px 10px 10px;
+    padding: 0 20px;
   }
   section.kabwe-grid .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 1000px;
     margin: 0 auto;
-    gap: 10px;
+    gap: 20px;
   }
   section.kabwe-grid .container .image-logo {
     height: 80vh;
@@ -178,6 +178,9 @@ section.kabwe-golf-tshirts {
     letter-spacing: 0.012em;
     color: var(--gray);
     margin-bottom: 20px;
+  }
+  section.kabwe-lodge-quote {
+    margin: 20px 0 0 0;
   }
   section.kabwe-lodge-quote .filter {
     gap: 30px;

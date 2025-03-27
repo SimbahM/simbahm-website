@@ -166,24 +166,24 @@ section.color-palette .main-color .palette {
 
 @media (max-width: 1024px) {
   section.colors-container {
-    padding: 10px 10px;
+    padding: 0px 20px;
   }
   section.colors-container .container {
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   section.colors-container .colors {
     height: 70vh;
   }
   section.colors {
     width: 100%;
-    padding: 10px 10px;
+    padding: 0px 20px;
   }
   section.colors .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   section.colors .container .color-panels {
     height: 80vh;
@@ -204,27 +204,27 @@ section.color-palette .main-color .palette {
     font-size: 20px;
   }
   section.three-colors {
-    padding: 10px 10px;
+    padding: 20px 20px;
   }
   section.three-colors .container {
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
   }
   section.three-colors .colors {
     height: 80vh;
   }
   section.color-palette {
-    padding: 10px 10px 10px 10px;
+    padding: 0px 20px;
   }
   section.color-palette .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   section.color-palette .main-color {
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   section.color-palette .main-color .teal-blue {
     background-color: #2f7992;
@@ -234,24 +234,24 @@ section.color-palette .main-color .palette {
 }
 @media (max-width: 768px) {
   section.colors-container {
-    padding: 10px 10px;
+    padding: 0px 20px;
   }
   section.colors-container .container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   section.colors-container .colors {
     height: 60vh;
   }
   section.colors {
     width: 100%;
-    padding: 10px 10px;
+    padding: 0px 20px;
   }
   section.colors .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   section.colors .container .color-panels {
     height: 80vh;
@@ -272,11 +272,11 @@ section.color-palette .main-color .palette {
     font-size: 20px;
   }
   section.three-colors {
-    padding: 10px 10px;
+    padding: 20px;
   }
   section.three-colors .container {
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
   }
   section.three-colors .colors {
@@ -286,33 +286,33 @@ section.color-palette .main-color .palette {
   section.color-palette .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   section.color-palette .main-color {
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 425px) {
   section.colors-container {
-    padding: 10px 10px;
+    padding: 0px 20px;
   }
   section.colors-container .container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   section.colors-container .colors {
     height: 40vh;
   }
   section.colors {
     width: 100%;
-    padding: 10px 10px;
+    padding: 0px 20px;
   }
   section.colors .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   section.colors .container .color-panels {
     height: 60vh;
@@ -333,11 +333,11 @@ section.color-palette .main-color .palette {
     font-size: 17px;
   }
   section.three-colors {
-    padding: 10px 10px;
+    padding: 20px;
   }
   section.three-colors .container {
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: repeat(1, 1fr);
   }
   section.three-colors .colors {
@@ -347,10 +347,10 @@ section.color-palette .main-color .palette {
   section.color-palette .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   section.color-palette .main-color {
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=colors.css.map */

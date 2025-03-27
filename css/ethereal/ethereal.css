@@ -1,9 +1,9 @@
 :root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --acent: #FFA656;
-  --gray: #54595F;
+  --primary: #1b2f3f;
+  --secondary: #2e465e;
+  --white: #ebeff2;
+  --acent: #ffa656;
+  --gray: #54595f;
 }
 
 .ethereal {
@@ -65,7 +65,7 @@ section.need-for-a-new-logo .container p {
 
 section.old-to-new {
   padding: 100px 0;
-  background-color: #E5EBF8;
+  background-color: #e5ebf8;
 }
 section.old-to-new .container {
   display: flex;
@@ -115,7 +115,7 @@ section.main-logo .container img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #E5EBF8;
+  background-color: #e5ebf8;
   background-blend-mode: multiply;
 }
 
@@ -124,7 +124,7 @@ section.main-logo .container img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #468ECD;
+  background-color: #468ecd;
   background-blend-mode: multiply;
 }
 
@@ -137,7 +137,7 @@ section.main-logo .container img {
 }
 
 .lavender-color {
-  background-color: #E5EBF8;
+  background-color: #e5ebf8;
 }
 .lavender-color span.lavender-color-hex {
   color: #001033;
@@ -146,7 +146,7 @@ section.main-logo .container img {
 }
 
 .celestial-blue-color {
-  background-color: #468ECD;
+  background-color: #468ecd;
 }
 
 section.white-quote {
@@ -191,7 +191,7 @@ section.white-quote .container h1 {
   }
   section.white-quote {
     height: 80vh;
-    margin: 0 0 10px 0;
+    margin: 20px 0 0 0;
   }
   section.white-quote .container img {
     width: 300px;
@@ -259,15 +259,15 @@ section.white-quote .container h1 {
 }
 @media (max-width: 425px) {
   section.quote {
-    height: 80vh;
+    height: 60vh;
   }
   section.quote .container img {
-    width: 250px;
+    width: 150px;
     margin-bottom: 20px;
   }
   section.quote .container h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #353535;
     width: 100%;
     padding: 0 20px;
@@ -292,7 +292,7 @@ section.white-quote .container h1 {
   }
   section.old-to-new {
     padding: 80px 0;
-    background-color: #E5EBF8;
+    background-color: #e5ebf8;
   }
   section.old-to-new .container img {
     width: 250px;

@@ -215,7 +215,7 @@ section.featured-works .container .grid a.product-card .overlay .project-title p
 }
 @media (max-width: 425px) {
   section.featured-works {
-    padding: 20px 10px 10px 10px;
+    padding: 20px 20px;
   }
   section.featured-works .container {
     margin: 0 auto;
@@ -227,7 +227,7 @@ section.featured-works .container .grid a.product-card .overlay .project-title p
   section.featured-works .container .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   section.featured-works .container .grid a.product-card {
     display: flex;

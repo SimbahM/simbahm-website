@@ -1,7 +1,7 @@
 .nav-container {
   padding: 0 20px;
   display: flex;
-  background-color: rgba(27, 47, 63, 0.9);
+  background-color: var(--primary);
   -webkit-backdrop-filter: blur(30px);
           backdrop-filter: blur(30px);
   height: 50px;
@@ -285,6 +285,6 @@
 }
 @media (max-width: 425px) {
   .nav-container {
-    padding: 0 10px;
+    padding: 0 20px;
   }
 }/*# sourceMappingURL=header.css.map */

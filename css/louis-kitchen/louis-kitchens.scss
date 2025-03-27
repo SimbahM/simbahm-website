@@ -48,19 +48,19 @@ section.louis-white-logo {
 }
 
 .pale-silver {
-    background-color: #C4B8B9;
+    background-color: #c4b8b9;
 }
 
 .black-coffee {
-    background-color: #382E2B;
+    background-color: #382e2b;
 }
 
 .deer {
-    background-color: #C08B65;
+    background-color: #c08b65;
 }
 
 .coconut {
-    background-color: #945F38;
+    background-color: #945f38;
 
     h2,
     p {
@@ -69,7 +69,6 @@ section.louis-white-logo {
 }
 
 @media (max-width: 1024px) {
-
     section.louis-logo {
         height: 60vh;
         display: flex;
@@ -83,6 +82,7 @@ section.louis-white-logo {
 
     section.louis-white-logo {
         height: 80vh;
+        margin-bottom: 20px;
 
         .filter {
             height: inherit;
@@ -99,7 +99,6 @@ section.louis-white-logo {
 }
 
 @media (max-width: 768px) {
-
     section.louis-logo {
         height: 60vh;
         display: flex;
@@ -129,7 +128,6 @@ section.louis-white-logo {
 }
 
 @media (max-width: 425px) {
-
     section.louis-logo {
         height: 50vh;
         display: flex;

@@ -14,13 +14,12 @@ section.project-mockups {
 }
 
 @media (max-width: 1024px) {
-
     section.project-mockups {
         display: flex;
-        padding: 0px 10px 10px 10px;
+        padding: 20px 20px 20px 20px;
 
         .container {
-            gap: 10px;
+            gap: 20px;
         }
     }
 }

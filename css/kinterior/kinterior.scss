@@ -1,5 +1,6 @@
 .hero-kinterior {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/kinterior/kinterior-cover-page.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url(../../assets/images/pages/kinterior/kinterior-cover-page.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,7 +45,7 @@ section.logo-construction {
     .filter {
         max-width: 1000px;
         margin: 0 auto;
-        background-color: #2D2423;
+        background-color: #2d2423;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,7 +83,6 @@ section.golden-ratio {
             text-align: center;
         }
     }
-
 
     img.graph {
         width: 500px;
@@ -125,12 +125,10 @@ section.flags {
                 width: 300px;
             }
         }
-
     }
 }
 
 @media (max-width: 1024px) {
-
     section.kinterior-brand {
         height: 100vh;
         display: flex;
@@ -165,12 +163,12 @@ section.flags {
     }
 
     section.logo-construction {
-        padding: 0 10px;
+        padding: 0 20px;
 
         .filter {
             max-width: 1000px;
             margin: 0 auto;
-            background-color: #2D2423;
+            background-color: #2d2423;
             height: 100vh;
             width: 100%;
 
@@ -185,7 +183,6 @@ section.flags {
         gap: 40px;
 
         .titles {
-
             h1 {
                 font-size: 50px;
                 color: var(--primary);
@@ -209,11 +206,11 @@ section.flags {
     }
 
     section.flags {
-        padding: 0 10px 10px 10px;
+        padding: 0 20px 20px 20px;
 
         .container {
             display: grid;
-            gap: 10px;
+            gap: 20px;
             grid-template-columns: repeat(2, 1fr);
 
             .web {
@@ -227,13 +224,11 @@ section.flags {
                     width: 300px;
                 }
             }
-
         }
     }
 }
 
 @media (max-width: 768px) {
-
     section.kinterior-brand {
         height: 100vh;
         display: flex;
@@ -273,7 +268,7 @@ section.flags {
     }
 
     section.logo-construction {
-        padding: 0 10px;
+        padding: 0 20px;
 
         .filter {
             height: 100vh;
@@ -290,7 +285,6 @@ section.flags {
         gap: 40px;
 
         .titles {
-
             h1 {
                 font-size: 50px;
                 color: var(--primary);
@@ -314,31 +308,26 @@ section.flags {
     }
 
     section.flags {
-        padding: 0 10px 10px 10px;
-
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
 
             .web {
-                height: 100vh;
+                height: 70vh;
             }
 
             .logo {
-                height: 100vh;
+                height: 70vh;
 
                 img {
                     width: 150px;
                 }
             }
-
         }
     }
 }
 
-
 @media (max-width: 425px) {
-
     section.kinterior-brand {
         height: 60vh;
         display: flex;
@@ -382,7 +371,7 @@ section.flags {
     }
 
     section.logo-construction {
-        padding: 0 10px;
+        padding: 0 20px;
 
         .filter {
             height: 60vh;
@@ -400,7 +389,6 @@ section.flags {
         gap: 40px;
 
         .titles {
-
             h1 {
                 font-size: 30px;
                 color: var(--primary);
@@ -427,25 +415,22 @@ section.flags {
     }
 
     section.flags {
-        padding: 0 10px 10px 10px;
-
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
 
             .web {
-                height: 70vh;
+                height: 60vh;
             }
 
             .logo {
-                height: 70vh;
+                height: 60vh;
 
                 img {
                     width: 100%;
-                    padding: 0 30px;
+                    padding: 0 50px;
                 }
             }
-
         }
     }
 }

@@ -7,6 +7,16 @@ section.projects-hero {
   padding-bottom: 50px;
   gap: 20px;
 }
+section.projects-hero img.eca-icon {
+  width: 350px;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+section.projects-hero img.envirozyme-logo {
+  width: 300px;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
 section.projects-hero img.apexbytes-logo {
   width: 200px;
   margin-bottom: 20px;
@@ -55,6 +65,16 @@ section.projects-hero i {
     padding-bottom: 80px;
     gap: 15px;
   }
+  section.projects-hero img.eca-icon {
+    width: 230px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+  }
+  section.projects-hero img.envirozyme-logo {
+    width: 250px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+  }
   section.projects-hero img.apexbytes-logo {
     width: 150px;
     margin-bottom: 20px;
@@ -87,6 +107,16 @@ section.projects-hero i {
     height: 80vh;
     padding-bottom: 30px;
     gap: 15px;
+  }
+  section.projects-hero img.eca-icon {
+    width: 230px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+  }
+  section.projects-hero img.envirozyme-logo {
+    width: 200px;
+    margin-bottom: 40px;
+    opacity: 0.7;
   }
   section.projects-hero img.apexbytes-logo {
     width: 120px;
@@ -135,6 +165,16 @@ section.projects-hero i {
     padding-bottom: 30px;
     gap: 15px;
   }
+  section.projects-hero img.eca-icon {
+    width: 230px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+  }
+  section.projects-hero img.envirozyme-logo {
+    width: 150px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+  }
   section.projects-hero img.apexbytes-logo {
     width: 70px;
     margin-bottom: 20px;
@@ -151,7 +191,7 @@ section.projects-hero i {
     opacity: 0.7;
   }
   section.projects-hero img.hero-logo {
-    width: 70px;
+    width: 90px;
     opacity: 0.7;
     margin-bottom: 10px;
   }

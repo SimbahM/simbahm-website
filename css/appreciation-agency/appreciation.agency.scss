@@ -1,13 +1,14 @@
 :root {
-    --primary: #1B2F3F;
-    --secondary: #2E465E;
-    --white: #EBEFF2;
-    --acent: #FFA656;
-    --gray: #54595F;
+    --primary: #1b2f3f;
+    --secondary: #2e465e;
+    --white: #ebeff2;
+    --acent: #ffa656;
+    --gray: #54595f;
 }
 
 .aa {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/appreciation-agency/african-american-business-woman-by-window.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+        url(../../assets/images/pages/appreciation-agency/billboard.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,7 +61,7 @@ section.main-logo {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #5981B1;
+    background-color: #5981b1;
     background-blend-mode: multiply;
 }
 
@@ -69,7 +70,7 @@ section.main-logo {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #98BAE3;
+    background-color: #98bae3;
     background-blend-mode: multiply;
 }
 
@@ -78,7 +79,7 @@ section.main-logo {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #FCAF45;
+    background-color: #fcaf45;
     background-blend-mode: multiply;
 }
 
@@ -87,11 +88,11 @@ section.main-logo {
 }
 
 .glaucous-color {
-    background-color: #5981B1;
+    background-color: #5981b1;
 }
 
 .pale-cerulean-color {
-    background-color: #98BAE3;
+    background-color: #98bae3;
 
     span.custom-hex {
         color: #365475;
@@ -101,11 +102,10 @@ section.main-logo {
 }
 
 .yellow-orange-color {
-    background-color: #FCAF45;
+    background-color: #fcaf45;
 }
 
 @media (max-width: 1024px) {
-
     section.project-head {
         padding: 100px 0 50px 0;
 
@@ -129,7 +129,6 @@ section.main-logo {
 }
 
 @media (max-width: 574px) {
-
     section.main-logo {
         padding: 50px 0 200px 0;
 
@@ -153,7 +152,6 @@ section.main-logo {
 }
 
 @media (max-width: 425px) {
-
     section.main-logo {
         padding: 50px 0 200px 0;
 

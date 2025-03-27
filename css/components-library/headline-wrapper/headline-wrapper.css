@@ -7,7 +7,7 @@ section.headline-wrapper .headline-wrapper-content {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 100px 10px;
+  padding: 100px 0px;
   gap: 20px;
 }
 section.headline-wrapper .headline-wrapper-content img.logo-symbol {
@@ -124,11 +124,8 @@ section.headline-wrapper .headline-wrapper-content p.caption {
   }
 }
 @media (max-width: 425px) {
-  section.headline-wrapper {
-    margin: 0 20px;
-  }
   section.headline-wrapper .headline-wrapper-content {
-    width: 350px;
+    width: 100%;
     padding: 50px 0px;
     gap: 20px;
   }

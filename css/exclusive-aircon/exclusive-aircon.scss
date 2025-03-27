@@ -1,5 +1,6 @@
 .hero-eac {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/eac/eac-cover-page.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url(../../assets/images/pages/eac/eac-cover-page.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,7 +21,6 @@ section.large-section-content {
         border-bottom: 1px solid rgb(176, 176, 176);
         width: 250px;
         margin: 30px 0;
-
     }
 
     h1 {
@@ -80,7 +80,7 @@ section.grid-app-icon {
         }
 
         .frame {
-            background-color: #3BB5E6;
+            background-color: #3bb5e6;
             height: 80vh;
             display: flex;
             flex-direction: column;
@@ -120,7 +120,6 @@ section.grid-app-icon {
 }
 
 @media (max-width: 1024px) {
-
     section.large-section-content {
         padding: 100px 0;
 
@@ -154,11 +153,11 @@ section.grid-app-icon {
     }
 
     section.grid-app-icon {
-        padding: 0 10px 10px 10px;
+        padding: 0 20px;
 
         .container {
             display: grid;
-            gap: 10px;
+            gap: 20px;
             grid-template-columns: repeat(2, 1fr);
 
             .icon {
@@ -194,9 +193,7 @@ section.grid-app-icon {
 }
 
 @media (max-width: 768px) {
-
     section.large-section-content {
-
         padding: 100px 0;
 
         img {
@@ -207,7 +204,6 @@ section.grid-app-icon {
             border-bottom: 1px solid rgb(176, 176, 176);
             width: 180px;
             margin: 20px 0;
-
         }
 
         h1 {
@@ -216,7 +212,6 @@ section.grid-app-icon {
     }
 
     section.eac-old-logo {
-
         padding: 100px 0;
 
         img {
@@ -229,7 +224,6 @@ section.grid-app-icon {
     }
 
     section.eac-old-and-new-logo {
-
         padding: 100px 0;
 
         img {
@@ -238,10 +232,9 @@ section.grid-app-icon {
     }
 
     section.grid-app-icon {
-
         .container {
             display: grid;
-            gap: 10px;
+            gap: 20px;
             grid-template-columns: repeat(1, 1fr);
 
             .icon {
@@ -277,9 +270,7 @@ section.grid-app-icon {
 }
 
 @media (max-width: 425px) {
-
     section.large-section-content {
-
         padding: 100px 0;
 
         h1 {
@@ -288,7 +279,6 @@ section.grid-app-icon {
     }
 
     section.eac-old-logo {
-
         padding: 50px 0;
 
         img {
@@ -302,7 +292,6 @@ section.grid-app-icon {
     }
 
     section.eac-old-and-new-logo {
-
         padding: 100px 0;
 
         img {
@@ -312,9 +301,8 @@ section.grid-app-icon {
     }
 
     section.grid-app-icon {
-
         .container {
-            gap: 10px;
+            gap: 20px;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
 

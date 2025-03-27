@@ -1,5 +1,6 @@
 .vah {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/vah/vah-solutions-cover-page.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../../assets/images/pages/vah/business-cards-mockup.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,7 +10,8 @@
     padding: 0 10px;
 
     .container {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/vah/image-bg.webp);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+            url(../../assets/images/pages/vah/image-bg.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -27,32 +29,36 @@
 }
 
 .persian-blue {
-    background-image: linear-gradient(to bottom, rgba(0, 104, 163, 1), rgba(0, 104, 163, 0)), url(../../assets/images/pages/vah/image-persian-blue.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 104, 163, 1), rgba(0, 104, 163, 0)),
+        url(../../assets/images/pages/vah/image-persian-blue.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .granite-gray {
-    background-image: linear-gradient(to bottom, rgba(99, 99, 99, 1), rgba(99, 99, 99, 0)), url(../../assets/images/pages/vah/image-granite-gray-color.webp);
+    background-image: linear-gradient(to bottom, rgba(99, 99, 99, 1), rgba(99, 99, 99, 0)),
+        url(../../assets/images/pages/vah/image-granite-gray-color.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .ghost-white {
-    background-image: linear-gradient(to bottom, rgba(247, 250, 252, 1), rgba(247, 250, 252, 0)), url(../../assets/images/pages/vah/image-ghost-white-color.webp);
+    background-image: linear-gradient(to bottom, rgba(247, 250, 252, 1), rgba(247, 250, 252, 0)),
+        url(../../assets/images/pages/vah/image-ghost-white-color.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     p {
-        color: #0068A3;
+        color: #0068a3;
     }
 }
 
 .eerie-black {
-    background-image: linear-gradient(to bottom, rgba(30, 28, 27, 1), rgba(30, 28, 27, 0)), url(../../assets/images/pages/vah/image-eerie-black.webp);
+    background-image: linear-gradient(to bottom, rgba(30, 28, 27, 1), rgba(30, 28, 27, 0)),
+        url(../../assets/images/pages/vah/image-eerie-black.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -77,9 +83,8 @@ section.main-logo {
 }
 
 @media (max-width: 1024px) {
-
     section.main-logo {
-        padding: 0px 10px 10px 10px;
+        padding: 20px 20px 0 20px;
 
         .container {
             height: 100vh;
@@ -92,12 +97,25 @@ section.main-logo {
             }
         }
     }
+
+    .white-logo {
+        padding: 0 20px;
+        margin-bottom: 20px;
+
+        .container {
+            height: 80vh;
+
+            img {
+                width: 650px;
+                opacity: 0.9;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
-
     .white-logo {
-        padding: 0 10px;
+        padding: 0 20px;
 
         .container {
             height: 80vh;
@@ -109,7 +127,7 @@ section.main-logo {
     }
 
     section.main-logo {
-        padding: 0 10px 10px 10px;
+        padding: 20px 20px 0 20px;
 
         .container {
             height: 80vh;
@@ -123,9 +141,8 @@ section.main-logo {
 }
 
 @media (max-width: 425px) {
-
     .white-logo {
-        padding: 0 10px;
+        padding: 0 20px;
 
         .container {
             height: 60vh;
@@ -138,7 +155,7 @@ section.main-logo {
     }
 
     section.main-logo {
-        padding: 0px 10px 10px 10px;
+        padding: 20px 20px 0 20px;
 
         .container {
             height: 60vh;

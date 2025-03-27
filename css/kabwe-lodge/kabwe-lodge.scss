@@ -1,5 +1,6 @@
 .hero-kabwe {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/kabwe-lodge/lodge-rooms.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../../assets/images/pages/kabwe-lodge/lodge-rooms.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -138,7 +139,6 @@ section.kabwe-golf-tshirts {
 }
 
 @media (max-width: 1024px) {
-
     section.kabwe-logo {
         padding: 100px 0 200px 0;
 
@@ -148,14 +148,14 @@ section.kabwe-golf-tshirts {
     }
 
     section.kabwe-grid {
-        padding: 0 10px 10px 10px;
+        padding: 0 20px;
 
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             max-width: 1000px;
             margin: 0 auto;
-            gap: 10px;
+            gap: 20px;
 
             .image-logo {
                 height: 80vh;
@@ -210,6 +210,7 @@ section.kabwe-golf-tshirts {
     }
 
     section.kabwe-lodge-quote {
+        margin: 20px 0 0 0;
 
         .filter {
             gap: 30px;
@@ -233,7 +234,6 @@ section.kabwe-golf-tshirts {
 }
 
 @media (max-width: 768px) {
-
     section.kabwe-logo {
         padding: 50px 0 100px 0;
 
@@ -243,7 +243,6 @@ section.kabwe-golf-tshirts {
     }
 
     section.kabwe-grid {
-
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -304,7 +303,6 @@ section.kabwe-golf-tshirts {
 }
 
 @media (max-width: 425px) {
-
     section.kabwe-logo {
         padding: 50px 0 100px 0;
 
@@ -315,7 +313,6 @@ section.kabwe-golf-tshirts {
     }
 
     section.kabwe-grid {
-
         .container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);

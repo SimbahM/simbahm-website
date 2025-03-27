@@ -185,7 +185,7 @@ section.bg {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
   }
   section.typeface-grid .container .typeface {
     padding: 50px 30px;
@@ -250,7 +250,7 @@ section.bg {
     grid-template-columns: repeat(1, 1fr);
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
   }
   section.typeface-grid .container .typeface {
     padding: 50px 30px;
@@ -266,6 +266,6 @@ section.bg {
   }
   section.bg {
     background-color: #182c4c;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }/*# sourceMappingURL=apexbytes.css.map */

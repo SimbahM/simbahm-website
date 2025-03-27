@@ -136,19 +136,23 @@ section.grid .container .phone img {
   section.logo img {
     width: 500px;
   }
+  .logo-with-bg {
+    margin: 20px;
+  }
   section.vector {
     display: flex;
     align-items: center;
     justify-content: end;
     background-color: #202030;
     height: 100vh;
+    margin-bottom: 20px;
   }
   section.vector img {
     width: 700px;
   }
   section.grid {
     display: flex;
-    padding: 0 10px 10px 10px;
+    padding: 0 20px;
   }
   section.grid .container {
     display: grid;
@@ -189,7 +193,7 @@ section.grid .container .phone img {
   }
   section.grid {
     display: flex;
-    padding: 0 10px 10px 10px;
+    padding: 0 20px;
   }
   section.grid .container {
     display: grid;
@@ -209,7 +213,7 @@ section.grid .container .phone img {
 }
 @media (max-width: 425px) {
   section.logo {
-    height: 60vh;
+    height: 50vh;
   }
   section.logo img {
     width: 250px;
@@ -222,7 +226,7 @@ section.grid .container .phone img {
   }
   section.grid {
     display: flex;
-    padding: 0 10px 10px 10px;
+    padding: 0 20px;
   }
   section.grid .container {
     display: grid;

@@ -1,9 +1,9 @@
 :root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --acent: #FFA656;
-  --gray: #54595F;
+  --primary: #1b2f3f;
+  --secondary: #2e465e;
+  --white: #ebeff2;
+  --acent: #ffa656;
+  --gray: #54595f;
 }
 
 .natiology {
@@ -27,7 +27,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #85EE78;
+  background-color: #85ee78;
   background-blend-mode: multiply;
 }
 
@@ -36,7 +36,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #29866D;
+  background-color: #29866d;
   background-blend-mode: multiply;
 }
 
@@ -45,7 +45,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #329D80;
+  background-color: #329d80;
   background-blend-mode: multiply;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .pastel-green-color {
-  background-color: #85EE78;
+  background-color: #85ee78;
 }
 .pastel-green-color span.pastel-green-color-hex {
   color: #003323;
@@ -63,11 +63,11 @@
 }
 
 .celadon-green-color {
-  background-color: #29866D;
+  background-color: #29866d;
 }
 
 .illuminating-green-color {
-  background-color: #329D80;
+  background-color: #329d80;
 }
 
 section.main-logo {

@@ -1,9 +1,9 @@
 :root {
-  --primary: #1B2F3F;
-  --secondary: #2E465E;
-  --white: #EBEFF2;
-  --acent: #FFA656;
-  --gray: #54595F;
+  --primary: #1b2f3f;
+  --secondary: #2e465e;
+  --white: #ebeff2;
+  --acent: #ffa656;
+  --gray: #54595f;
 }
 
 .hero-niche {
@@ -33,23 +33,23 @@ section.niche-logo img {
 }
 
 .charleston-green {
-  background-color: #262B28;
+  background-color: #262b28;
 }
 
 .feldgraun {
-  background-color: #535E57;
+  background-color: #535e57;
 }
 
 .yellow-green-crayola {
-  background-color: #B6E27D;
+  background-color: #b6e27d;
 }
 
 .maximum-green {
-  background-color: #65972E;
+  background-color: #65972e;
 }
 
 .teal-blue {
-  background-color: #2F7992;
+  background-color: #2f7992;
 }
 .teal-blue h2,
 .teal-blue p {
@@ -115,7 +115,7 @@ section.posters .poster-container .main-poster .meta-data p {
 }
 
 section.logo-on-blue-bg {
-  background-color: #2F7996;
+  background-color: #2f7996;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -148,22 +148,25 @@ section.grid-ads .grid {
     width: 500px;
     margin: 70px;
   }
+  .works {
+    margin-bottom: 20px;
+  }
   section.posters {
-    padding: 0 10px 10px 10px;
+    padding: 20px;
   }
   section.posters .poster-container {
-    gap: 10px;
+    gap: 20px;
   }
   section.logo-on-blue-bg img {
     width: 500px;
   }
   section.grid-ads {
-    padding: 10px 10px;
+    padding: 20px 20px 0 20px;
   }
   section.grid-ads .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
     margin: 0 auto;
   }
 }
@@ -180,7 +183,7 @@ section.grid-ads .grid {
     margin: 70px;
   }
   section.posters {
-    padding: 0 10px 10px 10px;
+    padding: 20px;
   }
   section.posters .poster-container {
     grid-template-columns: repeat(1, 1fr);
@@ -277,7 +280,7 @@ section.grid-ads .grid {
   }
   section.logo-on-blue-bg {
     height: 70vh;
-    margin: 0px 10px;
+    margin: 0px 20px;
   }
   section.logo-on-blue-bg img {
     width: 100%;

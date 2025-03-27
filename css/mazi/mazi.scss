@@ -1,20 +1,21 @@
 :root {
-    --primary: #1B2F3F;
-    --secondary: #2E465E;
-    --white: #EBEFF2;
-    --acent: #FFA656;
-    --gray: #54595F;
+    --primary: #1b2f3f;
+    --secondary: #2e465e;
+    --white: #ebeff2;
+    --acent: #ffa656;
+    --gray: #54595f;
 }
 
 .mazi {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/pages/mazi/logo-on-rubber-mockup.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../../assets/images/pages/mazi/logo-on-rubber-mockup.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 section.main-logo {
-    padding: 200px 15px 300px 15px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,31 +26,32 @@ section.main-logo {
 }
 
 .cool-black {
-    background-image: linear-gradient(to bottom, rgba(0, 48, 96, 1), rgba(0, 48, 96, 0)), url(../../assets/images/pages/mazi/color-cool-black.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 48, 96, 1), rgba(0, 48, 96, 0)),
+        url(../../assets/images/pages/mazi/color-cool-black.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .azureish-white {
-    background-image: linear-gradient(to bottom, rgba(222, 233, 236, 1), rgba(222, 233, 236, 0)), url(../../assets/images/pages/mazi/color-white.webp);
+    background-image: linear-gradient(to bottom, rgba(222, 233, 236, 1), rgba(222, 233, 236, 0)),
+        url(../../assets/images/pages/mazi/color-white.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-
 .picton-blue {
-    background-image: linear-gradient(to bottom, rgba(52, 181, 239, 1), rgba(52, 181, 239, 0)), url(../../assets/images/pages/mazi/color-picton-blue.webp);
+    background-image: linear-gradient(to bottom, rgba(52, 181, 239, 1), rgba(52, 181, 239, 0)),
+        url(../../assets/images/pages/mazi/color-picton-blue.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 @media (max-width: 1024px) {
-
     section.main-logo {
-        padding: 100px 15px 250px 15px;
+        height: 80vh;
 
         img {
             width: 500px;
@@ -58,9 +60,8 @@ section.main-logo {
 }
 
 @media (max-width: 768px) {
-
     section.main-logo {
-        padding: 100px 15px 250px 15px;
+        height: 60vh;
 
         img {
             width: 400px;
@@ -69,12 +70,11 @@ section.main-logo {
 }
 
 @media (max-width: 425px) {
-
     section.main-logo {
-        padding: 100px 15px 200px 15px;
+        height: 60vh;
 
         img {
-            width: 300px;
+            width: 250px;
         }
     }
 }

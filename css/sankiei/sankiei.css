@@ -121,11 +121,15 @@ section.color-bg {
     align-items: center;
   }
   section.image-bg {
-    margin-bottom: 10px;
+    margin: 20px 0px 0 0;
+    height: 80vh;
   }
   section.image-bg img.logo-symbol {
     opacity: 0.4;
-    width: 300px;
+    width: 250px;
+  }
+  section.color-bg {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 768px) {
