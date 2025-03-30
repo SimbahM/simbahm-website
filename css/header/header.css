@@ -70,7 +70,7 @@
   opacity: 0.9;
 }
 .nav-container nav .desktop-nav a.norton-upad img {
-  width: 120px;
+  width: 100px;
 }
 .nav-container nav .desktop-nav a.norton-upad hr {
   transform: translateX(45deg);
@@ -87,6 +87,24 @@
   letter-spacing: 0.05rem;
 }
 
+@media (max-width: 1024px) {
+  .nav-container nav .desktop-nav ul.nav-items {
+    gap: 15px;
+  }
+  .nav-container nav .desktop-nav a.norton-upad:hover {
+    opacity: 0.9;
+  }
+  .nav-container nav .desktop-nav a.norton-upad img {
+    width: 100px;
+  }
+  .nav-container nav .desktop-nav a.norton-upad hr {
+    margin: 0 7px;
+    height: 15px;
+  }
+  .nav-container nav .desktop-nav a.norton-upad span {
+    font-size: 12px;
+  }
+}
 @media (max-width: 768px) {
   .nav-container {
     z-index: 400;

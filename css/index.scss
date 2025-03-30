@@ -115,6 +115,15 @@ section.pagebody-header {
 	align-items: center;
 	gap: 10px;
 
+	p.pagebody-text {
+		text-align: center;
+		font-size: 21px;
+		text-transform: uppercase;
+		font-weight: 500;
+		letter-spacing: 0.05em;
+		color: var(--gray);
+	}
+
 	h1.title {
 		font-size: 70px;
 		color: var(--secondary);
@@ -127,7 +136,7 @@ section.pagebody-header {
 		font-size: 30px;
 		color: var(--gray);
 		text-align: center;
-		max-width: 550px;
+		max-width: 500px;
 		margin-bottom: 30px;
 	}
 }
@@ -246,6 +255,13 @@ section.featured-works {
 		}
 	}
 
+	section.titles {
+		h1.title {
+			font-size: 40px;
+			color: var(--secondary);
+		}
+	}
+
 	section.pagebody-header {
 		padding: 100px 0;
 		gap: 10px;
@@ -350,6 +366,11 @@ section.featured-works {
 	section.pagebody-header {
 		padding: 100px 0;
 		gap: 10px;
+
+		p.pagebody-text {
+			text-align: center;
+			font-size: 19px;
+		}
 
 		h1.title {
 			font-size: 40px;
@@ -548,6 +569,11 @@ section.featured-works {
 	section.pagebody-header {
 		padding: 50px 0;
 		gap: 10px;
+
+		p.pagebody-text {
+			text-align: center;
+			font-size: 15px;
+		}
 
 		h1.title {
 			font-size: 30px;

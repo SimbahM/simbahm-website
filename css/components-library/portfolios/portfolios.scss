@@ -105,7 +105,9 @@ section.featured-works {
                         border-radius: 5px;
 
                         .project-title {
-                            gap: 10px;
+                            flex-direction: column;
+                            align-items: start;
+                            gap: 5px;
                             margin-bottom: 0;
                             transition: all 0.3s ease;
 
@@ -163,7 +165,7 @@ section.featured-works {
                         .project-title {
                             flex-direction: column;
                             align-items: start;
-                            gap: 10px;
+                            gap: 5px;
                             margin-bottom: 0;
                             transition: all 0.3s ease;
 
@@ -175,7 +177,7 @@ section.featured-works {
                             }
 
                             p.category {
-                                font-size: 17px;
+                                font-size: 15px;
                                 color: var(--white);
                                 opacity: 0.7;
                             }
@@ -279,7 +281,7 @@ section.featured-works {
                         .project-title {
                             flex-direction: column;
                             align-items: start;
-                            gap: 10px;
+                            gap: 5px;
 
                             span.title,
                             p.category {
@@ -289,149 +291,11 @@ section.featured-works {
                             }
 
                             p.category {
-                                font-size: 17px;
+                                font-size: 15px;
                                 color: var(--white);
                                 opacity: 0.7;
                             }
                         }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// TODO:
-
-section.portfolios {
-    padding: 100px 0;
-
-    .container {
-        margin: 0 auto;
-        max-width: 1400px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        padding: 0 100px;
-
-        a.portfolio-card {
-            height: 500px;
-            display: flex;
-            text-decoration: none;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            border-radius: 5px;
-
-            .overlay {
-                display: flex;
-                background-color: aqua;
-                flex-direction: row;
-                justify-content: start;
-                align-items: end;
-                color: var(--white);
-                padding: 0 0 20px 20px;
-                background-color: rgba(0, 0, 0, 0);
-                width: 100%;
-                height: 100%;
-                transition: all 0.3s ease;
-
-                .project-title {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    gap: 10px;
-
-                    span.title {
-                        font-size: 21px;
-                        letter-spacing: 1px;
-                        text-transform: uppercase;
-                    }
-
-                    span.subhead {
-                        font-size: 14px;
-                        letter-spacing: 1px;
-                        opacity: 0.8;
-                        text-transform: uppercase;
-                    }
-                }
-
-                &:hover {
-                    background-color: rgba(0, 0, 0, 0.3);
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 1024px) {
-    section.portfolios {
-        padding: 50px 0;
-
-        .container {
-            margin: 0 auto;
-            padding: 0 50px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-
-            a.portfolio-card {
-                height: 400px;
-            }
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    section.portfolios {
-        padding: 50px 0;
-
-        .container {
-            margin: 0 auto;
-            padding: 0 100px;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
-
-            a.portfolio-card {
-                height: 400px;
-            }
-        }
-    }
-}
-
-@media (max-width: 630px) {
-    section.portfolios {
-        padding: 50px 0;
-
-        .container {
-            margin: 0 auto;
-            padding: 0 20px;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
-        }
-    }
-}
-
-@media (max-width: 425px) {
-    section.portfolios {
-        padding: 10px 0 10px 0;
-
-        .container {
-            margin: 0 auto;
-            padding: 0 10px;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 10px;
-
-            a.portfolio-card {
-                height: 300px;
-
-                .overlay {
-                    padding: 0 0 20px 20px;
-
-                    span {
-                        font-size: 17px;
                     }
                 }
             }

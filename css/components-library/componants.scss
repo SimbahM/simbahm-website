@@ -19,6 +19,18 @@
     // outline: solid 1px lime;
 }
 
+::selection {
+    background: var(--accent);
+    color: var(--white);
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: var(--accent);
+    color: var(--white);
+    text-shadow: none;
+}
+
 div,
 a,
 span,
@@ -37,6 +49,7 @@ p {
     color: var(--gray);
     line-height: 1.4em;
     letter-spacing: -0.022em;
+    cursor: text;
 }
 
 html {
@@ -58,6 +71,7 @@ h2 {
         "Open Sans",
         "Helvetica Neue",
         sans-serif;
+    cursor: text;
 }
 
 :root {
