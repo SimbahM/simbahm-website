@@ -41,7 +41,7 @@ section.design-lead-text .container {
 }
 section.design-lead-text .container p {
   text-align: center;
-  width: 550px;
+  width: 450px;
   font-size: 25px;
   font-weight: 600;
   color: var(--gray);
