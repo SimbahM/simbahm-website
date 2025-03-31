@@ -81,7 +81,6 @@ section.about-me {
                 font-size: 21px;
                 line-height: 1.4705882353;
                 font-weight: 400;
-                letter-spacing: -0.022em;
                 margin-bottom: 30px;
 
                 span {
@@ -117,10 +116,11 @@ section.about-me {
                 text-decoration: none;
                 color: var(--secondary);
                 transition: all 0.3s ease 0s;
-                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
 
                 &:hover {
-                    color: var(--acent);
+                    color: var(--accent);
                 }
             }
         }

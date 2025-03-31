@@ -51,8 +51,7 @@ section.projects-hero h1 {
 section.projects-hero h1.eca-title-mobile {
   display: none;
 }
-section.projects-hero p,
-section.projects-hero i {
+section.projects-hero p {
   font-size: 25px;
   color: var(--white);
   width: 700px;

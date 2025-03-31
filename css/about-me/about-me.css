@@ -75,7 +75,6 @@ section.about-me .container .info p {
   font-size: 21px;
   line-height: 1.4705882353;
   font-weight: 400;
-  letter-spacing: -0.022em;
   margin-bottom: 30px;
 }
 section.about-me .container .info p span {
@@ -106,10 +105,11 @@ section.about-me .container .social-links a {
   text-decoration: none;
   color: var(--secondary);
   transition: all 0.3s ease 0s;
-  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 section.about-me .container .social-links a:hover {
-  color: var(--acent);
+  color: var(--accent);
 }
 
 @media (max-width: 768px) {

@@ -41,9 +41,12 @@ footer {
                             font-size: 14px;
                             line-height: 1.4705882353;
                             font-weight: 400;
+                            text-transform: uppercase;
+                            letter-spacing: 0.05em;
+                            transition: all 0.3s ease;
 
                             &:hover {
-                                text-decoration: underline;
+                                color: var(--accent);
                             }
 
                             img {
@@ -72,8 +75,7 @@ footer {
             span {
                 font-size: 14px;
                 line-height: 1.4705882353;
-                font-weight: 400;
-                letter-spacing: -0.022em;
+                font-weight: 500;
                 color: var(--gray);
             }
         }

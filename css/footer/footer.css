@@ -40,9 +40,12 @@ footer .container .links .footer-directory-column ul li a {
   font-size: 14px;
   line-height: 1.4705882353;
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
 }
 footer .container .links .footer-directory-column ul li a:hover {
-  text-decoration: underline;
+  color: var(--accent);
 }
 footer .container .links .footer-directory-column ul li a img {
   width: 20px;
@@ -60,8 +63,7 @@ footer .container hr {
 footer .container .copyright span {
   font-size: 14px;
   line-height: 1.4705882353;
-  font-weight: 400;
-  letter-spacing: -0.022em;
+  font-weight: 500;
   color: var(--gray);
 }
 

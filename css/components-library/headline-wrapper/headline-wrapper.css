@@ -68,7 +68,6 @@ section.headline-wrapper .headline-wrapper-content .component-content p {
   margin-bottom: 20px;
   line-height: 1.4705882353;
   font-weight: 400;
-  letter-spacing: -0.022em;
 }
 section.headline-wrapper .headline-wrapper-content .component-content .tags {
   margin-top: 20px;
@@ -119,7 +118,7 @@ section.headline-wrapper .headline-wrapper-content p.caption {
     width: 400px;
   }
   section.headline-wrapper .headline-wrapper-content .component-content p {
-    font-size: 17px;
+    font-size: 19px;
     margin-bottom: 20px;
   }
 }
@@ -152,7 +151,7 @@ section.headline-wrapper .headline-wrapper-content p.caption {
     width: 250px;
   }
   section.headline-wrapper .headline-wrapper-content .component-content p {
-    font-size: 17px;
+    font-size: 19px;
     margin-bottom: 20px;
   }
 }/*# sourceMappingURL=headline-wrapper.css.map */

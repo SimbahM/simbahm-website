@@ -103,7 +103,6 @@ section.article .container .pagebody-content .pagebody-text p.pagebody {
   font-size: 20px;
   line-height: 1.4705882353;
   font-weight: 400;
-  letter-spacing: -0.022em;
 }
 section.article .container .pagebody-content .pagebody-text p.pagebody a {
   text-decoration: none;
@@ -370,7 +369,7 @@ section.project-image img {
     gap: 15px;
   }
   section.article .container .pagebody-content .pagebody-text p.pagebody {
-    font-size: 17px;
+    font-size: 19px;
   }
   section.article .container .pagebody-content p.subtitle {
     font-size: 30px;
