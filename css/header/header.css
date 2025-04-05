@@ -76,6 +76,7 @@
   transform: translateX(45deg);
   margin: 0 10px;
   height: 20px;
+  border: 1px solid var(--white);
 }
 .nav-container nav .desktop-nav a.norton-upad span {
   color: var(--white);
