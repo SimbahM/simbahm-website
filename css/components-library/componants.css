@@ -25,6 +25,10 @@
   text-shadow: none;
 }
 
+body.on-scroll {
+  overflow: hidden;
+}
+
 div,
 a,
 span,

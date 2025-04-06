@@ -204,4 +204,5 @@ const navContainer = document.querySelector(".nav-container")
 
 menuIconContainer.addEventListener("click", () => {
 	navContainer.classList.toggle("active")
+	document.body.classList.toggle("on-scroll")
 })
