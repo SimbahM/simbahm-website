@@ -33,10 +33,6 @@ footer {
 
                         a {
                             text-decoration: none;
-                            display: inline-block;
-                            flex-direction: row;
-                            align-items: center;
-                            gap: 15px;
                             color: var(--gray);
                             font-size: 14px;
                             line-height: 1.4705882353;
@@ -49,8 +45,18 @@ footer {
                                 color: var(--accent);
                             }
 
-                            img {
-                                width: 20px;
+                            span {
+                                color: var(--gray);
+                                font-size: 14px;
+                                line-height: 1.4705882353;
+                                font-weight: 400;
+                                text-transform: lowercase;
+                                letter-spacing: 0.05em;
+                                transition: all 0.3s ease;
+
+                                &:hover {
+                                    color: var(--accent);
+                                }
                             }
                         }
                     }
@@ -73,8 +79,8 @@ footer {
 
         .copyright {
             span {
-                font-size: 14px;
-                line-height: 1.4705882353;
+                font-size: 16px;
+                letter-spacing: 0.05em;
                 font-weight: 500;
                 color: var(--gray);
             }

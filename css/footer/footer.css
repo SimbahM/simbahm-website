@@ -32,10 +32,6 @@ footer .container .links .footer-directory-column ul li {
 }
 footer .container .links .footer-directory-column ul li a {
   text-decoration: none;
-  display: inline-block;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
   color: var(--gray);
   font-size: 14px;
   line-height: 1.4705882353;
@@ -47,8 +43,17 @@ footer .container .links .footer-directory-column ul li a {
 footer .container .links .footer-directory-column ul li a:hover {
   color: var(--accent);
 }
-footer .container .links .footer-directory-column ul li a img {
-  width: 20px;
+footer .container .links .footer-directory-column ul li a span {
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.4705882353;
+  font-weight: 400;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
+footer .container .links .footer-directory-column ul li a span:hover {
+  color: var(--accent);
 }
 footer .container .links a.logo {
   display: flex;
@@ -61,8 +66,8 @@ footer .container hr {
   border-color: var(--white);
 }
 footer .container .copyright span {
-  font-size: 14px;
-  line-height: 1.4705882353;
+  font-size: 16px;
+  letter-spacing: 0.05em;
   font-weight: 500;
   color: var(--gray);
 }
