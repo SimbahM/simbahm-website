@@ -39,6 +39,7 @@ section.contacts {
             border-radius: 100px;
             transition: all 0.3s ease;
             text-decoration: none;
+            cursor: pointer;
 
             &:hover {
                 background-color: #dadadf;
@@ -46,6 +47,7 @@ section.contacts {
 
             p {
                 font-size: 21px;
+                cursor: pointer;
             }
         }
     }

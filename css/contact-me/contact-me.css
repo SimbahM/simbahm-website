@@ -36,12 +36,14 @@ section.contacts .conatct-details .contacts-card {
   border-radius: 100px;
   transition: all 0.3s ease;
   text-decoration: none;
+  cursor: pointer;
 }
 section.contacts .conatct-details .contacts-card:hover {
   background-color: #dadadf;
 }
 section.contacts .conatct-details .contacts-card p {
   font-size: 21px;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
