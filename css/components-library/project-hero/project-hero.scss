@@ -126,6 +126,10 @@ section.projects-hero {
         padding-bottom: 30px;
         gap: 15px;
 
+        .scrolldown {
+            display: none;
+        }
+
         img.eca-icon {
             width: 230px;
             margin-bottom: 40px;
@@ -168,7 +172,7 @@ section.projects-hero {
         }
 
         h1 {
-            font-size: 30px;
+            font-size: 40px;
             text-align: center;
         }
 
