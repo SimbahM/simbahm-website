@@ -103,7 +103,7 @@ section.projects-hero p {
 }
 @media (max-width: 768px) {
   section.projects-hero {
-    height: 80vh;
+    height: 70vh;
     padding-bottom: 30px;
     gap: 15px;
   }

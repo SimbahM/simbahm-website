@@ -28,6 +28,25 @@ section.home-page img {
   border: 1px solid rgb(212, 212, 212);
 }
 
+@media (max-width: 1024px) {
+  section.home-page {
+    padding: 50px 20px;
+  }
+  section.home-page .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  section.home-page img {
+    border-radius: 10px;
+    box-shadow: 0 0 50px 10px rgb(236, 236, 236);
+    border: 1px solid rgb(212, 212, 212);
+  }
+}
 @media (max-width: 768px) {
   section.mind-map {
     height: 80vh;

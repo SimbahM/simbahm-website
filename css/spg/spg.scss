@@ -13,6 +13,7 @@ section.logo {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    border: 1px solid var(--primary);
 
     img {
         width: 900px;
@@ -254,7 +255,7 @@ section.grid {
         height: 50vh;
 
         img {
-            width: 250px;
+            width: 300px;
         }
     }
 
