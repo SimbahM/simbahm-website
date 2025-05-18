@@ -134,7 +134,7 @@ section.kabwe-lodge-quote {
 section.kabwe-golf-tshirts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 200px 15px 0 15px;
+    padding: 200px 15px;
     margin: 0 auto;
 }
 
@@ -228,7 +228,7 @@ section.kabwe-golf-tshirts {
     section.kabwe-golf-tshirts {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        padding: 200px 15px 200px 15px;
+        padding: 100px 15px;
         margin: 0 auto;
     }
 }

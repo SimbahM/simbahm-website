@@ -12,7 +12,7 @@ section.logo {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--gray);
 }
 section.logo img {
   width: 900px;
@@ -133,6 +133,7 @@ section.grid .container .phone img {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    margin: 20px 20px;
   }
   section.logo img {
     width: 500px;
@@ -217,13 +218,13 @@ section.grid .container .phone img {
     height: 50vh;
   }
   section.logo img {
-    width: 300px;
+    width: 230px;
   }
   section.vector {
     height: 60vh;
   }
   section.vector img {
-    width: 250px;
+    width: 230px;
   }
   section.grid {
     display: flex;

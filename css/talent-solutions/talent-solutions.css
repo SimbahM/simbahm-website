@@ -25,10 +25,11 @@ section.grid-section .container {
   gap: 20px;
   width: 1000px;
   margin: 0 auto;
+  padding: 200px 0;
 }
 
 section.main-logo {
-  padding: 400px 0;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
