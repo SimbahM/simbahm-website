@@ -5,9 +5,8 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    padding: 50px 0;
+    padding: 60px 0;
     gap: 30px;
-    height: 94vh;
 
     .adup {
         width: 200px;
@@ -110,6 +109,7 @@ section.more-ads {
 
 @media (max-width: 1024px) {
     .norton-adup {
+        padding: 50px 0;
         gap: 20px;
 
         .adup {
@@ -189,6 +189,8 @@ section.more-ads {
 
 @media (max-width: 768px) {
     .norton-adup {
+        margin-top: 7vh;
+        padding: 40px 0;
         gap: 20px;
 
         .adup {
@@ -268,7 +270,8 @@ section.more-ads {
 
 @media (max-width: 425px) {
     .norton-adup {
-        height: 80vh;
+        margin-top: 7vh;
+        padding: 40px 0;
         gap: 20px;
 
         .adup {
