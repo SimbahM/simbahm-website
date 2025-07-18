@@ -1,0 +1,28 @@
+section.main-logo {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+
+    img.main-logo {
+        width: 900px;
+    }
+}
+
+section.logo-construction {
+    background-image: url(../../assets/images/pages/nextgen/image3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    img {
+        width: 500px;
+    }
+}

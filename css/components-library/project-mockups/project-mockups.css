@@ -11,6 +11,9 @@ section.project-mockups .container {
   margin: 0 auto;
   gap: 200px;
 }
+section.project-mockups .container img.kwamuri {
+  border: 1px solid rgb(232, 232, 232);
+}
 
 @media (max-width: 1024px) {
   section.project-mockups {
