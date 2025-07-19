@@ -71,6 +71,16 @@ section.colors .container .color-panels .image span.color-name {
   font-size: 30px;
   font-weight: 300;
 }
+section.colors .container .color-panels .image span.custom-color-name {
+  color: var(--secondary);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 30px;
+  font-weight: 300;
+}
 section.colors .container .color-panels .color {
   height: inherit;
   flex: 1;
@@ -81,6 +91,11 @@ section.colors .container .color-panels .color {
 }
 section.colors .container .color-panels .color span.hex {
   color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+section.colors .container .color-panels .color span.custom-hex {
+  color: var(--secondary);
   font-size: 20px;
   font-weight: 300;
 }
@@ -315,7 +330,7 @@ section.color-palette .main-color .palette {
     gap: 20px;
   }
   section.colors .container .color-panels {
-    height: 60vh;
+    height: 50vh;
   }
   section.colors .container .color-panels .image {
     height: inherit;

@@ -1,4 +1,4 @@
-.button {
+.primary-button {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(8px);
@@ -14,18 +14,18 @@
   transition: all 0.3s ease 0s;
   margin: 20px 0;
 }
-.button:hover {
+.primary-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
   border-top: 3px rgb(255, 255, 255) solid;
 }
 
-.dark-button {
+.secondary-button {
   text-decoration: none;
-  background-color: #e4e9ee;
+  background-color: rgba(97, 119, 141, 0.7019607843);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
-  border-top: 3px rgb(152, 152, 152) solid;
-  color: var(--primary);
+  border-top: 3px rgba(70, 90, 110, 0.7019607843) solid;
+  color: var(--white);
   font-size: 14px;
   padding: 13px 35px;
   text-transform: uppercase;
@@ -33,15 +33,22 @@
   border-radius: 1px;
   transition: all 0.3s ease 0s;
 }
-.dark-button:hover {
-  background-color: #f5f8fa;
-  border-top: 3px rgb(215, 215, 215) solid;
+.secondary-button:hover {
+  background-color: rgba(55, 72, 89, 0.7019607843);
+  border-top: 3px rgba(48, 64, 81, 0.7019607843) solid;
 }
 
-@media (max-width: 425px) {
-  .button,
-  .dark-button {
+@media (max-width: 768px) {
+  .primary-button,
+  .secondary-button {
     font-size: 13px;
     padding: 12px 25px;
+  }
+}
+@media (max-width: 425px) {
+  .primary-button,
+  .secondary-button {
+    font-size: 13px;
+    padding: 10px 20px;
   }
 }/*# sourceMappingURL=buttons.css.map */

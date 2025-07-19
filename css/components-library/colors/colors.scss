@@ -78,6 +78,17 @@ section.colors {
                     font-size: 30px;
                     font-weight: 300;
                 }
+                
+                span.custom-color-name {
+                    color: var(--secondary);
+                    writing-mode: vertical-rl;
+                    transform: rotate(180deg);
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    font-size: 30px;
+                    font-weight: 300;
+                }
             }
 
             .color {
@@ -90,6 +101,12 @@ section.colors {
 
                 span.hex {
                     color: var(--white);
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+
+                span.custom-hex {
+                    color: var(--secondary);
                     font-size: 20px;
                     font-weight: 300;
                 }
@@ -379,7 +396,7 @@ section.color-palette {
             gap: 20px;
 
             .color-panels {
-                height: 60vh;
+                height: 50vh;
 
                 .image {
                     height: inherit;

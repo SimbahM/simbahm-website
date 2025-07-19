@@ -1,8 +1,19 @@
-.hero-project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../assets/images/home-page/prime-drive-logo-cover-page.webp);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
+section.main-project {
+  max-height: 90vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+section.main-project .background-clip {
+  display: flex;
+  z-index: -1;
+}
+section.main-project a.secondary-button {
+  position: absolute;
+  bottom: 30px;
 }
 
 .new {
@@ -10,92 +21,60 @@
   height: 100vh;
 }
 
+.nextgen {
+  background-image: url(../assets/images/home-page/nextgen.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .aa-webiste {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../assets/images/home-page/aa-website.webp);
+  background-image: url(../assets/images/home-page/aa-website.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .touchbase {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/home-page/touchbase.webp);
+  background-image: url(../assets/images/home-page/touchbase.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .apexbytes {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/home-page/apexbytes.webp);
+  background-image: url(../assets/images/home-page/apexbytes.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .spg {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/home-page/spg.webp);
+  background-image: url(../assets/images/home-page/spg.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .sankiei {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/home-page/sankiei-logo.webp);
+  background-image: url(../assets/images/home-page/sankiei-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .domain-forest {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/home-page/domain-forest.webp);
+  background-image: url(../assets/images/home-page/domain-forest.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .esi {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/home-page/esi-apple-watch.webp);
+  background-image: url(../assets/images/home-page/esi-apple-watch.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.nmbconnect {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/home-page/NMBConnect.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-section.hero-project {
-  height: 94vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  padding-bottom: 50px;
-  margin-bottom: 10px;
-  position: relative;
-  gap: 10px;
-}
-section.hero-project img {
-  width: 150px;
-  opacity: 0.8;
-  margin-bottom: 20px;
-}
-section.hero-project h1 {
-  font-size: 60px;
-  color: var(--white);
-}
-section.hero-project span {
-  color: var(--accent);
-  font-size: 21px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-section.hero-project p {
-  font-size: 21px;
-  color: var(--white);
-  text-align: center;
 }
 
 section.pagebody-header {
@@ -204,27 +183,6 @@ section.featured-works .container .grid a.product-card .overlay .project-title p
 }
 
 @media (max-width: 1024px) {
-  section.hero-project {
-    height: 85vh;
-    padding-bottom: 40px;
-    margin-bottom: 10px;
-    gap: 10px;
-  }
-  section.hero-project img {
-    width: 130px;
-    opacity: 0.8;
-    margin-bottom: 20px;
-  }
-  section.hero-project h1 {
-    font-size: 50px;
-  }
-  section.hero-project span {
-    font-size: 19px;
-    margin-bottom: 10px;
-  }
-  section.hero-project p {
-    font-size: 19px;
-  }
   section.titles h1.title {
     font-size: 40px;
     color: var(--secondary);
@@ -292,29 +250,12 @@ section.featured-works .container .grid a.product-card .overlay .project-title p
   }
 }
 @media (max-width: 768px) {
-  section.hero-project {
-    height: 75vh;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-    gap: 10px;
+  section.main-project {
+    height: 60vh;
   }
-  section.hero-project .scrolldown {
-    display: none;
-  }
-  section.hero-project img {
-    width: 100px;
-    opacity: 0.8;
-    margin-bottom: 20px;
-  }
-  section.hero-project h1 {
-    font-size: 40px;
-  }
-  section.hero-project span {
-    font-size: 19px;
-    margin-bottom: 10px;
-  }
-  section.hero-project p {
-    font-size: 19px;
+  section.main-project a.secondary-button {
+    position: absolute;
+    bottom: 30px;
   }
   section.pagebody-header {
     padding: 100px 0;
@@ -385,6 +326,13 @@ section.featured-works .container .grid a.product-card .overlay .project-title p
   }
 }
 @media (max-width: 630px) {
+  section.main-project {
+    height: 50vh;
+  }
+  section.main-project a.secondary-button {
+    position: absolute;
+    bottom: 30px;
+  }
   section.pagebody-title {
     padding: 100px 0;
     gap: 10px;
@@ -465,20 +413,6 @@ section.featured-works .container .grid a.product-card .overlay .project-title p
   }
 }
 @media (max-width: 425px) {
-  section.hero-project {
-    height: 75vh;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-    gap: 10px;
-  }
-  section.hero-project img {
-    width: 100px;
-    opacity: 0.8;
-    margin-bottom: 20px;
-  }
-  section.hero-project h1 {
-    font-size: 35px;
-  }
   section.titles h1.title {
     font-size: 25px;
     color: var(--secondary);

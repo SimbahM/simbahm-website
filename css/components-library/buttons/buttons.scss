@@ -1,4 +1,4 @@
-.button {
+.primary-button {
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(8px);
@@ -19,12 +19,12 @@
     }
 }
 
-.dark-button {
+.secondary-button {
     text-decoration: none;
-    background-color: #e4e9ee;
+    background-color: #61778db3;
     backdrop-filter: blur(8px);
-    border-top: 3px rgb(152, 152, 152) solid;
-    color: var(--primary);
+    border-top: 3px  #465a6eb3 solid;
+    color: var(--white);
     font-size: 14px;
     padding: 13px 35px;
     text-transform: uppercase;
@@ -33,15 +33,24 @@
     transition: all 0.3s ease 0s;
 
     &:hover {
-        background-color: #f5f8fa;
-        border-top: 3px rgb(215, 215, 215) solid;
+        background-color: #374859b3;
+        border-top: 3px #304051b3 solid;
+    }
+}
+
+@media (max-width: 768px) {
+    .primary-button,
+    .secondary-button
+     {
+        font-size: 13px;
+        padding: 12px 25px;
     }
 }
 
 @media (max-width: 425px) {
-    .button,
-    .dark-button {
+    .primary-button,
+    .secondary-button {
         font-size: 13px;
-        padding: 12px 25px;
+        padding: 10px 20px;
     }
 }
