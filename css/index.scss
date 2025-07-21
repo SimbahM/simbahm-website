@@ -1,16 +1,15 @@
 section.main-project {
-  max-height: 90vh;
+  background-image: url(../assets/images/home-page/kwamuri-logo-animation.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.1);
-
-  .background-clip {
-    display: flex;
-    z-index: -1;
-  }
+  background-color: rgba(0, 0, 0, 0.03);
 
   a.secondary-button {
     position: absolute;
@@ -89,15 +88,6 @@ section.pagebody-header {
   align-items: center;
   gap: 10px;
 
-  p.pagebody-text {
-    text-align: center;
-    font-size: 21px;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    color: var(--gray);
-  }
-
   h1.title {
     font-size: 70px;
     color: var(--secondary);
@@ -110,7 +100,7 @@ section.pagebody-header {
     font-size: 30px;
     color: var(--gray);
     text-align: center;
-    max-width: 500px;
+    max-width: 900px;
     margin-bottom: 30px;
   }
 }
@@ -203,6 +193,20 @@ section.featured-works {
 }
 
 @media (max-width: 1024px) {
+  section.main-project {
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+
+    a.secondary-button {
+      position: absolute;
+      bottom: 30px;
+    }
+  }
 
   section.titles {
     h1.title {
@@ -220,12 +224,12 @@ section.featured-works {
       color: var(--secondary);
       text-align: center;
       margin-bottom: 20px;
-      max-width: 700px;
+      max-width: 600px;
     }
 
     p.subhead {
       font-size: 25px;
-      max-width: 550px;
+      max-width: 650px;
       margin-bottom: 30px;
     }
   }
@@ -286,39 +290,34 @@ section.featured-works {
 }
 
 @media (max-width: 768px) {
-
-	section.main-project {
+  section.main-project {
     height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+  }
 
-		a.secondary-button {
-			position: absolute;
-			bottom: 30px;
-		}
-	}
+  section.pagebody-header {
+    padding: 100px 0;
+    gap: 10px;
 
-  	section.pagebody-header {
-		padding: 100px 0;
-		gap: 10px;
+    h1.title {
+      font-size: 40px;
+      color: var(--secondary);
+      text-align: center;
+      margin: 0 120px 30px 120px;
+      max-width: 100%;
+    }
 
-		p.pagebody-text {
-		text-align: center;
-		font-size: 19px;
-		}
-
-		h1.title {
-		font-size: 40px;
-		color: var(--secondary);
-		text-align: center;
-		margin-bottom: 20px;
-		width: 370px;
-		}
-
-		p.subhead {
-		font-size: 25px;
-		max-width: 350px;
-		margin-bottom: 30px;
-		}
- 	}
+    p.subhead {
+      font-size: 25px;
+      max-width: 100%;
+      margin: 0 70px 30px 70px;
+    }
+  }
 
   section.featured-works {
     padding: 50px 20px 20px 20px;
@@ -378,38 +377,34 @@ section.featured-works {
 }
 
 @media (max-width: 630px) {
-
   section.main-project {
-    height: 50vh;
+    background-position: center;
+    background-size: contain;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+  }
 
-		a.secondary-button {
-			position: absolute;
-			bottom: 30px;
-		}
-	}
-
-  section.pagebody-title {
+  section.pagebody-header {
     padding: 100px 0;
     gap: 10px;
 
-    img {
-      width: 40px;
-    }
-
-    hr {
-      width: 150px;
-      margin: 5px 0 3px 0;
-    }
-
     h1.title {
-      font-size: 30px;
-      margin-bottom: 20px;
+      font-size: 40px;
+      color: var(--secondary);
+      text-align: center;
+      margin: 0 50px 30px 50px;
+      max-width: 100%;
     }
 
     p.subhead {
-      font-size: 21px;
-      max-width: 300px;
-      margin-bottom: 30px;
+      font-size: 25px;
+      max-width: 100%;
+      margin: 0 30px 30px 30px;
     }
   }
 
@@ -485,6 +480,10 @@ section.featured-works {
 }
 
 @media (max-width: 425px) {
+  section.main-project {
+    height: 40vh;
+  }
+
   section.titles {
     h1.title {
       font-size: 25px;
@@ -496,25 +495,18 @@ section.featured-works {
     padding: 50px 0;
     gap: 10px;
 
-    p.pagebody-text {
-      text-align: center;
-      font-size: 15px;
-    }
-
     h1.title {
       font-size: 30px;
       color: var(--secondary);
       text-align: center;
-      margin-bottom: 30px;
+      margin: 0 20px 10px 20px;
       max-width: 100%;
-      padding: 0 20px;
     }
 
     p.subhead {
-      font-size: 21px;
+      font-size: 20px;
       max-width: 100%;
-      padding: 0 30px;
-      margin-bottom: 30px;
+      margin: 0 20px 30px 20px;
     }
   }
 

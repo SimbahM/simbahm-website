@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: NeueHaas, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: PP Neue Montreal, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 ::-moz-selection {
@@ -69,12 +69,16 @@ h2 {
 }
 
 @font-face {
-  font-family: NeueHaas;
-  src: url(../../assets/fonts/NeueHaasDisplay-Thin.woff2);
+  font-family: PP Neue Montreal;
+  src: url(../../assets/fonts/ppneuemontreal-thin.woff2);
 }
 @font-face {
-  font-family: NeueHaas;
-  src: url(../../assets/fonts/NeueHaasDisplay-Regular.woff2);
+  font-family: PP Neue Montreal;
+  src: url(../../assets/fonts/ppneuemontreal-book.woff2);
+}
+@font-face {
+  font-family: PP Neue Montreal;
+  src: url(../../assets/fonts/ppneuemontreal-medium.woff2);
 }
 @font-face {
   font-family: Simbah M;
