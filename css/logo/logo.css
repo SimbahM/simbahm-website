@@ -1,3 +1,17 @@
+.kwamuri {
+  background-image: url(../../assets/images/pages/logo/kwamuri.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.nextgen {
+  background-image: url(../../assets/images/pages/logo/nextgen.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
 .apexbytes {
   background-image: url(../../assets/images/pages/logo/apexbytes.webp);
   background-repeat: none;
