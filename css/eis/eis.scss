@@ -1,247 +1,246 @@
 :root {
-    --primary: #1B2F3F;
-    --secondary: #2E465E;
-    --white: #EBEFF2;
-    --acent: #FFA656;
-    --gray: #54595F;
+  --primary: #1b2f3f;
+  --secondary: #2e465e;
+  --white: #ebeff2;
+  --acent: #ffa656;
+  --gray: #54595f;
 }
 
 .eis {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url(../../assets/images/pages/eis/apple-watch.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 10px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../../assets/images/pages/eis/apple-watch.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
 }
 
 section.books {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section.app-icon {
-    padding: 10px 0;
+  padding: 10px 0;
 
-    .container {
-        display: flex;
-        flex-direction: row;
+  .container {
+    display: flex;
+    flex-direction: row;
 
-        .image,
-        .text {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+    .image,
+    .text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
-            .quote {
-                font-size: 70px;
-                color: var(--gray);
-                width: 100%;
-                padding: 0 90px;
-            }
-        }
+      .quote {
+        font-size: 70px;
+        color: var(--gray);
+        width: 100%;
+        padding: 0 90px;
+      }
     }
+  }
 }
 
 section.main-logo {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background-color: #F8FDFF;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f8fdff;
 
-    img {
-        width: 900px;
-    }
+  img {
+    width: 900px;
+  }
 }
 
 .blue-sapphire-image {
-    background-image: url(../../assets/images/pages/eis/image1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #1A6979;
-    background-blend-mode: multiply;
+  background-image: url(../../assets/images/pages/eis/image1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #1a6979;
+  background-blend-mode: multiply;
 }
 
 .pewter-blue-image {
-    background-image: url(../../assets/images/pages/eis/image2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #8CB3C4;
-    background-blend-mode: multiply;
+  background-image: url(../../assets/images/pages/eis/image2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #8cb3c4;
+  background-blend-mode: multiply;
 }
 
 .cultured-image {
-    background-image: url(../../assets/images/pages/eis/image3.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #F2F7F9;
-    background-blend-mode: multiply;
+  background-image: url(../../assets/images/pages/eis/image3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #f2f7f9;
+  background-blend-mode: multiply;
 }
 
 .slate-gray-image {
-    background-image: url(../../assets/images/pages/eis/image4.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #70868C;
-    background-blend-mode: multiply;
+  background-image: url(../../assets/images/pages/eis/image4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #70868c;
+  background-blend-mode: multiply;
 }
 
 .blue-sapphire-color {
-    background-color: #1A6979;
+  background-color: #1a6979;
 }
 
 .pewter-blue-color {
-    background-color: #8CB3C4;
+  background-color: #8cb3c4;
 }
 
 .cultured-color {
-    background-color: #F2F7F9;
+  background-color: #f2f7f9;
 
-    span.cultured-hex {
-        color: #1A6979;
-        font-size: 20px;
-        font-weight: 300;
-    }
+  span.cultured-hex {
+    color: #1a6979;
+    font-size: 20px;
+    font-weight: 300;
+  }
 }
 
 .slate-gray-color {
-    background-color: #70868C;
+  background-color: #70868c;
 }
 
 @media (max-width: 1024px) {
+  section.app-icon {
+    padding: 10px 0;
 
-    section.app-icon {
-        padding: 10px 0;
+    .container {
+      flex-direction: row;
 
-        .container {
-            flex-direction: row;
-
-            .image,
-            .text {
-
-                .quote {
-                    font-size: 40px;
-                    width: 100%;
-                    padding: 0 50px;
-                }
-            }
+      .image,
+      .text {
+        .quote {
+          font-size: 40px;
+          width: 100%;
+          padding: 0 50px;
         }
+      }
     }
+  }
 
-    section.main-logo {
-        height: 90vh;
-        display: flex;
-        justify-content: center;
+  section.main-logo {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
 
-        img {
-            width: 600px;
-        }
+    img {
+      width: 600px;
     }
+  }
 }
 
 @media (max-width: 768px) {
+  section.app-icon {
+    padding: 10px 0;
 
-    section.app-icon {
-        padding: 10px 0;
+    .container {
+      flex-direction: column;
 
-        .container {
-            flex-direction: column;
+      .text {
+        padding: 50px 0;
+      }
 
-            .text {
-                padding: 50px 0;
-            }
-
-            .image,
-            .text {
-
-                .quote {
-                    font-size: 40px;
-                }
-            }
+      .image,
+      .text {
+        .quote {
+          font-size: 40px;
         }
+      }
     }
+  }
 
-    section.main-logo {
-        height: 90vh;
-        display: flex;
-        justify-content: center;
+  section.main-logo {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
 
-        img {
-            width: 400px;
-        }
+    img {
+      width: 400px;
     }
+  }
 }
 
 @media (max-width: 425px) {
+  section.app-icon {
+    padding: 10px 0;
 
-    section.app-icon {
-        padding: 10px 0;
+    .container {
+      flex-direction: column;
 
-        .container {
-            flex-direction: column;
+      .text {
+        padding: 50px 0;
+      }
 
-            .text {
-                padding: 50px 0;
-            }
-
-            .image,
-            .text {
-
-                .quote {
-                    font-size: 40px;
-                }
-            }
+      .image,
+      .text {
+        .quote {
+          font-size: 40px;
         }
+      }
     }
+  }
 
-    section.main-logo {
-        height: 60vh;
-        display: flex;
-        justify-content: center;
+  section.main-logo {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
 
-        img {
-            width: 300px;
+    img {
+      width: 300px;
+    }
+  }
+
+  section.colors {
+    width: 100%;
+    padding: 0 15px;
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 15px;
+
+      .color-panels {
+        height: 80vh;
+
+        .image {
+          height: inherit;
+          flex: 2;
+          position: relative;
+
+          span.color-name {
+            font-size: 40px;
+            font-weight: 300;
+          }
         }
-    }
 
-    section.colors {
-        width: 100%;
-        padding: 0 15px;
+        .color {
+          padding: 20px;
 
-        .container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            gap: 15px;
-
-            .color-panels {
-                height: 80vh;
-
-                .image {
-                    height: inherit;
-                    flex: 2;
-                    position: relative;
-
-                    span.color-name {
-                        font-size: 40px;
-                        font-weight: 300;
-                    }
-                }
-
-                .color {
-                    padding: 20px;
-
-                    span.hex {
-                        font-size: 20px;
-                    }
-                }
-            }
+          span.hex {
+            font-size: 20px;
+          }
         }
+      }
     }
+  }
 }

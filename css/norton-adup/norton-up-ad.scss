@@ -1,350 +1,350 @@
 .norton-adup {
-    background-color: #3E2636;
-    margin-bottom: 10px;
+  background-color: #a1ba3b;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 60px 0;
+  gap: 30px;
+
+  .adup {
+    width: 200px;
+  }
+
+  p.date {
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+  }
+
+  .logos {
     display: flex;
     flex-direction: column;
-    justify-content: end;
     align-items: center;
-    padding: 60px 0;
-    gap: 30px;
+    gap: 20px;
 
-    .adup {
-        width: 200px;
+    img.norton-adup-logo {
+      width: 400px;
     }
 
-    p.date {
-        text-transform: uppercase;
-        color: var(--white);
-        font-weight: 500;
-        font-size: 18px;
-        letter-spacing: 0.1rem;
+    img.flyer-man-logo {
+      width: 150px;
     }
-
-    .logos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-
-        img.norton-adup-logo {
-            width: 400px;
-        }
-
-        img.flyer-man-logo {
-            width: 150px;
-        }
-    }
+  }
 }
 
 section.more-ads {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 20px;
+
+  .main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    h1 {
+      font-size: 30px;
+      color: var(--primary);
+    }
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1000px;
+    margin: 0 auto;
+
+    .ad {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 30px;
+      width: 100%;
+      border-bottom: 1px solid rgb(207, 207, 207);
+      padding: 40px 0;
+
+      .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 100px;
+        }
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 5px;
+
+        h1.title {
+          color: var(--primary);
+          font-size: 25px;
+        }
+
+        span.date,
+        a {
+          font-size: 14px;
+          text-transform: uppercase;
+          font-weight: 600;
+          color: gray;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .norton-adup {
+    padding: 50px 0;
+    gap: 20px;
+
+    .adup {
+      width: 130px;
+    }
+
+    p.date {
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.1rem;
+    }
+
+    .logos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      img.norton-adup-logo {
+        width: 300px;
+      }
+
+      img.flyer-man-logo {
+        width: 150px;
+      }
+    }
+  }
+
+  section.more-ads {
     display: flex;
     flex-direction: column;
     padding: 100px 20px;
 
     .main-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 0;
+      padding: 50px 0;
 
-        h1 {
-            font-size: 30px;
-            color: var(--primary);
-        }
+      h1 {
+        font-size: 30px;
+        color: var(--primary);
+      }
     }
 
     .container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 1000px;
-        margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 700px;
+      margin: 0 auto;
 
-        .ad {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 30px;
-            width: 100%;
-            border-bottom: 1px solid rgb(207, 207, 207);
-            padding: 40px 0;
+      .ad {
+        gap: 30px;
+        width: 100%;
+        padding: 40px 0;
 
-            .image {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                img {
-                    width: 100px;
-                }
-            }
-
-            .description {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: start;
-                gap: 5px;
-
-                h1.title {
-                    color: var(--primary);
-                    font-size: 25px;
-                }
-
-                span.date,
-                a {
-                    font-size: 14px;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                    color: gray;
-                    text-decoration: none;
-
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-            }
+        .image {
+          img {
+            width: 100px;
+          }
         }
+
+        .description {
+          gap: 5px;
+
+          h1.title {
+            color: var(--primary);
+            font-size: 25px;
+          }
+
+          span.date,
+          a {
+            font-size: 14px;
+          }
+        }
+      }
     }
-}
-
-@media (max-width: 1024px) {
-    .norton-adup {
-        padding: 50px 0;
-        gap: 20px;
-
-        .adup {
-            width: 130px;
-        }
-
-        p.date {
-            font-weight: 500;
-            font-size: 16px;
-            letter-spacing: 0.1rem;
-        }
-
-        .logos {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-
-            img.norton-adup-logo {
-                width: 300px;
-            }
-
-            img.flyer-man-logo {
-                width: 150px;
-            }
-        }
-    }
-
-    section.more-ads {
-        display: flex;
-        flex-direction: column;
-        padding: 100px 20px;
-
-        .main-title {
-            padding: 50px 0;
-
-            h1 {
-                font-size: 30px;
-                color: var(--primary);
-            }
-        }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            width: 700px;
-            margin: 0 auto;
-
-            .ad {
-                gap: 30px;
-                width: 100%;
-                padding: 40px 0;
-
-                .image {
-                    img {
-                        width: 100px;
-                    }
-                }
-
-                .description {
-                    gap: 5px;
-
-                    h1.title {
-                        color: var(--primary);
-                        font-size: 25px;
-                    }
-
-                    span.date,
-                    a {
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
+  }
 }
 
 @media (max-width: 768px) {
-    .norton-adup {
-        margin-top: 7vh;
-        padding: 40px 0;
-        gap: 20px;
+  .norton-adup {
+    margin-top: 7vh;
+    padding: 40px 0;
+    gap: 20px;
 
-        .adup {
-            width: 130px;
-        }
-
-        p.date {
-            font-weight: 500;
-            font-size: 16px;
-            letter-spacing: 0.1rem;
-        }
-
-        .logos {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-
-            img.norton-adup-logo {
-                width: 300px;
-            }
-
-            img.flyer-man-logo {
-                width: 150px;
-            }
-        }
+    .adup {
+      width: 130px;
     }
 
-    section.more-ads {
-        display: flex;
-        flex-direction: column;
-        padding: 50px 20px;
-
-        .main-title {
-            padding: 50px 0;
-
-            h1 {
-                font-size: 30px;
-                color: var(--primary);
-            }
-        }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            width: 400px;
-            margin: 0 auto;
-
-            .ad {
-                gap: 30px;
-                width: 100%;
-                padding: 30px 0;
-
-                .image {
-                    img {
-                        width: 100px;
-                    }
-                }
-
-                .description {
-                    gap: 5px;
-
-                    h1.title {
-                        color: var(--primary);
-                        font-size: 21px;
-                    }
-
-                    span.date,
-                    a {
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
+    p.date {
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.1rem;
     }
+
+    .logos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      img.norton-adup-logo {
+        width: 300px;
+      }
+
+      img.flyer-man-logo {
+        width: 150px;
+      }
+    }
+  }
+
+  section.more-ads {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+
+    .main-title {
+      padding: 50px 0;
+
+      h1 {
+        font-size: 30px;
+        color: var(--primary);
+      }
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 400px;
+      margin: 0 auto;
+
+      .ad {
+        gap: 30px;
+        width: 100%;
+        padding: 30px 0;
+
+        .image {
+          img {
+            width: 100px;
+          }
+        }
+
+        .description {
+          gap: 5px;
+
+          h1.title {
+            color: var(--primary);
+            font-size: 21px;
+          }
+
+          span.date,
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 425px) {
-    .norton-adup {
-        margin-top: 7vh;
-        padding: 40px 0;
-        gap: 20px;
+  .norton-adup {
+    margin-top: 7vh;
+    padding: 40px 0;
+    gap: 20px;
 
-        .adup {
+    .adup {
+      width: 100px;
+    }
+
+    p.date {
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.1rem;
+    }
+
+    .logos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      img.norton-adup-logo {
+        width: 250px;
+      }
+
+      img.flyer-man-logo {
+        width: 100px;
+      }
+    }
+  }
+
+  section.more-ads {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+
+    .main-title {
+      padding: 20px 0;
+
+      h1 {
+        font-size: 20px;
+        color: var(--primary);
+      }
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 300px;
+      margin: 0 auto;
+
+      .ad {
+        gap: 30px;
+        width: 100%;
+        padding: 30px 0;
+
+        .image {
+          img {
             width: 100px;
+          }
         }
 
-        p.date {
-            font-weight: 500;
+        .description {
+          gap: 5px;
+
+          h1.title {
+            color: var(--primary);
+            font-size: 21px;
+          }
+
+          span.date,
+          a {
             font-size: 14px;
-            letter-spacing: 0.1rem;
+          }
         }
-
-        .logos {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-
-            img.norton-adup-logo {
-                width: 250px;
-            }
-
-            img.flyer-man-logo {
-                width: 100px;
-            }
-        }
+      }
     }
-
-    section.more-ads {
-        display: flex;
-        flex-direction: column;
-        padding: 20px 20px;
-
-        .main-title {
-            padding: 20px 0;
-
-            h1 {
-                font-size: 20px;
-                color: var(--primary);
-            }
-        }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            width: 300px;
-            margin: 0 auto;
-
-            .ad {
-                gap: 30px;
-                width: 100%;
-                padding: 30px 0;
-
-                .image {
-                    img {
-                        width: 100px;
-                    }
-                }
-
-                .description {
-                    gap: 5px;
-
-                    h1.title {
-                        color: var(--primary);
-                        font-size: 21px;
-                    }
-
-                    span.date,
-                    a {
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
+  }
 }
