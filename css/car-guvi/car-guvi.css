@@ -1,11 +1,3 @@
-:root {
-  --primary: #1b2f3f;
-  --secondary: #2e465e;
-  --white: #ebeff2;
-  --acent: #ffa656;
-  --gray: #54595f;
-}
-
 .hero-car-guvi {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/car-guvi-logo-on-card.webp);
   background-repeat: no-repeat;
@@ -25,36 +17,29 @@ section.logo img {
   margin: 70px;
 }
 
-.international-red {
-  background-image: linear-gradient(to bottom, rgb(192, 39, 45), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/car-guvi-colors3.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .vermilion {
-  background-image: linear-gradient(to bottom, rgb(209, 61, 41), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/car-guvi-colors2.webp);
+  background-image: linear-gradient(to bottom, rgb(209, 61, 41), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/color1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .yellow-munsell {
-  background-image: linear-gradient(to bottom, rgb(244, 198, 3), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/car-guvi-colors6.webp);
+  background-image: linear-gradient(to bottom, rgb(244, 198, 3), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/color2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .cadet-grey {
-  background-image: linear-gradient(to bottom, rgb(143, 164, 165), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/car-guvi-colors5.webp);
+  background-image: linear-gradient(to bottom, rgb(143, 164, 165), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/color3.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .arsenic {
-  background-image: linear-gradient(to bottom, rgb(56, 66, 66), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/car-guvi-colors.webp);
+  background-image: linear-gradient(to bottom, rgb(56, 66, 66), rgba(0, 0, 0, 0)), url(../../assets/images/pages/car-guvi/color4.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
