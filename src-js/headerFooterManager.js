@@ -17,24 +17,12 @@ class SpecialHeader extends HTMLElement {
 							<a href="./logo-design">Logo Design</a>
 						</li>
 						<li>
-							<a href="./ui-ux-design">UI UX Design</a>
+							<a href="./3d-design">3D Design</a>
 						</li>
 						<li>
-							<a href="./about-me">About Me</a>
-						</li>
-						<li>
-							<a href="./contact-me">Contact Me</a>
+							<a href="./ui-ux-design">UI Design</a>
 						</li>
 					</ul>
-
-					<a class="norton-upad" href="./norton-upad">
-						<img
-							src="./assets/images/home-page/norton-up-ad/norton-up-ad-logo.svg"
-							alt="Norton UpAd Logo"
-						/>
-						<hr />
-						<span>Download</span>
-					</a>
 				</div>
 
 				<!-- mobile nav TODO: -->
@@ -57,29 +45,16 @@ class SpecialHeader extends HTMLElement {
 					</div>
 
 					<ul class="mobile-nav-items">
-						<a class="norton-upad" href="./norton-upad">
-							<img
-								src="./assets/images/home-page/norton-up-ad/norton-up-ad-logo.svg"
-								alt="Norton UpAd Logo"
-							/>
-							<hr class="divider" />
-							<span>Download</span>
-						</a>
-
-						<hr />
 
 						<div class="list-items">
 							<li>
 								<a href="./logo-design">Logo Design</a>
 							</li>
 							<li>
-								<a href="./ui-ux-design">UI UX Design</a>
+								<a href="./3d-design">3D Design</a>
 							</li>
 							<li>
-								<a href="about-me">About Me</a>
-							</li>
-							<li>
-								<a href="./contact-me">Contact Me</a>
+								<a href="./ui-ux-design">UI Design</a>
 							</li>
 						</div>
 
@@ -141,10 +116,10 @@ class SpecialFooter extends HTMLElement {
 								<a href="./logo-desgin">Logo Design</a>
 							</li>
 							<li>
-								<a href="./ui-ux-design">UI UX Design</a>
+								<a href="./3d-design">3D Design</a>
 							</li>
 							<li>
-								<a href="./norton-upad">Norton UpAd</a>
+								<a href="./ui-ux-design">UI UX Design</a>
 							</li>
 						</ul>
 					</div>
@@ -169,14 +144,17 @@ class SpecialFooter extends HTMLElement {
 					</div>
 
 					<div class="footer-directory-column">
-						<h1>Contacts</h1>
+						<h1>About</h1>
 						<ul>
 							<li>
-								<a target="_blank" href="tel:+263774018766">+263 77 401 8766</a>
+								<a href="./about-me">About Me</a>
 							</li>
 							<li>
-								<a target="_blank" href="mailto:simadungwe@icloud.com"
-									>simadungwe@icloud.com</a
+								<a href="./contact-me">Contact Me</a>
+							</li>
+							<li>
+								<a target="_blank" href="mailto:simba@simbahm.com.com"
+									>info@simbahm.com</a
 								>
 							</li>
 						</ul>

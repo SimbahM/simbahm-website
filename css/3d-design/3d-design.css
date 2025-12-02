@@ -1,0 +1,20 @@
+.iphone {
+  background-image: url(../../assets/images/pages/3d-design/iPhone-17-pro-max.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.kitchen {
+  background-image: url(../../assets/images/pages/3d-design/kitchen.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.gate {
+  background-image: url(../../assets/images/pages/3d-design/gate.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=3d-design.css.map */

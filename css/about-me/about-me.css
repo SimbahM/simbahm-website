@@ -1,13 +1,3 @@
-section.simbahm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0 100px 0;
-}
-section.simbahm img.simbahm {
-  width: 150px;
-}
-
 section.what-i-do-title {
   display: flex;
   justify-content: center;
@@ -41,7 +31,7 @@ section.design-lead-text .container {
 }
 section.design-lead-text .container p {
   text-align: center;
-  width: 450px;
+  width: 600px;
   font-size: 25px;
   font-weight: 600;
   color: var(--gray);

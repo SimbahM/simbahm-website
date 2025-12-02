@@ -31,6 +31,10 @@ footer {
                     li {
                         margin-bottom: 10px;
 
+                        .email-address {
+                            text-transform: lowercase;
+                        }
+
                         a {
                             text-decoration: none;
                             color: var(--gray);

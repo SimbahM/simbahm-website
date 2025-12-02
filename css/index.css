@@ -1,480 +1,184 @@
-section.main-project {
-  background-image: url(../assets/images/home-page/kwamuri-logo-animation.gif);
+.project-one {
+  display: flex;
+  background-image: url(../assets/images/home-page/samaritek-logo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.project-two {
+  display: flex;
+  background-image: url(../assets/images/home-page/the-gate.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.homepage-section {
+  display: flex;
+  width: 100%;
+}
+section.homepage-section .container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: inherit;
+  gap: 10px;
+}
+section.homepage-section .container a.unit-link {
+  width: 100%;
   height: 90vh;
-  position: relative;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link {
+    height: 70vh;
+  }
+}
+@media (max-width: 617px) {
+  section.homepage-section .container a.unit-link {
+    height: 50vh;
+  }
+}
+section.homepage-section .container a.unit-link .metadata {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.03);
+  justify-content: end;
+  padding-bottom: 3%;
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
 }
-section.main-project a.secondary-button {
-  position: absolute;
-  bottom: 30px;
+section.homepage-section .container a.unit-link .metadata h1.headline {
+  color: var(--white);
+  font-size: 70px;
+  letter-spacing: 0.1rem;
+}
+@media (max-width: 1024px) {
+  section.homepage-section .container a.unit-link .metadata h1.headline {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link .metadata h1.headline {
+    font-size: 30px;
+  }
+}
+section.homepage-section .container a.unit-link .metadata span {
+  color: var(--accent);
+  margin: 10px 0;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link .metadata span {
+    font-size: 18px;
+  }
+}
+section.homepage-section .container a.unit-link .metadata p.subhead {
+  color: var(--white);
+  font-size: 23px;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  section.homepage-section .container a.unit-link .metadata p.subhead {
+    font-size: 18px;
+  }
 }
 
-.new {
-  background: url(../assets/images/home-page/main-project.webm);
-  height: 100vh;
-}
-
-.nextgen {
-  background-image: url(../assets/images/home-page/nextgen.webp);
+.project-three {
+  background-image: url(../assets/images/home-page/kitchen.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.aa-webiste {
-  background-image: url(../assets/images/home-page/aa-website.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.touchbase {
-  background-image: url(../assets/images/home-page/touchbase.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.apexbytes {
-  background-image: url(../assets/images/home-page/apexbytes.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.spg {
-  background-image: url(../assets/images/home-page/spg.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.sankiei {
-  background-image: url(../assets/images/home-page/sankiei-logo.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.domain-forest {
-  background-image: url(../assets/images/home-page/domain-forest.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.esi {
+.project-four {
   background-image: url(../assets/images/home-page/esi-apple-watch.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-section.pagebody-header {
-  padding: 100px 0;
+.project-five {
+  background-image: url(../assets/images/home-page/apexbytes.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.project-six {
+  background-image: url(../assets/images/home-page/nextgen.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.grid-homepage-section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-}
-section.pagebody-header h1.title {
-  font-size: 70px;
-  color: var(--secondary);
-  text-align: center;
-  margin-bottom: 20px;
-  max-width: 900px;
-}
-section.pagebody-header p.subhead {
-  font-size: 30px;
-  color: var(--gray);
-  text-align: center;
-  max-width: 900px;
-  margin-bottom: 30px;
-}
-
-section.titles {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-section.titles h1.title {
-  font-size: 48px;
-  color: var(--secondary);
-}
-
-section.featured-works {
-  padding: 50px 40px 100px 40px;
-}
-section.featured-works .container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-section.featured-works .container h1.title {
-  font-size: 48px;
-  color: var(--secondary);
-}
-section.featured-works .container .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-}
-section.featured-works .container .grid a.product-card {
-  display: flex;
-  height: 500px;
-  text-decoration: none;
-  border-radius: 5px;
-  width: 100%;
-  color: var(--white);
-}
-section.featured-works .container .grid a.product-card:hover .overlay {
-  opacity: 1;
-  border-radius: 5px;
-}
-section.featured-works .container .grid a.product-card:hover .overlay .project-title {
-  margin-bottom: 0;
-}
-section.featured-works .container .grid a.product-card .overlay {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  justify-content: start;
-  align-items: end;
-  padding: 20px;
-  opacity: 0;
-  transition: all 0.3s ease;
-  border-radius: 5px;
-}
-section.featured-works .container .grid a.product-card .overlay .project-title {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: -50px;
-  transition: all 0.3s ease;
-}
-section.featured-works .container .grid a.product-card .overlay .project-title span.title,
-section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-  font-size: 21px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-  font-size: 17px;
-  color: var(--white);
-  opacity: 0.7;
-}
-
-@media (max-width: 1024px) {
-  section.main-project {
-    height: 70vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.03);
-  }
-  section.main-project a.secondary-button {
-    position: absolute;
-    bottom: 30px;
-  }
-  section.titles h1.title {
-    font-size: 40px;
-    color: var(--secondary);
-  }
-  section.pagebody-header {
-    padding: 100px 0;
-    gap: 10px;
-  }
-  section.pagebody-header h1.title {
-    font-size: 50px;
-    color: var(--secondary);
-    text-align: center;
-    margin-bottom: 20px;
-    max-width: 600px;
-  }
-  section.pagebody-header p.subhead {
-    font-size: 25px;
-    max-width: 650px;
-    margin-bottom: 30px;
-  }
-  section.featured-works {
-    padding: 50px 20px 20px 20px;
-  }
-  section.featured-works .container {
-    margin: 0 auto;
-  }
-  section.featured-works .container h1.title {
-    font-size: 48px;
-    color: var(--secondary);
-  }
-  section.featured-works .container .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  section.featured-works .container .grid a.product-card {
-    display: flex;
-    height: 400px;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 100%;
-    color: var(--white);
-  }
-  section.featured-works .container .grid a.product-card .overlay {
-    padding: 20px;
-    opacity: 1;
-    transition: all 0.3s ease;
-    border-radius: 5px;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title {
-    gap: 10px;
-    margin-bottom: 0;
-    transition: all 0.3s ease;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 21px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 17px;
-    color: var(--white);
-    opacity: 0.7;
-  }
+  margin: 10px 10px;
 }
 @media (max-width: 768px) {
-  section.main-project {
-    height: 60vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.03);
-  }
-  section.pagebody-header {
-    padding: 100px 0;
-    gap: 10px;
-  }
-  section.pagebody-header h1.title {
-    font-size: 40px;
-    color: var(--secondary);
-    text-align: center;
-    margin: 0 120px 30px 120px;
-    max-width: 100%;
-  }
-  section.pagebody-header p.subhead {
-    font-size: 25px;
-    max-width: 100%;
-    margin: 0 70px 30px 70px;
-  }
-  section.featured-works {
-    padding: 50px 20px 20px 20px;
-  }
-  section.featured-works .container {
-    margin: 0 auto;
-  }
-  section.featured-works .container h1.title {
-    font-size: 48px;
-    color: var(--secondary);
-  }
-  section.featured-works .container .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  section.featured-works .container .grid a.product-card {
-    display: flex;
-    height: 400px;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 100%;
-    color: var(--white);
-  }
-  section.featured-works .container .grid a.product-card .overlay {
-    padding: 20px;
-    opacity: 1;
-    transition: all 0.3s ease;
-    border-radius: 5px;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title {
-    flex-direction: column;
-    align-items: start;
-    gap: 10px;
-    margin-bottom: 0;
-    transition: all 0.3s ease;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 21px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 17px;
-    color: var(--white);
-    opacity: 0.7;
+  section.grid-homepage-section {
+    margin: 10px 0px;
   }
 }
-@media (max-width: 630px) {
-  section.main-project {
-    background-position: center;
-    background-size: contain;
-    height: 60vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.03);
-  }
-  section.pagebody-header {
-    padding: 100px 0;
-    gap: 10px;
-  }
-  section.pagebody-header h1.title {
-    font-size: 40px;
-    color: var(--secondary);
-    text-align: center;
-    margin: 0 50px 30px 50px;
-    max-width: 100%;
-  }
-  section.pagebody-header p.subhead {
-    font-size: 25px;
-    max-width: 100%;
-    margin: 0 30px 30px 30px;
-  }
-  section.titles h1.title {
-    font-size: 35px;
-    color: var(--secondary);
-  }
-  section.featured-works {
-    padding: 50px 20px 20px 20px;
-  }
-  section.featured-works .container {
-    margin: 0 auto;
-  }
-  section.featured-works .container h1.title {
-    font-size: 48px;
-    color: var(--secondary);
-  }
-  section.featured-works .container .grid {
-    display: grid;
+section.grid-homepage-section .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  section.grid-homepage-section .container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  section.featured-works .container .grid a.product-card {
-    display: flex;
-    height: 400px;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 100%;
-    color: var(--white);
-  }
-  section.featured-works .container .grid a.product-card .overlay {
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: 100%;
-    justify-content: start;
-    align-items: end;
-    padding: 20px;
-    opacity: 1;
-    transition: all 0.3s ease;
-    border-radius: 5px;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 0px;
-    transition: all 0.3s ease;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 21px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 17px;
-    color: var(--white);
-    opacity: 0.7;
   }
 }
-@media (max-width: 425px) {
-  section.main-project {
-    height: 40vh;
+section.grid-homepage-section .container a.unit-link {
+  text-decoration: none;
+  width: 100%;
+  height: 80vh;
+}
+@media (max-width: 1024px) {
+  section.grid-homepage-section .container a.unit-link {
+    height: 70vh;
   }
-  section.titles h1.title {
-    font-size: 25px;
-    color: var(--secondary);
+}
+@media (max-width: 617px) {
+  section.grid-homepage-section .container a.unit-link {
+    height: 50vh;
   }
-  section.pagebody-header {
-    padding: 50px 0;
-    gap: 10px;
-  }
-  section.pagebody-header h1.title {
+}
+section.grid-homepage-section .container a.unit-link .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 3%;
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+section.grid-homepage-section .container a.unit-link .overlay h1.headline {
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: 0.1rem;
+}
+@media (max-width: 768px) {
+  section.grid-homepage-section .container a.unit-link .overlay h1.headline {
     font-size: 30px;
-    color: var(--secondary);
-    text-align: center;
-    margin: 0 20px 10px 20px;
-    max-width: 100%;
   }
-  section.pagebody-header p.subhead {
-    font-size: 20px;
-    max-width: 100%;
-    margin: 0 20px 30px 20px;
-  }
-  section.featured-works {
-    padding: 20px 10px 10px 10px;
-  }
-  section.featured-works .container {
-    margin: 0 auto;
-  }
-  section.featured-works .container h1.title {
-    font-size: 48px;
-    color: var(--secondary);
-  }
-  section.featured-works .container .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-  }
-  section.featured-works .container .grid a.product-card {
-    display: flex;
-    height: 300px;
-  }
-  section.featured-works .container .grid a.product-card .overlay {
-    opacity: 1;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title {
-    flex-direction: column;
-    align-items: start;
-    gap: 10px;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title span.title,
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 21px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-  section.featured-works .container .grid a.product-card .overlay .project-title p.category {
-    font-size: 17px;
-    color: var(--white);
-    opacity: 0.7;
+}
+section.grid-homepage-section .container a.unit-link .overlay p.subhead {
+  color: var(--white);
+  font-size: 21px;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+}
+@media (max-width: 1024px) {
+  section.grid-homepage-section .container a.unit-link .overlay p.subhead {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,91 @@
+section.main-logo {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+
+  img.main-logo {
+    width: 900px;
+  }
+}
+
+.image1 {
+  background-image: url(../../assets/images/pages/samaritek/image1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #de680070;
+  background-blend-mode: multiply;
+}
+
+.image2 {
+  background-image: url(../../assets/images/pages/samaritek/image2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #fea12f50;
+  background-blend-mode: multiply;
+}
+
+.image3 {
+  background-image: url(../../assets/images/pages/samaritek/image3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #ebd9c8;
+  background-blend-mode: multiply;
+}
+
+.image4 {
+  background-image: url(../../assets/images/pages/samaritek/image4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #657786;
+  background-blend-mode: multiply;
+}
+
+.color1 {
+  background-color: #de6600;
+}
+
+.color2 {
+  background-color: #fea02f;
+}
+
+.color3 {
+  background-color: #ebd9c8;
+}
+
+.color4 {
+  background-color: #657786;
+}
+
+@media (max-width: 768px) {
+  section.main-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+    img.main-logo {
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  section.main-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+    img.main-logo {
+      width: 280px;
+    }
+  }
+}

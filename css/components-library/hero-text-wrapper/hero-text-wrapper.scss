@@ -1,101 +1,182 @@
-:root {
-    --primary: #1b2f3f;
-    --secondary: #2e465e;
-    --white: #ebeff2;
-    --accent: #ffa656;
-    --gray: #54595f;
+section.hero-text-wrapper {
+  padding: 90px 0;
+
+  .container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+
+    p {
+      text-align: center;
+      font-size: 32px;
+      color: var(--gray);
+      margin-bottom: 0px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      color: var(--primary);
+    }
+  }
 }
 
-section.hero-text-wrapper {
-    padding: 90px 0;
+.project-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  gap: 30px;
 
-    .container {
-        height: inherit;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-self: center;
-        align-items: center;
-        width: 900px;
-        margin: 0 auto;
+  img {
+    width: 100px;
+  }
 
-        p {
-            text-align: center;
-            font-size: 32px;
-            color: var(--gray);
-            margin-bottom: 0px;
-        }
+  img.logo {
+    width: 150px;
+  }
 
-        h1 {
-            text-align: center;
-            font-size: 48px;
-            color: var(--primary);
-        }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    h1.title {
+      font-size: 70px;
+      color: var(--primary);
+      text-align: center;
     }
+
+    p.descriptor {
+      color: var(--gray);
+      font-size: 21px;
+      letter-spacing: 0.05em;
+    }
+  }
+}
+
+section.project-welcome-image {
+  display: flex;
+  padding: 0 15px 0px 15px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 200px;
+  }
 }
 
 @media (max-width: 1024px) {
-    section.hero-text-wrapper {
-        padding: 90px 0;
+  section.hero-text-wrapper {
+    padding: 90px 0;
 
-        .container {
-            width: 700px;
+    .container {
+      width: 700px;
 
-            p {
-                text-align: center;
-                font-size: 25px;
-                color: var(--gray);
-                margin-bottom: 0px;
-            }
+      p {
+        text-align: center;
+        font-size: 25px;
+        color: var(--gray);
+        margin-bottom: 0px;
+      }
 
-            h1 {
-                text-align: center;
-                font-size: 40px;
-                color: var(--secondary);
-            }
-        }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        color: var(--secondary);
+      }
     }
+  }
+
+  section.project-welcome-image {
+    display: flex;
+    padding: 20px 20px 20px 20px;
+
+    .container {
+      gap: 20px;
+    }
+  }
 }
 
 @media (max-width: 768px) {
-    section.hero-text-wrapper {
-        padding: 90px 0 70px 0;
+  section.hero-text-wrapper {
+    padding: 90px 0 70px 0;
 
-        .container {
-            width: 400px;
+    .container {
+      width: 400px;
 
-            p {
-                text-align: center;
-                font-size: 25px;
-                color: var(--gray);
-                margin-bottom: 0px;
-            }
+      p {
+        text-align: center;
+        font-size: 25px;
+        color: var(--gray);
+        margin-bottom: 0px;
+      }
 
-            h1 {
-                text-align: center;
-                font-size: 30px;
-                color: var(--secondary);
-            }
-        }
+      h1 {
+        text-align: center;
+        font-size: 30px;
+        color: var(--secondary);
+      }
     }
+  }
+
+  .project-welcome {
+    padding: 100px 0 50px 0;
+    gap: 30px;
+
+    img {
+      width: 70px;
+    }
+
+    img.logo {
+      width: 100px;
+    }
+
+    .text {
+      gap: 10px;
+
+      h1.title {
+        font-size: 50px;
+        color: var(--primary);
+      }
+
+      p.descriptor {
+        color: var(--gray);
+        font-size: 19px;
+        letter-spacing: 0.05em;
+      }
+    }
+  }
 }
 
 @media (max-width: 425px) {
-    section.hero-text-wrapper {
-        padding: 120px 0 70px 0;
+  section.hero-text-wrapper {
+    padding: 120px 0 70px 0;
 
-        .container {
-            width: 100%;
+    .container {
+      width: 100%;
 
-            p {
-                font-size: 21px;
-            }
+      p {
+        font-size: 21px;
+      }
 
-            h1 {
-                margin-top: 10px;
-                font-size: 25px;
-                padding: 0 10px;
-            }
-        }
+      h1 {
+        margin-top: 10px;
+        font-size: 25px;
+        padding: 0 10px;
+      }
     }
+  }
 }

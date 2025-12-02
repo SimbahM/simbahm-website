@@ -30,6 +30,9 @@ footer .container .links .footer-directory-column ul {
 footer .container .links .footer-directory-column ul li {
   margin-bottom: 10px;
 }
+footer .container .links .footer-directory-column ul li .email-address {
+  text-transform: lowercase;
+}
 footer .container .links .footer-directory-column ul li a {
   text-decoration: none;
   color: var(--gray);

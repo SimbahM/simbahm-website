@@ -1,29 +1,29 @@
 section.project-mockups {
+  display: flex;
+  padding: 0 15px 200px 15px;
+
+  .container {
     display: flex;
-    padding: 0 15px 200px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 200px;
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 1000px;
-        margin: 0 auto;
-        gap: 200px;
-
-        img.kwamuri {
-            border: 1px solid rgb(232, 232, 232);
-        }
+    .outline {
+      border: 1px solid rgb(232, 232, 232);
     }
+  }
 }
 
 @media (max-width: 1024px) {
-    section.project-mockups {
-        display: flex;
-        padding: 20px 20px 20px 20px;
+  section.project-mockups {
+    display: flex;
+    padding: 20px 20px 20px 20px;
 
-        .container {
-            gap: 20px;
-        }
+    .container {
+      gap: 20px;
     }
+  }
 }
