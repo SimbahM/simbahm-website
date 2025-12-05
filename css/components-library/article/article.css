@@ -153,7 +153,25 @@ section.article .container .pagebody-content .design-card .text {
   flex-direction: column;
   gap: 10px;
 }
+section.article .container .pagebody-content .design-card .text .point {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+section.article .container .pagebody-content .design-card .text .point span.emoji {
+  font-size: 15px;
+  margin-top: 2px;
+}
+section.article .container .pagebody-content .design-card .text .point p {
+  font-size: 16px;
+  display: block;
+  font-weight: 300;
+}
+section.article .container .pagebody-content .design-card .text .point p strong {
+  color: #8AC140;
+}
 section.article .container .pagebody-content .design-card .text p {
+  align-items: center;
   display: block;
   font-size: 16px;
   color: rgb(134, 134, 134);
@@ -276,6 +294,11 @@ section.project-image img {
   }
   section.article .container .pagebody-content .design-card .text {
     gap: 10px;
+  }
+  section.article .container .pagebody-content .design-card .text .point {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
   }
   section.article .container .pagebody-content .design-card .text p {
     font-size: 16px;

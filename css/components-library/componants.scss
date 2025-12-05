@@ -72,17 +72,20 @@ h2 {
 
 @font-face {
   font-family: PP Neue Montreal;
-  src: url(../../assets/fonts/ppneuemontreal-thin.woff2);
+  src: url(../../assets/fonts/ppneuemontreal-book.woff2);
+  font-weight: 300;
 }
 
 @font-face {
   font-family: PP Neue Montreal;
-  src: url(../../assets/fonts/ppneuemontreal-book.woff2);
+  src: url(../../assets/fonts/NeueHaasDisplay-Regular.woff2);
+  font-weight: 500;
 }
 
 @font-face {
   font-family: PP Neue Montreal;
   src: url(../../assets/fonts/ppneuemontreal-medium.woff2);
+  font-weight: 700;
 }
 
 // TODO: simbah m font

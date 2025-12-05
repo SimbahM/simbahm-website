@@ -171,7 +171,29 @@ section.article {
                     flex-direction: column;
                     gap: 10px;
 
+                    .point {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: start;
+
+                        span.emoji {
+                            font-size: 15px;
+                            margin-top: 2px;
+                        }
+                        p {
+                            font-size: 16px;
+                            display: block;
+                            font-weight: 300;
+
+                            strong {
+                                color: #8AC140;
+                            }
+                        }
+
+                    }
+
                     p {
+                        align-items: center;
                         display: block;
                         font-size: 16px;
                         color: rgb(134, 134, 134);
@@ -327,6 +349,12 @@ section.project-image {
 
                     .text {
                         gap: 10px;
+
+                        .point {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: start;
+                            }
 
                         p {
                             font-size: 16px;

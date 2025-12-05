@@ -4,6 +4,9 @@
   background-size: cover;
   background-position: center;
 }
+.hero-dustme hie .hero-logo {
+  width: 20px;
+}
 
 .dustme-main-logo {
   background-image: url(../../assets/images/pages/dustme/dustme-main-logo.webp);
