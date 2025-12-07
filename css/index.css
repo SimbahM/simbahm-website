@@ -1,4 +1,12 @@
-.project-one {
+.luxe-aura {
+  display: flex;
+  background-image: url(../assets/images/home-page/luxe-aura-beauty-spa-3d-design.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.samaritek {
   display: flex;
   background-image: url(../assets/images/home-page/samaritek-logo.webp);
   background-repeat: no-repeat;
@@ -6,7 +14,7 @@
   background-size: cover;
 }
 
-.project-two {
+.gate {
   display: flex;
   background-image: url(../assets/images/home-page/the-gate.webp);
   background-repeat: no-repeat;
@@ -86,28 +94,28 @@ section.homepage-section .container a.unit-link .metadata p.subhead {
   }
 }
 
-.project-three {
+.kitchen {
   background-image: url(../assets/images/home-page/kitchen.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.project-four {
+.eis {
   background-image: url(../assets/images/home-page/esi-apple-watch.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.project-five {
+.apexbytes {
   background-image: url(../assets/images/home-page/apexbytes.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.project-six {
+.nextgen {
   background-image: url(../assets/images/home-page/nextgen.webp);
   background-repeat: no-repeat;
   background-position: center;
