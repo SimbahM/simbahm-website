@@ -1,3 +1,10 @@
+.cabs-ib {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/ui-ux/cabs-ib-login-page.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
 .aa-website {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(../../assets/images/ui-ux/aa-website.webp);
   background-repeat: none;

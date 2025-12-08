@@ -1,3 +1,10 @@
+.samaritek {
+  background-image: url(../../assets/images/pages/logo/samaritek-logo.webp);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
 .kwamuri {
   background-image: url(../../assets/images/pages/logo/kwamuri.webp);
   background-repeat: none;
