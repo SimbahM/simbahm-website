@@ -11,7 +11,7 @@ section.project-mockups .container {
   margin: 0 auto;
   gap: 200px;
 }
-section.project-mockups .container .outline {
+section.project-mockups .container .outline, section.project-mockups .container .kwamuri {
   border: 1px solid rgb(232, 232, 232);
 }
 

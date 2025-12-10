@@ -193,7 +193,7 @@ section.flags .container .logo img {
 }
 @media (max-width: 768px) {
   section.kinterior-brand {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -208,7 +208,7 @@ section.flags .container .logo img {
   section.kinterior-brand p {
     font-size: 24px;
     text-align: center;
-    max-width: 500px;
+    max-width: 400px;
   }
   section.kinterior-brand img {
     width: 400px;

@@ -1,0 +1,20 @@
+section.main-title {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+section.main-title .container {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+section.main-title h1 {
+  font-size: 40px;
+  color: var(--primary);
+}/*# sourceMappingURL=steward-bank-square-app.css.map */
